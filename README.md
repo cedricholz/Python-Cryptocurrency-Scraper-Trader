@@ -18,7 +18,7 @@ Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
 
 6. Do work in script.py
 
-7. Install pip https://stackoverflow.com/questions/4750806/how-do-i-install-pip-on-windows
+7. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
 
 
 Libraries to install through with pip and gitbash:
