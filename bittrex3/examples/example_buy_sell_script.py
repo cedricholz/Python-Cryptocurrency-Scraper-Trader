@@ -40,14 +40,14 @@ dogeprice = float(dogesummary['result']['Last'])
 
 print('The price for {0} is {1:.8f} {2}.'.format(currency, dogeprice, trade))
 
-# Buying 100 DOGE for BTC
+# Buying 1500 DOGE for BTC
 print('Buying {0} {1} for {2:.8f} {3}.'.format(amount, currency, dogeprice, trade))
 api.buy_limit(market, amount, dogeprice)
 
 # Multiplying the price by the multiplier
 dogeprice = round(dogeprice*multiplier, 8)
 
-# Selling 100 DOGE for the  new price
+# Selling 1500 DOGE for the  new price
 print('Selling {0} {1} for {2:.8f} {3}.'.format(amount, currency, dogeprice, trade))
 api.sell_limit(market, amount, dogeprice)
 
