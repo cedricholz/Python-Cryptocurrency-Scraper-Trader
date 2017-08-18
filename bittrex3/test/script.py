@@ -14,8 +14,10 @@ api = Bittrex3('ecf839a28fcf46889cc1f8cc95ec05c6', 'fb0d5e1aee744a7997f3dfa43b18
 trade = 'BTC'
 currency = 'DOGE'
 market = '{0}-{1}'.format(trade, currency)
+
 # Amount of coins to buy
 amount = 100
+
 # How big of a profit you want to make
 multiplier = 1.1
 
