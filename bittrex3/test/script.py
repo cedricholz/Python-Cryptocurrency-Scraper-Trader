@@ -2,18 +2,27 @@
 # This program buys some Dogecoins and sells them for a bigger price
 from bittrex3.bittrex3 import Bittrex3
 from forex_python.bitcoin import BtcConverter
+import json
+
 
 b = BtcConverter()
 
-
 latestBitcoinPrice = b.get_latest_price('USD')
-print("Latest Bitcoin Price " + latestBitcoinPrice)
+print("Latest Bitcoin Price " + str(latestBitcoinPrice))
 
 dollarsToUSD = b.convert_to_btc(1, "USD")
-print("1 USD to bitcoin " + dollarsToUSD)
+print("1 USD to bitcoin " + str(dollarsToUSD))
 
 # Get these from https://bittrex.com/Account/ManageApiKey
-api = Bittrex3('ecf839a28fcf46889cc1f8cc95ec05c6', 'fb0d5e1aee744a7997f3dfa43b18cc57')
+#api = Bittrex3('ecf839a28fcf46889cc1f8cc95ec05c6', 'fb0d5e1aee744a7997f3dfa43b18cc57')
+
+with open("secrets.json") as secrets_file:
+    secrets = json.load(secrets_file)
+    secrets_file.close()
+
+api = Bittrex3(secrets['key'], secrets['secret'])
+
+
 
 # Market to trade at
 trade = 'BTC'
