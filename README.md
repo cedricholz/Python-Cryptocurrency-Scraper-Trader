@@ -10,3 +10,7 @@ Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
   "key": "mykey",
   "secret": "mysecret"
 }
+
+5. Test that it works by running bittrex3_tests.py
+
+6. Do work in script.py
