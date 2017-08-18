@@ -6,7 +6,7 @@ Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
 
 3. Go to API Keys and add new key, turn on READ INFO, TRADE LIMIT, and TRADE MARKET and put in your authenticator code from Google Authenitcator.
 
-4. Add file, "secrets.json" to file main folder and the test folder containing the code below and your key and secret from previous step.
+4. Add file, "secrets.json" to file main folder, examples folder, and main folder containing the code below and your key and secret from previous step.
    This file is in the .gitignore so you don't accidentally push your key to the world.
 
 {
