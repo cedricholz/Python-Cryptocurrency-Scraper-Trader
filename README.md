@@ -19,6 +19,6 @@ Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
 6. Do work in script.py
 
 
-Libraries to install through gitbash:
 
+Libraries to install through gitbash:
 pip install forex-python
