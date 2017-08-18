@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # This program buys some Dogecoins and sells them for a bigger price
 from bittrex3.bittrex3 import Bittrex3
+from forex_python.bitcoin import BtcConverter
+
+b = BtcConverter()
+latestBitcoinPrice = b.get_latest_price('USD')
+dollarsToUSD = b.convert_to_btc(400, "USD")
 
 # Get these from https://bittrex.com/Account/ManageApiKey
 api = Bittrex3('ecf839a28fcf46889cc1f8cc95ec05c6', 'fb0d5e1aee744a7997f3dfa43b18cc57')
