@@ -16,7 +16,7 @@ Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
 
 5. Test that it works by running bittrex3_tests.py
 
-6. Do work in script.py
+6. Do work in main.py
 
 7. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
 
