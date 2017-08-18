@@ -4,8 +4,13 @@ from bittrex3.bittrex3 import Bittrex3
 from forex_python.bitcoin import BtcConverter
 
 b = BtcConverter()
+
+
 latestBitcoinPrice = b.get_latest_price('USD')
-dollarsToUSD = b.convert_to_btc(400, "USD")
+print("Latest Bitcoin Price " + latestBitcoinPrice)
+
+dollarsToUSD = b.convert_to_btc(1, "USD")
+print("1 USD to bitcoin " + dollarsToUSD)
 
 # Get these from https://bittrex.com/Account/ManageApiKey
 api = Bittrex3('ecf839a28fcf46889cc1f8cc95ec05c6', 'fb0d5e1aee744a7997f3dfa43b18cc57')
@@ -16,14 +21,16 @@ currency = 'DOGE'
 market = '{0}-{1}'.format(trade, currency)
 
 # Amount of coins to buy
-amount = 100
+amount = 1
 
 # How big of a profit you want to make
 multiplier = 1.1
 
 # Getting the BTC price for DOGE
 dogesummary = api.get_ticker(market)
-dogeprice = dogesummary[0]['Last']
+
+dogeprice = dogesummary['result']['Last']
+
 print ('The price for {0} is {1:.8f} {2}.'.format(currency, dogeprice, trade))
 
 # Buying 100 DOGE for BTC
