@@ -18,8 +18,9 @@ Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
 
 6. Do work in script.py
 
+7. Install pip https://stackoverflow.com/questions/4750806/how-do-i-install-pip-on-windows
 
 
-Libraries to install through gitbash:
+Libraries to install through with pip and gitbash:
 
 pip install forex-python
