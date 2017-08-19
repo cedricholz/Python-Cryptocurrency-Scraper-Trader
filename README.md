@@ -39,3 +39,5 @@ Libraries to install through with pip and gitbash:
 pip install forex-python
 
 pip install praw
+
+pip install -U nltk
