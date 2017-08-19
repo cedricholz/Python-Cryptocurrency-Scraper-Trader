@@ -30,6 +30,8 @@ Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
   "username": "fakebot3"
 }
 
+9. Test that it works by running example_reddit_bit.py
+
 Do work in main.py
 
 Libraries to install through with pip and gitbash:
