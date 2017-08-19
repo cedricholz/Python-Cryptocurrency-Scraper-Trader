@@ -47,7 +47,7 @@ while True:
     with urllib.request.urlopen("https://api.coinmarketcap.com/v1/ticker/?limit=2000") as url:
         coinmarketcap_data = json.loads(url.read().decode())
 
-    #Buying
+    # Buying
     if slots_open > 0:
         bitcoin_to_use = float(total_bitcoin/(slots_open + .25))
 
@@ -55,7 +55,6 @@ while True:
             if coin['percent_change_24h']:
                 change = float(coin['percent_change_24h'])
                 if 40 <= change <= 80:
-                    print(coin['symbol'])
                     trade = 'BTC'
                     currency = coin['symbol']
                     market = '{0}-{1}'.format(trade, currency)
@@ -66,12 +65,10 @@ while True:
 
                         amount = bitcoin_to_use / coin_price
 
-                        print("Would buy this coin, " + currency)
-
                         if amount > 0:
-                            r = api.buy_limit(market, amount, coin_price)
-
-                            if r['success']:
+                            buy_order = api.buy_limit(market, amount, coin_price)
+                            if buy_order['success']:
+                                print("Bought " + str(amount) + " of " + str(currency) + " at " + str(coin_price))
                                 slots_open -= 1
                                 t = {}
                                 t['highest_24h_change'] = coin['percent_change_24h']
@@ -88,15 +85,12 @@ while True:
             cur_24h_change = float(cur_coin['percent_change_24h'])
             highest_24h_change = float(held_coins[cur_symbol]['highest_24h_change'])
 
-            cur_24h_change = 1
-
             if cur_24h_change > highest_24h_change:
                 held_coins[cur_symbol]['highest_24h_change'] = cur_24h_change
                 highest_24h_change = cur_24h_change
                 json_to_file(held_coins, held_coins_file)
 
             if cur_24h_change < highest_24h_change - 10:
-                print("Selling " + cur_coin['symbol'])
                 trade = 'BTC'
                 currency = cur_coin['symbol']
                 market = '{0}-{1}'.format(trade, currency)
@@ -106,11 +100,12 @@ while True:
                 amount = api.get_balance(currency)['result']['Available']
 
                 if amount:
-                    if r['success']:
+                    sell_order = api.sell_limit(market, amount, cur_coin_price)
+                    if sell_order['success']:
+                        print("Sold " + str(amount) + " of " + str(currency) + " at " + str(cur_coin_price))
                         slots_open += 1
                         del held_coins[cur_symbol]
                         json_to_file(held_coins, held_coins_file)
-                        r = api.sell_limit(market, amount, cur_coin_price)
 
     time.sleep(10)
 

@@ -1,1 +1,17 @@
-{}
+{
+    "CRW": {
+        "amount_bought": 4.312606311532903,
+        "highest_24h_change": "79.04",
+        "price_bought": 0.00033538
+    },
+    "SYNX": {
+        "amount_bought": 16.760250502185986,
+        "highest_24h_change": "62.66",
+        "price_bought": 5.642e-05
+    },
+    "UNB": {
+        "amount_bought": 27.34086965665913,
+        "highest_24h_change": "77.39",
+        "price_bought": 8.151e-05
+    }
+}
