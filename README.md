@@ -1,5 +1,3 @@
-Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
-
 1. Go to Bittrex and click settings
 
 2. Set up Two-Factor Authentication with Google Authenticator
@@ -39,3 +37,8 @@ Libraries to install through with pip and gitbash:
 pip install forex-python
 
 pip install praw
+
+Bird, Steven, Edward Loper and Ewan Klein (2009).
+Natural Language Processing with Python.  O'Reilly Media Inc.
+
+Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
