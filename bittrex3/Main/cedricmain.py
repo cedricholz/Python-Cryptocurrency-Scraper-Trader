@@ -33,12 +33,13 @@ with open("secrets.json") as secrets_file:
 
 api = Bittrex3(secrets['key'], secrets['secret'])
 
-slots_open = 5
 
 trade = 'BTC'
 
 held_coins_file = "held_coins.json"
 held_coins = file_to_json(held_coins_file)
+
+slots_open = 5 - len(held_coins)
 
 
 while True:
@@ -52,9 +53,10 @@ while True:
         bitcoin_to_use = float(total_bitcoin/(slots_open + .25))
 
         for coin in coinmarketcap_data:
-            if coin['percent_change_24h']:
-                change = float(coin['percent_change_24h'])
-                if 40 <= change <= 80:
+            if coin['percent_change_24h'] and coin['percent_change_1h']:
+                change24h = float(coin['percent_change_24h'])
+                change1h = float(coin['percent_change_1h'])
+                if 40 <= change24h <= 50 and change1h > 5:
                     trade = 'BTC'
                     currency = coin['symbol']
                     market = '{0}-{1}'.format(trade, currency)
@@ -71,14 +73,14 @@ while True:
                                 print("Bought " + str(amount) + " of " + str(currency) + " at " + str(coin_price))
                                 slots_open -= 1
                                 t = {}
-                                t['highest_24h_change'] = coin['percent_change_24h']
+                                t['highest_24h_change'] = float(coin['percent_change_24h'])
                                 t['price_bought'] = coin_price
                                 t['amount_bought'] = amount
 
                                 held_coins[coin['symbol']] = t
 
                                 json_to_file(held_coins, held_coins_file)
-
+    # Selling
     for cur_coin in coinmarketcap_data:
         cur_symbol = cur_coin['symbol']
         if cur_symbol in held_coins:
