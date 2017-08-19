@@ -30,6 +30,8 @@
 
 9. Test that it works by running example_reddit_bit.py
 
+10. In Main create new file called held_coins.json and fill it with {}
+
 Do work in main.py
 
 Libraries to install through with pip and gitbash:
