@@ -16,11 +16,21 @@ Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
 
 5. Test that it works by running bittrex3_tests.py
 
-6. Do work in main.py
+6. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation 
 
-7. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
+7. Create reddit app to get a client_id and client_secret, hhttps://www.reddit.com/prefs/apps
 
+8. Add file "reddit_secrets.json" to file main folder, examples folder, and main folder containing the code below and your reddit information.
 
+{
+  "client_id": "zsdfj34jklkljsdfsfewfefwse",
+  "client_secret": "sebt6xscuizxcdfrtsecvcb",
+  "password": "waffles",
+  "user_agent":"User-Agent: android:com.example.myredditapp:v1.2.3 (by /u/kemitche)",
+  "username": "fakebot3"
+}
+
+Do work in main.py
 
 Libraries to install through with pip and gitbash:
 
