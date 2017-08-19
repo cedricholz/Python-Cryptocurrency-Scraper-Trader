@@ -24,3 +24,4 @@ Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
 Libraries to install through with pip and gitbash:
 
 pip install forex-python
+pip install praw
