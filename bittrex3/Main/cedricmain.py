@@ -3,9 +3,7 @@ import time
 
 
 def buy(market, amount, coin_price, percent_change_24h):
-    # buy_order = api.buy_limit(market, amount, coin_price)
-    buy_order = {}
-    buy_order['success'] = True
+    buy_order = api.buy_limit(market, amount, coin_price)
     if buy_order['success']:
         total_paid = utils.bitcoin_to_USD(coin_price * amount)
         utils.print_and_write_to_logfile("Bought " + str(amount) + " of " + str(market) + " at " + str(
@@ -57,23 +55,6 @@ def find_and_buy():
                     utils.print_and_write_to_logfile("Could not obtain coin summary :" + coin_summary['message'])
 
 
-def sell(amount, coin_to_sell, cur_coin_price, coin_market):
-    # sell_order = api.sell_limit(market, amount, cur_coin_price)
-    sell_order = {}
-    sell_order['success'] = True
-    if sell_order['success']:
-        sold_for = utils.bitcoin_to_USD(cur_coin_price * amount)
-        net_gain_loss = sold_for - float(held_coins[coin_market]['total_paid'])
-
-        utils.print_and_write_to_logfile("Sold " + str(amount) + " of " + str(coin_to_sell) + " at " + str(cur_coin_price) + " for $" +
-              str(sold_for) + " net gain/net loss: $" + str(net_gain_loss))
-
-        del held_coins[coin_market]
-        utils.json_to_file(held_coins, "held_coins.json")
-    else:
-        utils.print_and_write_to_logfile("Sell order did not go through: " + sell_order['message'])
-
-
 def updated_threshold(market, coins):
     coin = coins[market]
     original_24h_change = coin['original_24h_change']
@@ -99,6 +80,21 @@ def updated_threshold(market, coins):
         return 25
 
 
+def sell(amount, coin_to_sell, cur_coin_price, coin_market):
+    sell_order = api.sell_limit(coin_market, amount, cur_coin_price)
+    if sell_order['success']:
+        sold_for = utils.bitcoin_to_USD(cur_coin_price * amount)
+        net_gain_loss = sold_for - float(held_coins[coin_market]['total_paid'])
+
+        utils.print_and_write_to_logfile("Sold " + str(amount) + " of " + str(coin_to_sell) + " at " + str(cur_coin_price) + " for $" +
+              str(sold_for) + " net gain/net loss: $" + str(net_gain_loss))
+
+        del held_coins[coin_market]
+        utils.json_to_file(held_coins, "held_coins.json")
+    else:
+        utils.print_and_write_to_logfile("Sell order did not go through: " + sell_order['message'])
+
+
 def update_and_or_sell():
     held_markets = [market for market in held_coins]
     for coin_market in held_markets:
@@ -112,15 +108,14 @@ def update_and_or_sell():
             highest_24h_change = cur_24h_change
             utils.json_to_file(held_coins, "held_coins.json")
 
-        held_coins[coin_market] = updated_threshold(coin_market, held_coins)
+        held_coins[coin_market]['sell_threshold'] = updated_threshold(coin_market, held_coins)
         utils.json_to_file(held_coins, "held_coins.json")
 
-
         if cur_24h_change < highest_24h_change - held_coins[coin_market]['sell_threshold']:
-            cur_coin_price = coin_info['Last']
+            cur_coin_price = float(coin_info['Last'])
 
             coin_to_sell = utils.get_second_market_coin(coin_market)
-            amount = api.get_balance(coin_to_sell)['result']['Available']
+            amount = float(api.get_balance(coin_to_sell)['result']['Available'])
 
             if amount:
                 sell(amount, coin_to_sell, cur_coin_price, coin_market)
@@ -134,9 +129,10 @@ buy_max_percent = 40
 
 buy_desired_1h_change = 3
 
+
+
 # Main Driver
 while True:
-
     # Buy
     find_and_buy()
 
