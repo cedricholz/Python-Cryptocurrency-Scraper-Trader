@@ -3,37 +3,58 @@ import time
 
 
 def buy(market, amount, coin_price, percent_change_24h):
+
+    """
+    Makes a buy order and adds the coin to pending_orders
+    :param market:
+    :param amount:
+    :param coin_price:
+    :param percent_change_24h:
+    :return:
+    """
+
     buy_order = api.buy_limit(market, amount, coin_price)
     if buy_order['success']:
         total_paid = utils.bitcoin_to_USD(coin_price * amount)
         coin_price_usd = utils.bitcoin_to_USD(coin_price)
-        utils.print_and_write_to_logfile("Bought " + str(amount) + " of " + str(market) + " at BTC " + str(
-            coin_price) + ", $" + coin_price_usd + ", " + "with 24h Gain of " + percent_change_24h
-                + "%, Total Paid: $" + str(total_paid)) + " Time: " + utils.get_date_time()
+        time = utils.get_date_time()
+
+        utils.print_and_write_to_logfile("BUYING\n" + str(market) + "\nUSD: $" + str(coin_price_usd) + "\nBTC: " + str(
+            coin_price) + "\nAmount: " + str(amount) +
+                                         "\n24h: " + str(
+            percent_change_24h) + "\nTotal Paid: $" + total_paid + "\nTime: " + time)
 
         t = {}
+        t['market'] = market
         t['highest_24h_change'] = percent_change_24h
         t['original_24h_change'] = percent_change_24h
         t['price_bought'] = coin_price
-        t['amount_bought'] = amount
+        t['amount'] = amount
         t['total_paid'] = total_paid
         t['sell_threshold'] = 10
 
-        held_coins[market] = t
-
-        utils.json_to_file(held_coins, "held_coins.json")
+        pending_orders['Buying'][buy_order['result']['uuid']] = t
+        utils.json_to_file(pending_orders, "pending_orders.json")
     else:
         utils.print_and_write_to_logfile("Buy order did not go through: " + buy_order['message'])
 
 
 def find_and_buy(total_bitcoin):
+    """
+    Searches all coins on bittrex and buys up to the
+    variable "total_slots" different coins. Splits the
+    amount of bitcoin use on each evenly.
+
+    :param total_bitcoin:
+    :return:
+    """
 
     bittrex_coins = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummaries")['result']
 
     symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
 
     for coin in bittrex_coins:
-        slots_open = 5 - len(held_coins)
+        slots_open = total_slots - len(held_coins) - len(pending_orders['Buying'])
         if slots_open <= 0:
             break
         percent_change_24h = utils.get_percent_change_24h(coin)
@@ -46,7 +67,9 @@ def find_and_buy(total_bitcoin):
                 if coin_summary['success']:
                     coin_to_buy = utils.get_second_market_coin(market)
                     coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
-                    if market not in held_coins and coin_1h_change > buy_desired_1h_change:
+
+                    if market not in held_coins and market not in pending_orders['Buying'] and market not in \
+                            pending_orders['Selling'] and coin_1h_change > buy_desired_1h_change:
                         bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
                         coin_price = float(coin_summary['result']['Last'])
                         amount = bitcoin_to_use / coin_price
@@ -57,6 +80,13 @@ def find_and_buy(total_bitcoin):
 
 
 def updated_threshold(market, coins):
+    """
+    Updates the amount from a coins 24h % peak
+    we will allow it to go before selling
+    :param market:
+    :param coins:
+    :return:
+    """
     coin = coins[market]
     original_24h_change = coin['original_24h_change']
     h = coin['highest_24h_change']
@@ -82,27 +112,64 @@ def updated_threshold(market, coins):
 
 
 def sell(amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change):
+
+    """
+    Makes a sell order and adds the coin to pending_orders
+    :param amount:
+    :param coin_to_sell:
+    :param cur_coin_price:
+    :param coin_market:
+    :param cur_24h_change:
+    :return:
+    """
+
     sell_order = api.sell_limit(coin_market, amount, cur_coin_price)
     if sell_order['success']:
-        sold_for = utils.bitcoin_to_USD(cur_coin_price * amount)
-        net_gain_loss = sold_for - float(held_coins[coin_market]['total_paid'])
+        selling_for = utils.bitcoin_to_USD(cur_coin_price * amount)
+        net_gain_loss = selling_for - float(held_coins[coin_market]['total_paid'])
         cur_coin_price_usd = utils.bitcoin_to_USD(cur_coin_price)
+        cur_date_time = utils.get_date_time()
 
-        utils.print_and_write_to_logfile("Sold " + str(amount) + " of " + str(coin_to_sell) + " at BTC " + str(
-            cur_coin_price) + ", $" + str(cur_coin_price_usd) + ", " + "with 24h Gain of " + str(cur_24h_change) + "%, Total Sold For: $" + str(
-            sold_for))
-        + " with net gain/loss: $" + str(net_gain_loss) + " Time: " + utils.get_date_time()
+        utils.print_and_write_to_logfile(
+            "SELLING\n" + str(coin_to_sell) + "\nUSD: $" + str(cur_coin_price_usd) + "\nBTC: " + str(
+                cur_coin_price) + "\nAmount: " + str(amount) +
+            "\n24h: " + str(
+                cur_24h_change) + "\nTotal Paid: $" + selling_for + "\nNet Gain/Loss: " + str(
+                net_gain_loss) + "\nTime: " + time)
 
-        del held_coins[coin_market]
-        utils.json_to_file(held_coins, "held_coins.json")
+        t = {}
+        t['coin_to_sell'] = coin_to_sell
+        t['cur_coin_price'] = cur_coin_price
+        t['cur_coin_price_usd'] = cur_coin_price_usd
+        t['amount'] = amount
+        t['cur_24h_change'] = cur_24h_change
+        t['sold_for'] = selling_for
+        t['cur_24h_change'] = cur_24h_change
+        t['sold_for'] = selling_for
+        t['cur_date_time'] = cur_date_time
+        t['cur_24h_change'] = cur_24h_change
+
+        pending_orders['selling'][sell_order['result']['uuid']] = t
+        utils.json_to_file(pending_orders, "pending_orders.json")
     else:
         utils.print_and_write_to_logfile("Sell order did not go through: " + sell_order['message'])
 
 
 def update_and_or_sell():
+    """
+    If a coin drops more than its variable "sell threshold"
+    from its highest 24 hour % change, it is sold
+
+    Checks the coins current 24 hour % change and
+    updates it if it is greater than it's current highest
+
+    :return:
+    """
+
     held_markets = [market for market in held_coins]
     for coin_market in held_markets:
-        coin_info = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummary?market=" + coin_market)['result'][0]
+        coin_info = \
+        utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummary?market=" + coin_market)['result'][0]
 
         cur_24h_change = utils.get_percent_change_24h(coin_info)
         highest_24h_change = held_coins[coin_market]['highest_24h_change']
@@ -125,32 +192,114 @@ def update_and_or_sell():
                 sell(amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change)
 
 
-api = utils.get_api()
-held_coins = utils.file_to_json("held_coins.json")
+def clean_orders(orders):
 
-buy_min_percent = 10
-buy_max_percent = 100
+    """
+    Finds any order that has been attempting to buy
+    or sell for longer than the variable
+    time_until_cancel_processing_order_minutes
+    and attempt to cancel them on bittrex, and
+    also deletes them from pending_orders.json
 
-buy_desired_1h_change = 3
+    :param orders:
+    :return void:
+    """
 
-# Also never remove from list until actually sold
-
-
-def clean_orders():
-    orders = api.get_open_orders("")['result']
     for order in orders:
         time_opened = order['Opened']
         time_passed = utils.get_time_passed_minutes(time_opened)
 
-        if time_passed > 10:
+        if time_passed > time_until_cancel_processing_order_minutes:
             uuid = order['OrderUuid']
-            api.cancel(order['OrderUuid'])
+            cancel_order = api.cancel(order['OrderUuid'])
+            if cancel_order['success']:
+                buying_or_selling = 'Buying' if order['OrderType'] == 'Limit_Buy' else 'Selling'
+                del pending_orders[buying_or_selling][uuid]
+                utils.json_to_file(pending_orders, "pending_orders.json")
+                utils.print_and_write_to_logfile(
+                    "Cancel Order of " + order["Quantity"] + order['Exchange'] + " Successful")
+            else:
+                utils.print_and_write_to_logfile(
+                    "Cancel Order of " + order["Quantity"] + order['Exchange'] + " Unsuccessful: " + cancel_order[
+                        'message'])
 
 
+def move_to_held(pending_uuid, buying_or_selling):
+    """
+    Moves a coin from pending_orders.json
+    to held_coins
+
+    :param pending_uuid:
+    :param buying_or_selling:
+    :return:
+    """
+
+    pending_order = pending_orders[buying_or_selling][pending_uuid]
+
+    if buying_or_selling == 'Buying':
+        held_coins[pending_order['market']] = pending_order
+        utils.json_to_file(held_coins, "held_coins.json")
+
+    elif buying_or_selling == 'Selling':
+        del held_coins[pending_order['market']]
+        utils.json_to_file(held_coins, "held_coins.json")
+
+    del pending_orders[buying_or_selling][pending_uuid]
+    utils.json_to_file(pending_orders, "pending_orders.json")
+
+
+def update_proccessed_orders(orders):
+
+    """
+    Checks bitttrex's open orders and if a coin that's in
+    pending_orders is no longer in bittrex's pending orders
+    it has gone through, so we add it to our held coins.
+    :param orders:
+    :return:
+    """
+
+    # Move processed buy orders into held_coins
+    processing_orders = [order['OrderUuid'] for order in orders]
+
+    pending_buy_uuids = [uuid for uuid in pending_orders['Buying']]
+
+    for pending_buy_uuid in pending_buy_uuids:
+        if pending_buy_uuid not in processing_orders:
+            pending_buy_order = pending_orders['Buying'][pending_buy_uuid]
+            market = pending_buy_order['market']
+            amount = str(pending_buy_order['Amount'])
+            utils.print_and_write_to_logfile(
+                "Buy order: " + pending_buy_uuid + " of " + amount + " " + market + "Processed Successfully")
+            move_to_held(pending_buy_uuid, 'Buying')
+
+    pending_sell_uuids = [uuid for uuid in pending_orders['Buying']]
+
+    # Move processed sold orders into held_coins
+    for pending_sell_uuid in pending_sell_uuids:
+        if pending_sell_uuid not in processing_orders:
+            pending_sell_order = pending_orders['Selling'][pending_sell_uuid]
+            market = pending_sell_order['market']
+            amount = str(pending_sell_order['Amount'])
+            utils.print_and_write_to_logfile(
+                "Buy order: " + pending_sell_uuid + " of " + amount + " " + market + "Processed Successfully")
+            move_to_held(pending_buy_uuid, 'Selling')
+
+
+api = utils.get_api()
+held_coins = utils.file_to_json("held_coins.json")
+pending_orders = utils.file_to_json("pending_orders.json")
+
+buy_min_percent = 20
+buy_max_percent = 30
+
+buy_desired_1h_change = 1
+
+total_slots = 5
+
+time_until_cancel_processing_order_minutes = 10
 
 # Main Driver
 while True:
-    #clean_orders()
 
     # Buy
     total_bitcoin = utils.get_total_bitcoin(api)
@@ -161,7 +310,8 @@ while True:
     # Sell
     update_and_or_sell()
 
-    # Clean unsold or unbought orders
-    clean_orders()
+    orders = api.get_open_orders("")['result']
+    clean_orders(orders)
+    update_proccessed_orders(orders)
 
     time.sleep(10)

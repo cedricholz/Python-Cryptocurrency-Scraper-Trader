@@ -1,18 +1,38 @@
 {
-    "BTC-BITB": {
-        "amount_bought": 2593.2202462380305,
-        "highest_24h_change": 55.172413793103445,
-        "original_24h_change": 40.98360655737705,
-        "price_bought": 8.6e-07,
+    "BTC-APX": {
+        "amount_bought": 0.46426918170017395,
+        "highest_24h_change": 20.446173507743204,
+        "market": "BTC-APX",
+        "original_24h_change": 20.446173507743204,
+        "price_bought": 0.00256348,
         "sell_threshold": 10,
-        "total_paid": 9.321152067549647
+        "total_paid": 4.978900749931048
     },
-    "BTC-TX": {
-        "amount_bought": 18.042652991898443,
-        "highest_24h_change": 53.294117647058805,
-        "original_24h_change": 48.71764705882353,
-        "price_bought": 0.00012641,
+    "BTC-FTC": {
+        "amount_bought": 73.05983805431319,
+        "highest_24h_change": 27.764705882352956,
+        "market": "BTC-FTC",
+        "original_24h_change": 27.764705882352956,
+        "price_bought": 1.629e-05,
         "sell_threshold": 10,
-        "total_paid": 9.508392201897413
+        "total_paid": 4.978900749931048
+    },
+    "BTC-GRC": {
+        "amount_bought": 143.39093516924842,
+        "highest_24h_change": 23.880597014925375,
+        "market": "BTC-GRC",
+        "original_24h_change": 23.880597014925375,
+        "price_bought": 8.3e-06,
+        "sell_threshold": 10,
+        "total_paid": 4.978900749931048
+    },
+    "BTC-NMR": {
+        "amount_bought": 0.11443699633699635,
+        "highest_24h_change": 26.718498724350994,
+        "market": "BTC-NMR",
+        "original_24h_change": 26.718498724350994,
+        "price_bought": 0.0104,
+        "sell_threshold": 10,
+        "total_paid": 4.979559733085714
     }
 }
