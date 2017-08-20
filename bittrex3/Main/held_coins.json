@@ -1,26 +1,10 @@
 {
-    "BTC-BAY": {
-        "amount_bought": 527.3602376825947,
-        "highest_24h_change": 38.03827751196172,
-        "original_24h_change": 38.03827751196172,
-        "price_bought": 5.77e-06,
-        "sell_threshold": 10,
-        "total_paid": 12.544663250214859
-    },
     "BTC-DASH": {
-        "amount_bought": 0.05035991203393732,
-        "highest_24h_change": 33.927981824295436,
-        "original_24h_change": 33.927981824295436,
-        "price_bought": 0.07463948,
+        "amount_bought": 0.041483155802851696,
+        "highest_24h_change": 38.01731191048885,
+        "original_24h_change": 37.56542491441477,
+        "price_bought": 0.07610001,
         "sell_threshold": 10,
-        "total_paid": 15.496348720853646
-    },
-    "BTC-EXCL": {
-        "amount_bought": 24.806475280964307,
-        "highest_24h_change": 31.813089039741648,
-        "original_24h_change": 30.593817966124014,
-        "price_bought": 0.00019815,
-        "sell_threshold": 10,
-        "total_paid": 20.264456019577846
+        "total_paid": 13.085575376285716
     }
 }

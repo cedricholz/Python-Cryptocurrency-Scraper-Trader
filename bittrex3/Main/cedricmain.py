@@ -47,7 +47,7 @@ def find_and_buy():
                 if coin_summary['success']:
                     coin_to_buy = utils.get_second_market_coin(market)
                     coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
-                    if market not in held_coins and coin_1h_change > desired_1h_change:
+                    if market not in held_coins and coin_1h_change > buy_desired_1h_change:
                         bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
                         coin_price = float(coin_summary['result']['Last'])
                         amount = bitcoin_to_use / coin_price
@@ -74,12 +74,29 @@ def sell(amount, coin_to_sell, cur_coin_price, coin_market):
         utils.print_and_write_to_logfile("Sell order did not go through: " + sell_order['message'])
 
 
-# def update_threshold(market, coins):
-#     coin = coins[market]
-#     original_24h_change = coin['original_24h_change']
-#     highest_24h_change = coin['highest_24h_change']
-#     cur_threshold = coin['sell_threshold']
-#     total_change = highest_24h_change - original_24h_change
+def updated_threshold(market, coins):
+    coin = coins[market]
+    original_24h_change = coin['original_24h_change']
+    h = coin['highest_24h_change']
+    cur_threshold = coin['sell_threshold']
+    total_change = h - original_24h_change
+
+    if h <= 40:
+        return 10
+    if h >= 100:
+        return 30
+    if 40 < h <= 50:
+        return 12
+    if 50 <= h <= 60:
+        return 13
+    if 60 <= h <= 70:
+        return 14
+    if 70 <= h <= 80:
+        return 20
+    if 80 <= h <= 90:
+        return 23
+    if 90 <= h < 100:
+        return 25
 
 
 def update_and_or_sell():
@@ -95,7 +112,9 @@ def update_and_or_sell():
             highest_24h_change = cur_24h_change
             utils.json_to_file(held_coins, "held_coins.json")
 
-        # update_threshold(coin_market, held_coins)
+        held_coins[coin_market] = updated_threshold(coin_market, held_coins)
+        utils.json_to_file(held_coins, "held_coins.json")
+
 
         if cur_24h_change < highest_24h_change - held_coins[coin_market]['sell_threshold']:
             cur_coin_price = coin_info['Last']
@@ -113,7 +132,7 @@ held_coins = utils.file_to_json("held_coins.json")
 buy_min_percent = 30
 buy_max_percent = 40
 
-desired_1h_change = 0
+buy_desired_1h_change = 3
 
 # Main Driver
 while True:
