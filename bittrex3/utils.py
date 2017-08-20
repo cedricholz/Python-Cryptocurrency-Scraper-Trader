@@ -66,4 +66,4 @@ def get_coin_market_cap_1hr_change():
 def print_and_write_to_logfile(log_text):
     print(log_text)
     with open("logs.txt", "a") as myfile:
-        myfile.write(log_text)
+        myfile.write(log_text + "\n")
