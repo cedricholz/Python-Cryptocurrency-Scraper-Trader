@@ -1,42 +1,18 @@
 {
-    "BTC-BAY": {
-        "amount_bought": 102.36579925650557,
-        "highest_24h_change": 34.31372549019609,
-        "original_24h_change": 33.16831683168316,
-        "price_bought": 5.38e-06,
+    "BTC-BITB": {
+        "amount_bought": 2593.2202462380305,
+        "highest_24h_change": 55.172413793103445,
+        "original_24h_change": 40.98360655737705,
+        "price_bought": 8.6e-07,
         "sell_threshold": 10,
-        "total_paid": 2.3055463860264
+        "total_paid": 9.321152067549647
     },
-    "BTC-MCO": {
-        "amount_bought": 0.9493565913640262,
-        "highest_24h_change": 50.95238095238097,
-        "original_24h_change": 38.68444444444445,
-        "price_bought": 0.0031204,
-        "sell_threshold": 13,
-        "total_paid": 12.318877122923075
-    },
-    "BTC-MUE": {
-        "amount_bought": 62.87106690777576,
-        "highest_24h_change": 47.58064516129033,
-        "original_24h_change": 30.079388415172016,
-        "price_bought": 4.424e-05,
-        "sell_threshold": 12,
-        "total_paid": 11.5669670784008
-    },
-    "BTC-NAUT": {
-        "amount_bought": 71.82932416953034,
-        "highest_24h_change": 31.799729364005415,
-        "original_24h_change": 31.25845737483084,
-        "price_bought": 3.88e-05,
+    "BTC-TX": {
+        "amount_bought": 18.042652991898443,
+        "highest_24h_change": 53.294117647058805,
+        "original_24h_change": 48.71764705882353,
+        "price_bought": 0.00012641,
         "sell_threshold": 10,
-        "total_paid": 11.58357147733333
-    },
-    "BTC-VOX": {
-        "amount_bought": 158.22744097000637,
-        "highest_24h_change": 36.61852166525061,
-        "original_24h_change": 33.13508920985557,
-        "price_bought": 1.567e-05,
-        "sell_threshold": 10,
-        "total_paid": 10.3941081477312
+        "total_paid": 9.508392201897413
     }
 }

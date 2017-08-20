@@ -1,5 +1,6 @@
 from forex_python.bitcoin import BtcConverter
 from bittrex3.bittrex3 import Bittrex3
+from datetime import datetime, timezone
 import urllib
 import json
 import re
@@ -52,9 +53,11 @@ def get_first_market_coin(market):
     m = re.search('([A-z]+)-([A-z]+)', market)
     return m.group(1)
 
+
 def get_second_market_coin(market):
     m = re.search('([A-z]+)-([A-z]+)', market)
     return m.group(2)
+
 
 def get_coin_market_cap_1hr_change():
     coinmarketcap_coins = query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
@@ -63,7 +66,36 @@ def get_coin_market_cap_1hr_change():
         d[coin['symbol']] = coin['percent_change_1h']
     return d
 
+
 def print_and_write_to_logfile(log_text):
     print(log_text)
     with open("logs.txt", "a") as myfile:
-        myfile.write(log_text + "\n")
+        myfile.write(log_text + "\n\n")
+
+
+def get_total_bitcoin(api):
+    try:
+        return float(api.get_balance('BTC')['result']['Available'])
+    except LookupError:
+        return 0
+
+
+def get_date_time():
+    now = datetime.now()
+    return "%s:%s:%s %s/%s/%s" % (now.hour, now.minute, now.second, now.month, now.day, now.year)
+
+
+def get_time_passed_minutes(time_opened):
+    now = datetime.now()
+
+    time_offset = datetime.utcnow() - now
+
+    opened_datetime = datetime.strptime(time_opened, "%Y-%m-%dT%H:%M:%S.%f") - time_offset
+
+    time_diff = now - opened_datetime
+
+    time_passed = time_diff.total_seconds()/60
+
+    return time_passed
+
+
