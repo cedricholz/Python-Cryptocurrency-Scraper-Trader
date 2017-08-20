@@ -1,9 +1,9 @@
 {
     "BTC-BAY": {
-        "amount_bought": 532.9016762571929,
-        "highest_24h_change": 32.482598607888626,
-        "price_bought": 5.71e-06,
+        "amount_bought": 529.1945341614907,
+        "highest_24h_change": 34.02777777777777,
+        "price_bought": 5.75e-06,
         "sell_threshold": 10,
-        "total_paid": 12.650695657028573
+        "total_paid": 12.671212198371428
     }
 }

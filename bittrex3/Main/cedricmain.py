@@ -2,18 +2,18 @@ import bittrex3.utils as utils
 import time
 
 
-
 def buy(market, amount, coin_price, slots_open, percent_change_24h):
     # buy_order = api.buy_limit(market, amount, coin_price)
     buy_order = {}
     buy_order['success'] = True
     if buy_order['success']:
         total_paid = utils.bitcoin_to_USD(coin_price * amount)
-        print("Bought " + str(amount) + " of " + str(market) + " at " + str(
+        utils.print_and_write_to_logfile("Bought " + str(amount) + " of " + str(market) + " at " + str(
             coin_price) + ", Total Paid: $" + str(total_paid))
         slots_open -= 1
         t = {}
         t['highest_24h_change'] = percent_change_24h
+        t['original_24h_change'] = percent_change_24h
         t['price_bought'] = coin_price
         t['amount_bought'] = amount
         t['total_paid'] = total_paid
@@ -23,11 +23,12 @@ def buy(market, amount, coin_price, slots_open, percent_change_24h):
 
         utils.json_to_file(held_coins, "held_coins.json")
     else:
-        print("Buy order did not go through: " + buy_order['message'])
+        utils.print_and_write_to_logfile("Buy order did not go through: " + buy_order['message'])
 
 
-def find_and_buy(slots_open, total_bitcoin, bittrex_coins, symbol_1h_change_pairs):
+def find_and_buy(slots_open, total_bitcoin, bittrex_coins):
     bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
+    symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
 
     for coin in bittrex_coins:
         if slots_open <= 0:
@@ -48,7 +49,7 @@ def find_and_buy(slots_open, total_bitcoin, bittrex_coins, symbol_1h_change_pair
                         if amount > 0:
                             buy(market, amount, coin_price, slots_open, percent_change_24h)
                 else:
-                    print("Could not obtain coin summary :" + coin_summary['message'])
+                    utils.print_and_write_to_logfile("Could not obtain coin summary :" + coin_summary['message'])
 
 
 def sell(amount, coin_to_sell, cur_coin_price, slots_open, coin_market):
@@ -59,13 +60,22 @@ def sell(amount, coin_to_sell, cur_coin_price, slots_open, coin_market):
         sold_for = utils.bitcoin_to_USD(cur_coin_price * amount)
         net_gain_loss = sold_for - float(held_coins[coin_market]['total_paid'])
 
-        print("Sold " + str(amount) + " of " + str(coin_to_sell) + " at " + str(cur_coin_price) + " for $" +
+        utils.print_and_write_to_logfile("Sold " + str(amount) + " of " + str(coin_to_sell) + " at " + str(cur_coin_price) + " for $" +
               str(sold_for) + " net gain/net loss: $" + str(net_gain_loss))
+
         slots_open += 1
         del held_coins[coin_market]
         utils.json_to_file(held_coins, "held_coins.json")
     else:
-        print("Sell order did not go through: " + sell_order['message'])
+        utils.print_and_write_to_logfile("Sell order did not go through: " + sell_order['message'])
+
+
+# def update_threshold(market, coins):
+#     coin = coins[market]
+#     original_24h_change = coin['original_24h_change']
+#     highest_24h_change = coin['highest_24h_change']
+#     cur_threshold = coin['sell_threshold']
+#     total_change = highest_24h_change - original_24h_change
 
 
 def update_and_or_sell(slots_open, bittrex_coins):
@@ -81,6 +91,7 @@ def update_and_or_sell(slots_open, bittrex_coins):
             highest_24h_change = cur_24h_change
             utils.json_to_file(held_coins, "held_coins.json")
 
+        #update_threshold(coin_market, held_coins)
 
         if cur_24h_change < highest_24h_change - held_coins[coin_market]['sell_threshold']:
             cur_coin_price = coin_info['Last']
@@ -100,17 +111,15 @@ buy_min_percent = 30
 buy_max_percent = 40
 
 
-
 # Main Driver
 while True:
+
     total_bitcoin = float(api.get_balance('BTC')['result']['Available'])
 
     bittrex_coins = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummaries")['result']
 
-    symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
-
     # Buy
-    find_and_buy(slots_open, total_bitcoin, bittrex_coins, symbol_1h_change_pairs)
+    find_and_buy(slots_open, total_bitcoin, bittrex_coins)
 
     # Sell
     update_and_or_sell(slots_open, bittrex_coins)
