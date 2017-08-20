@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03164066-c730-407c-9791-a1a5e46f9cc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bittrex3/Main/logs.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bittrex3/Main/cedricmain.py" afterPath="$PROJECT_DIR$/bittrex3/Main/cedricmain.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bittrex3/Main/held_coins.json" afterPath="$PROJECT_DIR$/bittrex3/Main/held_coins.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bittrex3/utils.py" afterPath="$PROJECT_DIR$/bittrex3/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +28,8 @@
       <file leaf-file-name="cedricmain.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bittrex3/Main/cedricmain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -643,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503188724840</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="now prints and write to log file, working on threshold change">
+      <created>1503191834058</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1503191834058</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -718,17 +721,11 @@
     <MESSAGE value="debugging variable deleted, better print statements" />
     <MESSAGE value="added check 1h change, and slots open more dynamic" />
     <MESSAGE value="major refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="major refactor" />
+    <MESSAGE value="now prints and write to log file, working on threshold change" />
+    <option name="LAST_COMMIT_MESSAGE" value="now prints and write to log file, working on threshold change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bittrex3/Main/cedricmain.py</url>
-          <line>116</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -1124,8 +1121,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bittrex3/Main/cedricmain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="19" />
+        <state relative-caret-position="210">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

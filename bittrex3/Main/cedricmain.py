@@ -26,7 +26,11 @@ def buy(market, amount, coin_price, slots_open, percent_change_24h):
         utils.print_and_write_to_logfile("Buy order did not go through: " + buy_order['message'])
 
 
-def find_and_buy(slots_open, total_bitcoin, bittrex_coins):
+def find_and_buy(slots_open):
+    total_bitcoin = float(api.get_balance('BTC')['result']['Available'])
+
+    bittrex_coins = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummaries")['result']
+
     bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
     symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
 
@@ -78,7 +82,7 @@ def sell(amount, coin_to_sell, cur_coin_price, slots_open, coin_market):
 #     total_change = highest_24h_change - original_24h_change
 
 
-def update_and_or_sell(slots_open, bittrex_coins):
+def update_and_or_sell(slots_open):
     held_markets = [market for market in held_coins]
     for coin_market in held_markets:
         coin_info = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummary?market=" + coin_market)['result'][0]
@@ -114,14 +118,12 @@ buy_max_percent = 40
 # Main Driver
 while True:
 
-    total_bitcoin = float(api.get_balance('BTC')['result']['Available'])
 
-    bittrex_coins = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummaries")['result']
 
     # Buy
-    find_and_buy(slots_open, total_bitcoin, bittrex_coins)
+    find_and_buy(slots_open)
 
     # Sell
-    update_and_or_sell(slots_open, bittrex_coins)
+    update_and_or_sell(slots_open)
 
     time.sleep(10)
