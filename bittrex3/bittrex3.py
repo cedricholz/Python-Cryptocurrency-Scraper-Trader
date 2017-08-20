@@ -223,7 +223,7 @@ class Bittrex3(object):
         limit orders Make sure you have the proper permissions set on your
         API keys for this call to work
 
-        /market/selllimit
+        /market/selllimi
 
         :param market: String literal for the market (ex: BTC-LTC)
         :type market: str

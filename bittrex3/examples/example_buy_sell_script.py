@@ -4,7 +4,6 @@ from bittrex3.bittrex3 import Bittrex3
 from forex_python.bitcoin import BtcConverter
 import json
 
-
 b = BtcConverter()
 
 latestBitcoinPrice = b.get_latest_price('USD')
@@ -13,6 +12,15 @@ print("Latest Bitcoin Price " + str(latestBitcoinPrice))
 dollarsToUSD = b.convert_to_btc(1, "USD")
 print("1 USD to bitcoin " + str(dollarsToUSD))
 
+
+def bitcoin_to_USD(amount):
+    b = BtcConverter()
+    latest_price = b.get_latest_price('USD')
+    return latest_price * amount
+
+
+print(bitcoin_to_USD(0.00122808))
+
 # Get these from https://bittrex.com/Account/ManageApiKey
 
 with open("secrets.json") as secrets_file:
@@ -20,7 +28,6 @@ with open("secrets.json") as secrets_file:
     secrets_file.close()
 
 api = Bittrex3(secrets['key'], secrets['secret'])
-
 
 # Market to trade at
 trade = 'BTC'
@@ -45,12 +52,12 @@ print('Buying {0} {1} for {2:.8f} {3}.'.format(amount, currency, dogeprice, trad
 r = api.buy_limit(market, amount, dogeprice)
 
 # Multiplying the price by the multiplier
-#dogeprice = round(dogeprice*multiplier, 8)
+# dogeprice = round(dogeprice*multiplier, 8)
 dogeprice = round(dogeprice, 8)
 
 # Selling 1500 DOGE for the  new price
 print('Selling {0} {1} for {2:.8f} {3}.'.format(amount, currency, dogeprice, trade))
-api.sell_limit(market, amount, dogeprice)
+r = api.sell_limit(market, amount, dogeprice)
 
 # Gets the DOGE balance
 dogebalance = api.get_balance(currency)

@@ -1,17 +1,9 @@
 {
-    "BAY": {
-        "amount_bought": 470.9638932496075,
-        "highest_24h_change": 52.69,
-        "price_bought": 6.37e-06
-    },
-    "TRUST": {
-        "amount_bought": 213.06852401925636,
-        "highest_24h_change": 165.71,
-        "price_bought": 1.502e-05
-    },
-    "UNB": {
-        "amount_bought": 40.26633333333333,
-        "highest_24h_change": 99.25,
-        "price_bought": 7.2e-05
+    "BTC-BAY": {
+        "amount_bought": 532.9016762571929,
+        "highest_24h_change": 32.482598607888626,
+        "price_bought": 5.71e-06,
+        "sell_threshold": 10,
+        "total_paid": 12.650695657028573
     }
 }

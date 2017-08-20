@@ -1,113 +1,118 @@
-from bittrex3.bittrex3 import Bittrex3
-import json
+import bittrex3.utils as utils
 import time
-import urllib
 
 
-def file_to_json(filename):
-    try:
-        file = open(filename, 'r')
-        contents = str(file.read())
-        posts = json.loads(contents)
-        file.close()
-        return posts
-    except FileNotFoundError:
-        print("No such file: " + filename)
-        exit(1)
+
+def buy(market, amount, coin_price, slots_open, percent_change_24h):
+    # buy_order = api.buy_limit(market, amount, coin_price)
+    buy_order = {}
+    buy_order['success'] = True
+    if buy_order['success']:
+        total_paid = utils.bitcoin_to_USD(coin_price * amount)
+        print("Bought " + str(amount) + " of " + str(market) + " at " + str(
+            coin_price) + ", Total Paid: $" + str(total_paid))
+        slots_open -= 1
+        t = {}
+        t['highest_24h_change'] = percent_change_24h
+        t['price_bought'] = coin_price
+        t['amount_bought'] = amount
+        t['total_paid'] = total_paid
+        t['sell_threshold'] = 10
+
+        held_coins[market] = t
+
+        utils.json_to_file(held_coins, "held_coins.json")
+    else:
+        print("Buy order did not go through: " + buy_order['message'])
 
 
-def json_to_file(json_obj, filename):
-    try:
-        file = open(filename, 'w')
-        json.dump(json_obj, file, sort_keys=True, indent=4, separators=(',', ': '))
-        file.close()
-    except FileNotFoundError:
-        print("No such file: " + filename)
-        exit(1)
+def find_and_buy(slots_open, total_bitcoin, bittrex_coins, symbol_1h_change_pairs):
+    bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
+
+    for coin in bittrex_coins:
+        if slots_open <= 0:
+            break
+        percent_change_24h = utils.get_percent_change_24h(coin)
+        if buy_min_percent <= percent_change_24h <= buy_max_percent:
+            market = coin['MarketName']
+            if market.startswith('ETH'):
+                break
+            if market.startswith('BTC'):
+                coin_summary = api.get_ticker(market)
+                if coin_summary['success']:
+                    coin_to_buy = utils.get_second_market_coin(market)
+                    coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
+                    if market not in held_coins and coin_1h_change > 5:
+                        coin_price = float(coin_summary['result']['Last'])
+                        amount = bitcoin_to_use / coin_price
+                        if amount > 0:
+                            buy(market, amount, coin_price, slots_open, percent_change_24h)
+                else:
+                    print("Could not obtain coin summary :" + coin_summary['message'])
 
 
-with open("secrets.json") as secrets_file:
-    secrets = json.load(secrets_file)
-    secrets_file.close()
+def sell(amount, coin_to_sell, cur_coin_price, slots_open, coin_market):
+    # sell_order = api.sell_limit(market, amount, cur_coin_price)
+    sell_order = {}
+    sell_order['success'] = True
+    if sell_order['success']:
+        sold_for = utils.bitcoin_to_USD(cur_coin_price * amount)
+        net_gain_loss = sold_for - float(held_coins[coin_market]['total_paid'])
+
+        print("Sold " + str(amount) + " of " + str(coin_to_sell) + " at " + str(cur_coin_price) + " for $" +
+              str(sold_for) + " net gain/net loss: $" + str(net_gain_loss))
+        slots_open += 1
+        del held_coins[coin_market]
+        utils.json_to_file(held_coins, "held_coins.json")
+    else:
+        print("Sell order did not go through: " + sell_order['message'])
 
 
-api = Bittrex3(secrets['key'], secrets['secret'])
+def update_and_or_sell(slots_open, bittrex_coins):
+    held_markets = [market for market in held_coins]
+    for coin_market in held_markets:
+        coin_info = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummary?market=" + coin_market)['result'][0]
+
+        cur_24h_change = utils.get_percent_change_24h(coin_info)
+        highest_24h_change = held_coins[coin_market]['highest_24h_change']
+
+        if cur_24h_change > highest_24h_change:
+            held_coins[coin_market]['highest_24h_change'] = cur_24h_change
+            highest_24h_change = cur_24h_change
+            utils.json_to_file(held_coins, "held_coins.json")
 
 
-trade = 'BTC'
+        if cur_24h_change < highest_24h_change - held_coins[coin_market]['sell_threshold']:
+            cur_coin_price = coin_info['Last']
 
-held_coins_file = "held_coins.json"
-held_coins = file_to_json(held_coins_file)
+            coin_to_sell = utils.get_second_market_coin(coin_market)
+            amount = api.get_balance(coin_to_sell)['result']['Available']
 
+            if amount:
+                sell(amount, coin_to_sell, cur_coin_price, slots_open, coin_market)
+
+
+api = utils.get_api()
+held_coins = utils.file_to_json("held_coins.json")
 slots_open = 5 - len(held_coins)
 
+buy_min_percent = 30
+buy_max_percent = 40
 
+
+
+# Main Driver
 while True:
     total_bitcoin = float(api.get_balance('BTC')['result']['Available'])
 
-    with urllib.request.urlopen("https://api.coinmarketcap.com/v1/ticker/?limit=2000") as url:
-        coinmarketcap_data = json.loads(url.read().decode())
+    bittrex_coins = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummaries")['result']
 
-    # Buying
-    if slots_open > 0:
-        bitcoin_to_use = float(total_bitcoin/(slots_open + .25))
+    symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
 
-        for coin in coinmarketcap_data:
-            if coin['percent_change_24h'] and coin['percent_change_1h']:
-                change24h = float(coin['percent_change_24h'])
-                change1h = float(coin['percent_change_1h'])
-                if 40 <= change24h <= 50 and change1h > 5:
-                    trade = 'BTC'
-                    currency = coin['symbol']
-                    market = '{0}-{1}'.format(trade, currency)
-                    coin_summary = api.get_ticker(market)
+    # Buy
+    find_and_buy(slots_open, total_bitcoin, bittrex_coins, symbol_1h_change_pairs)
 
-                    if coin_summary['success'] and currency not in held_coins:
-                        coin_price = float(coin_summary['result']['Last'])
-
-                        amount = bitcoin_to_use / coin_price
-
-                        if amount > 0:
-                            buy_order = api.buy_limit(market, amount, coin_price)
-                            if buy_order['success']:
-                                print("Bought " + str(amount) + " of " + str(currency) + " at " + str(coin_price))
-                                slots_open -= 1
-                                t = {}
-                                t['highest_24h_change'] = float(coin['percent_change_24h'])
-                                t['price_bought'] = coin_price
-                                t['amount_bought'] = amount
-
-                                held_coins[coin['symbol']] = t
-
-                                json_to_file(held_coins, held_coins_file)
-    # Selling
-    for cur_coin in coinmarketcap_data:
-        cur_symbol = cur_coin['symbol']
-        if cur_symbol in held_coins:
-            cur_24h_change = float(cur_coin['percent_change_24h'])
-            highest_24h_change = float(held_coins[cur_symbol]['highest_24h_change'])
-
-            if cur_24h_change > highest_24h_change:
-                held_coins[cur_symbol]['highest_24h_change'] = cur_24h_change
-                highest_24h_change = cur_24h_change
-                json_to_file(held_coins, held_coins_file)
-
-            if cur_24h_change < highest_24h_change - 10:
-                trade = 'BTC'
-                currency = cur_coin['symbol']
-                market = '{0}-{1}'.format(trade, currency)
-
-                cur_coin_summary = api.get_ticker(market)
-                cur_coin_price = cur_coin_summary['result']['Last']
-                amount = api.get_balance(currency)['result']['Available']
-
-                if amount:
-                    sell_order = api.sell_limit(market, amount, cur_coin_price)
-                    if sell_order['success']:
-                        print("Sold " + str(amount) + " of " + str(currency) + " at " + str(cur_coin_price))
-                        slots_open += 1
-                        del held_coins[cur_symbol]
-                        json_to_file(held_coins, held_coins_file)
+    # Sell
+    update_and_or_sell(slots_open, bittrex_coins)
 
     time.sleep(10)
-
