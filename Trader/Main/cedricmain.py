@@ -182,7 +182,8 @@ def percent_sell_strat():
 
             if balance['success']:
                 amount = float(balance['result']['Available'])
-                sell(amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change)
+                if amount > 0:
+                    sell(amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change)
             else:
                 utils.print_and_write_to_logfile("Could not retrieve balance: " + balance['message'])
 
@@ -243,7 +244,7 @@ def move_to_held(pending_market, buying_or_selling):
         utils.json_to_file(held_coins, "held_coins.json")
 
     elif buying_or_selling == 'Selling':
-        del held_coins[pending_order['market']]
+        del held_coins[pending_market]
         utils.json_to_file(held_coins, "held_coins.json")
 
     del pending_orders[buying_or_selling][pending_market]
@@ -480,29 +481,29 @@ keltner_coins = reset_keltner_coins()
 
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
-
-# add_to_keltner_coins("DGB")
+update_bittrex_coins()
+add_to_keltner_coins("LTC")
 
 # Main Driver
 while True:
     update_bittrex_coins()
 
-    #update_keltner_coins()
+    update_keltner_coins()
 
     # Buy
-    total_bitcoin = utils.get_total_bitcoin(api)
+    #total_bitcoin = utils.get_total_bitcoin(api)
 
-    if total_bitcoin > satoshi_50k:
-        percent_buy_strat(total_bitcoin,)
-        #keltner_buy_strat(total_bitcoin)
+    #if total_bitcoin > satoshi_50k:
+        # percent_buy_strat(total_bitcoin,)
+        # keltner_buy_strat(total_bitcoin)
 
     # Sell
-    percent_sell_strat()
-    # keltner_sell_strat()
+    # percent_sell_strat()
+    #keltner_sell_strat()
 
-    orders = api.get_open_orders("")['result']
-
-    clean_orders(orders)
-    update_pending_orders(orders)
+    # orders = api.get_open_orders("")['result']
+    #
+    # clean_orders(orders)
+    # update_pending_orders(orders)
 
     time.sleep(10)
