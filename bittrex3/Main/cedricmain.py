@@ -61,7 +61,7 @@ def find_and_buy(total_bitcoin):
             utils.print_and_write_to_logfile("0 slots open")
             break
         if bitcoin_to_use < satoshi_50k:
-            print("Less than 50k satoshi available. Bitcoin balance: BTC" + total_bitcoin + " $" + utils.bitcoin_to_USD(total_bitcoin))
+            print("Less than 50k satoshi available. Bitcoin balance: BTC " + str(total_bitcoin) + " $" + str(utils.bitcoin_to_USD(total_bitcoin)))
             break
 
         percent_change_24h = utils.get_percent_change_24h(coin)
@@ -213,7 +213,7 @@ def clean_orders(orders):
             if cancel_order['success']:
                 buying_or_selling = 'Buying' if order['OrderType'] == 'Limit_Buy' else 'Selling'
 
-                if pending_orders[buying_or_selling][uuid]:
+                if uuid in pending_orders[buying_or_selling]:
                     del pending_orders[buying_or_selling][uuid]
                 utils.json_to_file(pending_orders, "pending_orders.json")
                 utils.print_and_write_to_logfile(
@@ -302,7 +302,7 @@ time_until_cancel_processing_order_minutes = 10
 
 satoshi_50k = 0.0005
 
-utils.print_and_write_to_logfile("Beginning run at " + utils.get_date_time())
+utils.print_and_write_to_logfile("**Beginning run at " + utils.get_date_time() + "**")
 
 # Main Driver
 while True:
