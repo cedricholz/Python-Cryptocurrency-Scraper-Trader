@@ -6,7 +6,13 @@
         "market": "BTC-DGB",
         "middle_band_data": [],
         "price_data": [
-            3.41e-06
+            3.4e-06,
+            3.4e-06,
+            3.39e-06,
+            3.39e-06,
+            3.39e-06,
+            3.39e-06,
+            3.39e-06
         ],
         "tr_data": [],
         "upper_band_data": []

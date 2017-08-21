@@ -211,13 +211,13 @@ def clean_orders(orders):
             if cancel_order['success']:
                 buying_or_selling = 'Buying' if order['OrderType'] == 'Limit_Buy' else 'Selling'
 
-                pending_uuids = [coin['uuid'] for coin in pending_orders[buying_or_selling]]
+                pending_uuids_markets = [(pending_orders[buying_or_selling][market]['uuid'], market) for market in
+                                      pending_orders[buying_or_selling]]
 
-                if uuid in pending_uuids:
-                    for iter_coin in pending_orders:
-                        if iter_coin['uuid'] == uuid:
-                            del pending_orders[buying_or_selling][order]
-                            break
+                for uuid_market in pending_uuids_markets:
+                    if uuid_market[0] == uuid:
+                        del pending_orders[buying_or_selling][uuid_market][1]
+                        break
 
                 utils.json_to_file(pending_orders, "pending_orders.json")
                 utils.print_and_write_to_logfile(
@@ -228,7 +228,7 @@ def clean_orders(orders):
                         'message'])
 
 
-def move_to_held(pending_uuid, buying_or_selling):
+def move_to_held(pending_market, buying_or_selling):
     """
     Moves a coin from pending_orders.json
     to held_coins
@@ -238,7 +238,7 @@ def move_to_held(pending_uuid, buying_or_selling):
     :return:
     """
 
-    pending_order = pending_orders[buying_or_selling][pending_uuid]
+    pending_order = pending_orders[buying_or_selling][pending_market]
 
     if buying_or_selling == 'Buying':
         held_coins[pending_order['market']] = pending_order
@@ -248,7 +248,7 @@ def move_to_held(pending_uuid, buying_or_selling):
         del held_coins[pending_order['market']]
         utils.json_to_file(held_coins, "held_coins.json")
 
-    del pending_orders[buying_or_selling][pending_uuid]
+    del pending_orders[buying_or_selling][pending_market]
     utils.json_to_file(pending_orders, "pending_orders.json")
 
 
@@ -264,30 +264,28 @@ def update_pending_orders(orders):
     # Move processed buy orders from pending_orders into held_coins
     processing_orders = [order['OrderUuid'] for order in orders]
 
-    pending_buy_uuids = [uuid for uuid in pending_orders['Buying']]
+    buy_uuids_markets = [(pending_orders['Buying'][market]['uuid'], market) for market in pending_orders['Buying']]
 
-    for pending_buy_uuid in pending_buy_uuids:
-        if pending_buy_uuid not in processing_orders:
-            pending_buy_order = pending_orders['Buying'][pending_buy_uuid]
-            market = pending_buy_order['market']
+    for buy_uuids_market in buy_uuids_markets:
+        if buy_uuids_market[0] not in processing_orders:
+            pending_buy_order = pending_orders['Buying'][buy_uuids_market[1]]
             amount = str(pending_buy_order['amount'])
             utils.print_and_write_to_logfile(
-                "Buy order: " + amount + " of " + " " + market + " Processed Successfully " + "UUID: "
-                + pending_buy_uuid)
-            move_to_held(pending_buy_uuid, 'Buying')
+                "Buy order: " + amount + " of " + " " + buy_uuids_market[1] + " Processed Successfully " + "UUID: "
+                + buy_uuids_market[0])
+            move_to_held(buy_uuids_market[1], 'Buying')
 
-    pending_sell_uuids = [uuid for uuid in pending_orders['Buying']]
+    sell_uuids_markets = [(pending_orders['Selling'][market]['uuid'], market) for market in pending_orders['Selling']]
 
     # Move processed sold orders from pending_orders into held_coins
-    for pending_sell_uuid in pending_sell_uuids:
-        if pending_sell_uuid not in processing_orders:
-            pending_sell_order = pending_orders['Selling'][pending_sell_uuid]
-            market = pending_sell_order['market']
-            amount = str(pending_sell_order['Amount'])
+    for sell_uuids_market in sell_uuids_markets:
+        if sell_uuids_market[0] not in processing_orders:
+            pending_sell_order = pending_orders['Selling'][sell_uuids_market[1]]
+            amount = str(pending_sell_order['amount'])
             utils.print_and_write_to_logfile(
-                "Sell order: " + amount + " of " + " " + market + " Processed Successfully " + "UUID: "
-                + pending_sell_uuid)
-            move_to_held(pending_buy_uuid, 'Selling')
+                "Sell order: " + amount + " of " + " " + sell_uuids_market[1] + " Processed Successfully " + "UUID: "
+                + sell_uuids_market[0])
+            move_to_held(sell_uuids_market[1], 'Selling')
 
 
 def update_bittrex_coins():
@@ -497,11 +495,11 @@ while True:
     total_bitcoin = utils.get_total_bitcoin(api)
 
     if total_bitcoin > satoshi_50k:
-        percent_buy_strat(total_bitcoin,)
+        # percent_buy_strat(total_bitcoin,)
         keltner_buy_strat(total_bitcoin)
 
-    #  Sell
-    #percent_sell_strat()
+    # Sell
+    # percent_sell_strat()
     keltner_sell_strat()
 
     orders = api.get_open_orders("")['result']
