@@ -126,8 +126,8 @@ def sell(amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change):
             "SELLING\n" + str(coin_to_sell) + str(
                 cur_coin_price) + "\nAmount: " + str(amount) +
             "\n24h%: " + "\nUSD: $" + str(cur_coin_price_usd) + "\nBTC: " + str(
-                cur_24h_change) + "\nTotal Paid: $" + selling_for + "\nNet Gain/Loss: " + str(
-                net_gain_loss) + "\nTime: " + time)
+                cur_24h_change) + "\nTotal Paid: $" + str(selling_for) + "\nNet Gain/Loss: " + str(
+                net_gain_loss) + "\nTime: " + str(time))
 
         t = {}
         t['coin_to_sell'] = coin_to_sell
@@ -142,7 +142,7 @@ def sell(amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change):
         t['cur_24h_change'] = cur_24h_change
         t['uuid'] = sell_order['result']['uuid']
 
-        pending_orders['selling'][coin_market] = t
+        pending_orders['Selling'][coin_market] = t
         utils.json_to_file(pending_orders, "pending_orders.json")
     else:
         utils.print_and_write_to_logfile("Sell order did not go through: " + sell_order['message'])
@@ -161,9 +161,7 @@ def percent_sell_strat():
 
     held_markets = [market for market in held_coins]
     for coin_market in held_markets:
-        coin_info = \
-            utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummary?market=" + coin_market)['result'][0]
-
+        coin_info = bittrex_coins[coin_market]
         cur_24h_change = utils.get_percent_change_24h(coin_info)
         highest_24h_change = held_coins[coin_market]['highest_24h_change']
 
@@ -470,8 +468,8 @@ pending_orders = utils.file_to_json("pending_orders.json")
 
 buy_min_percent = 20
 buy_max_percent = 30
-buy_desired_1h_change = 1
-total_slots = 5
+buy_desired_1h_change = 15
+total_slots = 4
 time_until_cancel_processing_order_minutes = 10
 satoshi_50k = 0.0005
 keltner_period = 20
@@ -483,24 +481,24 @@ keltner_coins = reset_keltner_coins()
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
 
-#add_to_keltner_coins("DGB")
+# add_to_keltner_coins("DGB")
 
 # Main Driver
 while True:
     update_bittrex_coins()
 
-    update_keltner_coins()
+    #update_keltner_coins()
 
     # Buy
     total_bitcoin = utils.get_total_bitcoin(api)
 
     if total_bitcoin > satoshi_50k:
-        # percent_buy_strat(total_bitcoin,)
-        keltner_buy_strat(total_bitcoin)
+        percent_buy_strat(total_bitcoin,)
+        #keltner_buy_strat(total_bitcoin)
 
     # Sell
-    # percent_sell_strat()
-    keltner_sell_strat()
+    percent_sell_strat()
+    # keltner_sell_strat()
 
     orders = api.get_open_orders("")['result']
 
