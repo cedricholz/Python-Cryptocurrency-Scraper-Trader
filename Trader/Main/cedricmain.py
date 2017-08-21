@@ -302,8 +302,18 @@ def add_to_keltner_channel_calcs(symbol):
     t['tr_data'] = []
     t['atr_data'] = []
     t['ema_data'] = []
+    t['upper_band_data'] = []
+    t['middle_band_data'] = []
+    t['lower_band_data'] = []
 
     keltner_coins[market] = t
+
+
+def update_keltner_channels_calcs():
+    for market in keltner_coins:
+        update_atr(market)
+        update_ema(market)
+        update_bands(market)
 
 
 def update_atr(market):
@@ -344,7 +354,7 @@ def update_atr(market):
 
             keltner_coin['price_data'].pop(0)
 
-        keltner_coin['period_data'].append(cur_price)
+        keltner_coin['price_data'].append(cur_price)
 
 
 def update_ema(market):
@@ -374,36 +384,47 @@ def update_ema(market):
         keltner_coin['ema_data'].append(cur_ema)
 
 
-def get_upper_band(market):
+def update_bands(market):
     if market in keltner_coins and len(keltner_coins[market]['atr_data']) == keltner_period:
         keltner_coin = keltner_coins[market]
         cur_ema = keltner_coin['ema_data'][-1]
         cur_atr = keltner_coin['atr_data'][-1]
-        return cur_ema + cur_atr * keltner_multiplier
+
+        upper_band = cur_ema + cur_atr * keltner_multiplier
+        middle_band = cur_ema
+        lower_band = cur_ema - cur_atr * keltner_multiplier
+
+        keltner_coin[market]['upper_band_data'].append(upper_band)
+        keltner_coin[market]['middle_band_data'].append(middle_band)
+        keltner_coin[market]['lower_band_data'].append(lower_band)
+        if len(keltner_coin[market]['upper_band_data']) > keltner_period:
+            keltner_coin[market]['upper_band_data'].pop(0)
+            keltner_coin[market]['middle_band_data']
+            keltner_coin[market]['lower_band_data']
+
+
+def get_upper_band(market):
+    if market in keltner_coins and len(keltner_coins[market]['atr_data']) == keltner_period:
+        keltner_coin = keltner_coins[market]
+        if len(keltner_coin['upper_band']) > 0:
+            return keltner_coin['upper_band'][-1]
     return -1
 
 
 def get_middle_band(market):
     if market in keltner_coins and len(keltner_coins[market]['atr_data']) == keltner_period:
         keltner_coin = keltner_coins[market]
-        cur_ema = keltner_coin['ema_data'][-1]
-        return cur_ema
+        if len(keltner_coin['middle_band']) > 0:
+            return keltner_coin['middle_band'][-1]
     return -1
 
 
-def get_upper_band(market):
+def get_lower_band(market):
     if market in keltner_coins and len(keltner_coins[market]['atr_data']) == keltner_period:
         keltner_coin = keltner_coins[market]
-        cur_ema = keltner_coin['ema_data'][-1]
-        cur_atr = keltner_coin['atr_data'][-1]
-        return cur_ema - cur_atr * keltner_multiplier
+        if len(keltner_coin['lower_band']) > 0:
+            return keltner_coin['lower_band'][-1]
     return -1
-
-
-def update_keltner_channels_calcs():
-    for market in keltner_coins:
-        update_atr(market)
-        update_ema(market)
 
 
 keltner_coins = {}
@@ -438,7 +459,7 @@ while True:
 
     #add_to_keltner_channel_calcs("LSK")
 
-    update_keltner_channels_calcs()
+    #update_keltner_channels_calcs()
 
     # Buy
     total_bitcoin = utils.get_total_bitcoin(api)
