@@ -307,52 +307,106 @@ def add_to_keltner_channel_calcs(symbol):
 
 
 def update_atr(market):
-    bittrex_coin = bittrex_coins[market]
+    if market in keltner_coins:
+        bittrex_coin = bittrex_coins[market]
 
-    keltner_coin = keltner_coins[market]
+        keltner_coin = keltner_coins[market]
 
-    price_data = keltner_coin['price_data']
+        price_data = keltner_coin['price_data']
 
-    tr_data = keltner_coin['tr_data']
+        tr_data = keltner_coin['tr_data']
 
-    cur_price = bittrex_coin['Last']
+        cur_price = bittrex_coin['Last']
 
-    if len(price_data) == keltner_period:
+        if len(price_data) == keltner_period:
 
-        period_low = min(price_data)
-        period_high = max(price_data)
+            period_low = min(price_data)
+            period_high = max(price_data)
 
-        cur_tr = max[period_high - period_low, abs(period_high - cur_price), abs(period_low - cur_price)]
+            cur_tr = max[period_high - period_low, abs(period_high - cur_price), abs(period_low - cur_price)]
 
-        if len(tr_data) == keltner_period:
-            atr_data = keltner_coin['atr_data']
-            if len(atr_data) == 0:
-                atr_data.append(sum(tr_data) / keltner_period)
-            else:
-                last_atr = atr_data[len(atr_data) - 1]
+            if len(tr_data) == keltner_period:
+                atr_data = keltner_coin['atr_data']
+                if len(atr_data) == 0:
+                    atr_data.append(sum(tr_data) / keltner_period)
+                else:
+                    last_atr = atr_data[-1]
 
-                cur_atr = (last_atr * (keltner_period - 1) + cur_tr) / keltner_period
+                    cur_atr = (last_atr * (keltner_period - 1) + cur_tr) / keltner_period
 
-                if len(atr_data) == keltner_period:
-                    atr_data.pop(0)
-                atr_data.append(cur_atr)
+                    if len(atr_data) == keltner_period:
+                        atr_data.pop(0)
+                    atr_data.append(cur_atr)
 
-            keltner_coin['tr_data'].pop(0)
+                keltner_coin['tr_data'].pop(0)
 
-        keltner_coin[tr_data].append(cur_tr)
+            keltner_coin[tr_data].append(cur_tr)
 
-        keltner_coin['price_data'].pop(0)
+            keltner_coin['price_data'].pop(0)
 
-    keltner_coin['period_data'].append(cur_price)
+        keltner_coin['period_data'].append(cur_price)
+
+
+def update_ema(market):
+    if market in keltner_coins:
+        keltner_coin = keltner_coins[market]
+
+        price_data = keltner_coin['price_data']
+
+        if len(price_data) < keltner_period:
+            return
+
+        cur_price = price_data[-1]
+        ema_data = keltner_coin["ema_data"]
+
+        cur_data = 0
+        if len(ema_data) == 0:
+            cur_data = sum(price_data)/keltner_period
+
+        elif len(ema_data) == keltner_period:
+            prev_ema = ema_data[-1]
+
+            multiplier = 2/(keltner_period + 1) + prev_ema
+
+            cur_ema = (cur_price - prev_ema) * multiplier + prev_ema
+
+            keltner_coin['ema_data'].append(cur_ema)
+
+            keltner_coin['ema_data'].pop(0)
+
+        keltner_coin['ema_data'].append(cur_data)
+
+
+def get_upper_band(market):
+    if market in keltner_coins and len(keltner_coins[market]['atr_data']) == keltner_period:
+        keltner_coin = keltner_coins[market]
+        cur_ema = keltner_coin['ema_data'][-1]
+        cur_atr = keltner_coin['atr_data'][-1]
+        return cur_ema + cur_atr
+    return -1
+
+
+def get_middle_band(market):
+    if market in keltner_coins and len(keltner_coins[market]['atr_data']) == keltner_period:
+        keltner_coin = keltner_coins[market]
+        cur_ema = keltner_coin['ema_data'][-1]
+        return cur_ema
+    return -1
+
+
+def get_upper_band(market):
+    if market in keltner_coins and len(keltner_coins[market]['atr_data']) == keltner_period:
+        keltner_coin = keltner_coins[market]
+        cur_ema = keltner_coin['ema_data'][-1]
+        cur_atr = keltner_coin['atr_data'][-1]
+        return cur_ema - cur_atr
+    return -1
 
 
 def update_keltner_channels_calcs():
     for market in keltner_coins:
         update_atr(market)
-        #update_ema(market)
-
-
-
+        update_ema(market)
 
 
 keltner_coins = {}
