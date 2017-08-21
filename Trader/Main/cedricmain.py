@@ -70,7 +70,6 @@ def find_and_buy(total_bitcoin, bittrex_coins):
             if market.startswith('ETH'):
                 break
             if market.startswith('BTC'):
-                coin_summary = api.get_ticker(market)
 
                 coin_to_buy = utils.get_second_market_coin(market)
                 coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
