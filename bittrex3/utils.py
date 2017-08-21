@@ -44,6 +44,7 @@ def get_api():
 
     return Bittrex3(secrets['key'], secrets['secret'])
 
+
 def query_url(url_addr):
     with urllib.request.urlopen(url_addr) as url:
         return json.loads(url.read().decode())
@@ -68,7 +69,7 @@ def get_coin_market_cap_1hr_change():
 
 
 def print_and_write_to_logfile(log_text):
-    print(log_text)
+    print(log_text + "\n")
     with open("logs.txt", "a") as myfile:
         myfile.write(log_text + "\n\n")
 
