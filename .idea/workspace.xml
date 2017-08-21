@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="03164066-c730-407c-9791-a1a5e46f9cc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bittrex3/Main/cedricmain.py" afterPath="$PROJECT_DIR$/bittrex3/Main/cedricmain.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bittrex3/utils.py" afterPath="$PROJECT_DIR$/bittrex3/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/__init__.py" afterPath="$PROJECT_DIR$/Trader/Main/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/cedricmain.py" afterPath="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/examples/__init__.py" afterPath="$PROJECT_DIR$/Trader/examples/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,9 +17,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$bittrex3_tests.coverage" NAME="bittrex3_tests Coverage Results" MODIFIED="1503095867435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$main.coverage" NAME="main Coverage Results" MODIFIED="1503111373991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/Main" />
-    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$Unittests_in_bittrex3_tests_py.coverage" NAME="Unittests in bittrex3_tests.py Coverage Results" MODIFIED="1503095811201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain__1_.coverage" NAME="cedricmain (1) Coverage Results" MODIFIED="1503290369332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/Main" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$Unittests_in_bittrex3_tests_py__1_.coverage" NAME="Unittests in bittrex3_tests.py Coverage Results" MODIFIED="1503095987592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/examples" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain.coverage" NAME="cedricmain Coverage Results" MODIFIED="1503277220515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/Main" />
+    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$Unittests_in_bittrex3_tests_py.coverage" NAME="Unittests in bittrex3_tests.py Coverage Results" MODIFIED="1503278508321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/examples" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$bittrex3_tests__1_.coverage" NAME="bittrex3_tests (1) Coverage Results" MODIFIED="1503095878713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/test" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$example_buy_sell_script.coverage" NAME="example_buy_sell_script Coverage Results" MODIFIED="1503266787767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/examples" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$script.coverage" NAME="script Coverage Results" MODIFIED="1503094898260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/test" />
@@ -28,55 +29,96 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="cedricmain.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bittrex3/Main/cedricmain.py">
+        <entry file="file://$PROJECT_DIR$/Trader/Main/cedricmain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+            <state relative-caret-position="450">
+              <caret line="351" column="27" lean-forward="true" selection-start-line="351" selection-start-column="27" selection-end-line="351" selection-end-column="27" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#104#1436#0" expanded="false" />
+                <element signature="e#104#278#1" expanded="false" />
+                <element signature="e#439#1277#0" expanded="false" />
+                <element signature="e#1296#1436#0" expanded="false" />
+                <element signature="e#1491#3442#0" expanded="false" />
+                <element signature="e#1491#1692#1" expanded="false" />
+                <element signature="e#1806#3442#0" expanded="false" />
+                <element signature="e#1989#2055#0" expanded="false" />
+                <element signature="e#2109#2312#0" expanded="false" />
+                <element signature="e#2478#3442#0" expanded="false" />
+                <element signature="e#2645#3442#0" expanded="false" />
+                <element signature="e#3223#3442#0" expanded="false" />
+                <element signature="e#3487#3852#0" expanded="false" />
+                <element signature="e#3487#3638#1" expanded="false" />
+                <element signature="e#3936#5568#0" expanded="false" />
+                <element signature="e#3936#4141#1" expanded="false" />
+                <element signature="e#4250#5458#0" expanded="false" />
+                <element signature="e#5601#7183#0" expanded="false" />
+                <element signature="e#5601#5845#1" expanded="false" />
+                <element signature="e#5945#7183#0" expanded="false" />
+                <element signature="e#6280#6452#0" expanded="false" />
+                <element signature="e#6712#7183#0" expanded="false" />
+                <element signature="e#6929#7063#0" expanded="false" />
+                <element signature="e#7216#8497#0" expanded="false" />
+                <element signature="e#7216#7499#1" expanded="false" />
+                <element signature="e#7534#8497#0" expanded="false" />
+                <element signature="e#7711#8497#0" expanded="false" />
+                <element signature="e#7851#8278#0" expanded="false" />
+                <element signature="e#8313#8497#0" expanded="false" />
+                <element signature="e#8555#9188#0" expanded="false" />
+                <element signature="e#8555#8695#1" expanded="false" />
+                <element signature="e#8812#8921#0" expanded="false" />
+                <element signature="e#8972#9069#0" expanded="false" />
+                <element signature="e#9230#10837#0" expanded="false" />
+                <element signature="e#9230#9448#1" expanded="false" />
+                <element signature="e#9708#10169#0" expanded="false" />
+                <element signature="e#9766#10169#0" expanded="false" />
+                <element signature="e#10367#10837#0" expanded="false" />
+                <element signature="e#10426#10837#0" expanded="false" />
+                <element signature="e#10872#11068#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logs.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bittrex3/Main/logs.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1027">
-              <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="held_coins.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bittrex3/Main/held_coins.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pending_orders.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bittrex3/Main/pending_orders.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bittrex3/utils.py">
+        <entry file="file://$PROJECT_DIR$/Trader/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="217">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_buy_sell_script.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trader/examples/example_buy_sell_script.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding>
+                <element signature="e#91#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logs.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trader/Main/logs.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-368">
+              <caret line="270" column="31" lean-forward="true" selection-start-line="270" selection-start-column="31" selection-end-line="270" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,8 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>urllib</find>
-      <find>getmarketsummary</find>
       <find>balance</find>
       <find>currency</find>
       <find>coin_info</find>
@@ -115,13 +155,15 @@
       <find>pro</find>
       <find>update_pro</find>
       <find>24h</find>
-      <find>api</find>
       <find>str(amount</find>
       <find>buy order did</find>
       <find>t['mar</find>
       <find>['mar</find>
       <find>total</find>
       <find>ftc</find>
+      <find>api</find>
+      <find>get_ticker</find>
+      <find>api.get_ticker</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,6 +191,15 @@
         <option value="$PROJECT_DIR$/bittrex3/Main/pending_orders.json" />
         <option value="$PROJECT_DIR$/bittrex3/utils.py" />
         <option value="$PROJECT_DIR$/bittrex3/Main/cedricmain.py" />
+        <option value="$PROJECT_DIR$/Trader/examples/bittrex3_tests.py" />
+        <option value="$PROJECT_DIR$/Trader/examples/example_buy_sell_script.py" />
+        <option value="$PROJECT_DIR$/Trader/utils.py" />
+        <option value="$PROJECT_DIR$/Trader/Main/davidmain.py" />
+        <option value="$PROJECT_DIR$/Trader/Main/romanmain.py" />
+        <option value="$PROJECT_DIR$/Trader/Main/zanemain.py" />
+        <option value="$PROJECT_DIR$/Trader/Main/__init__.py" />
+        <option value="$PROJECT_DIR$/Trader/examples/__init__.py" />
+        <option value="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
       </list>
     </option>
   </component>
@@ -191,18 +242,18 @@
             <path>
               <item name="Python-Cryptocurrency-Scraper-Trader" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Cryptocurrency-Scraper-Trader" type="462c0819:PsiDirectoryNode" />
-              <item name="bittrex3" type="462c0819:PsiDirectoryNode" />
+              <item name="Trader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python-Cryptocurrency-Scraper-Trader" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Cryptocurrency-Scraper-Trader" type="462c0819:PsiDirectoryNode" />
-              <item name="bittrex3" type="462c0819:PsiDirectoryNode" />
+              <item name="Trader" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python-Cryptocurrency-Scraper-Trader" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Cryptocurrency-Scraper-Trader" type="462c0819:PsiDirectoryNode" />
-              <item name="bittrex3" type="462c0819:PsiDirectoryNode" />
+              <item name="Trader" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -347,20 +398,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cedricmain">
+  <component name="RunManager" selected="Python.cedricmain (1)">
     <configuration name="Unittests in bittrex3_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bittrex3/examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trader/examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Cryptocurrency-Scraper-Trader" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/bittrex3/examples/bittrex3_tests.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Trader/examples/bittrex3_tests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -510,6 +561,24 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration name="cedricmain (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trader/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-Cryptocurrency-Scraper-Trader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="cedricmain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -546,24 +615,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="example_reddit_bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bittrex3/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python-Cryptocurrency-Scraper-Trader" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bittrex3/examples/example_reddit_bot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -583,19 +634,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in bittrex3_tests.py (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.example_reddit_bot" />
-      <item index="3" class="java.lang.String" itemvalue="Python.example_buy_sell_script" />
-      <item index="4" class="java.lang.String" itemvalue="Python.cedricmain" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.example_buy_sell_script" />
+      <item index="2" class="java.lang.String" itemvalue="Python.cedricmain" />
+      <item index="3" class="java.lang.String" itemvalue="Python.cedricmain (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in bittrex3_tests.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.cedricmain" />
-        <item index="1" class="java.lang.String" itemvalue="Python.example_buy_sell_script" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.example_reddit_bot" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in bittrex3_tests.py (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cedricmain (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cedricmain" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in bittrex3_tests.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.example_buy_sell_script" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -746,13 +797,24 @@
       <option name="project" value="LOCAL" />
       <updated>1503277342399</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="small change">
+      <created>1503278382010</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1503278382010</updated>
+    </task>
+    <task id="LOCAL-00021" summary="changed name of file">
+      <created>1503278540244</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1503278540244</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_bittrex3_tests_py - 2017.08.17 at 20h 21m 27s.xml">
-      <configuration name="Unittests in bittrex3_tests.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_bittrex3_tests_py - 2017.08.17 at 20h 24m 20s.xml">
       <configuration name="Unittests in bittrex3_tests.py" configurationId="tests" />
     </history-entry>
@@ -777,6 +839,9 @@
     <history-entry file="Unittests_in_bittrex3_tests_py - 2017.08.18 at 15h 39m 49s.xml">
       <configuration name="Unittests in bittrex3_tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_bittrex3_tests_py - 2017.08.20 at 18h 21m 50s.xml">
+      <configuration name="Unittests in bittrex3_tests.py" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_bittrex3_tests_py_(1) - 2017.08.18 at 15h 38m 33s.xml">
       <configuration name="Unittests in bittrex3_tests.py (1)" configurationId="tests" />
     </history-entry>
@@ -789,14 +854,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29359823" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24834438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.067328915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27593818" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633554" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -831,7 +896,9 @@
     <MESSAGE value="Fixed bugs" />
     <MESSAGE value="couple more text bugs" />
     <MESSAGE value="another text issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="another text issue" />
+    <MESSAGE value="small change" />
+    <MESSAGE value="changed name of file" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed name of file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,6 +908,11 @@
           <line>291</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Trader/Main/cedricmain.py</url>
+          <line>387</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -849,131 +921,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="169" />
+      <option name="time" value="181" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="__py_debug_temp_var_1405907224" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8316">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17928">
-          <caret line="677" column="0" lean-forward="false" selection-start-line="677" selection-start-column="0" selection-end-line="677" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bittrex3/examples/example_buy_sell_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#91#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bittrex3/bittrex3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17928">
-          <caret line="677" column="0" lean-forward="false" selection-start-line="677" selection-start-column="0" selection-end-line="677" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8316">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bittrex3/bittrex3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bittrex3/examples/bittrex3_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17928">
-          <caret line="677" column="0" lean-forward="false" selection-start-line="677" selection-start-column="0" selection-end-line="677" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bittrex3/examples/example_buy_sell_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <element signature="e#91#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bittrex3/bittrex3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bittrex3/examples/bittrex3_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18279">
-          <caret line="677" column="0" lean-forward="false" selection-start-line="677" selection-start-column="0" selection-end-line="677" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bittrex3/examples/example_buy_sell_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#91#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bittrex3/bittrex3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1001,9 +953,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#91#129#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,9 +1023,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="98" lean-forward="true" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,9 +1087,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,9 +1159,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#91#129#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,14 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="262" column="27" lean-forward="false" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1247,9 +1183,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,10 +1205,177 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bittrex3/Main/cedricmain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="2565">
           <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/examples/example_reddit_bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/davidmain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/romanmain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/zanemain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/reddit_secrets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/bittrex3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#45#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/examples/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/examples/bittrex3_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/logs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="270" column="31" lean-forward="true" selection-start-line="270" selection-start-column="31" selection-end-line="270" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/examples/example_buy_sell_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#91#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/cedricmain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="351" column="27" lean-forward="true" selection-start-line="351" selection-start-column="27" selection-end-line="351" selection-end-column="27" />
+          <folding>
+            <element signature="e#104#1436#0" expanded="false" />
+            <element signature="e#104#278#1" expanded="false" />
+            <element signature="e#439#1277#0" expanded="false" />
+            <element signature="e#1296#1436#0" expanded="false" />
+            <element signature="e#1491#3442#0" expanded="false" />
+            <element signature="e#1491#1692#1" expanded="false" />
+            <element signature="e#1806#3442#0" expanded="false" />
+            <element signature="e#1989#2055#0" expanded="false" />
+            <element signature="e#2109#2312#0" expanded="false" />
+            <element signature="e#2478#3442#0" expanded="false" />
+            <element signature="e#2645#3442#0" expanded="false" />
+            <element signature="e#3223#3442#0" expanded="false" />
+            <element signature="e#3487#3852#0" expanded="false" />
+            <element signature="e#3487#3638#1" expanded="false" />
+            <element signature="e#3936#5568#0" expanded="false" />
+            <element signature="e#3936#4141#1" expanded="false" />
+            <element signature="e#4250#5458#0" expanded="false" />
+            <element signature="e#5601#7183#0" expanded="false" />
+            <element signature="e#5601#5845#1" expanded="false" />
+            <element signature="e#5945#7183#0" expanded="false" />
+            <element signature="e#6280#6452#0" expanded="false" />
+            <element signature="e#6712#7183#0" expanded="false" />
+            <element signature="e#6929#7063#0" expanded="false" />
+            <element signature="e#7216#8497#0" expanded="false" />
+            <element signature="e#7216#7499#1" expanded="false" />
+            <element signature="e#7534#8497#0" expanded="false" />
+            <element signature="e#7711#8497#0" expanded="false" />
+            <element signature="e#7851#8278#0" expanded="false" />
+            <element signature="e#8313#8497#0" expanded="false" />
+            <element signature="e#8555#9188#0" expanded="false" />
+            <element signature="e#8555#8695#1" expanded="false" />
+            <element signature="e#8812#8921#0" expanded="false" />
+            <element signature="e#8972#9069#0" expanded="false" />
+            <element signature="e#9230#10837#0" expanded="false" />
+            <element signature="e#9230#9448#1" expanded="false" />
+            <element signature="e#9708#10169#0" expanded="false" />
+            <element signature="e#9766#10169#0" expanded="false" />
+            <element signature="e#10367#10837#0" expanded="false" />
+            <element signature="e#10426#10837#0" expanded="false" />
+            <element signature="e#10872#11068#0" expanded="false" />
           </folding>
         </state>
       </provider>

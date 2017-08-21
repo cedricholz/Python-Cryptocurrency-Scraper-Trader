@@ -40,7 +40,7 @@ def buy(market, amount, coin_price, percent_change_24h):
             "Buy order of " + str(amount) + " " + market + " did not go through: " + buy_order['message'])
 
 
-def find_and_buy(total_bitcoin):
+def find_and_buy(total_bitcoin, bittrex_coins):
     """
     Searches all coins on bittrex and buys up to the
     variable "total_slots" different coins. Splits the
@@ -50,11 +50,9 @@ def find_and_buy(total_bitcoin):
     :return:
     """
 
-    bittrex_coins = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummaries")['result']
-
     symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
 
-    for coin in bittrex_coins:
+    for coin_key in bittrex_coins:
         slots_open = total_slots - len(held_coins) - len(pending_orders['Buying'])
         bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
 
@@ -66,29 +64,27 @@ def find_and_buy(total_bitcoin):
                 utils.bitcoin_to_USD(bitcoin_to_use)) + ", BTC: " + str(bitcoin_to_use))
             break
 
-        percent_change_24h = utils.get_percent_change_24h(coin)
+        percent_change_24h = utils.get_percent_change_24h(bittrex_coins[coin_key])
         if buy_min_percent <= percent_change_24h <= buy_max_percent:
-            market = coin['MarketName']
+            market = bittrex_coins[coin_key]['MarketName']
             if market.startswith('ETH'):
                 break
             if market.startswith('BTC'):
                 coin_summary = api.get_ticker(market)
-                if coin_summary['success']:
-                    coin_to_buy = utils.get_second_market_coin(market)
-                    coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
 
-                    coins_pending_buy = [order['market'] for order in pending_orders['Buying']]
-                    coins_pending_sell = [order['market'] for order in pending_orders['Selling']]
+                coin_to_buy = utils.get_second_market_coin(market)
+                coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
 
-                    if market not in held_coins and market not in coins_pending_buy and market not in \
-                            coins_pending_sell and coin_1h_change > buy_desired_1h_change:
+                coins_pending_buy = [order['market'] for order in pending_orders['Buying']]
+                coins_pending_sell = [order['market'] for order in pending_orders['Selling']]
 
-                        coin_price = float(coin_summary['result']['Last'])
-                        amount = bitcoin_to_use / coin_price
-                        if amount > 0:
-                            buy(market, amount, coin_price, percent_change_24h)
-                else:
-                    utils.print_and_write_to_logfile("Could not obtain coin summary :" + coin_summary['message'])
+                if market not in held_coins and market not in coins_pending_buy and market not in \
+                        coins_pending_sell and coin_1h_change > buy_desired_1h_change:
+
+                    coin_price = float(bittrex_coins[coin_key]['Last'])
+                    amount = bitcoin_to_use / coin_price
+                    if amount > 0:
+                        buy(market, amount, coin_price, percent_change_24h)
 
 
 def updated_threshold(market, coins):
@@ -286,6 +282,81 @@ def update_pending_orders(orders):
             move_to_held(pending_buy_uuid, 'Selling')
 
 
+def update_bittrex_coins():
+    bittrex_data = utils.query_url("https://bittrex.com/api/v1.1/public/getmarketsummaries")['result']
+
+    for coin in bittrex_data:
+        key = coin['MarketName']
+        bittrex_coins[key] = coin
+
+
+def add_to_keltner_channel_calcs(symbol):
+    trade = 'BTC'
+    market = '{0}-{1}'.format(trade, symbol)
+
+    coin_data = bittrex_coins[market]
+
+    t = {}
+    t['market'] = market
+    t['price_data'] = []
+    t['tr_data'] = []
+    t['atr_data'] = []
+    t['ema_data'] = []
+
+    keltner_coins[market] = t
+
+
+def update_atr(market):
+    bittrex_coin = bittrex_coins[market]
+
+    keltner_coin = keltner_coins[market]
+
+    price_data = keltner_coin['price_data']
+
+    tr_data = keltner_coin['tr_data']
+
+    cur_price = bittrex_coin['Last']
+
+    if len(price_data) == keltner_period:
+
+        period_low = min(price_data)
+        period_high = max(price_data)
+
+        cur_tr = max[period_high - period_low, abs(period_high - cur_price), abs(period_low - cur_price)]
+
+        if len(tr_data) == keltner_period:
+            atr_data = keltner_coin['atr_data']
+            if len(atr_data) == 0:
+                atr_data.append(sum(tr_data) / keltner_period)
+            else:
+                last_atr = atr_data[len(atr_data) - 1]
+
+                cur_atr = (last_atr * (keltner_period - 1) + cur_tr) / keltner_period
+
+                if len(atr_data) == keltner_period:
+                    atr_data.pop(0)
+                atr_data.append(cur_atr)
+
+            keltner_coin['tr_data'].pop(0)
+
+        keltner_coin[tr_data].append(cur_tr)
+
+        keltner_coin['price_data'].pop(0)
+
+    keltner_coin['period_data'].append(cur_price)
+
+
+def update_keltner_channels_calcs():
+    for market in keltner_coins:
+        update_atr(market)
+        #update_ema(market)
+
+
+
+
+
+keltner_coins = {}
+
 api = utils.get_api()
 
 held_coins = utils.file_to_json("held_coins.json")
@@ -302,16 +373,25 @@ time_until_cancel_processing_order_minutes = 10
 
 satoshi_50k = 0.0005
 
+keltner_period = 20
+
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
+
+bittrex_coins = {}
 
 # Main Driver
 while True:
+    update_bittrex_coins()
+
+    add_to_keltner_channel_calcs("LSK")
+
+    update_keltner_channels_calcs()
 
     # Buy
     total_bitcoin = utils.get_total_bitcoin(api)
 
     if total_bitcoin > satoshi_50k:
-        find_and_buy(total_bitcoin)
+        find_and_buy(total_bitcoin, bittrex_coins)
 
     # Sell
     update_and_or_sell()
