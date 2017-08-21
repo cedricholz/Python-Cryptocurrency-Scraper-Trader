@@ -507,4 +507,4 @@ while True:
     clean_orders(orders)
     update_pending_orders(orders)
 
-    # time.sleep(3)
+    time.sleep(10)
