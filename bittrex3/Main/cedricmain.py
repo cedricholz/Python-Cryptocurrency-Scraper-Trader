@@ -36,7 +36,8 @@ def buy(market, amount, coin_price, percent_change_24h):
         pending_orders['Buying'][buy_order['result']['uuid']] = t
         utils.json_to_file(pending_orders, "pending_orders.json")
     else:
-        utils.print_and_write_to_logfile("Buy order of " + str(amount) + " " + market + " did not go through: " + buy_order['message'])
+        utils.print_and_write_to_logfile(
+            "Buy order of " + str(amount) + " " + market + " did not go through: " + buy_order['message'])
 
 
 def find_and_buy(total_bitcoin):
@@ -61,7 +62,8 @@ def find_and_buy(total_bitcoin):
             utils.print_and_write_to_logfile("0 slots open")
             break
         if bitcoin_to_use < satoshi_50k:
-            print("Less than 50k satoshi available. Bitcoin balance: BTC " + str(total_bitcoin) + " $" + str(utils.bitcoin_to_USD(total_bitcoin)))
+            utils.print_and_write_to_logfile("Order less than 50k satoshi (~$2). Attempted to use: $" + str(
+                utils.bitcoin_to_USD(bitcoin_to_use)) + ", BTC: " + str(bitcoin_to_use))
             break
 
         percent_change_24h = utils.get_percent_change_24h(coin)
@@ -80,7 +82,6 @@ def find_and_buy(total_bitcoin):
 
                     if market not in held_coins and market not in coins_pending_buy and market not in \
                             coins_pending_sell and coin_1h_change > buy_desired_1h_change:
-
 
                         coin_price = float(coin_summary['result']['Last'])
                         amount = bitcoin_to_use / coin_price
@@ -188,7 +189,6 @@ def update_and_or_sell():
                 sell(amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change)
             else:
                 utils.print_and_write_to_logfile("Could not retrieve balance: " + balance['message'])
-
 
 
 def clean_orders(orders):
@@ -302,7 +302,7 @@ time_until_cancel_processing_order_minutes = 10
 
 satoshi_50k = 0.0005
 
-utils.print_and_write_to_logfile("**Beginning run at " + utils.get_date_time() + "**")
+utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
 # Main Driver
 while True:

@@ -305,3 +305,23 @@ Buy order of 0.329102413568167 BTC-RADS did not go through: DUST_TRADE_DISALLOWE
 
 **Beginning run at 17:52:11 8/20/2017**
 
+**Beginning run at 17:55:15 8/20/2017**
+
+Less than 50k satoshi available. Attempting to use: BTC 0.0004804895238095238 $1.9832920063649524
+
+**Beginning run at 18:0:0 8/20/2017**
+
+**Beginning run at 18:0:3 8/20/2017**
+
+**Beginning run at 18:0:20 8/20/2017**
+
+Order less than 50k satoshi (~$2). Attempting to use: $ 1.988704096214286, BTC: 0.0004804895238095238
+
+Order less than 50k satoshi (~$2). Attempting to use: $ 1.988704096214286, BTC: 0.0004804895238095238
+
+Order less than 50k satoshi (~$2). Attempting to use: $ 1.988704096214286, BTC: 0.0004804895238095238
+
+Order less than 50k satoshi (~$2). Attempting to use: $ 1.988704096214286, BTC: 0.0004804895238095238
+
+Order less than 50k satoshi (~$2). Attempting to use: $ 1.988704096214286, BTC: 0.0004804895238095238
+
