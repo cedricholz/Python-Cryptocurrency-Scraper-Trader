@@ -309,11 +309,12 @@ def add_to_keltner_coins(symbol):
     utils.json_to_file(keltner_coins, "keltner_coins.json")
 
 
-def update_keltnercoins():
+def update_keltner_coins():
     for market in keltner_coins:
         update_atr(market)
         update_ema(market)
         update_bands(market)
+    utils.json_to_file(keltner_coins, "keltner_coins.json")
 
 
 def update_atr(market):
@@ -427,7 +428,7 @@ def get_lower_band(market):
     return -1
 
 
-def keltner_buy_strat():
+def keltner_buy_strat(total_bitcoin):
     # total_to_spend = utils.bitcoin_to_USD(coin_price * amount)
     return
 
@@ -443,15 +444,16 @@ def find_keltner_coins():
 def reset_keltner_coins():
     keltner_coins = utils.file_to_json("keltner_coins.json")
     for coin in keltner_coins:
-        coin['price_data'] = []
-        coin['tr_data'] = []
-        coin['atr_data'] = []
-        coin['ema_data'] = []
-        coin['upper_band_data'] = []
-        coin['middle_band_data'] = []
-        coin['lower_band_data'] = []
+        keltner_coins[coin]['price_data'] = []
+        keltner_coins[coin]['tr_data'] = []
+        keltner_coins[coin]['atr_data'] = []
+        keltner_coins[coin]['ema_data'] = []
+        keltner_coins[coin]['upper_band_data'] = []
+        keltner_coins[coin]['middle_band_data'] = []
+        keltner_coins[coin]['lower_band_data'] = []
     utils.json_to_file(keltner_coins, "keltner_coins.json")
     return keltner_coins
+
 
 api = utils.get_api()
 
@@ -460,32 +462,27 @@ pending_orders = utils.file_to_json("pending_orders.json")
 
 buy_min_percent = 20
 buy_max_percent = 30
-
 buy_desired_1h_change = 1
-
 total_slots = 5
-
 time_until_cancel_processing_order_minutes = 10
-
 satoshi_50k = 0.0005
-
 keltner_period = 20
-
 keltner_multiplier = 2
+
+bittrex_coins = {}
+keltner_coins = reset_keltner_coins()
 
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
-bittrex_coins = {}
 
-keltner_coins = reset_keltner_coins()
+update_bittrex_coins()
+add_to_keltner_coins("DGB")
 
 # Main Driver
 while True:
     update_bittrex_coins()
 
-    # add_to_keltnercoins("LSK")
-
-    # update_keltnercoins()
+    update_keltner_coins()
 
     # Buy
     total_bitcoin = utils.get_total_bitcoin(api)
@@ -493,7 +490,8 @@ while True:
     if total_bitcoin > satoshi_50k:
         #percent_buy_strat(total_bitcoin,)
         keltner_buy_strat(total_bitcoin)
-    # Sell
+
+    #  Sell
     #percent_sell_strat()
     keltner_sell_strat()
 
@@ -502,4 +500,4 @@ while True:
     clean_orders(orders)
     update_pending_orders(orders)
 
-    time.sleep(10)
+    #time.sleep(3)
