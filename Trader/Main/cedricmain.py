@@ -32,8 +32,10 @@ def buy(market, amount, coin_price, percent_change_24h):
         t['amount'] = amount
         t['total_paid'] = total_to_spend
         t['sell_threshold'] = 10
+        t['uuid'] = buy_order['result']['uuid']
 
-        pending_orders['Buying'][buy_order['result']['uuid']] = t
+        pending_orders['Buying'][market] = t
+
         utils.json_to_file(pending_orders, "pending_orders.json")
     else:
         utils.print_and_write_to_logfile(
@@ -74,8 +76,8 @@ def percent_buy_strat(total_bitcoin):
                 coin_to_buy = utils.get_second_market_coin(market)
                 coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
 
-                coins_pending_buy = [order['market'] for order in pending_orders['Buying']]
-                coins_pending_sell = [order['market'] for order in pending_orders['Selling']]
+                coins_pending_buy = [market for market in pending_orders['Buying']]
+                coins_pending_sell = [market for market in pending_orders['Selling']]
 
                 if market not in held_coins and market not in coins_pending_buy and market not in \
                         coins_pending_sell and coin_1h_change > buy_desired_1h_change:
@@ -138,8 +140,9 @@ def sell(amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change):
         t['sold_for'] = selling_for
         t['cur_date_time'] = cur_date_time
         t['cur_24h_change'] = cur_24h_change
+        t['uuid'] = sell_order['result']['uuid']
 
-        pending_orders['selling'][sell_order['result']['uuid']] = t
+        pending_orders['selling'][coin_market] = t
         utils.json_to_file(pending_orders, "pending_orders.json")
     else:
         utils.print_and_write_to_logfile("Sell order did not go through: " + sell_order['message'])
@@ -208,8 +211,14 @@ def clean_orders(orders):
             if cancel_order['success']:
                 buying_or_selling = 'Buying' if order['OrderType'] == 'Limit_Buy' else 'Selling'
 
-                if uuid in pending_orders[buying_or_selling]:
-                    del pending_orders[buying_or_selling][uuid]
+                pending_uuids = [coin['uuid'] for coin in pending_orders[buying_or_selling]]
+
+                if uuid in pending_uuids:
+                    for iter_coin in pending_orders:
+                        if iter_coin['uuid'] == uuid:
+                            del pending_orders[buying_or_selling][order]
+                            break
+
                 utils.json_to_file(pending_orders, "pending_orders.json")
                 utils.print_and_write_to_logfile(
                     "Cancel Order of " + order["Quantity"] + order['Exchange'] + " Successful")
@@ -334,7 +343,8 @@ def update_atr(market):
             period_low = min(price_data)
             period_high = max(price_data)
 
-            cur_tr = max[period_high - period_low, abs(period_high - cur_price), abs(period_low - cur_price)]
+
+            cur_tr = max([period_high - period_low, abs(period_high - cur_price), abs(period_low - cur_price)])
 
             if len(tr_data) == keltner_period:
                 atr_data = keltner_coin['atr_data']
@@ -351,7 +361,7 @@ def update_atr(market):
 
                 keltner_coin['tr_data'].pop(0)
 
-            keltner_coin[tr_data].append(cur_tr)
+            keltner_coin['tr_data'].append(cur_tr)
 
             keltner_coin['price_data'].pop(0)
 
@@ -395,13 +405,13 @@ def update_bands(market):
         middle_band = cur_ema
         lower_band = cur_ema - cur_atr * keltner_multiplier
 
-        keltner_coin[market]['upper_band_data'].append(upper_band)
-        keltner_coin[market]['middle_band_data'].append(middle_band)
-        keltner_coin[market]['lower_band_data'].append(lower_band)
-        if len(keltner_coin[market]['upper_band_data']) > keltner_period:
-            keltner_coin[market]['upper_band_data'].pop(0)
-            keltner_coin[market]['middle_band_data']
-            keltner_coin[market]['lower_band_data']
+        keltner_coins[market]['upper_band_data'].append(upper_band)
+        keltner_coins[market]['middle_band_data'].append(middle_band)
+        keltner_coins[market]['lower_band_data'].append(lower_band)
+        if len(keltner_coins[market]['upper_band_data']) > keltner_period:
+            keltner_coins[market]['upper_band_data'].pop(0)
+            keltner_coins[market]['middle_band_data']
+            keltner_coins[market]['lower_band_data']
 
 
 def get_upper_band(market):
@@ -475,8 +485,7 @@ keltner_coins = reset_keltner_coins()
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
 
-update_bittrex_coins()
-add_to_keltner_coins("DGB")
+#add_to_keltner_coins("DGB")
 
 # Main Driver
 while True:
@@ -488,7 +497,7 @@ while True:
     total_bitcoin = utils.get_total_bitcoin(api)
 
     if total_bitcoin > satoshi_50k:
-        #percent_buy_strat(total_bitcoin,)
+        percent_buy_strat(total_bitcoin,)
         keltner_buy_strat(total_bitcoin)
 
     #  Sell
@@ -500,4 +509,4 @@ while True:
     clean_orders(orders)
     update_pending_orders(orders)
 
-    #time.sleep(3)
+    # time.sleep(3)
