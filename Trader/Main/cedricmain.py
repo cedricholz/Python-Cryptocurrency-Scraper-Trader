@@ -40,7 +40,7 @@ def buy(market, amount, coin_price, percent_change_24h):
             "Buy order of " + str(amount) + " " + market + " did not go through: " + buy_order['message'])
 
 
-def find_and_buy(total_bitcoin, bittrex_coins):
+def percent_buy_strat(total_bitcoin):
     """
     Searches all coins on bittrex and buys up to the
     variable "total_slots" different coins. Splits the
@@ -145,7 +145,7 @@ def sell(amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change):
         utils.print_and_write_to_logfile("Sell order did not go through: " + sell_order['message'])
 
 
-def update_and_or_sell():
+def percent_sell_strat():
     """
     If a coin drops more than its variable "sell threshold"
     from its highest 24 hour % change, it is sold
@@ -289,7 +289,7 @@ def update_bittrex_coins():
         bittrex_coins[key] = coin
 
 
-def add_to_keltner_channel_calcs(symbol):
+def add_to_keltner_coins(symbol):
     trade = 'BTC'
     market = '{0}-{1}'.format(trade, symbol)
 
@@ -306,9 +306,10 @@ def add_to_keltner_channel_calcs(symbol):
     t['lower_band_data'] = []
 
     keltner_coins[market] = t
+    utils.json_to_file(keltner_coins, "keltner_coins.json")
 
 
-def update_keltner_channels_calcs():
+def update_keltnercoins():
     for market in keltner_coins:
         update_atr(market)
         update_ema(market)
@@ -426,7 +427,31 @@ def get_lower_band(market):
     return -1
 
 
-keltner_coins = {}
+def keltner_buy_strat():
+    # total_to_spend = utils.bitcoin_to_USD(coin_price * amount)
+    return
+
+
+def keltner_sell_strat():
+    return
+
+
+def find_keltner_coins():
+    return
+
+
+def reset_keltner_coins():
+    keltner_coins = utils.file_to_json("keltner_coins.json")
+    for coin in keltner_coins:
+        coin['price_data'] = []
+        coin['tr_data'] = []
+        coin['atr_data'] = []
+        coin['ema_data'] = []
+        coin['upper_band_data'] = []
+        coin['middle_band_data'] = []
+        coin['lower_band_data'] = []
+    utils.json_to_file(keltner_coins, "keltner_coins.json")
+    return keltner_coins
 
 api = utils.get_api()
 
@@ -452,22 +477,25 @@ utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time()
 
 bittrex_coins = {}
 
+keltner_coins = reset_keltner_coins()
+
 # Main Driver
 while True:
     update_bittrex_coins()
 
-    #add_to_keltner_channel_calcs("LSK")
+    # add_to_keltnercoins("LSK")
 
-    #update_keltner_channels_calcs()
+    # update_keltnercoins()
 
     # Buy
     total_bitcoin = utils.get_total_bitcoin(api)
 
     if total_bitcoin > satoshi_50k:
-        find_and_buy(total_bitcoin, bittrex_coins)
-
+        #percent_buy_strat(total_bitcoin,)
+        keltner_buy_strat(total_bitcoin)
     # Sell
-    update_and_or_sell()
+    #percent_sell_strat()
+    keltner_sell_strat()
 
     orders = api.get_open_orders("")['result']
 

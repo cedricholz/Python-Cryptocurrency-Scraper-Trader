@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03164066-c730-407c-9791-a1a5e46f9cc3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Trader/Main/keltner_coins.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/cedricmain.py" afterPath="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/utils.py" afterPath="$PROJECT_DIR$/Trader/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$bittrex3_tests.coverage" NAME="bittrex3_tests Coverage Results" MODIFIED="1503095867435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$main.coverage" NAME="main Coverage Results" MODIFIED="1503111373991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/Main" />
-    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain__1_.coverage" NAME="cedricmain (1) Coverage Results" MODIFIED="1503294744165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/Main" />
+    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain__1_.coverage" NAME="cedricmain (1) Coverage Results" MODIFIED="1503295322181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/Main" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$Unittests_in_bittrex3_tests_py__1_.coverage" NAME="Unittests in bittrex3_tests.py Coverage Results" MODIFIED="1503095987592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/examples" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain.coverage" NAME="cedricmain Coverage Results" MODIFIED="1503277220515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/Main" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$Unittests_in_bittrex3_tests_py.coverage" NAME="Unittests in bittrex3_tests.py Coverage Results" MODIFIED="1503278508321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/examples" />
@@ -30,52 +31,49 @@
       <file leaf-file-name="cedricmain.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trader/Main/cedricmain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="392" column="0" lean-forward="true" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="450" column="23" lean-forward="false" selection-start-line="450" selection-start-column="23" selection-end-line="450" selection-end-column="23" />
               <folding>
                 <element signature="e#104#278#1" expanded="false" />
-                <element signature="e#1491#3442#0" expanded="false" />
-                <element signature="e#1491#1692#1" expanded="false" />
-                <element signature="e#1806#3442#0" expanded="false" />
-                <element signature="e#1989#2055#0" expanded="false" />
-                <element signature="e#2109#2312#0" expanded="false" />
-                <element signature="e#2478#3442#0" expanded="false" />
-                <element signature="e#2645#3442#0" expanded="false" />
-                <element signature="e#3223#3442#0" expanded="false" />
-                <element signature="e#3487#3852#0" expanded="false" />
-                <element signature="e#3487#3638#1" expanded="false" />
-                <element signature="e#3936#5568#0" expanded="false" />
-                <element signature="e#3936#4141#1" expanded="false" />
-                <element signature="e#4250#5458#0" expanded="false" />
-                <element signature="e#5601#7183#0" expanded="false" />
-                <element signature="e#5601#5845#1" expanded="false" />
-                <element signature="e#5945#7183#0" expanded="false" />
-                <element signature="e#6280#6452#0" expanded="false" />
-                <element signature="e#6712#7183#0" expanded="false" />
-                <element signature="e#6929#7063#0" expanded="false" />
-                <element signature="e#7216#8497#0" expanded="false" />
-                <element signature="e#7216#7499#1" expanded="false" />
-                <element signature="e#7534#8497#0" expanded="false" />
-                <element signature="e#7711#8497#0" expanded="false" />
-                <element signature="e#7851#8278#0" expanded="false" />
-                <element signature="e#8313#8497#0" expanded="false" />
-                <element signature="e#8555#9188#0" expanded="false" />
-                <element signature="e#8555#8695#1" expanded="false" />
-                <element signature="e#8812#8921#0" expanded="false" />
-                <element signature="e#8972#9069#0" expanded="false" />
-                <element signature="e#9230#10837#0" expanded="false" />
-                <element signature="e#9230#9448#1" expanded="false" />
-                <element signature="e#9708#10169#0" expanded="false" />
-                <element signature="e#9766#10169#0" expanded="false" />
-                <element signature="e#10367#10837#0" expanded="false" />
-                <element signature="e#10426#10837#0" expanded="false" />
-                <element signature="e#10872#11068#0" expanded="false" />
-                <element signature="e#11406#12605#0" expanded="false" />
-                <element signature="e#12636#13327#0" expanded="false" />
-                <element signature="e#13362#13657#0" expanded="false" />
-                <element signature="e#13693#13910#0" expanded="false" />
-                <element signature="e#13945#14240#0" expanded="false" />
+                <element signature="e#1481#3378#0" expanded="false" />
+                <element signature="e#3423#3788#0" expanded="false" />
+                <element signature="e#3423#3574#1" expanded="false" />
+                <element signature="e#3872#5504#0" expanded="false" />
+                <element signature="e#3872#4077#1" expanded="false" />
+                <element signature="e#4186#5394#0" expanded="false" />
+                <element signature="e#5537#7119#0" expanded="false" />
+                <element signature="e#5537#5781#1" expanded="false" />
+                <element signature="e#5881#7119#0" expanded="false" />
+                <element signature="e#6216#6388#0" expanded="false" />
+                <element signature="e#6648#7119#0" expanded="false" />
+                <element signature="e#6865#6999#0" expanded="false" />
+                <element signature="e#7152#8433#0" expanded="false" />
+                <element signature="e#8491#9124#0" expanded="false" />
+                <element signature="e#8491#8631#1" expanded="false" />
+                <element signature="e#8748#8857#0" expanded="false" />
+                <element signature="e#8908#9005#0" expanded="false" />
+                <element signature="e#9166#10773#0" expanded="false" />
+                <element signature="e#10303#10773#0" expanded="false" />
+                <element signature="e#10362#10773#0" expanded="false" />
+                <element signature="e#10808#11004#0" expanded="false" />
+                <element signature="e#11488#11599#0" expanded="false" />
+                <element signature="e#11630#12828#0" expanded="false" />
+                <element signature="e#12859#13550#0" expanded="false" />
+                <element signature="e#13583#14403#0" expanded="false" />
+                <element signature="e#14438#14683#0" expanded="false" />
+                <element signature="e#14719#14966#0" expanded="false" />
+                <element signature="e#15001#15246#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keltner_coins.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trader/Main/keltner_coins.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,8 +81,18 @@
       <file leaf-file-name="pending_orders.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trader/Main/pending_orders.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="108">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="held_coins.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trader/Main/held_coins.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -145,7 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>balance</find>
       <find>currency</find>
       <find>coin_info</find>
       <find>could not obta</find>
@@ -175,6 +182,7 @@
       <find>api</find>
       <find>get_ticker</find>
       <find>api.get_ticker</find>
+      <find>json_to</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,6 +218,7 @@
         <option value="$PROJECT_DIR$/Trader/Main/__init__.py" />
         <option value="$PROJECT_DIR$/Trader/examples/__init__.py" />
         <option value="$PROJECT_DIR$/Trader/utils.py" />
+        <option value="$PROJECT_DIR$/Trader/Main/keltner_coins.json" />
         <option value="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
       </list>
     </option>
@@ -836,7 +845,28 @@
       <option name="project" value="LOCAL" />
       <updated>1503294265615</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="finished rough draft keltner">
+      <created>1503295255065</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1503295255065</updated>
+    </task>
+    <task id="LOCAL-00025" summary="more keltner work">
+      <created>1503295996165</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1503295996165</updated>
+    </task>
+    <task id="LOCAL-00026" summary="get rid of ticker api pull">
+      <created>1503296055095</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1503296055095</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -886,7 +916,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24724062" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19094923" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -924,8 +954,10 @@
     <MESSAGE value="small change" />
     <MESSAGE value="changed name of file" />
     <MESSAGE value="started on keltner stuff and queries from the server less" />
+    <MESSAGE value="finished rough draft keltner" />
     <MESSAGE value="more keltner work" />
-    <option name="LAST_COMMIT_MESSAGE" value="more keltner work" />
+    <MESSAGE value="get rid of ticker api pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="get rid of ticker api pull" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -943,26 +975,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="183" />
+      <option name="time" value="186" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bittrex3/examples/bittrex3_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17928">
-          <caret line="677" column="0" lean-forward="false" selection-start-line="677" selection-start-column="0" selection-end-line="677" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bittrex3/examples/example_buy_sell_script.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1347,59 +1364,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Main/pending_orders.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="108">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/held_coins.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/keltner_coins.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Main/cedricmain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="392" column="0" lean-forward="true" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="450" column="23" lean-forward="false" selection-start-line="450" selection-start-column="23" selection-end-line="450" selection-end-column="23" />
           <folding>
             <element signature="e#104#278#1" expanded="false" />
-            <element signature="e#1491#3442#0" expanded="false" />
-            <element signature="e#1491#1692#1" expanded="false" />
-            <element signature="e#1806#3442#0" expanded="false" />
-            <element signature="e#1989#2055#0" expanded="false" />
-            <element signature="e#2109#2312#0" expanded="false" />
-            <element signature="e#2478#3442#0" expanded="false" />
-            <element signature="e#2645#3442#0" expanded="false" />
-            <element signature="e#3223#3442#0" expanded="false" />
-            <element signature="e#3487#3852#0" expanded="false" />
-            <element signature="e#3487#3638#1" expanded="false" />
-            <element signature="e#3936#5568#0" expanded="false" />
-            <element signature="e#3936#4141#1" expanded="false" />
-            <element signature="e#4250#5458#0" expanded="false" />
-            <element signature="e#5601#7183#0" expanded="false" />
-            <element signature="e#5601#5845#1" expanded="false" />
-            <element signature="e#5945#7183#0" expanded="false" />
-            <element signature="e#6280#6452#0" expanded="false" />
-            <element signature="e#6712#7183#0" expanded="false" />
-            <element signature="e#6929#7063#0" expanded="false" />
-            <element signature="e#7216#8497#0" expanded="false" />
-            <element signature="e#7216#7499#1" expanded="false" />
-            <element signature="e#7534#8497#0" expanded="false" />
-            <element signature="e#7711#8497#0" expanded="false" />
-            <element signature="e#7851#8278#0" expanded="false" />
-            <element signature="e#8313#8497#0" expanded="false" />
-            <element signature="e#8555#9188#0" expanded="false" />
-            <element signature="e#8555#8695#1" expanded="false" />
-            <element signature="e#8812#8921#0" expanded="false" />
-            <element signature="e#8972#9069#0" expanded="false" />
-            <element signature="e#9230#10837#0" expanded="false" />
-            <element signature="e#9230#9448#1" expanded="false" />
-            <element signature="e#9708#10169#0" expanded="false" />
-            <element signature="e#9766#10169#0" expanded="false" />
-            <element signature="e#10367#10837#0" expanded="false" />
-            <element signature="e#10426#10837#0" expanded="false" />
-            <element signature="e#10872#11068#0" expanded="false" />
-            <element signature="e#11406#12605#0" expanded="false" />
-            <element signature="e#12636#13327#0" expanded="false" />
-            <element signature="e#13362#13657#0" expanded="false" />
-            <element signature="e#13693#13910#0" expanded="false" />
-            <element signature="e#13945#14240#0" expanded="false" />
+            <element signature="e#1481#3378#0" expanded="false" />
+            <element signature="e#3423#3788#0" expanded="false" />
+            <element signature="e#3423#3574#1" expanded="false" />
+            <element signature="e#3872#5504#0" expanded="false" />
+            <element signature="e#3872#4077#1" expanded="false" />
+            <element signature="e#4186#5394#0" expanded="false" />
+            <element signature="e#5537#7119#0" expanded="false" />
+            <element signature="e#5537#5781#1" expanded="false" />
+            <element signature="e#5881#7119#0" expanded="false" />
+            <element signature="e#6216#6388#0" expanded="false" />
+            <element signature="e#6648#7119#0" expanded="false" />
+            <element signature="e#6865#6999#0" expanded="false" />
+            <element signature="e#7152#8433#0" expanded="false" />
+            <element signature="e#8491#9124#0" expanded="false" />
+            <element signature="e#8491#8631#1" expanded="false" />
+            <element signature="e#8748#8857#0" expanded="false" />
+            <element signature="e#8908#9005#0" expanded="false" />
+            <element signature="e#9166#10773#0" expanded="false" />
+            <element signature="e#10303#10773#0" expanded="false" />
+            <element signature="e#10362#10773#0" expanded="false" />
+            <element signature="e#10808#11004#0" expanded="false" />
+            <element signature="e#11488#11599#0" expanded="false" />
+            <element signature="e#11630#12828#0" expanded="false" />
+            <element signature="e#12859#13550#0" expanded="false" />
+            <element signature="e#13583#14403#0" expanded="false" />
+            <element signature="e#14438#14683#0" expanded="false" />
+            <element signature="e#14719#14966#0" expanded="false" />
+            <element signature="e#15001#15246#0" expanded="false" />
           </folding>
         </state>
       </provider>
