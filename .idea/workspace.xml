@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03164066-c730-407c-9791-a1a5e46f9cc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/cedricmain.py" afterPath="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/keltner_coins.json" afterPath="$PROJECT_DIR$/Trader/Main/keltner_coins.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$bittrex3_tests.coverage" NAME="bittrex3_tests Coverage Results" MODIFIED="1503095867435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$main.coverage" NAME="main Coverage Results" MODIFIED="1503111373991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/Main" />
-    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain__1_.coverage" NAME="cedricmain (1) Coverage Results" MODIFIED="1503302244097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/Main" />
+    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain__1_.coverage" NAME="cedricmain (1) Coverage Results" MODIFIED="1503304683658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/Main" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$Unittests_in_bittrex3_tests_py__1_.coverage" NAME="Unittests in bittrex3_tests.py Coverage Results" MODIFIED="1503095987592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/examples" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain.coverage" NAME="cedricmain Coverage Results" MODIFIED="1503277220515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/Main" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$Unittests_in_bittrex3_tests_py.coverage" NAME="Unittests in bittrex3_tests.py Coverage Results" MODIFIED="1503278508321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/examples" />
@@ -24,31 +22,37 @@
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$example_buy_sell_script.coverage" NAME="example_buy_sell_script Coverage Results" MODIFIED="1503266787767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/examples" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$script.coverage" NAME="script Coverage Results" MODIFIED="1503094898260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/test" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$example_reddit_bot.coverage" NAME="example_reddit_bot Coverage Results" MODIFIED="1503111371277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/examples" />
+    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$example_buy_sell_script__1_.coverage" NAME="example_buy_sell_script (1) Coverage Results" MODIFIED="1503303495071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/examples" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="cedricmain.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trader/Main/cedricmain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="-2130">
+              <caret line="191" column="25" lean-forward="false" selection-start-line="191" selection-start-column="25" selection-end-line="191" selection-end-column="25" />
               <folding>
+                <element signature="e#104#1464#0" expanded="false" />
+                <element signature="e#1509#3390#0" expanded="false" />
                 <element signature="e#3435#3800#0" expanded="false" />
                 <element signature="e#3435#3586#1" expanded="false" />
+                <element signature="e#3884#5548#0" expanded="false" />
                 <element signature="e#3884#4089#1" expanded="false" />
-                <element signature="e#5581#5825#1" expanded="false" />
-                <element signature="e#8760#8900#1" expanded="false" />
-                <element signature="e#9177#9274#0" expanded="false" />
-                <element signature="e#9435#11042#0" expanded="false" />
-                <element signature="e#10572#11042#0" expanded="false" />
-                <element signature="e#10631#11042#0" expanded="false" />
-                <element signature="e#11077#11273#0" expanded="false" />
-                <element signature="e#11314#11723#0" expanded="false" />
-                <element signature="e#11960#13163#0" expanded="false" />
-                <element signature="e#13194#13885#0" expanded="false" />
-                <element signature="e#14780#15025#0" expanded="false" />
-                <element signature="e#15061#15308#0" expanded="false" />
-                <element signature="e#15343#15588#0" expanded="false" />
+                <element signature="e#5581#7163#0" expanded="false" />
+                <element signature="e#7196#8754#0" expanded="false" />
+                <element signature="e#8814#9451#0" expanded="false" />
+                <element signature="e#8814#8954#1" expanded="false" />
+                <element signature="e#9493#11151#0" expanded="false" />
+                <element signature="e#11186#11382#0" expanded="false" />
+                <element signature="e#11423#11832#0" expanded="false" />
+                <element signature="e#11867#12038#0" expanded="false" />
+                <element signature="e#12069#13272#0" expanded="false" />
+                <element signature="e#13303#13994#0" expanded="false" />
+                <element signature="e#14027#14854#0" expanded="false" />
+                <element signature="e#14889#15134#0" expanded="false" />
+                <element signature="e#15170#15417#0" expanded="false" />
+                <element signature="e#15452#15697#0" expanded="false" />
+                <element signature="e#15925#16435#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,8 +61,8 @@
       <file leaf-file-name="keltner_coins.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trader/Main/keltner_coins.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="11" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="81">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -67,8 +71,8 @@
       <file leaf-file-name="pending_orders.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trader/Main/pending_orders.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="27">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -77,8 +81,8 @@
       <file leaf-file-name="held_coins.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trader/Main/held_coins.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="1107">
+              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -99,8 +103,8 @@
       <file leaf-file-name="example_buy_sell_script.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trader/examples/example_buy_sell_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="432">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#91#127#0" expanded="true" />
               </folding>
@@ -139,7 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slots_open</find>
       <find>bitcoin_to</find>
       <find>sell_thres</find>
       <find>Sold</find>
@@ -148,7 +151,6 @@
       <find>emc</find>
       <find>open</find>
       <find>cancel</find>
-      <find>buy</find>
       <find>getd</find>
       <find>selling</find>
       <find>not in</find>
@@ -169,6 +171,8 @@
       <find>get_per</find>
       <find>held_coins[</find>
       <find>pending_orders</find>
+      <find>move_to_held</find>
+      <find>buy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,9 +208,10 @@
         <option value="$PROJECT_DIR$/Trader/Main/__init__.py" />
         <option value="$PROJECT_DIR$/Trader/examples/__init__.py" />
         <option value="$PROJECT_DIR$/Trader/utils.py" />
-        <option value="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
-        <option value="$PROJECT_DIR$/Trader/Main/pending_orders.json" />
         <option value="$PROJECT_DIR$/Trader/Main/keltner_coins.json" />
+        <option value="$PROJECT_DIR$/Trader/Main/pending_orders.json" />
+        <option value="$PROJECT_DIR$/Trader/Main/held_coins.json" />
+        <option value="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
       </list>
     </option>
   </component>
@@ -604,6 +609,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="example_buy_sell_script (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trader/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-Cryptocurrency-Scraper-Trader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trader/examples/example_buy_sell_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="example_buy_sell_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -622,38 +645,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bittrex3/Main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python-Cryptocurrency-Scraper-Trader" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Cedric\Desktop\Code Projects\Python-Cryptocurrency-Scraper-Trader\bittrex3\Main\cedricmain.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.example_buy_sell_script" />
-      <item index="2" class="java.lang.String" itemvalue="Python.cedricmain" />
-      <item index="3" class="java.lang.String" itemvalue="Python.cedricmain (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in bittrex3_tests.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python.example_buy_sell_script" />
+      <item index="1" class="java.lang.String" itemvalue="Python.cedricmain" />
+      <item index="2" class="java.lang.String" itemvalue="Python.cedricmain (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in bittrex3_tests.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.example_buy_sell_script (1)" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.cedricmain (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.cedricmain" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in bittrex3_tests.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.example_buy_sell_script" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.example_buy_sell_script (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.example_buy_sell_script" />
+        <item index="3" class="java.lang.String" itemvalue="Python.cedricmain" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in bittrex3_tests.py" />
       </list>
     </recent_temporary>
   </component>
@@ -867,7 +872,21 @@
       <option name="project" value="LOCAL" />
       <updated>1503299166364</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fixed a lot of bugs">
+      <created>1503302349953</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1503302349953</updated>
+    </task>
+    <task id="LOCAL-00030" summary="refactored how pending_orders and cleaning worked">
+      <created>1503304710973</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1503304710973</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -910,14 +929,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29359823" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27704194" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17328918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34216335" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19536424" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -934,8 +953,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="restructured" />
-    <MESSAGE value="syncing" />
     <MESSAGE value="added separate mains" />
     <MESSAGE value="functional rough draft, will test" />
     <MESSAGE value="debugging variable deleted, better print statements" />
@@ -959,7 +976,9 @@
     <MESSAGE value="get rid of ticker api pull" />
     <MESSAGE value="got keltner_coins ready for david" />
     <MESSAGE value="keltner bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="keltner bug" />
+    <MESSAGE value="fixed a lot of bugs" />
+    <MESSAGE value="refactored how pending_orders and cleaning worked" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored how pending_orders and cleaning worked" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -969,11 +988,6 @@
           <line>291</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Trader/Main/cedricmain.py</url>
-          <line>407</line>
-          <option name="timeStamp" value="201" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -982,9 +996,13 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="209" />
+      <option name="time" value="224" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="__py_debug_temp_var_1405907224" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bittrex3/examples/example_buy_sell_script.py">
@@ -1341,22 +1359,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trader/examples/example_buy_sell_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="e#91#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trader/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/examples/example_buy_sell_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1369,51 +1387,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trader/Main/keltner_coins.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Main/held_coins.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        <state relative-caret-position="1107">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Main/pending_orders.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="27">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/keltner_coins.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Main/cedricmain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="-2130">
+          <caret line="191" column="25" lean-forward="false" selection-start-line="191" selection-start-column="25" selection-end-line="191" selection-end-column="25" />
           <folding>
+            <element signature="e#104#1464#0" expanded="false" />
+            <element signature="e#1509#3390#0" expanded="false" />
             <element signature="e#3435#3800#0" expanded="false" />
             <element signature="e#3435#3586#1" expanded="false" />
+            <element signature="e#3884#5548#0" expanded="false" />
             <element signature="e#3884#4089#1" expanded="false" />
-            <element signature="e#5581#5825#1" expanded="false" />
-            <element signature="e#8760#8900#1" expanded="false" />
-            <element signature="e#9177#9274#0" expanded="false" />
-            <element signature="e#9435#11042#0" expanded="false" />
-            <element signature="e#10572#11042#0" expanded="false" />
-            <element signature="e#10631#11042#0" expanded="false" />
-            <element signature="e#11077#11273#0" expanded="false" />
-            <element signature="e#11314#11723#0" expanded="false" />
-            <element signature="e#11960#13163#0" expanded="false" />
-            <element signature="e#13194#13885#0" expanded="false" />
-            <element signature="e#14780#15025#0" expanded="false" />
-            <element signature="e#15061#15308#0" expanded="false" />
-            <element signature="e#15343#15588#0" expanded="false" />
+            <element signature="e#5581#7163#0" expanded="false" />
+            <element signature="e#7196#8754#0" expanded="false" />
+            <element signature="e#8814#9451#0" expanded="false" />
+            <element signature="e#8814#8954#1" expanded="false" />
+            <element signature="e#9493#11151#0" expanded="false" />
+            <element signature="e#11186#11382#0" expanded="false" />
+            <element signature="e#11423#11832#0" expanded="false" />
+            <element signature="e#11867#12038#0" expanded="false" />
+            <element signature="e#12069#13272#0" expanded="false" />
+            <element signature="e#13303#13994#0" expanded="false" />
+            <element signature="e#14027#14854#0" expanded="false" />
+            <element signature="e#14889#15134#0" expanded="false" />
+            <element signature="e#15170#15417#0" expanded="false" />
+            <element signature="e#15452#15697#0" expanded="false" />
+            <element signature="e#15925#16435#0" expanded="false" />
           </folding>
         </state>
       </provider>
