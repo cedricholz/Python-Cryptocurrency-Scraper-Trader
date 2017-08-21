@@ -359,22 +359,19 @@ def update_ema(market):
         cur_price = price_data[-1]
         ema_data = keltner_coin["ema_data"]
 
-        cur_data = 0
+        cur_ema = 0
         if len(ema_data) == 0:
-            cur_data = sum(price_data)/keltner_period
+            cur_ema = sum(price_data)/keltner_period
 
-        elif len(ema_data) == keltner_period:
+        else:
             prev_ema = ema_data[-1]
-
-            multiplier = 2/(keltner_period + 1) + prev_ema
-
+            multiplier = 2 / (keltner_period + 1) + prev_ema
             cur_ema = (cur_price - prev_ema) * multiplier + prev_ema
 
-            keltner_coin['ema_data'].append(cur_ema)
-
+        if len(ema_data) == keltner_period:
             keltner_coin['ema_data'].pop(0)
 
-        keltner_coin['ema_data'].append(cur_data)
+        keltner_coin['ema_data'].append(cur_ema)
 
 
 def get_upper_band(market):
@@ -382,7 +379,7 @@ def get_upper_band(market):
         keltner_coin = keltner_coins[market]
         cur_ema = keltner_coin['ema_data'][-1]
         cur_atr = keltner_coin['atr_data'][-1]
-        return cur_ema + cur_atr
+        return cur_ema + cur_atr * keltner_multiplier
     return -1
 
 
@@ -399,7 +396,7 @@ def get_upper_band(market):
         keltner_coin = keltner_coins[market]
         cur_ema = keltner_coin['ema_data'][-1]
         cur_atr = keltner_coin['atr_data'][-1]
-        return cur_ema - cur_atr
+        return cur_ema - cur_atr * keltner_multiplier
     return -1
 
 
@@ -429,6 +426,8 @@ satoshi_50k = 0.0005
 
 keltner_period = 20
 
+keltner_multiplier = 2
+
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
 bittrex_coins = {}
@@ -437,7 +436,7 @@ bittrex_coins = {}
 while True:
     update_bittrex_coins()
 
-    add_to_keltner_channel_calcs("LSK")
+    #add_to_keltner_channel_calcs("LSK")
 
     update_keltner_channels_calcs()
 

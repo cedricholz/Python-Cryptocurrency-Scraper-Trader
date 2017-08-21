@@ -4,6 +4,7 @@
     <list default="true" id="03164066-c730-407c-9791-a1a5e46f9cc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/cedricmain.py" afterPath="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/utils.py" afterPath="$PROJECT_DIR$/Trader/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$bittrex3_tests.coverage" NAME="bittrex3_tests Coverage Results" MODIFIED="1503095867435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$main.coverage" NAME="main Coverage Results" MODIFIED="1503111373991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/Main" />
-    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain__1_.coverage" NAME="cedricmain (1) Coverage Results" MODIFIED="1503290369332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/Main" />
+    <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain__1_.coverage" NAME="cedricmain (1) Coverage Results" MODIFIED="1503294744165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/Main" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$Unittests_in_bittrex3_tests_py__1_.coverage" NAME="Unittests in bittrex3_tests.py Coverage Results" MODIFIED="1503095987592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/examples" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$cedricmain.coverage" NAME="cedricmain Coverage Results" MODIFIED="1503277220515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bittrex3/Main" />
     <SUITE FILE_PATH="coverage/Python_Cryptocurrency_Scraper_Trader$Unittests_in_bittrex3_tests_py.coverage" NAME="Unittests in bittrex3_tests.py Coverage Results" MODIFIED="1503278508321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trader/examples" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="cedricmain.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trader/Main/cedricmain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2077">
-              <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="354">
+              <caret line="392" column="0" lean-forward="true" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
               <folding>
                 <element signature="e#104#278#1" expanded="false" />
                 <element signature="e#1491#3442#0" expanded="false" />
@@ -69,6 +70,11 @@
                 <element signature="e#10367#10837#0" expanded="false" />
                 <element signature="e#10426#10837#0" expanded="false" />
                 <element signature="e#10872#11068#0" expanded="false" />
+                <element signature="e#11406#12605#0" expanded="false" />
+                <element signature="e#12636#13327#0" expanded="false" />
+                <element signature="e#13362#13657#0" expanded="false" />
+                <element signature="e#13693#13910#0" expanded="false" />
+                <element signature="e#13945#14240#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -87,8 +93,8 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trader/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="-607">
+              <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -198,12 +204,12 @@
         <option value="$PROJECT_DIR$/bittrex3/Main/cedricmain.py" />
         <option value="$PROJECT_DIR$/Trader/examples/bittrex3_tests.py" />
         <option value="$PROJECT_DIR$/Trader/examples/example_buy_sell_script.py" />
-        <option value="$PROJECT_DIR$/Trader/utils.py" />
         <option value="$PROJECT_DIR$/Trader/Main/davidmain.py" />
         <option value="$PROJECT_DIR$/Trader/Main/romanmain.py" />
         <option value="$PROJECT_DIR$/Trader/Main/zanemain.py" />
         <option value="$PROJECT_DIR$/Trader/Main/__init__.py" />
         <option value="$PROJECT_DIR$/Trader/examples/__init__.py" />
+        <option value="$PROJECT_DIR$/Trader/utils.py" />
         <option value="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
       </list>
     </option>
@@ -823,7 +829,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503291892420</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="more keltner work">
+      <created>1503294265615</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1503294265615</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -873,7 +886,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17549668" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24724062" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -911,7 +924,8 @@
     <MESSAGE value="small change" />
     <MESSAGE value="changed name of file" />
     <MESSAGE value="started on keltner stuff and queries from the server less" />
-    <option name="LAST_COMMIT_MESSAGE" value="started on keltner stuff and queries from the server less" />
+    <MESSAGE value="more keltner work" />
+    <option name="LAST_COMMIT_MESSAGE" value="more keltner work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,11 +935,6 @@
           <line>291</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Trader/Main/cedricmain.py</url>
-          <line>441</line>
-          <option name="timeStamp" value="180" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -934,7 +943,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="181" />
+      <option name="time" value="183" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1320,8 +1329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trader/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="-607">
+          <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -1346,8 +1355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Main/cedricmain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2077">
-          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="354">
+          <caret line="392" column="0" lean-forward="true" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
           <folding>
             <element signature="e#104#278#1" expanded="false" />
             <element signature="e#1491#3442#0" expanded="false" />
@@ -1386,6 +1395,11 @@
             <element signature="e#10367#10837#0" expanded="false" />
             <element signature="e#10426#10837#0" expanded="false" />
             <element signature="e#10872#11068#0" expanded="false" />
+            <element signature="e#11406#12605#0" expanded="false" />
+            <element signature="e#12636#13327#0" expanded="false" />
+            <element signature="e#13362#13657#0" expanded="false" />
+            <element signature="e#13693#13910#0" expanded="false" />
+            <element signature="e#13945#14240#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -52,12 +52,12 @@ def query_url(url_addr):
 
 
 def get_first_market_coin(market):
-    m = re.search('([A-z]+)-([A-z]+)', market)
+    m = re.search('([A-z0-9]+)-([A-z0-9]+)', market)
     return m.group(1)
 
 
 def get_second_market_coin(market):
-    m = re.search('([A-z]+)-([A-z]+)', market)
+    m = re.search('([A-z0-9]+)-([A-z0-9]+)', market)
     return m.group(2)
 
 
