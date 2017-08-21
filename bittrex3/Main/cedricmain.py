@@ -93,7 +93,7 @@ def find_and_buy(total_bitcoin):
 
 def updated_threshold(market, coins):
     """
-    Updates the amount from a coins 24h % peak
+    Updates the amount from a coin's 24h % peak
     we will allow it to go before selling
     :param market:
     :param coins:

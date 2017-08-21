@@ -5,6 +5,7 @@ import urllib
 import json
 import re
 
+
 def file_to_json(filename):
     try:
         file = open(filename, 'r')
@@ -98,5 +99,3 @@ def get_time_passed_minutes(time_opened):
     time_passed = time_diff.total_seconds()/60
 
     return time_passed
-
-

@@ -33,6 +33,7 @@
 10. In Main create new file called held_coins.json and fill it with {}
 
 11. In Main create a new file called pending_orders.json and fill it with this
+
 {
     "Buying": {
     },
