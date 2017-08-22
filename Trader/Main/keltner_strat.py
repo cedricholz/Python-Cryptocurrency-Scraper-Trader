@@ -79,7 +79,6 @@ class KeltnerStrat:
                 cur_price = price_data[-1]
                 ema_data = keltner_coin["ema_data"]
 
-                cur_ema = 0
                 if len(ema_data) == 0:
                     cur_ema = sum(price_data) / self.keltner_period
 

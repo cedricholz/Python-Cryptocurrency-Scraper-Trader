@@ -14,6 +14,8 @@ class PercentStrat:
         self.bittrex_coins = utils.get_updated_bittrex_coins()
         self.refresh_held_pending_history()
 
+        self.held_coins = utils.file_to_json("held_coins.json")
+        self.pending_orders = utils.file_to_json("pending_orders.json")
 
     def percent_buy_strat(self, total_bitcoin):
         """
@@ -24,9 +26,6 @@ class PercentStrat:
         :param total_bitcoin:
         :return:
         """
-
-
-
 
         symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
 
@@ -130,3 +129,6 @@ class PercentStrat:
         self.held_coins = utils.file_to_json("held_coins.json")
         self.pending_orders = utils.file_to_json("pending_orders.json")
         self.history_coins = utils.file_to_json("coin_history.json")
+
+    def update_bittrex_coins(self):
+        self.bittrex_coins = utils.get_updated_bittrex_coins()

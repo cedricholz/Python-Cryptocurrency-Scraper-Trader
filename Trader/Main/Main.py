@@ -125,6 +125,7 @@ def run_hodl_strat():
     if total_bitcoin > satoshi_50k and len(hs.markets_desired_gain) != 0:
         hs.hodl_buy_strat(total_bitcoin)
 
+    hs.update_bittrex_coins()
     hs.hodl_sell_strat()
 
 
@@ -143,6 +144,8 @@ def run_percent_strat():
 
     ps.percent_sell_strat()
 
+    ps.update_bittrex_coins()
+
 
 def initialize_keltner_strat():
     keltner_period = 20
@@ -150,20 +153,24 @@ def initialize_keltner_strat():
     keltner_slots = 2
     keltner_prev_ticks = 3
 
+    # Uncomment to do keltner math on all bittrex coins once
+    # ks.add_bittrex_coins_to_keltner_coins()
+
     return KS.KeltnerStrat(api, keltner_period, keltner_multiplier, keltner_slots, keltner_prev_ticks)
 
 
 def run_keltner_strat():
     ks.refresh_held_pending()
+
     ks.update_keltner_coins()
 
-    # Uncomment to do keltner math on all bittrex coins
-    # ks.add_bittrex_coins_to_keltner_coins()
+    ks.update_bittrex_coins()
 
     if total_bitcoin > satoshi_50k:
         ks.keltner_buy_strat(total_bitcoin)
 
     ks.keltner_sell_strat()
+
 
 api = utils.get_api()
 
