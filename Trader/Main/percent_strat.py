@@ -12,9 +12,8 @@ class PercentStrat:
         self.total_slots = total_slots
 
         self.bittrex_coins = utils.get_updated_bittrex_coins()
+        self.refresh_held_pending_history()
 
-        self.held_coins = utils.file_to_json("held_coins.json")
-        self.pending_orders = utils.file_to_json("pending_orders.json")
 
     def percent_buy_strat(self, total_bitcoin):
         """
@@ -26,12 +25,23 @@ class PercentStrat:
         :return:
         """
 
+
+
+
         symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
 
         for coin_key in self.bittrex_coins:
             slots_open = self.total_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
                 self.pending_orders['Selling'])
             bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
+
+            for hist_coin in self.history_coins:
+                if coin_key['market'] == hist_coin['market']:
+                    coin_summary = self.api.get_ticker(market)
+                    coin_price = float(coin_summary['result']['Last'])
+                    if hist_coin['highest_price_history']*1.1 < coin_price: # update hist_coin every
+
+
 
             if slots_open <= 0:
                 utils.print_and_write_to_logfile("0 slots open")
@@ -116,6 +126,7 @@ class PercentStrat:
         total_change = h - original_24h_change
         return 10
 
-    def refresh_held_pending(self):
+    def refresh_held_pending_history(self):
         self.held_coins = utils.file_to_json("held_coins.json")
         self.pending_orders = utils.file_to_json("pending_orders.json")
+        self.history_coins = utils.file_to_json("coin_history.json")

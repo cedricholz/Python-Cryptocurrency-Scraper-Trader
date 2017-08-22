@@ -113,8 +113,8 @@ def update_pending_orders(orders):
 
 
 def initialize_hodl_strat():
-    # markets_desired_gain = [('BTC-LSK', 10)]
-    markets_desired_gain = []
+    markets_desired_gain = [('BTC-LSK', 10)]
+    #markets_desired_gain = []
     total_slots = 5
     return HS.HodlStrat(api, markets_desired_gain, total_slots)
 
@@ -137,7 +137,7 @@ def initialize_percent_strat():
 
 
 def run_percent_strat():
-    ps.refresh_held_pending()
+    ps.refresh_held_pending_history()
     if total_bitcoin > satoshi_50k:
         ps.percent_buy_strat(total_bitcoin,)
 
@@ -180,9 +180,9 @@ utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time()
 while True:
     total_bitcoin = utils.get_total_bitcoin(api)
 
-    run_keltner_strat()
+    # run_keltner_strat()
     # run_percent_strat()
-    # run_hodl_strat()
+    run_hodl_strat()
 
     orders = api.get_open_orders("")['result']
     clean_orders(orders)

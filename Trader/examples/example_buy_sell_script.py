@@ -50,11 +50,11 @@ print('The price for {0} is {1:.8f} {2}.'.format(currency, dogeprice, trade))
 # Buying 1500 DOGE for BTC
 print('Buying {0} {1} for {2:.8f} {3}.'.format(amount, currency, dogeprice, trade))
 
-#r = api.buy_limit(market, amount, dogeprice)
+r = api.buy_limit(market, amount, dogeprice)
 
 # Multiplying the price by the multiplier
 # dogeprice = round(dogeprice*multiplier, 8)
-dogeprice = round(dogeprice * 5, 8)
+dogeprice = round(dogeprice * 1.1, 8)
 
 # Selling 1500 DOGE for the  new price
 print('Selling {0} {1} for {2:.8f} {3}.'.format(amount, currency, dogeprice, trade))
