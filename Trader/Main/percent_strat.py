@@ -39,6 +39,8 @@ class PercentStrat:
                     coin_summary = self.api.get_ticker(market)
                     coin_price = float(coin_summary['result']['Last'])
                     if hist_coin['highest_price_history']*1.1 < coin_price: # update hist_coin every
+                        return # fix me
+
 
 
 
