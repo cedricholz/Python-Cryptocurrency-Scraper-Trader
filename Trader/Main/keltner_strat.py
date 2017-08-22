@@ -170,23 +170,6 @@ class KeltnerStrat:
             self.keltner_coins[coin]['lower_band_data'] = []
         utils.json_to_file(self.keltner_coins, "keltner_coins.json")
 
-    def add_to_keltner_coins(self, market):
-
-        coin_data = self.bittrex_coins[market]
-
-        t = {}
-        t['market'] = market
-        t['price_data'] = []
-        t['tr_data'] = []
-        t['atr_data'] = []
-        t['ema_data'] = []
-        t['upper_band_data'] = []
-        t['middle_band_data'] = []
-        t['lower_band_data'] = []
-
-        self.keltner_coins[market] = t
-        utils.json_to_file(self.keltner_coins, "keltner_coins.json")
-
     def keltner_buy_strat(self, total_bitcoin):
         keltner_slots_open = self.keltner_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
             self.pending_orders['Selling'])
@@ -232,7 +215,39 @@ class KeltnerStrat:
     def update_bittrex_coins(self):
         self.bittrex_coins = utils.get_updated_bittrex_coins()
 
+    def add_to_keltner_coins(self, market):
+
+        t = {}
+        t['market'] = market
+        t['price_data'] = []
+        t['tr_data'] = []
+        t['atr_data'] = []
+        t['ema_data'] = []
+        t['upper_band_data'] = []
+        t['middle_band_data'] = []
+        t['lower_band_data'] = []
+
+        self.keltner_coins[market] = t
+        utils.json_to_file(self.keltner_coins, "keltner_coins.json")
+
     def add_bittrex_coins_to_keltner_coins(self):
+        self.keltner_coins = {}
         self.update_bittrex_coins()
         for market in self.bittrex_coins:
-            self.add_to_keltner_coins(market)
+            if market.startswith('BTC'):
+                coin_data = self.bittrex_coins[market]
+
+                t = {}
+                t['market'] = market
+                t['price_data'] = []
+                t['tr_data'] = []
+                t['atr_data'] = []
+                t['ema_data'] = []
+                t['upper_band_data'] = []
+                t['middle_band_data'] = []
+                t['lower_band_data'] = []
+
+                self.keltner_coins[market] = t
+
+        utils.json_to_file(self.keltner_coins, "keltner_coins.json")
+

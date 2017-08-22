@@ -1,29 +1,11 @@
 {
-    "BITCNY-BTC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "BITCNY-BTC",
-        "middle_band_data": [],
-        "price_data": [
-            26253.00000001,
-            26253.00000001,
-            26253.00000001
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
     "BTC-1ST": {
         "atr_data": [],
         "ema_data": [],
         "lower_band_data": [],
         "market": "BTC-1ST",
         "middle_band_data": [],
-        "price_data": [
-            0.00015967,
-            0.00015967,
-            0.00015967
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -33,11 +15,7 @@
         "lower_band_data": [],
         "market": "BTC-2GIVE",
         "middle_band_data": [],
-        "price_data": [
-            1.12e-06,
-            1.12e-06,
-            1.12e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -47,11 +25,7 @@
         "lower_band_data": [],
         "market": "BTC-ABY",
         "middle_band_data": [],
-        "price_data": [
-            1.81e-06,
-            1.81e-06,
-            1.81e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -61,11 +35,7 @@
         "lower_band_data": [],
         "market": "BTC-ADT",
         "middle_band_data": [],
-        "price_data": [
-            1.528e-05,
-            1.528e-05,
-            1.528e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -75,11 +45,7 @@
         "lower_band_data": [],
         "market": "BTC-ADX",
         "middle_band_data": [],
-        "price_data": [
-            0.00029345,
-            0.00029345,
-            0.00029345
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -89,11 +55,7 @@
         "lower_band_data": [],
         "market": "BTC-AEON",
         "middle_band_data": [],
-        "price_data": [
-            0.00021782,
-            0.00021782,
-            0.00021782
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -103,11 +65,7 @@
         "lower_band_data": [],
         "market": "BTC-AGRS",
         "middle_band_data": [],
-        "price_data": [
-            0.000102,
-            0.000102,
-            0.000102
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -117,11 +75,7 @@
         "lower_band_data": [],
         "market": "BTC-AMP",
         "middle_band_data": [],
-        "price_data": [
-            4.9e-05,
-            4.9e-05,
-            4.9e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -131,11 +85,7 @@
         "lower_band_data": [],
         "market": "BTC-ANT",
         "middle_band_data": [],
-        "price_data": [
-            0.00064746,
-            0.00064746,
-            0.00064746
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -145,11 +95,7 @@
         "lower_band_data": [],
         "market": "BTC-APX",
         "middle_band_data": [],
-        "price_data": [
-            0.00243974,
-            0.00243974,
-            0.00243974
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -159,11 +105,7 @@
         "lower_band_data": [],
         "market": "BTC-ARDR",
         "middle_band_data": [],
-        "price_data": [
-            3.304e-05,
-            3.304e-05,
-            3.304e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -173,11 +115,7 @@
         "lower_band_data": [],
         "market": "BTC-ARK",
         "middle_band_data": [],
-        "price_data": [
-            0.0004471,
-            0.0004471,
-            0.0004471
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -187,11 +125,7 @@
         "lower_band_data": [],
         "market": "BTC-AUR",
         "middle_band_data": [],
-        "price_data": [
-            0.00016176,
-            0.00016176,
-            0.00016176
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -201,11 +135,7 @@
         "lower_band_data": [],
         "market": "BTC-BAT",
         "middle_band_data": [],
-        "price_data": [
-            4.802e-05,
-            4.802e-05,
-            4.802e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -215,11 +145,7 @@
         "lower_band_data": [],
         "market": "BTC-BAY",
         "middle_band_data": [],
-        "price_data": [
-            5.92e-06,
-            5.92e-06,
-            5.92e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -229,11 +155,7 @@
         "lower_band_data": [],
         "market": "BTC-BCC",
         "middle_band_data": [],
-        "price_data": [
-            0.1515,
-            0.1515,
-            0.1515
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -243,11 +165,7 @@
         "lower_band_data": [],
         "market": "BTC-BCY",
         "middle_band_data": [],
-        "price_data": [
-            0.00010131,
-            0.00010131,
-            0.00010131
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -257,11 +175,7 @@
         "lower_band_data": [],
         "market": "BTC-BITB",
         "middle_band_data": [],
-        "price_data": [
-            7.1e-07,
-            7.1e-07,
-            7.1e-07
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -271,11 +185,7 @@
         "lower_band_data": [],
         "market": "BTC-BLITZ",
         "middle_band_data": [],
-        "price_data": [
-            0.00030994,
-            0.00030994,
-            0.00030994
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -285,11 +195,7 @@
         "lower_band_data": [],
         "market": "BTC-BLK",
         "middle_band_data": [],
-        "price_data": [
-            6.188e-05,
-            6.188e-05,
-            6.188e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -299,11 +205,7 @@
         "lower_band_data": [],
         "market": "BTC-BLOCK",
         "middle_band_data": [],
-        "price_data": [
-            0.00318334,
-            0.00318334,
-            0.00318334
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -313,11 +215,7 @@
         "lower_band_data": [],
         "market": "BTC-BNT",
         "middle_band_data": [],
-        "price_data": [
-            0.000682,
-            0.000682,
-            0.000682
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -327,11 +225,7 @@
         "lower_band_data": [],
         "market": "BTC-BRK",
         "middle_band_data": [],
-        "price_data": [
-            3.171e-05,
-            3.171e-05,
-            3.171e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -341,11 +235,7 @@
         "lower_band_data": [],
         "market": "BTC-BRX",
         "middle_band_data": [],
-        "price_data": [
-            0.00011263,
-            0.00011263,
-            0.00011263
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -355,11 +245,7 @@
         "lower_band_data": [],
         "market": "BTC-BSD",
         "middle_band_data": [],
-        "price_data": [
-            8.059e-05,
-            8.059e-05,
-            8.059e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -369,11 +255,7 @@
         "lower_band_data": [],
         "market": "BTC-BTA",
         "middle_band_data": [],
-        "price_data": [
-            0.00011348,
-            0.00011348,
-            0.00011348
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -383,11 +265,7 @@
         "lower_band_data": [],
         "market": "BTC-BTCD",
         "middle_band_data": [],
-        "price_data": [
-            0.01362265,
-            0.01362265,
-            0.01362265
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -397,11 +275,7 @@
         "lower_band_data": [],
         "market": "BTC-BTS",
         "middle_band_data": [],
-        "price_data": [
-            3.33e-05,
-            3.33e-05,
-            3.33e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -411,11 +285,7 @@
         "lower_band_data": [],
         "market": "BTC-BURST",
         "middle_band_data": [],
-        "price_data": [
-            1.62e-06,
-            1.62e-06,
-            1.62e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -425,11 +295,7 @@
         "lower_band_data": [],
         "market": "BTC-BYC",
         "middle_band_data": [],
-        "price_data": [
-            0.00012482,
-            0.00012482,
-            0.00012482
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -439,11 +305,7 @@
         "lower_band_data": [],
         "market": "BTC-CANN",
         "middle_band_data": [],
-        "price_data": [
-            5.14e-06,
-            5.14e-06,
-            5.14e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -453,11 +315,7 @@
         "lower_band_data": [],
         "market": "BTC-CFI",
         "middle_band_data": [],
-        "price_data": [
-            5.2e-05,
-            5.2e-05,
-            5.2e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -467,11 +325,7 @@
         "lower_band_data": [],
         "market": "BTC-CLAM",
         "middle_band_data": [],
-        "price_data": [
-            0.00176791,
-            0.00176791,
-            0.00176791
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -481,11 +335,7 @@
         "lower_band_data": [],
         "market": "BTC-CLOAK",
         "middle_band_data": [],
-        "price_data": [
-            0.00109865,
-            0.00109865,
-            0.00109865
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -495,11 +345,7 @@
         "lower_band_data": [],
         "market": "BTC-CLUB",
         "middle_band_data": [],
-        "price_data": [
-            0.00010352,
-            0.00010352,
-            0.00010352
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -509,11 +355,7 @@
         "lower_band_data": [],
         "market": "BTC-COVAL",
         "middle_band_data": [],
-        "price_data": [
-            1.31e-06,
-            1.31e-06,
-            1.31e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -523,11 +365,7 @@
         "lower_band_data": [],
         "market": "BTC-CPC",
         "middle_band_data": [],
-        "price_data": [
-            0.00011896,
-            0.00011896,
-            0.00011896
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -537,11 +375,7 @@
         "lower_band_data": [],
         "market": "BTC-CRB",
         "middle_band_data": [],
-        "price_data": [
-            0.00018103,
-            0.00018103,
-            0.00018103
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -551,11 +385,7 @@
         "lower_band_data": [],
         "market": "BTC-CRW",
         "middle_band_data": [],
-        "price_data": [
-            0.00025221,
-            0.00025221,
-            0.00025221
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -565,11 +395,7 @@
         "lower_band_data": [],
         "market": "BTC-CURE",
         "middle_band_data": [],
-        "price_data": [
-            6.387e-05,
-            6.387e-05,
-            6.387e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -579,11 +405,7 @@
         "lower_band_data": [],
         "market": "BTC-CVC",
         "middle_band_data": [],
-        "price_data": [
-            0.00012409,
-            0.00012409,
-            0.00012409
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -593,11 +415,7 @@
         "lower_band_data": [],
         "market": "BTC-DAR",
         "middle_band_data": [],
-        "price_data": [
-            7.34e-05,
-            7.34e-05,
-            7.34e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -607,11 +425,7 @@
         "lower_band_data": [],
         "market": "BTC-DASH",
         "middle_band_data": [],
-        "price_data": [
-            0.07152585,
-            0.07152585,
-            0.07152585
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -621,11 +435,7 @@
         "lower_band_data": [],
         "market": "BTC-DCR",
         "middle_band_data": [],
-        "price_data": [
-            0.00658196,
-            0.00658196,
-            0.00658196
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -635,11 +445,7 @@
         "lower_band_data": [],
         "market": "BTC-DCT",
         "middle_band_data": [],
-        "price_data": [
-            0.000308,
-            0.000308,
-            0.000308
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -649,11 +455,7 @@
         "lower_band_data": [],
         "market": "BTC-DGB",
         "middle_band_data": [],
-        "price_data": [
-            3.31e-06,
-            3.31e-06,
-            3.31e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -663,11 +465,7 @@
         "lower_band_data": [],
         "market": "BTC-DGD",
         "middle_band_data": [],
-        "price_data": [
-            0.01947634,
-            0.01947634,
-            0.01947634
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -677,11 +475,7 @@
         "lower_band_data": [],
         "market": "BTC-DMD",
         "middle_band_data": [],
-        "price_data": [
-            0.00115999,
-            0.00115999,
-            0.00115999
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -691,11 +485,7 @@
         "lower_band_data": [],
         "market": "BTC-DOGE",
         "middle_band_data": [],
-        "price_data": [
-            4.2e-07,
-            4.2e-07,
-            4.2e-07
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -705,11 +495,7 @@
         "lower_band_data": [],
         "market": "BTC-DOPE",
         "middle_band_data": [],
-        "price_data": [
-            6.22e-06,
-            6.22e-06,
-            6.22e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -719,11 +505,7 @@
         "lower_band_data": [],
         "market": "BTC-DRACO",
         "middle_band_data": [],
-        "price_data": [
-            3.7e-06,
-            3.7e-06,
-            3.7e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -733,11 +515,7 @@
         "lower_band_data": [],
         "market": "BTC-DTB",
         "middle_band_data": [],
-        "price_data": [
-            0.00023161,
-            0.00023161,
-            0.00023161
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -747,11 +525,7 @@
         "lower_band_data": [],
         "market": "BTC-DYN",
         "middle_band_data": [],
-        "price_data": [
-            0.00047541,
-            0.00047541,
-            0.00047541
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -761,11 +535,7 @@
         "lower_band_data": [],
         "market": "BTC-EBST",
         "middle_band_data": [],
-        "price_data": [
-            4.021e-05,
-            4.021e-05,
-            4.021e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -775,11 +545,7 @@
         "lower_band_data": [],
         "market": "BTC-EDG",
         "middle_band_data": [],
-        "price_data": [
-            0.00017899,
-            0.00017899,
-            0.00017899
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -789,11 +555,7 @@
         "lower_band_data": [],
         "market": "BTC-EFL",
         "middle_band_data": [],
-        "price_data": [
-            2.65e-05,
-            2.65e-05,
-            2.65e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -803,11 +565,7 @@
         "lower_band_data": [],
         "market": "BTC-EGC",
         "middle_band_data": [],
-        "price_data": [
-            4.179e-05,
-            4.179e-05,
-            4.179e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -817,11 +575,7 @@
         "lower_band_data": [],
         "market": "BTC-EMC",
         "middle_band_data": [],
-        "price_data": [
-            0.00028,
-            0.00028,
-            0.00028
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -831,11 +585,7 @@
         "lower_band_data": [],
         "market": "BTC-EMC2",
         "middle_band_data": [],
-        "price_data": [
-            9.78e-06,
-            9.78e-06,
-            9.78e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -845,11 +595,7 @@
         "lower_band_data": [],
         "market": "BTC-ENRG",
         "middle_band_data": [],
-        "price_data": [
-            2.417e-05,
-            2.417e-05,
-            2.417e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -859,11 +605,7 @@
         "lower_band_data": [],
         "market": "BTC-ERC",
         "middle_band_data": [],
-        "price_data": [
-            5.231e-05,
-            5.231e-05,
-            5.231e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -873,11 +615,7 @@
         "lower_band_data": [],
         "market": "BTC-ETC",
         "middle_band_data": [],
-        "price_data": [
-            0.00367017,
-            0.00367017,
-            0.00367017
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -887,11 +625,7 @@
         "lower_band_data": [],
         "market": "BTC-ETH",
         "middle_band_data": [],
-        "price_data": [
-            0.0813,
-            0.0813,
-            0.0813
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -901,11 +635,7 @@
         "lower_band_data": [],
         "market": "BTC-EXCL",
         "middle_band_data": [],
-        "price_data": [
-            0.00020474,
-            0.00020474,
-            0.00020474
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -915,11 +645,7 @@
         "lower_band_data": [],
         "market": "BTC-EXP",
         "middle_band_data": [],
-        "price_data": [
-            0.00070295,
-            0.00070295,
-            0.00070295
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -929,11 +655,7 @@
         "lower_band_data": [],
         "market": "BTC-FAIR",
         "middle_band_data": [],
-        "price_data": [
-            0.00013598,
-            0.00013598,
-            0.00013598
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -943,11 +665,7 @@
         "lower_band_data": [],
         "market": "BTC-FCT",
         "middle_band_data": [],
-        "price_data": [
-            0.00587164,
-            0.00587164,
-            0.00587164
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -957,11 +675,7 @@
         "lower_band_data": [],
         "market": "BTC-FLDC",
         "middle_band_data": [],
-        "price_data": [
-            2.91e-06,
-            2.91e-06,
-            2.91e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -971,11 +685,7 @@
         "lower_band_data": [],
         "market": "BTC-FLO",
         "middle_band_data": [],
-        "price_data": [
-            1.175e-05,
-            1.175e-05,
-            1.175e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -985,11 +695,7 @@
         "lower_band_data": [],
         "market": "BTC-FTC",
         "middle_band_data": [],
-        "price_data": [
-            1.4e-05,
-            1.4e-05,
-            1.4e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -999,11 +705,7 @@
         "lower_band_data": [],
         "market": "BTC-FUN",
         "middle_band_data": [],
-        "price_data": [
-            7.13e-06,
-            7.13e-06,
-            7.13e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1013,11 +715,7 @@
         "lower_band_data": [],
         "market": "BTC-GAM",
         "middle_band_data": [],
-        "price_data": [
-            0.00198377,
-            0.00198377,
-            0.00198377
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1027,11 +725,7 @@
         "lower_band_data": [],
         "market": "BTC-GAME",
         "middle_band_data": [],
-        "price_data": [
-            0.00049522,
-            0.00049522,
-            0.00049522
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1041,11 +735,7 @@
         "lower_band_data": [],
         "market": "BTC-GBG",
         "middle_band_data": [],
-        "price_data": [
-            2.251e-05,
-            2.251e-05,
-            2.251e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1055,11 +745,7 @@
         "lower_band_data": [],
         "market": "BTC-GBYTE",
         "middle_band_data": [],
-        "price_data": [
-            0.08526319,
-            0.08526319,
-            0.08526319
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1069,11 +755,7 @@
         "lower_band_data": [],
         "market": "BTC-GCR",
         "middle_band_data": [],
-        "price_data": [
-            1.167e-05,
-            1.167e-05,
-            1.167e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1083,11 +765,7 @@
         "lower_band_data": [],
         "market": "BTC-GEO",
         "middle_band_data": [],
-        "price_data": [
-            0.00050385,
-            0.00050385,
-            0.00050385
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1097,11 +775,7 @@
         "lower_band_data": [],
         "market": "BTC-GLD",
         "middle_band_data": [],
-        "price_data": [
-            2.84e-05,
-            2.84e-05,
-            2.84e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1111,11 +785,7 @@
         "lower_band_data": [],
         "market": "BTC-GNO",
         "middle_band_data": [],
-        "price_data": [
-            0.041,
-            0.041,
-            0.041
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1125,11 +795,7 @@
         "lower_band_data": [],
         "market": "BTC-GNT",
         "middle_band_data": [],
-        "price_data": [
-            7.34e-05,
-            7.34e-05,
-            7.34e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1139,11 +805,7 @@
         "lower_band_data": [],
         "market": "BTC-GOLOS",
         "middle_band_data": [],
-        "price_data": [
-            3.95e-05,
-            3.95e-05,
-            3.95e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1153,11 +815,7 @@
         "lower_band_data": [],
         "market": "BTC-GRC",
         "middle_band_data": [],
-        "price_data": [
-            8.48e-06,
-            8.48e-06,
-            8.48e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1167,11 +825,7 @@
         "lower_band_data": [],
         "market": "BTC-GRS",
         "middle_band_data": [],
-        "price_data": [
-            2.895e-05,
-            2.895e-05,
-            2.895e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1181,11 +835,7 @@
         "lower_band_data": [],
         "market": "BTC-GUP",
         "middle_band_data": [],
-        "price_data": [
-            5.27e-05,
-            5.27e-05,
-            5.27e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1195,11 +845,7 @@
         "lower_band_data": [],
         "market": "BTC-HKG",
         "middle_band_data": [],
-        "price_data": [
-            2.092e-05,
-            2.092e-05,
-            2.092e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1209,11 +855,7 @@
         "lower_band_data": [],
         "market": "BTC-HMQ",
         "middle_band_data": [],
-        "price_data": [
-            3.755e-05,
-            3.755e-05,
-            3.755e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1223,11 +865,7 @@
         "lower_band_data": [],
         "market": "BTC-INCNT",
         "middle_band_data": [],
-        "price_data": [
-            5.662e-05,
-            5.662e-05,
-            5.662e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1237,11 +875,7 @@
         "lower_band_data": [],
         "market": "BTC-INFX",
         "middle_band_data": [],
-        "price_data": [
-            0.00012367,
-            0.00012367,
-            0.00012367
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1251,11 +885,7 @@
         "lower_band_data": [],
         "market": "BTC-IOC",
         "middle_band_data": [],
-        "price_data": [
-            0.00048333,
-            0.00048333,
-            0.00048333
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1265,11 +895,7 @@
         "lower_band_data": [],
         "market": "BTC-ION",
         "middle_band_data": [],
-        "price_data": [
-            0.0004178,
-            0.0004178,
-            0.0004178
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1279,11 +905,7 @@
         "lower_band_data": [],
         "market": "BTC-IOP",
         "middle_band_data": [],
-        "price_data": [
-            0.00015884,
-            0.00015884,
-            0.00015884
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1293,11 +915,7 @@
         "lower_band_data": [],
         "market": "BTC-KMD",
         "middle_band_data": [],
-        "price_data": [
-            0.0003213,
-            0.0003213,
-            0.0003213
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1307,11 +925,7 @@
         "lower_band_data": [],
         "market": "BTC-KORE",
         "middle_band_data": [],
-        "price_data": [
-            0.000346,
-            0.000346,
-            0.000346
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1321,11 +935,7 @@
         "lower_band_data": [],
         "market": "BTC-LBC",
         "middle_band_data": [],
-        "price_data": [
-            8.654e-05,
-            8.654e-05,
-            8.654e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1335,11 +945,7 @@
         "lower_band_data": [],
         "market": "BTC-LGD",
         "middle_band_data": [],
-        "price_data": [
-            0.00058032,
-            0.00058032,
-            0.00058032
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1349,11 +955,7 @@
         "lower_band_data": [],
         "market": "BTC-LMC",
         "middle_band_data": [],
-        "price_data": [
-            1.327e-05,
-            1.327e-05,
-            1.327e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1363,11 +965,7 @@
         "lower_band_data": [],
         "market": "BTC-LSK",
         "middle_band_data": [],
-        "price_data": [
-            0.00069248,
-            0.00069248,
-            0.00069248
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1377,11 +975,7 @@
         "lower_band_data": [],
         "market": "BTC-LTC",
         "middle_band_data": [],
-        "price_data": [
-            0.01208711,
-            0.01208711,
-            0.01208711
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1391,11 +985,7 @@
         "lower_band_data": [],
         "market": "BTC-LUN",
         "middle_band_data": [],
-        "price_data": [
-            0.00273281,
-            0.00273281,
-            0.00273281
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1405,11 +995,7 @@
         "lower_band_data": [],
         "market": "BTC-MAID",
         "middle_band_data": [],
-        "price_data": [
-            0.0001127,
-            0.0001127,
-            0.0001127
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1419,11 +1005,7 @@
         "lower_band_data": [],
         "market": "BTC-MCO",
         "middle_band_data": [],
-        "price_data": [
-            0.003101,
-            0.003101,
-            0.003101
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1433,11 +1015,7 @@
         "lower_band_data": [],
         "market": "BTC-MEME",
         "middle_band_data": [],
-        "price_data": [
-            4.35e-05,
-            4.35e-05,
-            4.35e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1447,11 +1025,7 @@
         "lower_band_data": [],
         "market": "BTC-MLN",
         "middle_band_data": [],
-        "price_data": [
-            0.01863994,
-            0.01863994,
-            0.01863994
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1461,11 +1035,7 @@
         "lower_band_data": [],
         "market": "BTC-MONA",
         "middle_band_data": [],
-        "price_data": [
-            0.00011485,
-            0.00011485,
-            0.00011485
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1475,11 +1045,7 @@
         "lower_band_data": [],
         "market": "BTC-MTL",
         "middle_band_data": [],
-        "price_data": [
-            0.00225497,
-            0.00225497,
-            0.00225497
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1489,11 +1055,7 @@
         "lower_band_data": [],
         "market": "BTC-MUE",
         "middle_band_data": [],
-        "price_data": [
-            4.452e-05,
-            4.452e-05,
-            4.452e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1503,11 +1065,7 @@
         "lower_band_data": [],
         "market": "BTC-MUSIC",
         "middle_band_data": [],
-        "price_data": [
-            5.26e-06,
-            5.26e-06,
-            5.26e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1517,11 +1075,7 @@
         "lower_band_data": [],
         "market": "BTC-MYST",
         "middle_band_data": [],
-        "price_data": [
-            0.00034572,
-            0.00034572,
-            0.00034572
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1531,11 +1085,7 @@
         "lower_band_data": [],
         "market": "BTC-NAUT",
         "middle_band_data": [],
-        "price_data": [
-            3.557e-05,
-            3.557e-05,
-            3.557e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1545,11 +1095,7 @@
         "lower_band_data": [],
         "market": "BTC-NAV",
         "middle_band_data": [],
-        "price_data": [
-            5.961e-05,
-            5.961e-05,
-            5.961e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1559,11 +1105,7 @@
         "lower_band_data": [],
         "market": "BTC-NBT",
         "middle_band_data": [],
-        "price_data": [
-            0.00025448,
-            0.00025448,
-            0.00025448
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1573,11 +1115,7 @@
         "lower_band_data": [],
         "market": "BTC-NEO",
         "middle_band_data": [],
-        "price_data": [
-            0.00905999,
-            0.00905999,
-            0.00905999
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1587,11 +1125,7 @@
         "lower_band_data": [],
         "market": "BTC-NEOS",
         "middle_band_data": [],
-        "price_data": [
-            0.00075743,
-            0.00075743,
-            0.00075743
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1601,11 +1135,7 @@
         "lower_band_data": [],
         "market": "BTC-NLG",
         "middle_band_data": [],
-        "price_data": [
-            2.35e-05,
-            2.35e-05,
-            2.35e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1615,11 +1145,7 @@
         "lower_band_data": [],
         "market": "BTC-NMR",
         "middle_band_data": [],
-        "price_data": [
-            0.00899991,
-            0.00899991,
-            0.00899991
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1629,11 +1155,7 @@
         "lower_band_data": [],
         "market": "BTC-NXC",
         "middle_band_data": [],
-        "price_data": [
-            5.531e-05,
-            5.531e-05,
-            5.531e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1643,11 +1165,7 @@
         "lower_band_data": [],
         "market": "BTC-NXS",
         "middle_band_data": [],
-        "price_data": [
-            0.00036312,
-            0.00036312,
-            0.00036312
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1657,11 +1175,7 @@
         "lower_band_data": [],
         "market": "BTC-NXT",
         "middle_band_data": [],
-        "price_data": [
-            2.701e-05,
-            2.701e-05,
-            2.701e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1671,11 +1185,7 @@
         "lower_band_data": [],
         "market": "BTC-OK",
         "middle_band_data": [],
-        "price_data": [
-            2.217e-05,
-            2.217e-05,
-            2.217e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1685,11 +1195,7 @@
         "lower_band_data": [],
         "market": "BTC-OMG",
         "middle_band_data": [],
-        "price_data": [
-            0.0019399,
-            0.0019399,
-            0.0019399
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1699,11 +1205,7 @@
         "lower_band_data": [],
         "market": "BTC-OMNI",
         "middle_band_data": [],
-        "price_data": [
-            0.00756149,
-            0.00756149,
-            0.00756149
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1713,11 +1215,7 @@
         "lower_band_data": [],
         "market": "BTC-PART",
         "middle_band_data": [],
-        "price_data": [
-            0.0018426,
-            0.0018426,
-            0.0018426
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1727,11 +1225,7 @@
         "lower_band_data": [],
         "market": "BTC-PAY",
         "middle_band_data": [],
-        "price_data": [
-            0.00090999,
-            0.00090999,
-            0.00090999
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1741,11 +1235,7 @@
         "lower_band_data": [],
         "market": "BTC-PDC",
         "middle_band_data": [],
-        "price_data": [
-            2.722e-05,
-            2.722e-05,
-            2.722e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1755,11 +1245,7 @@
         "lower_band_data": [],
         "market": "BTC-PINK",
         "middle_band_data": [],
-        "price_data": [
-            3.06e-06,
-            3.06e-06,
-            3.06e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1769,11 +1255,7 @@
         "lower_band_data": [],
         "market": "BTC-PIVX",
         "middle_band_data": [],
-        "price_data": [
-            0.0004595,
-            0.0004595,
-            0.0004595
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1783,11 +1265,7 @@
         "lower_band_data": [],
         "market": "BTC-PKB",
         "middle_band_data": [],
-        "price_data": [
-            6.811e-05,
-            6.811e-05,
-            6.811e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1797,11 +1275,7 @@
         "lower_band_data": [],
         "market": "BTC-POT",
         "middle_band_data": [],
-        "price_data": [
-            3.173e-05,
-            3.173e-05,
-            3.173e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1811,11 +1285,7 @@
         "lower_band_data": [],
         "market": "BTC-PPC",
         "middle_band_data": [],
-        "price_data": [
-            0.00040109,
-            0.00040109,
-            0.00040109
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1825,11 +1295,7 @@
         "lower_band_data": [],
         "market": "BTC-PTC",
         "middle_band_data": [],
-        "price_data": [
-            4.14e-06,
-            4.14e-06,
-            4.14e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1839,11 +1305,7 @@
         "lower_band_data": [],
         "market": "BTC-PTOY",
         "middle_band_data": [],
-        "price_data": [
-            7.026e-05,
-            7.026e-05,
-            7.026e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1853,11 +1315,7 @@
         "lower_band_data": [],
         "market": "BTC-QRL",
         "middle_band_data": [],
-        "price_data": [
-            0.0001465,
-            0.0001465,
-            0.0001465
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1867,11 +1325,7 @@
         "lower_band_data": [],
         "market": "BTC-QTUM",
         "middle_band_data": [],
-        "price_data": [
-            0.00278943,
-            0.00278943,
-            0.00278943
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1881,11 +1335,7 @@
         "lower_band_data": [],
         "market": "BTC-QWARK",
         "middle_band_data": [],
-        "price_data": [
-            7.623e-05,
-            7.623e-05,
-            7.623e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1895,11 +1345,7 @@
         "lower_band_data": [],
         "market": "BTC-RADS",
         "middle_band_data": [],
-        "price_data": [
-            0.00153797,
-            0.00153797,
-            0.00153797
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1909,11 +1355,7 @@
         "lower_band_data": [],
         "market": "BTC-RBY",
         "middle_band_data": [],
-        "price_data": [
-            0.00012426,
-            0.00012426,
-            0.00012426
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1923,11 +1365,7 @@
         "lower_band_data": [],
         "market": "BTC-RDD",
         "middle_band_data": [],
-        "price_data": [
-            2.6e-07,
-            2.6e-07,
-            2.6e-07
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1937,11 +1375,7 @@
         "lower_band_data": [],
         "market": "BTC-REP",
         "middle_band_data": [],
-        "price_data": [
-            0.00567441,
-            0.00567441,
-            0.00567441
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1951,11 +1385,7 @@
         "lower_band_data": [],
         "market": "BTC-RISE",
         "middle_band_data": [],
-        "price_data": [
-            2.273e-05,
-            2.273e-05,
-            2.273e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1965,11 +1395,7 @@
         "lower_band_data": [],
         "market": "BTC-RLC",
         "middle_band_data": [],
-        "price_data": [
-            0.00015984,
-            0.00015984,
-            0.00015984
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1979,11 +1405,7 @@
         "lower_band_data": [],
         "market": "BTC-SAFEX",
         "middle_band_data": [],
-        "price_data": [
-            2.66e-06,
-            2.66e-06,
-            2.66e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -1993,11 +1415,7 @@
         "lower_band_data": [],
         "market": "BTC-SBD",
         "middle_band_data": [],
-        "price_data": [
-            0.00026224,
-            0.00026224,
-            0.00026224
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2007,11 +1425,7 @@
         "lower_band_data": [],
         "market": "BTC-SC",
         "middle_band_data": [],
-        "price_data": [
-            1.76e-06,
-            1.76e-06,
-            1.76e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2021,11 +1435,7 @@
         "lower_band_data": [],
         "market": "BTC-SEQ",
         "middle_band_data": [],
-        "price_data": [
-            3.147e-05,
-            3.147e-05,
-            3.147e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2035,11 +1445,7 @@
         "lower_band_data": [],
         "market": "BTC-SHIFT",
         "middle_band_data": [],
-        "price_data": [
-            0.00028632,
-            0.00028632,
-            0.00028632
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2049,11 +1455,7 @@
         "lower_band_data": [],
         "market": "BTC-SIB",
         "middle_band_data": [],
-        "price_data": [
-            0.00026458,
-            0.00026458,
-            0.00026458
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2063,11 +1465,7 @@
         "lower_band_data": [],
         "market": "BTC-SLR",
         "middle_band_data": [],
-        "price_data": [
-            3.91e-05,
-            3.91e-05,
-            3.91e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2077,11 +1475,7 @@
         "lower_band_data": [],
         "market": "BTC-SLS",
         "middle_band_data": [],
-        "price_data": [
-            0.00346324,
-            0.00346324,
-            0.00346324
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2091,11 +1485,7 @@
         "lower_band_data": [],
         "market": "BTC-SNGLS",
         "middle_band_data": [],
-        "price_data": [
-            3.452e-05,
-            3.452e-05,
-            3.452e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2105,11 +1495,7 @@
         "lower_band_data": [],
         "market": "BTC-SNRG",
         "middle_band_data": [],
-        "price_data": [
-            0.00023362,
-            0.00023362,
-            0.00023362
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2119,11 +1505,7 @@
         "lower_band_data": [],
         "market": "BTC-SNT",
         "middle_band_data": [],
-        "price_data": [
-            1.265e-05,
-            1.265e-05,
-            1.265e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2133,11 +1515,7 @@
         "lower_band_data": [],
         "market": "BTC-SPHR",
         "middle_band_data": [],
-        "price_data": [
-            0.0008755,
-            0.0008755,
-            0.0008755
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2147,11 +1525,7 @@
         "lower_band_data": [],
         "market": "BTC-SPR",
         "middle_band_data": [],
-        "price_data": [
-            0.00033885,
-            0.00033885,
-            0.00033885
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2161,11 +1535,7 @@
         "lower_band_data": [],
         "market": "BTC-START",
         "middle_band_data": [],
-        "price_data": [
-            1.071e-05,
-            1.071e-05,
-            1.071e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2175,11 +1545,7 @@
         "lower_band_data": [],
         "market": "BTC-STEEM",
         "middle_band_data": [],
-        "price_data": [
-            0.00033233,
-            0.00033233,
-            0.00033233
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2189,11 +1555,7 @@
         "lower_band_data": [],
         "market": "BTC-STORJ",
         "middle_band_data": [],
-        "price_data": [
-            0.0002415,
-            0.0002415,
-            0.0002415
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2203,11 +1565,7 @@
         "lower_band_data": [],
         "market": "BTC-STRAT",
         "middle_band_data": [],
-        "price_data": [
-            0.001328,
-            0.001328,
-            0.001328
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2217,11 +1575,7 @@
         "lower_band_data": [],
         "market": "BTC-SWIFT",
         "middle_band_data": [],
-        "price_data": [
-            0.0002804,
-            0.0002804,
-            0.0002804
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2231,11 +1585,7 @@
         "lower_band_data": [],
         "market": "BTC-SWT",
         "middle_band_data": [],
-        "price_data": [
-            0.00040696,
-            0.00040696,
-            0.00040696
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2245,11 +1595,7 @@
         "lower_band_data": [],
         "market": "BTC-SYNX",
         "middle_band_data": [],
-        "price_data": [
-            4.599e-05,
-            4.599e-05,
-            4.599e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2259,11 +1605,7 @@
         "lower_band_data": [],
         "market": "BTC-SYS",
         "middle_band_data": [],
-        "price_data": [
-            2.974e-05,
-            2.974e-05,
-            2.974e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2273,11 +1615,7 @@
         "lower_band_data": [],
         "market": "BTC-THC",
         "middle_band_data": [],
-        "price_data": [
-            2.02e-06,
-            2.02e-06,
-            2.02e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2287,11 +1625,7 @@
         "lower_band_data": [],
         "market": "BTC-TIME",
         "middle_band_data": [],
-        "price_data": [
-            0.00609997,
-            0.00609997,
-            0.00609997
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2301,11 +1635,7 @@
         "lower_band_data": [],
         "market": "BTC-TKN",
         "middle_band_data": [],
-        "price_data": [
-            0.0003969,
-            0.0003969,
-            0.0003969
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2315,11 +1645,7 @@
         "lower_band_data": [],
         "market": "BTC-TKS",
         "middle_band_data": [],
-        "price_data": [
-            0.000615,
-            0.000615,
-            0.000615
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2329,11 +1655,7 @@
         "lower_band_data": [],
         "market": "BTC-TRIG",
         "middle_band_data": [],
-        "price_data": [
-            3.8e-05,
-            3.8e-05,
-            3.8e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2343,11 +1665,7 @@
         "lower_band_data": [],
         "market": "BTC-TRST",
         "middle_band_data": [],
-        "price_data": [
-            5.528e-05,
-            5.528e-05,
-            5.528e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2357,11 +1675,7 @@
         "lower_band_data": [],
         "market": "BTC-TRUST",
         "middle_band_data": [],
-        "price_data": [
-            1.396e-05,
-            1.396e-05,
-            1.396e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2371,11 +1685,7 @@
         "lower_band_data": [],
         "market": "BTC-TX",
         "middle_band_data": [],
-        "price_data": [
-            9.44e-05,
-            9.44e-05,
-            9.44e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2385,11 +1695,7 @@
         "lower_band_data": [],
         "market": "BTC-UBQ",
         "middle_band_data": [],
-        "price_data": [
-            0.00041837,
-            0.00041837,
-            0.00041837
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2399,11 +1705,7 @@
         "lower_band_data": [],
         "market": "BTC-UNB",
         "middle_band_data": [],
-        "price_data": [
-            6.286e-05,
-            6.286e-05,
-            6.286e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2413,11 +1715,7 @@
         "lower_band_data": [],
         "market": "BTC-UNO",
         "middle_band_data": [],
-        "price_data": [
-            0.01641499,
-            0.01641499,
-            0.01641499
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2427,11 +1725,7 @@
         "lower_band_data": [],
         "market": "BTC-VIA",
         "middle_band_data": [],
-        "price_data": [
-            0.00023818,
-            0.00023818,
-            0.00023818
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2441,11 +1735,7 @@
         "lower_band_data": [],
         "market": "BTC-VOX",
         "middle_band_data": [],
-        "price_data": [
-            1.414e-05,
-            1.414e-05,
-            1.414e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2455,11 +1745,7 @@
         "lower_band_data": [],
         "market": "BTC-VRC",
         "middle_band_data": [],
-        "price_data": [
-            6.204e-05,
-            6.204e-05,
-            6.204e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2469,11 +1755,7 @@
         "lower_band_data": [],
         "market": "BTC-VRM",
         "middle_band_data": [],
-        "price_data": [
-            0.00057021,
-            0.00057021,
-            0.00057021
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2483,11 +1765,7 @@
         "lower_band_data": [],
         "market": "BTC-VTC",
         "middle_band_data": [],
-        "price_data": [
-            0.00013135,
-            0.00013135,
-            0.00013135
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2497,11 +1775,7 @@
         "lower_band_data": [],
         "market": "BTC-VTR",
         "middle_band_data": [],
-        "price_data": [
-            3.955e-05,
-            3.955e-05,
-            3.955e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2511,11 +1785,7 @@
         "lower_band_data": [],
         "market": "BTC-WAVES",
         "middle_band_data": [],
-        "price_data": [
-            0.00108527,
-            0.00108527,
-            0.00108527
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2525,11 +1795,7 @@
         "lower_band_data": [],
         "market": "BTC-WINGS",
         "middle_band_data": [],
-        "price_data": [
-            0.00014452,
-            0.00014452,
-            0.00014452
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2539,11 +1805,7 @@
         "lower_band_data": [],
         "market": "BTC-XAUR",
         "middle_band_data": [],
-        "price_data": [
-            3.844e-05,
-            3.844e-05,
-            3.844e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2553,11 +1815,7 @@
         "lower_band_data": [],
         "market": "BTC-XBB",
         "middle_band_data": [],
-        "price_data": [
-            0.000171,
-            0.000171,
-            0.000171
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2567,11 +1825,7 @@
         "lower_band_data": [],
         "market": "BTC-XCP",
         "middle_band_data": [],
-        "price_data": [
-            0.00369715,
-            0.00369715,
-            0.00369715
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2581,11 +1835,7 @@
         "lower_band_data": [],
         "market": "BTC-XDN",
         "middle_band_data": [],
-        "price_data": [
-            6.3e-07,
-            6.3e-07,
-            6.3e-07
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2595,11 +1845,7 @@
         "lower_band_data": [],
         "market": "BTC-XEL",
         "middle_band_data": [],
-        "price_data": [
-            0.00011099,
-            0.00011099,
-            0.00011099
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2609,11 +1855,7 @@
         "lower_band_data": [],
         "market": "BTC-XEM",
         "middle_band_data": [],
-        "price_data": [
-            6.656e-05,
-            6.656e-05,
-            6.656e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2623,11 +1865,7 @@
         "lower_band_data": [],
         "market": "BTC-XLM",
         "middle_band_data": [],
-        "price_data": [
-            4.73e-06,
-            4.73e-06,
-            4.73e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2637,11 +1875,7 @@
         "lower_band_data": [],
         "market": "BTC-XMG",
         "middle_band_data": [],
-        "price_data": [
-            5.503e-05,
-            5.503e-05,
-            5.503e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2651,11 +1885,7 @@
         "lower_band_data": [],
         "market": "BTC-XMR",
         "middle_band_data": [],
-        "price_data": [
-            0.01948898,
-            0.01948898,
-            0.01948898
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2665,11 +1895,7 @@
         "lower_band_data": [],
         "market": "BTC-XMY",
         "middle_band_data": [],
-        "price_data": [
-            5.6e-07,
-            5.6e-07,
-            5.6e-07
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2679,11 +1905,7 @@
         "lower_band_data": [],
         "market": "BTC-XRP",
         "middle_band_data": [],
-        "price_data": [
-            4.77e-05,
-            4.77e-05,
-            4.77e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2693,11 +1915,7 @@
         "lower_band_data": [],
         "market": "BTC-XST",
         "middle_band_data": [],
-        "price_data": [
-            3.729e-05,
-            3.729e-05,
-            3.729e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2707,11 +1925,7 @@
         "lower_band_data": [],
         "market": "BTC-XVC",
         "middle_band_data": [],
-        "price_data": [
-            8.544e-05,
-            8.544e-05,
-            8.544e-05
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2721,11 +1935,7 @@
         "lower_band_data": [],
         "market": "BTC-XVG",
         "middle_band_data": [],
-        "price_data": [
-            5.1e-07,
-            5.1e-07,
-            5.1e-07
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2735,11 +1945,7 @@
         "lower_band_data": [],
         "market": "BTC-XWC",
         "middle_band_data": [],
-        "price_data": [
-            1.61e-06,
-            1.61e-06,
-            1.61e-06
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2749,11 +1955,7 @@
         "lower_band_data": [],
         "market": "BTC-XZC",
         "middle_band_data": [],
-        "price_data": [
-            0.00217252,
-            0.00217252,
-            0.00217252
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2763,11 +1965,7 @@
         "lower_band_data": [],
         "market": "BTC-ZCL",
         "middle_band_data": [],
-        "price_data": [
-            0.00057375,
-            0.00057375,
-            0.00057375
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2777,11 +1975,7 @@
         "lower_band_data": [],
         "market": "BTC-ZEC",
         "middle_band_data": [],
-        "price_data": [
-            0.05935396,
-            0.05935396,
-            0.05935396
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     },
@@ -2791,865 +1985,7 @@
         "lower_band_data": [],
         "market": "BTC-ZEN",
         "middle_band_data": [],
-        "price_data": [
-            0.00173603,
-            0.00173603,
-            0.00173603
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-1ST": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-1ST",
-        "middle_band_data": [],
-        "price_data": [
-            0.0021206,
-            0.0021206,
-            0.0021206
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-ADT": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-ADT",
-        "middle_band_data": [],
-        "price_data": [
-            0.0002041,
-            0.0002041,
-            0.0002041
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-ADX": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-ADX",
-        "middle_band_data": [],
-        "price_data": [
-            0.0036,
-            0.0036,
-            0.0036
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-ANT": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-ANT",
-        "middle_band_data": [],
-        "price_data": [
-            0.008,
-            0.008,
-            0.008
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-BAT": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-BAT",
-        "middle_band_data": [],
-        "price_data": [
-            0.00060972,
-            0.00060972,
-            0.00060972
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-BCC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-BCC",
-        "middle_band_data": [],
-        "price_data": [
-            1.86200001,
-            1.86200001,
-            1.86200001
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-BNT": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-BNT",
-        "middle_band_data": [],
-        "price_data": [
-            0.00837069,
-            0.00837069,
-            0.00837069
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-BTS": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-BTS",
-        "middle_band_data": [],
-        "price_data": [
-            0.00040021,
-            0.00040021,
-            0.00040021
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-CFI": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-CFI",
-        "middle_band_data": [],
-        "price_data": [
-            0.00066403,
-            0.00066403,
-            0.00066403
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-CRB": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-CRB",
-        "middle_band_data": [],
-        "price_data": [
-            0.00224942,
-            0.00224942,
-            0.00224942
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-CVC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-CVC",
-        "middle_band_data": [],
-        "price_data": [
-            0.001532,
-            0.001532,
-            0.001532
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-DASH": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-DASH",
-        "middle_band_data": [],
-        "price_data": [
-            0.88555907,
-            0.88555907,
-            0.88555907
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-DGB": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-DGB",
-        "middle_band_data": [],
-        "price_data": [
-            4.071e-05,
-            4.071e-05,
-            4.071e-05
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-DGD": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-DGD",
-        "middle_band_data": [],
-        "price_data": [
-            0.24106119,
-            0.24106119,
-            0.24106119
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-ETC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-ETC",
-        "middle_band_data": [],
-        "price_data": [
-            0.04577697,
-            0.04577697,
-            0.04577697
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-FCT": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-FCT",
-        "middle_band_data": [],
-        "price_data": [
-            0.07400199,
-            0.07400199,
-            0.07400199
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-FUN": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-FUN",
-        "middle_band_data": [],
-        "price_data": [
-            8.766e-05,
-            8.766e-05,
-            8.766e-05
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-GNO": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-GNO",
-        "middle_band_data": [],
-        "price_data": [
-            0.51010294,
-            0.51010294,
-            0.51010294
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-GNT": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-GNT",
-        "middle_band_data": [],
-        "price_data": [
-            0.0009117,
-            0.0009117,
-            0.0009117
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-GUP": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-GUP",
-        "middle_band_data": [],
-        "price_data": [
-            0.00063002,
-            0.00063002,
-            0.00063002
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-HMQ": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-HMQ",
-        "middle_band_data": [],
-        "price_data": [
-            0.00045948,
-            0.00045948,
-            0.00045948
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-LGD": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-LGD",
-        "middle_band_data": [],
-        "price_data": [
-            0.00680954,
-            0.00680954,
-            0.00680954
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-LTC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-LTC",
-        "middle_band_data": [],
-        "price_data": [
-            0.15047069,
-            0.15047069,
-            0.15047069
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-LUN": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-LUN",
-        "middle_band_data": [],
-        "price_data": [
-            0.03219568,
-            0.03219568,
-            0.03219568
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-MCO": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-MCO",
-        "middle_band_data": [],
-        "price_data": [
-            0.03743028,
-            0.03743028,
-            0.03743028
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-MTL": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-MTL",
-        "middle_band_data": [],
-        "price_data": [
-            0.02651759,
-            0.02651759,
-            0.02651759
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-MYST": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-MYST",
-        "middle_band_data": [],
-        "price_data": [
-            0.00429349,
-            0.00429349,
-            0.00429349
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-NEO": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-NEO",
-        "middle_band_data": [],
-        "price_data": [
-            0.11027276,
-            0.11027276,
-            0.11027276
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-NMR": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-NMR",
-        "middle_band_data": [],
-        "price_data": [
-            0.1080132,
-            0.1080132,
-            0.1080132
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-OMG": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-OMG",
-        "middle_band_data": [],
-        "price_data": [
-            0.02419393,
-            0.02419393,
-            0.02419393
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-PAY": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-PAY",
-        "middle_band_data": [],
-        "price_data": [
-            0.0110966,
-            0.0110966,
-            0.0110966
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-PTOY": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-PTOY",
-        "middle_band_data": [],
-        "price_data": [
-            0.00086174,
-            0.00086174,
-            0.00086174
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-QRL": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-QRL",
-        "middle_band_data": [],
-        "price_data": [
-            0.00174203,
-            0.00174203,
-            0.00174203
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-QTUM": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-QTUM",
-        "middle_band_data": [],
-        "price_data": [
-            0.03429001,
-            0.03429001,
-            0.03429001
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-REP": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-REP",
-        "middle_band_data": [],
-        "price_data": [
-            0.06692406,
-            0.06692406,
-            0.06692406
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-RLC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-RLC",
-        "middle_band_data": [],
-        "price_data": [
-            0.002,
-            0.002,
-            0.002
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-SC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-SC",
-        "middle_band_data": [],
-        "price_data": [
-            2.2e-05,
-            2.2e-05,
-            2.2e-05
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-SNGLS": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-SNGLS",
-        "middle_band_data": [],
-        "price_data": [
-            0.00042888,
-            0.00042888,
-            0.00042888
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-SNT": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-SNT",
-        "middle_band_data": [],
-        "price_data": [
-            0.00015498,
-            0.00015498,
-            0.00015498
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-STORJ": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-STORJ",
-        "middle_band_data": [],
-        "price_data": [
-            0.00296492,
-            0.00296492,
-            0.00296492
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-STRAT": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-STRAT",
-        "middle_band_data": [],
-        "price_data": [
-            0.01639,
-            0.01639,
-            0.01639
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-TIME": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-TIME",
-        "middle_band_data": [],
-        "price_data": [
-            0.06947574,
-            0.06947574,
-            0.06947574
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-TKN": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-TKN",
-        "middle_band_data": [],
-        "price_data": [
-            0.00475496,
-            0.00475496,
-            0.00475496
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-TRST": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-TRST",
-        "middle_band_data": [],
-        "price_data": [
-            0.000675,
-            0.000675,
-            0.000675
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-WAVES": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-WAVES",
-        "middle_band_data": [],
-        "price_data": [
-            0.01343564,
-            0.01343564,
-            0.01343564
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-WINGS": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-WINGS",
-        "middle_band_data": [],
-        "price_data": [
-            0.00175294,
-            0.00175294,
-            0.00175294
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-XEM": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-XEM",
-        "middle_band_data": [],
-        "price_data": [
-            0.00082684,
-            0.00082684,
-            0.00082684
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-XLM": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-XLM",
-        "middle_band_data": [],
-        "price_data": [
-            5.8e-05,
-            5.8e-05,
-            5.8e-05
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-XMR": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-XMR",
-        "middle_band_data": [],
-        "price_data": [
-            0.24184681,
-            0.24184681,
-            0.24184681
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-XRP": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-XRP",
-        "middle_band_data": [],
-        "price_data": [
-            0.00059052,
-            0.00059052,
-            0.00059052
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "ETH-ZEC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "ETH-ZEC",
-        "middle_band_data": [],
-        "price_data": [
-            0.70753443,
-            0.70753443,
-            0.70753443
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-BCC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-BCC",
-        "middle_band_data": [],
-        "price_data": [
-            597.3,
-            597.3,
-            597.3
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-BTC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-BTC",
-        "middle_band_data": [],
-        "price_data": [
-            3860.0,
-            3860.0,
-            3860.0
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-DASH": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-DASH",
-        "middle_band_data": [],
-        "price_data": [
-            279.77499993,
-            279.77499993,
-            279.77499993
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-ETC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-ETC",
-        "middle_band_data": [],
-        "price_data": [
-            14.14000263,
-            14.14000263,
-            14.14000263
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-ETH": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-ETH",
-        "middle_band_data": [],
-        "price_data": [
-            317.59999978,
-            317.59999978,
-            317.59999978
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-LTC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-LTC",
-        "middle_band_data": [],
-        "price_data": [
-            46.79,
-            46.79,
-            46.79
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-NEO": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-NEO",
-        "middle_band_data": [],
-        "price_data": [
-            35.0,
-            35.0,
-            35.0
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-XMR": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-XMR",
-        "middle_band_data": [],
-        "price_data": [
-            74.10000066,
-            74.10000066,
-            74.10000066
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-XRP": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-XRP",
-        "middle_band_data": [],
-        "price_data": [
-            0.185,
-            0.185,
-            0.185
-        ],
-        "tr_data": [],
-        "upper_band_data": []
-    },
-    "USDT-ZEC": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "USDT-ZEC",
-        "middle_band_data": [],
-        "price_data": [
-            230.0,
-            230.0,
-            230.0
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     }

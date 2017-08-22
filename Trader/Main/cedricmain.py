@@ -113,8 +113,8 @@ def update_pending_orders(orders):
 
 
 def initialize_hodl_strat():
-    markets_desired_gain = [('BTC-LSK', 10)]
-    # markets_desired_gain = []
+    # markets_desired_gain = [('BTC-LSK', 10)]
+    markets_desired_gain = []
     total_slots = 5
     return HS.HodlStrat(api, markets_desired_gain, total_slots)
 
@@ -156,6 +156,9 @@ def initialize_keltner_strat():
 def run_keltner_strat():
     ks.refresh_held_pending()
     ks.update_keltner_coins()
+
+    # Uncomment to do keltner math on all bittrex coins
+    # ks.add_bittrex_coins_to_keltner_coins()
 
     if total_bitcoin > satoshi_50k:
         ks.keltner_buy_strat(total_bitcoin)
