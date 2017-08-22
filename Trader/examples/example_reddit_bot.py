@@ -18,8 +18,8 @@ print(str(reddit.user.me()) + '\n')
 for submission in reddit.subreddit('CryptoCurrency').hot(limit=25):
     print(submission.title)
 
-    for x in submission.comments:
-        print(x.body)
+    # for x in submission.comments:
+    #     print(x.body)
 
     r = requests.post("http://text-processing.com/api/sentiment/", data={'text': submission.title})
     processedText = json.loads(r.text)

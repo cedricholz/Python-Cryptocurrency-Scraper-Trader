@@ -96,6 +96,119 @@ def get_time_passed_minutes(time_opened):
 
     time_diff = now - opened_datetime
 
-    time_passed = time_diff.total_seconds()/60
+    time_passed = time_diff.total_seconds() / 60
 
     return time_passed
+
+
+def get_updated_bittrex_coins():
+    bittrex_data = query_url("https://bittrex.com/api/v1.1/public/getmarketsummaries")['result']
+    coins = {}
+    for coin in bittrex_data:
+        key = coin['MarketName']
+        coins[key] = coin
+    return coins
+
+
+def buy(api, market, amount, coin_price, percent_change_24h, desired_gain):
+    """
+    Makes a buy order and adds the coin to pending_orders
+    :param market:
+    :param amount:
+    :param coin_price:
+    :param percent_change_24h:
+    :return:
+    """
+
+
+    total_to_spend = bitcoin_to_USD(coin_price * amount)
+
+    buy_order = api.buy_limit(market, amount, coin_price)
+
+    if buy_order['success']:
+
+        pending_orders = file_to_json("pending_orders.json")
+
+        coin_price_usd = bitcoin_to_USD(coin_price)
+        time = get_date_time()
+
+        print_and_write_to_logfile("BUYING\n" + market + "\n24h%: " + str(
+            percent_change_24h) + "\nUSD: $" + str(coin_price_usd) + "\nBTC: " + str(
+            coin_price) + "\nAmount: " + str(amount)
+                                   + "\nTotal Paid: $" + str(total_to_spend) + "\nTime: " + time)
+
+        t = {}
+        t['market'] = market
+        t['highest_24h_change'] = percent_change_24h
+        t['original_24h_change'] = percent_change_24h
+        t['price_bought'] = coin_price
+        t['amount'] = amount
+        t['total_paid'] = total_to_spend
+        t['sell_threshold'] = 10
+        t['uuid'] = buy_order['result']['uuid']
+        t['desired_gain'] = desired_gain
+
+        pending_orders['Buying'][market] = t
+
+        json_to_file(pending_orders, "pending_orders.json")
+    else:
+        print_and_write_to_logfile(
+            "Buy order of " + str(amount) + " " + market + " did not go through: " + buy_order['message'])
+    return buy_order
+
+
+def sell(api, amount, market, bittrex_coins):
+    """
+    Makes a sell order and adds the coin to pending_orders
+    :param api:
+    :param amount:
+    :param cur_coin_price:
+    :param market:
+    :param cur_24h_change:
+    :return:
+    """
+
+    coin_info = bittrex_coins[market]
+    cur_coin_price = float(coin_info['Last'])
+
+    sell_order = api.sell_limit(market, amount, cur_coin_price)
+    cur_24h_change = get_percent_change_24h(coin_info)
+
+    held_coins = file_to_json("held_coins.json")
+    pending_orders = file_to_json("pending_orders.json")
+
+    if sell_order['success']:
+        selling_for = bitcoin_to_USD(cur_coin_price * amount)
+        net_gain_loss = selling_for - float(held_coins[market]['total_paid'])
+        cur_coin_price_usd = bitcoin_to_USD(cur_coin_price)
+        cur_date_time = get_date_time()
+
+        symbol = get_second_market_coin(market)
+
+        print_and_write_to_logfile(
+            "SELLING\n" + str(symbol) + "\nUSD: $" + str(cur_coin_price_usd) + "\nBTC: " + str(
+                cur_coin_price) + "\nAmount: " + str(amount)
+            + "\n24h%: " + str(cur_24h_change) + "\nTotal Paid: $" + str(selling_for) + "\nNet Gain/Loss: " + str(
+                net_gain_loss) + "\nTime: " + str(cur_date_time))
+
+        t = {}
+        t['symbol'] = symbol
+        t['cur_coin_price'] = cur_coin_price
+        t['cur_coin_price_usd'] = cur_coin_price_usd
+        t['amount'] = amount
+        t['cur_24h_change'] = cur_24h_change
+        t['sold_for'] = selling_for
+        t['cur_24h_change'] = cur_24h_change
+        t['sold_for'] = selling_for
+        t['cur_date_time'] = cur_date_time
+        t['cur_24h_change'] = cur_24h_change
+        t['uuid'] = sell_order['result']['uuid']
+
+        pending_orders['Selling'][market] = t
+        json_to_file(pending_orders, "pending_orders.json")
+    else:
+        print_and_write_to_logfile("Sell order did not go through: " + sell_order['message'])
+
+
+def percent_change(bought_price, cur_price):
+    return 100 * (cur_price - bought_price) / bought_price
