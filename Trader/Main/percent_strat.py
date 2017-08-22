@@ -119,3 +119,6 @@ class PercentStrat:
     def refresh_held_pending(self):
         self.held_coins = utils.file_to_json("held_coins.json")
         self.pending_orders = utils.file_to_json("pending_orders.json")
+
+    def update_bittrex_coins(self):
+        self.bittrex_coins = utils.get_updated_bittrex_coins()
