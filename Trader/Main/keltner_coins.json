@@ -1,12 +1,1 @@
-{
-    "BTC-LSK": {
-        "atr_data": [],
-        "ema_data": [],
-        "lower_band_data": [],
-        "market": "BTC-LSK",
-        "middle_band_data": [],
-        "price_data": [],
-        "tr_data": [],
-        "upper_band_data": []
-    }
-}
+{}

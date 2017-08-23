@@ -81,7 +81,7 @@ class PercentStrat:
                 rank = utils.get_rank()
                 coin_rank = rank[utils.get_second_market_coin(coin_key)]
                 if float(coin_rank) > 50:
-                    market = self.bittrex_coins[coin_key]['MarketName']
+                    market = coin_key
                     if market.startswith('ETH'):
                         break
                     if market.startswith('BTC'):
@@ -122,7 +122,7 @@ class PercentStrat:
                 utils.json_to_file(self.held_coins, "held_coins.json")
 
                 self.held_coins[coin_market]['sell_threshold'] = self.updated_threshold(coin_market, self.held_coins)
-            utils.json_to_file(self.held_coins, "held_coins.json")
+                utils.json_to_file(self.held_coins, "held_coins.json")
 
             if cur_24h_change < highest_24h_change - self.held_coins[coin_market]['sell_threshold']:
                 cur_coin_price = float(coin_info['Last'])
