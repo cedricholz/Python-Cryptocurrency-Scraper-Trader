@@ -1,6 +1,6 @@
 import unittest
 import json
-from Trader.bittrex3 import Bittrex3
+from Trader.Bittrex3 import Bittrex3
 
 
 def test_basic_response(unit_test, result, method_name):

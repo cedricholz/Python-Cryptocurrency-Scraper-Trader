@@ -1,5 +1,5 @@
 from forex_python.bitcoin import BtcConverter
-from Trader.bittrex3 import Bittrex3
+from Trader.Bittrex3 import Bittrex3
 from datetime import datetime, timezone
 import urllib
 import json
@@ -68,12 +68,14 @@ def get_coin_market_cap_1hr_change():
         d[coin['symbol']] = coin['percent_change_1h']
     return d
 
+
 def get_rank():
     coinmarketcap_coins = query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
     d = {}
     for coin in coinmarketcap_coins:
         d[coin['symbol']] = coin['rank']
     return d
+
 
 def print_and_write_to_logfile(log_text):
     print(log_text + "\n")
@@ -98,7 +100,10 @@ def get_time_passed_minutes(time_opened):
 
     time_offset = datetime.utcnow() - now
 
-    opened_datetime = datetime.strptime(time_opened, "%Y-%m-%dT%H:%M:%S.%f") - time_offset
+    try:
+        opened_datetime = datetime.strptime(time_opened, "%Y-%m-%dT%H:%M:%S.%f") - time_offset
+    except ValueError:
+        opened_datetime = datetime.strptime(time_opened, "%Y-%m-%dT%H:%M:%S") - time_offset
 
     time_diff = now - opened_datetime
 

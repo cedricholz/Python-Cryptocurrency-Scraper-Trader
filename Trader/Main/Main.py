@@ -27,7 +27,7 @@ def clean_orders(orders):
             uuid = order['OrderUuid']
             cancel_order = api.cancel(order['OrderUuid'])
             if cancel_order['success']:
-                buying_or_selling = 'Buying' if order['OrderType'] == 'Limit_Buy' else 'Selling'
+                buying_or_selling = 'Buying' if order['OrderType'] == 'LIMIT_BUY' else 'Selling'
 
                 pending_uuids_markets = [(pending_orders[buying_or_selling][market]['uuid'], market) for market in
                                       pending_orders[buying_or_selling]]
@@ -95,7 +95,7 @@ def update_pending_orders(orders):
             pending_buy_order = pending_orders['Buying'][buy_uuids_market[1]]
             amount = str(pending_buy_order['amount'])
             utils.print_and_write_to_logfile(
-                "Buy order: " + amount + " of " + " " + buy_uuids_market[1] + " Processed Successfully " + "UUID: "
+                "Buy order: " + amount + " of " + buy_uuids_market[1] + " Processed Successfully " + "UUID: "
                 + buy_uuids_market[0])
             move_to_held(buy_uuids_market[1], 'Buying')
 
@@ -113,19 +113,19 @@ def update_pending_orders(orders):
 
 
 def initialize_hodl_strat():
-    markets_desired_gain = [('BTC-LSK', 10)]
-    #markets_desired_gain = []
+    # markets_desired_gain = [('BTC-STRAT', 20), ('BTC-SAFEX', 20)]
+    markets_desired_gain = []
     total_slots = 5
     return HS.HodlStrat(api, markets_desired_gain, total_slots)
 
 
 def run_hodl_strat():
     hs.refresh_held_pending()
+    hs.update_bittrex_coins()
 
     if total_bitcoin > satoshi_50k and len(hs.markets_desired_gain) != 0:
         hs.hodl_buy_strat(total_bitcoin)
 
-    hs.update_bittrex_coins()
     hs.hodl_sell_strat()
 
 
@@ -139,6 +139,7 @@ def initialize_percent_strat():
 
 def run_percent_strat():
     ps.refresh_held_pending_history()
+    ps.update_bittrex_coins()
     if total_bitcoin > satoshi_50k:
         ps.percent_buy_strat(total_bitcoin)
 

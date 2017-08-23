@@ -1,4 +1,4 @@
-import Trader.utils as utils
+import Trader.Utils as utils
 
 
 class PercentStrat:
@@ -124,7 +124,7 @@ class PercentStrat:
                 utils.json_to_file(self.held_coins, "held_coins.json")
 
                 self.held_coins[coin_market]['sell_threshold'] = self.updated_threshold(coin_market, self.held_coins)
-            utils.json_to_file(self.held_coins, "held_coins.json")
+                utils.json_to_file(self.held_coins, "held_coins.json")
 
             if cur_24h_change < highest_24h_change - 10:
                 cur_coin_price = float(coin_info['Last'])

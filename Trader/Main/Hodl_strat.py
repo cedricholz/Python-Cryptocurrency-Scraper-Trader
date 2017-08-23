@@ -1,4 +1,4 @@
-import Trader.utils as utils
+import Trader.Utils as utils
 
 
 class HodlStrat:
@@ -15,6 +15,9 @@ class HodlStrat:
         self.pending_orders = utils.file_to_json("pending_orders.json")
 
     def hodl_buy_strat(self, total_bitcoin):
+
+        # Over lower band, and cur_price > max(price_data)
+
 
         slots_open = self.total_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
             self.pending_orders['Selling'])
@@ -43,6 +46,7 @@ class HodlStrat:
         self.markets_desired_gain = failed_pairs
 
     def hodl_sell_strat(self):
+
         for market in self.held_coins:
             cur_price = float(self.bittrex_coins[market]['Last'])
             bought_price = self.held_coins[market]['price_bought']
