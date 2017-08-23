@@ -6,3 +6,4 @@ logs.txt
 pending_orders.json
 keltner_coins.json
 workspace.xml
+coin_highest_price_history.json
