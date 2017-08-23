@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03164066-c730-407c-9791-a1a5e46f9cc3" name="Default" comment="david strategy begin">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python-Cryptocurrency-Scraper-Trader.iml" afterPath="$PROJECT_DIR$/.idea/Python-Cryptocurrency-Scraper-Trader.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="03164066-c730-407c-9791-a1a5e46f9cc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/Main.py" afterPath="$PROJECT_DIR$/Trader/Main/Main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/keltner_coins.json" afterPath="$PROJECT_DIR$/Trader/Main/keltner_coins.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/percent_strat.py" afterPath="$PROJECT_DIR$/Trader/Main/percent_strat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/utils.py" afterPath="$PROJECT_DIR$/Trader/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,8 +53,8 @@
       <file leaf-file-name="percent_strat.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trader/Main/percent_strat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="116" column="34" lean-forward="true" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -832,7 +826,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503441254197</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="david strategy complete">
+      <created>1503512537736</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1503512537736</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -899,7 +900,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="small changes" />
     <MESSAGE value="change slots open bug" />
     <MESSAGE value="updated rough sell_thresholds" />
     <MESSAGE value="changed float" />
@@ -924,7 +924,8 @@
     <MESSAGE value="completely refactored into a main driver and separate strategy files. Also added a hodl strategy" />
     <MESSAGE value="david strategy begin" />
     <MESSAGE value="fixed strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed strategy" />
+    <MESSAGE value="david strategy complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="david strategy complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,6 +1042,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41811">
           <caret line="1991" column="1" lean-forward="false" selection-start-line="1991" selection-start-column="1" selection-end-line="1991" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Main/percent_strat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="116" column="34" lean-forward="true" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+        <state relative-caret-position="323">
+          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding />
         </state>
       </provider>
