@@ -164,7 +164,6 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
 
 
 
-
         json_to_file(pending_orders, "pending_orders.json")
     else:
         print_and_write_to_logfile(
