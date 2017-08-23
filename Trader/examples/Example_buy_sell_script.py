@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # This program buys some Dogecoins and sells them for a bigger price
-from Trader.bittrex3 import Bittrex3
+from Trader.Bittrex3 import Bittrex3
 from forex_python.bitcoin import BtcConverter
 import json
 

@@ -1,5 +1,5 @@
 from forex_python.bitcoin import BtcConverter
-from Trader.bittrex3 import Bittrex3
+from Trader.Bittrex3 import Bittrex3
 from datetime import datetime, timezone
 import urllib
 import json

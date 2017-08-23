@@ -1,7 +1,7 @@
-import Trader.utils as utils
-import Trader.Main.keltner_strat as KS
-import Trader.Main.percent_strat as PS
-import Trader.Main.hodl_strat as HS
+import Trader.Utils as utils
+import Trader.Main.Keltner_strat as KS
+import Trader.Main.Percent_strat as PS
+import Trader.Main.Hodl_strat as HS
 import time
 
 

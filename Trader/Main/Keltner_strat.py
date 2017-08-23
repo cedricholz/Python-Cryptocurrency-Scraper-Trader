@@ -1,4 +1,4 @@
-import Trader.utils as utils
+import Trader.Utils as utils
 
 
 class KeltnerStrat:
