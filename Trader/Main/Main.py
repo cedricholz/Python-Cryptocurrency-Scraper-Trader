@@ -39,7 +39,7 @@ def clean_orders(orders):
 
                 utils.json_to_file(pending_orders, "pending_orders.json")
                 utils.print_and_write_to_logfile(
-                    "Cancel Order of " + order["Quantity"] + order['Exchange'] + " Successful")
+                    "Cancel Order of " + str(order["Quantity"]) + str(order['Exchange']) + " Successful")
             else:
                 utils.print_and_write_to_logfile(
                     "Cancel Order of " + order["Quantity"] + order['Exchange'] + " Unsuccessful: " + cancel_order[
@@ -130,8 +130,8 @@ def run_hodl_strat():
 
 
 def initialize_percent_strat():
-    buy_min_percent = 20
-    buy_max_percent = 30
+    buy_min_percent = 30
+    buy_max_percent = 60
     buy_desired_1h_change = 15
     total_slots = 4
     return PS.PercentStrat(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots)
@@ -140,7 +140,7 @@ def initialize_percent_strat():
 def run_percent_strat():
     ps.refresh_held_pending_history()
     if total_bitcoin > satoshi_50k:
-        ps.percent_buy_strat(total_bitcoin,)
+        ps.percent_buy_strat(total_bitcoin)
 
     ps.percent_sell_strat()
 
@@ -174,7 +174,7 @@ def run_keltner_strat():
 
 api = utils.get_api()
 
-time_until_cancel_processing_order_minutes = 10
+time_until_cancel_processing_order_minutes = 2
 satoshi_50k = 0.0005
 
 ks = initialize_keltner_strat()
@@ -188,8 +188,8 @@ while True:
     total_bitcoin = utils.get_total_bitcoin(api)
 
     # run_keltner_strat()
-    # run_percent_strat()
-    run_hodl_strat()
+    run_percent_strat()
+    #run_hodl_strat()
 
     orders = api.get_open_orders("")['result']
     clean_orders(orders)

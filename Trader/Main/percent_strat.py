@@ -16,6 +16,7 @@ class PercentStrat:
 
         self.held_coins = utils.file_to_json("held_coins.json")
         self.pending_orders = utils.file_to_json("pending_orders.json")
+        self.history_coins = utils.file_to_json("coin_highest_price_history.json")
 
     def percent_buy_strat(self, total_bitcoin):
         """
@@ -29,21 +30,44 @@ class PercentStrat:
 
         symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
 
+        # update highest price recorded while held
+        for coin in self.history_coins:
+            if coin in self.held_coins:
+                coin_price = float(self.bittrex_coins[coin]['Last'])
+                highest_recorded_price = float(self.history_coins[coin]['highest_price_recorded'])
+                if coin_price > highest_recorded_price:
+                    self.history_coins[coin]['highest_price_recorded'] = coin_price
+        for hist_coin in self.history_coins:
+            coin_price = float(self.bittrex_coins[hist_coin]['Last'])
+            if float(self.history_coins[hist_coin]['highest_price_recorded'])*1.1 < coin_price:
+                if hist_coin not in self.held_coins:
+                    slots_open = self.total_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
+                        self.pending_orders['Selling'])
+                    bitcoin_to_use = float(2*total_bitcoin / (slots_open + .25))
+                    if slots_open <= 0:
+                        utils.print_and_write_to_logfile("0 slots open")
+                        break
+                    if bitcoin_to_use < self.satoshi_50k:
+                        utils.print_and_write_to_logfile("Order less than 50k satoshi (~$2). Attempted to use: $" + str(
+                            utils.bitcoin_to_USD(bitcoin_to_use)) + ", BTC: " + str(bitcoin_to_use))
+                        break
+
+                    coins_pending_buy = [market for market in self.pending_orders['Buying']]
+                    coins_pending_sell = [market for market in self.pending_orders['Selling']]
+
+                    if hist_coin not in coins_pending_buy and hist_coin not in coins_pending_sell:
+                        coin_price = float(self.bittrex_coins[hist_coin]['Last'])
+                        amount = bitcoin_to_use / coin_price
+                        if amount > 0:
+                            coin_1h_change = float(symbol_1h_change_pairs[hist_coin])
+                            percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[hist_coin])
+                            utils.buy(self.api, hist_coin, amount, coin_price, percent_change_24h, 0,coin_1h_change )
+
+
         for coin_key in self.bittrex_coins:
             slots_open = self.total_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
                 self.pending_orders['Selling'])
             bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
-
-            for hist_coin in self.history_coins:
-                if coin_key['market'] == hist_coin['market']:
-                    coin_summary = self.api.get_ticker(market)
-                    coin_price = float(coin_summary['result']['Last'])
-                    if hist_coin['highest_price_history']*1.1 < coin_price: # update hist_coin every
-                        return # fix me
-
-
-
-
             if slots_open <= 0:
                 utils.print_and_write_to_logfile("0 slots open")
                 break
@@ -51,27 +75,29 @@ class PercentStrat:
                 utils.print_and_write_to_logfile("Order less than 50k satoshi (~$2). Attempted to use: $" + str(
                     utils.bitcoin_to_USD(bitcoin_to_use)) + ", BTC: " + str(bitcoin_to_use))
                 break
-
             percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[coin_key])
+
             if self.buy_min_percent <= percent_change_24h <= self.buy_max_percent:
-                market = self.bittrex_coins[coin_key]['MarketName']
-                if market.startswith('ETH'):
-                    break
-                if market.startswith('BTC'):
+                rank = utils.get_rank()
+                coin_rank = rank[utils.get_second_market_coin(coin_key)]
+                if float(coin_rank) > 50:
+                    market = self.bittrex_coins[coin_key]['MarketName']
+                    if market.startswith('ETH'):
+                        break
+                    if market.startswith('BTC'):
+                        coin_to_buy = utils.get_second_market_coin(market)
+                        coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
 
-                    coin_to_buy = utils.get_second_market_coin(market)
-                    coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
+                        coins_pending_buy = [market for market in self.pending_orders['Buying']]
+                        coins_pending_sell = [market for market in self.pending_orders['Selling']]
 
-                    coins_pending_buy = [market for market in self.pending_orders['Buying']]
-                    coins_pending_sell = [market for market in self.pending_orders['Selling']]
+                        if market not in self.held_coins and market not in coins_pending_buy and market not in \
+                                coins_pending_sell and coin_1h_change > self.buy_desired_1h_change:
 
-                    if market not in self.held_coins and market not in coins_pending_buy and market not in \
-                            coins_pending_sell and coin_1h_change > self.buy_desired_1h_change:
-
-                        coin_price = float(self.bittrex_coins[coin_key]['Last'])
-                        amount = bitcoin_to_use / coin_price
-                        if amount > 0:
-                            utils.buy(self.api, market, amount, coin_price, percent_change_24h, 0)
+                            coin_price = float(self.bittrex_coins[coin_key]['Last'])
+                            amount = bitcoin_to_use / coin_price
+                            if amount > 0:
+                                utils.buy(self.api, market, amount, coin_price, percent_change_24h, 0, coin_1h_change)
 
     def percent_sell_strat(self):
         """
@@ -108,7 +134,7 @@ class PercentStrat:
                 if balance['success']:
                     amount = float(balance['result']['Available'])
                     if amount > 0:
-                        utils.sell(self.api, amount, coin_to_sell, cur_coin_price, coin_market, cur_24h_change, 0)
+                        utils.sell(self.api, amount, coin_market, self.bittrex_coins)
                 else:
                     utils.print_and_write_to_logfile("Could not retrieve balance: " + balance['message'])
 
@@ -125,12 +151,12 @@ class PercentStrat:
         h = coin['highest_24h_change']
         cur_threshold = coin['sell_threshold']
         total_change = h - original_24h_change
-        return 10
+        return 5
 
     def refresh_held_pending_history(self):
         self.held_coins = utils.file_to_json("held_coins.json")
         self.pending_orders = utils.file_to_json("pending_orders.json")
-        self.history_coins = utils.file_to_json("coin_history.json")
+        self.history_coins = utils.file_to_json("coin_highest_price_history.json")
 
     def update_bittrex_coins(self):
         self.bittrex_coins = utils.get_updated_bittrex_coins()

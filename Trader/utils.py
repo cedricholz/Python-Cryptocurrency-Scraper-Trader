@@ -68,6 +68,12 @@ def get_coin_market_cap_1hr_change():
         d[coin['symbol']] = coin['percent_change_1h']
     return d
 
+def get_rank():
+    coinmarketcap_coins = query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
+    d = {}
+    for coin in coinmarketcap_coins:
+        d[coin['symbol']] = coin['rank']
+    return d
 
 def print_and_write_to_logfile(log_text):
     print(log_text + "\n")
@@ -110,7 +116,7 @@ def get_updated_bittrex_coins():
     return coins
 
 
-def buy(api, market, amount, coin_price, percent_change_24h, desired_gain):
+def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, percent_change_1h):
     """
     Makes a buy order and adds the coin to pending_orders
     :param market:
@@ -128,6 +134,7 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain):
     if buy_order['success']:
 
         pending_orders = file_to_json("pending_orders.json")
+        coin_history = file_to_json("coin_highest_price_history.json")
 
         coin_price_usd = bitcoin_to_USD(coin_price)
         time = get_date_time()
@@ -135,7 +142,7 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain):
         print_and_write_to_logfile("BUYING\n" + market + "\n24h%: " + str(
             percent_change_24h) + "\nUSD: $" + str(coin_price_usd) + "\nBTC: " + str(
             coin_price) + "\nAmount: " + str(amount)
-                                   + "\nTotal Paid: $" + str(total_to_spend) + "\nTime: " + time)
+                                   + "\nTotal Paid: $" + str(total_to_spend) + "\nTime: " + time + "\n1hr%: " + str(percent_change_1h))
 
         t = {}
         t['market'] = market
@@ -144,11 +151,19 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain):
         t['price_bought'] = coin_price
         t['amount'] = amount
         t['total_paid'] = total_to_spend
-        t['sell_threshold'] = 10
+        t['sell_threshold'] = 5
         t['uuid'] = buy_order['result']['uuid']
         t['desired_gain'] = desired_gain
 
         pending_orders['Buying'][market] = t
+
+        s = {}
+        s['highest_price_recorded'] = coin_price
+        coin_history[market] = s
+        json_to_file(coin_history, "coin_highest_price_history.json")
+
+
+
 
         json_to_file(pending_orders, "pending_orders.json")
     else:

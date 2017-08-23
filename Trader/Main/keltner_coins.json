@@ -5,12 +5,7 @@
         "lower_band_data": [],
         "market": "BTC-LSK",
         "middle_band_data": [],
-        "price_data": [
-            0.0007055,
-            0.0007055,           0.00070917,
-            0.00070558,
-            0.00070558
-        ],
+        "price_data": [],
         "tr_data": [],
         "upper_band_data": []
     }
