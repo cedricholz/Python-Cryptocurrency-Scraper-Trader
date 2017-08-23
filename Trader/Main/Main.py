@@ -132,7 +132,7 @@ def run_hodl_strat():
 def initialize_percent_strat():
     buy_min_percent = 30
     buy_max_percent = 60
-    buy_desired_1h_change = 15
+    buy_desired_1h_change = 12
     total_slots = 4
     return PS.PercentStrat(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots)
 

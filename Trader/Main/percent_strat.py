@@ -37,6 +37,7 @@ class PercentStrat:
                 highest_recorded_price = float(self.history_coins[coin]['highest_price_recorded'])
                 if coin_price > highest_recorded_price:
                     self.history_coins[coin]['highest_price_recorded'] = coin_price
+                    utils.json_to_file(self.history_coins,"coin_highest_price_history.json" )
         for hist_coin in self.history_coins:
             coin_price = float(self.bittrex_coins[hist_coin]['Last'])
             if float(self.history_coins[hist_coin]['highest_price_recorded'])*1.1 < coin_price:
@@ -59,9 +60,10 @@ class PercentStrat:
                         coin_price = float(self.bittrex_coins[hist_coin]['Last'])
                         amount = bitcoin_to_use / coin_price
                         if amount > 0:
-                            coin_1h_change = float(symbol_1h_change_pairs[hist_coin])
+                            coin_to_buy = utils.get_second_market_coin(hist_coin)
+                            coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
                             percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[hist_coin])
-                            utils.buy(self.api, hist_coin, amount, coin_price, percent_change_24h, 0,coin_1h_change )
+                            utils.buy(self.api, hist_coin, amount, coin_price, percent_change_24h, 0, coin_1h_change)
 
 
         for coin_key in self.bittrex_coins:
@@ -80,7 +82,7 @@ class PercentStrat:
             if self.buy_min_percent <= percent_change_24h <= self.buy_max_percent:
                 rank = utils.get_rank()
                 coin_rank = rank[utils.get_second_market_coin(coin_key)]
-                if float(coin_rank) > 50:
+                if float(coin_rank) > 50 and coin_key not in self.history_coins:
                     market = self.bittrex_coins[coin_key]['MarketName']
                     if market.startswith('ETH'):
                         break
@@ -124,7 +126,7 @@ class PercentStrat:
                 self.held_coins[coin_market]['sell_threshold'] = self.updated_threshold(coin_market, self.held_coins)
             utils.json_to_file(self.held_coins, "held_coins.json")
 
-            if cur_24h_change < highest_24h_change - self.held_coins[coin_market]['sell_threshold']:
+            if cur_24h_change < highest_24h_change - 10:
                 cur_coin_price = float(coin_info['Last'])
 
                 coin_to_sell = utils.get_second_market_coin(coin_market)
