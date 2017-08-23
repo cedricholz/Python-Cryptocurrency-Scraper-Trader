@@ -182,14 +182,17 @@ class KeltnerStrat:
 
                 if market not in self.held_coins and market not in coins_pending_buy and market not in coins_pending_sell:
 
-                    if self.upward_cross(market, lower_band_data):
-                        cur_price = float(self.bittrex_coins[market]['Last'])
+                    price_data = self.keltner_coins[market]['price_data']
+                    cur_price = float(price_data[-1])
+
+                    if cur_price > self.keltner_coins[market]['lower_band_data'][-1] and cur_price > max(price_data):
                         bitcoin_to_use = float(total_bitcoin / (keltner_slots_open + .25))
                         amount = bitcoin_to_use / cur_price
                         percent_change_24h = utils.get_percent_change_24h(coin)
                         utils.buy(self.api, market, amount, cur_price, percent_change_24h, 0)
 
     def keltner_sell_strat(self):
+
         for coin in self.keltner_coins:
             market = self.bittrex_coins[coin]['MarketName']
             lower_band_data = self.keltner_coins[market]['lower_band_data']
@@ -201,8 +204,21 @@ class KeltnerStrat:
 
                 if market not in coins_pending_buy and market not in coins_pending_sell and market in self.held_coins:
                     lower_band_data = self.keltner_coins[market]['upper_bound_data']
-                    if self.downward_cross(market, lower_band_data) or self.downward_cross(market, lower_band_data):
+                    #if self.downward_cross(market, lower_band_data) or self.downward_cross(market, lower_band_data):
+                    # Find the max and the min of the price in the last 20 ticks
+                    # Find the difference between the min and max
+                    # Deviation = difference/cur_price
+                    # Sell if price goes down by more than than 2*deviation in terms of percent
 
+                    price_data = self.keltner_coins[market]['price_data']
+
+                    # This is where we need to add stuff
+                    cur_price = price_data[-1]
+                    max_price = max(price_data)
+                    min_price = min(price_data)
+                    diff = max_price - min_price
+                    deviation = diff/cur_price
+                    if cur_price < 2*deviation:
                         coin_to_sell = utils.get_second_market_coin(market)
                         balance = self.api.get_balance(coin_to_sell)
                         if balance['success']:
@@ -249,4 +265,3 @@ class KeltnerStrat:
                 self.keltner_coins[market] = t
 
         utils.json_to_file(self.keltner_coins, "keltner_coins.json")
-
