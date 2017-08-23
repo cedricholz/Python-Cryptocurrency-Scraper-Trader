@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03164066-c730-407c-9791-a1a5e46f9cc3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json" afterPath="$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +45,10 @@
         <entry file="file://$PROJECT_DIR$/Trader/Main/pending_orders.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding>
+                <marker date="1503528370147" expanded="true" signature="0:39" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +76,8 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trader/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="165" column="0" lean-forward="true" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+            <state relative-caret-position="290">
+              <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -83,17 +85,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coin_highest_price_history.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="coin_highest_price_history.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -120,7 +122,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-              <folding />
+              <folding>
+                <marker date="1503528643752" expanded="true" signature="0:381" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,11 +175,11 @@
       <find>get_b</find>
       <find>self.hist</find>
       <find>refresh</find>
-      <find>24h%</find>
       <find>file_to_</find>
       <find>ymbol_1h_change_pairs</find>
       <find>float(symbol_1h_change_pairs[hist_coin])</find>
       <find>float(symbol_1h_change_pairs</find>
+      <find>24h%</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,6 +188,7 @@
         <option value="David" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -223,14 +228,14 @@
         <option value="$PROJECT_DIR$/Trader/Main/cedricmain.py" />
         <option value="$PROJECT_DIR$/Trader/Main/hodl_strat.py" />
         <option value="$PROJECT_DIR$/Trader/Main/coin_history.json" />
-        <option value="$PROJECT_DIR$/Trader/utils.py" />
         <option value="$PROJECT_DIR$/Trader/Main/Main.py" />
         <option value="$PROJECT_DIR$/Trader/Main/logs.txt" />
         <option value="$PROJECT_DIR$/Trader/Main/pending_orders.json" />
         <option value="$PROJECT_DIR$/Trader/Main/percent_strat.py" />
         <option value="$PROJECT_DIR$/Trader/Main/held_coins.json" />
-        <option value="$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Trader/utils.py" />
+        <option value="$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json" />
       </list>
     </option>
   </component>
@@ -889,7 +894,21 @@
       <option name="project" value="LOCAL" />
       <updated>1503528311807</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="fixed bug in david strategy">
+      <created>1503528368392</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1503528368392</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fixed bug in david strategy">
+      <created>1503528486356</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1503528486356</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -951,6 +970,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1169,16 +1191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trader/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="165" column="0" lean-forward="true" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Main/logs.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-618">
@@ -1201,8 +1213,10 @@
     <entry file="file://$PROJECT_DIR$/Trader/Main/pending_orders.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1503528370147" expanded="true" signature="0:39" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1218,15 +1232,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
+          <folding>
+            <marker date="1503528643752" expanded="true" signature="0:381" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1234,6 +1242,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
           <folding />
         </state>
       </provider>
