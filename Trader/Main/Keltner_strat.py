@@ -1,5 +1,6 @@
 import Trader.Utils as utils
-
+import sys
+sys.path.append('../../')
 
 class KeltnerStrat:
     def __init__(self, api, keltner_period, keltner_multiplier, keltner_slots, keltner_prev_ticks):

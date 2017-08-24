@@ -4,6 +4,8 @@ from datetime import datetime, timezone
 import urllib
 import json
 import re
+import sys
+sys.path.append('../../')
 
 
 def file_to_json(filename):
@@ -124,13 +126,15 @@ def get_updated_bittrex_coins():
 def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, percent_change_1h):
     """
     Makes a buy order and adds the coin to pending_orders
+    :param api:
     :param market:
     :param amount:
     :param coin_price:
+    :param desired_gain:
     :param percent_change_24h:
+    :param percent_change_1h:
     :return:
     """
-
 
     total_to_spend = bitcoin_to_USD(coin_price * amount)
 
