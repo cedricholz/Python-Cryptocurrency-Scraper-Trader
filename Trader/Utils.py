@@ -245,3 +245,28 @@ def init_global_return():
         global_return['Invested'] = 0.0
         global_return['Gain'] = 0.0
         json_to_file(global_return, 'global_return.json')
+
+
+def send_email(message):
+    with open("email_info.json") as email_file:
+        email_info = json.load(email_file)
+        email_file.close()
+
+    email_address = email_info['email_address']
+    password = email_info['password']
+
+    import smtplib
+    FROM = email_info['email_address']
+    TO = email_info['email_address']
+
+    try:
+        server = smtplib.SMTP("smtp.gmail.com", 587)
+        server.ehlo()
+        server.starttls()
+        server.login(email_address, password)
+        server.sendmail(FROM, TO, message)
+        server.close()
+        print ('Successfully sent message')
+
+    except:
+        print ("Failed to send message")
