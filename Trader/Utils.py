@@ -250,5 +250,6 @@ def init_global_return():
 
 def delete_entry_from_json(fileName, key):
     temp = file_to_json(fileName)
-    del temp[key]
-    json_to_file(temp, fileName)
+    if key in temp:
+        del temp[key]
+        json_to_file(temp, fileName)

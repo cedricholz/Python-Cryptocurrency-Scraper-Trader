@@ -55,7 +55,6 @@ def move_to_held(pending_market, buying_or_selling):
     """
     Moves a coin from pending_orders.json
     to held_coins
-
     :param pending_uuid:
     :param buying_or_selling:
     :return:
@@ -93,7 +92,7 @@ def update_pending_orders(orders):
     :return:
     """
 
-    held_coins = utils.file_to_json("held_coins.json")
+    #held_coins = utils.file_to_json("held_coins.json")
     pending_orders = utils.file_to_json("pending_orders.json")
 
     # Move processed buy orders from pending_orders into held_coins
