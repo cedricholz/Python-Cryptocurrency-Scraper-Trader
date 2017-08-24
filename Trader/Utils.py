@@ -98,15 +98,15 @@ def print_and_write_to_logfile(log_text):
     with open('logs.txt', 'a') as myfile:
         myfile.write(log_text + '\n\n')
 
-    with open('logs_to_send.txt', 'a') as send_file:
-        send_file.write(log_text + '\n\n')
-
-    # Send logs if they're large enough
-    lines_in_file = get_lines_in_file('logs_to_send.txt')
-    if lines_in_file >= 40:
-        with open('logs_to_send.txt', 'r') as f:
-            send_email(f.readlines())
-            clear_file('logs_to_sent.txt')
+    # with open('logs_to_send.txt', 'a') as send_file:
+    #     send_file.write(log_text + '\n\n')
+    #
+    # # Send logs if they're large enough
+    # lines_in_file = get_lines_in_file('logs_to_send.txt')
+    # if lines_in_file >= 40:
+    #     with open('logs_to_send.txt', 'r') as f:
+    #         send_email(f.readlines())
+    #         clear_file('logs_to_send.txt')
 
 
 def get_total_bitcoin(api):
@@ -270,7 +270,6 @@ def init_global_return():
     global_return['Invested'] = 0.0
     global_return['Gain'] = 0.0
     json_to_file(global_return, 'global_return.json')
-
 
 
 def delete_entry_from_json(fileName, key):

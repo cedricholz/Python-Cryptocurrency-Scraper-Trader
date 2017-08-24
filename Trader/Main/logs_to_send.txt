@@ -66,3 +66,11 @@ Time: 0:42:2 8/24/2017
 
 Buy order: 65.94759402985075 of BTC-SLR Processed Successfully UUID: ec07988e-c949-48c9-9a78-52fd0841f5fa
 
+
+**Beginning run at 1:0:0 8/24/2017**
+
+
+
+**Beginning run at 1:1:52 8/24/2017**
+
+
