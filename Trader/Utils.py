@@ -92,8 +92,9 @@ def print_and_write_to_logfile(log_text):
     with open('logs.txt', 'a') as myfile:
         myfile.write(log_text + '\n\n')
 
-    with open('logs_to_send.txt', '') as myfile:
-        myfile.write(log_text + '\n\n')
+
+    with open('logs_to_send.txt', 'a') as send_file:
+        send_file.write(log_text + '\n\n')
 
     # Send logs if they're large enough
     lines_in_file = get_lines_in_file('logs_to_send.txt')
