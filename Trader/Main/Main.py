@@ -5,6 +5,7 @@ import Trader.Utils as utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
+import logging
 import time
 
 
@@ -216,8 +217,8 @@ while True:
             clean_orders(orders)
             update_pending_orders(orders)
 
-    except:
-        utils.print_and_write_to_logfile("Program Crashed")
+    except Exception as e:
+        utils.print_and_write_to_logfile(logging.exception("message"))
 
 
     time.sleep(10)
