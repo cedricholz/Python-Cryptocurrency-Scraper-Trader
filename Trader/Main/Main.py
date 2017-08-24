@@ -195,10 +195,6 @@ ps = initialize_percent_strat()
 hs = initialize_hodl_strat()
 
 
-for i in range(105):
-    utils.print_and_write_to_logfile("howdy")
-
-
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
 
