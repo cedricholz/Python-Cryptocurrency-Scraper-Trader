@@ -87,21 +87,25 @@ def get_lines_in_file(filename):
     return i + 1
 
 
+def clear_file(filename):
+    f = open(filename, 'w')
+    f.close()
+
+
 def print_and_write_to_logfile(log_text):
     print(log_text + '\n')
     with open('logs.txt', 'a') as myfile:
         myfile.write(log_text + '\n\n')
-
 
     with open('logs_to_send.txt', 'a') as send_file:
         send_file.write(log_text + '\n\n')
 
     # Send logs if they're large enough
     lines_in_file = get_lines_in_file('logs_to_send.txt')
-    if lines_in_file >= 20:
-        send_email(myfile.readlines())
-        f = open('logs_to_send.txt', 'w')
-        f.close()
+    if lines_in_file >= 40:
+        with open('logs_to_send.txt', 'r') as f:
+            send_email(f.readlines())
+            clear_file('logs_to_sent.txt')
 
 
 def get_total_bitcoin(api):

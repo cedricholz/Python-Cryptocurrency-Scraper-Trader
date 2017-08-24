@@ -196,6 +196,7 @@ hs = initialize_hodl_strat()
 
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
+
 # Main Driver
 while True:
     total_bitcoin = utils.get_total_bitcoin(api)
