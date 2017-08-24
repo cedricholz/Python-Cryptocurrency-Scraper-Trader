@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../../')
 
-import Trader.Utils as utils
+import Trader.Utils as Utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
