@@ -156,7 +156,6 @@ def run_percent_strat():
         ps.percent_buy_strat(total_bitcoin)
 
     ps.percent_sell_strat()
-
     ps.update_bittrex_coins()
 
 
