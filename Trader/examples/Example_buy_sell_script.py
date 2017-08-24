@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # This program buys some Dogecoins and sells them for a bigger price
-from Trader.Bittrex3 import Bittrex3
+
+
+import Bittrex3
 from forex_python.bitcoin import BtcConverter
 import json
 
@@ -27,7 +29,7 @@ with open("secrets.json") as secrets_file:
     secrets = json.load(secrets_file)
     secrets_file.close()
 
-api = Bittrex3(secrets['key'], secrets['secret'])
+api = Bittrex3.Bittrex3(secrets['key'], secrets['secret'])
 
 # Market to trade at
 trade = 'BTC'
