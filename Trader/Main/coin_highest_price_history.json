@@ -1,4 +1,10 @@
 {
+    "BTC-BSD": {
+        "highest_price_recorded": 0.000123
+    },
+    "BTC-KORE": {
+        "highest_price_recorded": 0.000532
+    },
     "BTC-NEOS": {
         "highest_price_recorded": 0.00117881
     },
@@ -9,6 +15,6 @@
         "highest_price_recorded": 0.00066997
     },
     "BTC-VTC": {
-        "highest_price_recorded": 0.000169
+        "highest_price_recorded": 0.000235
     }
 }

@@ -1,14 +1,14 @@
+import sys
+sys.path.append('../../')
 from forex_python.bitcoin import BtcConverter
 from Trader.Bittrex3 import Bittrex3
 from datetime import datetime, timezone
 import urllib
 import json
 import re
-import sys
-
-sys.path.append('../../')
-
-
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
 def file_to_json(filename):
     try:
@@ -81,13 +81,6 @@ def get_rank():
     return d
 
 
-def get_lines_in_file(filename):
-    with open(filename) as f:
-        for i, l in enumerate(f):
-            pass
-    return i + 1
-
-
 def clear_file(filename):
     f = open(filename, 'w')
     f.close()
@@ -98,15 +91,18 @@ def print_and_write_to_logfile(log_text):
     with open('logs.txt', 'a') as myfile:
         myfile.write(log_text + '\n\n')
 
-    # with open('logs_to_send.txt', 'a') as send_file:
-    #     send_file.write(log_text + '\n\n')
-    #
-    # # Send logs if they're large enough
-    # lines_in_file = get_lines_in_file('logs_to_send.txt')
-    # if lines_in_file >= 40:
-    #     with open('logs_to_send.txt', 'r') as f:
-    #         send_email(f.readlines())
-    #         clear_file('logs_to_send.txt')
+    with open('logs_to_send.txt', 'r+') as send_file:
+        send_file.write(log_text + '\n\n')
+        message_to_email = send_file.readlines()
+
+    nlines = message_to_email.count('\n')
+
+    if nlines > 100:
+        message_to_email = ''.join(message_to_email)
+        send_email(message_to_email)
+
+        # Clears file
+        open('logs_to_send.txt', 'w').close()
 
 
 def get_total_bitcoin(api):
@@ -162,7 +158,6 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
 
     total_to_spend = bitcoin_to_USD(coin_price * amount)
     total_to_spend += total_to_spend * 0.0025  # include the fee
-
 
     buy_order = api.buy_limit(market, amount, coin_price)
 

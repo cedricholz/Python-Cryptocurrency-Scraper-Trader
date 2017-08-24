@@ -10,7 +10,7 @@ import time
 
 
 def clean_orders(orders):
-    """aasd
+    """
     Finds any order that has been attempting to buy
     or sell for longer than the variable
     time_until_cancel_processing_order_minutes
@@ -27,26 +27,27 @@ def clean_orders(orders):
         time_opened = order['Opened']
         time_passed = utils.get_time_passed_minutes(time_opened)
 
+        uuid = order['OrderUuid']
+        market = ""
+
+        for pending_order in pending_orders[buying_or_selling]:
+            if pending_order['uuid'] == uuid:
+                market = pending_order['market']
+
         if time_passed > time_until_cancel_processing_order_minutes:
             uuid = order['OrderUuid']
-            cancel_order = api.cancel(order['OrderUuid'])
+            cancel_order = api.cancel(uuid)
+
             if cancel_order['success']:
                 buying_or_selling = 'Buying' if order['OrderType'] == 'LIMIT_BUY' else 'Selling'
 
-                pending_uuids_markets = [(pending_orders[buying_or_selling][market]['uuid'], market) for market in
-                                      pending_orders[buying_or_selling]]
-
-                for uuid_market in pending_uuids_markets:
-                    if uuid_market[0] == uuid:
-                        market = uuid_market[1]
-                        del pending_orders[buying_or_selling][market]
-                        break
+                del pending_orders[buying_or_selling][market]
 
                 utils.json_to_file(pending_orders, "pending_orders.json")
                 utils.print_and_write_to_logfile(
                     "Cancel Order of " + str(order["Quantity"]) + " " + str(order['Exchange']) + " Successful")
+
                 #remove highest price from highest history
-                #line of code below throws an error
                 #utils.delete_entry_from_json("coin_highest_price_history.json", order['Exchange'])
             else:
                 utils.print_and_write_to_logfile(
@@ -54,11 +55,11 @@ def clean_orders(orders):
                         'message'])
 
 
-def move_to_held(pending_market, buying_or_selling):
+def move_to_from_held(pending_market, buying_or_selling):
     """
     Moves a coin from pending_orders.json
     to held_coins
-    :param pending_uuid:
+    :param pending_market:
     :param buying_or_selling:
     :return:
     """
@@ -67,7 +68,6 @@ def move_to_held(pending_market, buying_or_selling):
     pending_orders = utils.file_to_json("pending_orders.json")
 
     global_return = utils.file_to_json('global_return.json')
-
 
     pending_order = pending_orders[buying_or_selling][pending_market]
 
@@ -110,7 +110,7 @@ def update_pending_orders(orders):
             utils.print_and_write_to_logfile(
                 "Buy order: " + amount + " of " + buy_uuids_market[1] + " Processed Successfully " + "UUID: "
                 + buy_uuids_market[0])
-            move_to_held(buy_uuids_market[1], 'Buying')
+            move_to_from_held(buy_uuids_market[1], 'Buying')
 
     sell_uuids_markets = [(pending_orders['Selling'][market]['uuid'], market) for market in pending_orders['Selling']]
 
@@ -122,7 +122,7 @@ def update_pending_orders(orders):
             utils.print_and_write_to_logfile(
                 "Sell order: " + amount + " of " + " " + sell_uuids_market[1] + " Processed Successfully " + "UUID: "
                 + sell_uuids_market[0])
-            move_to_held(sell_uuids_market[1], 'Selling')
+            move_to_from_held(sell_uuids_market[1], 'Selling')
 
 
 def initialize_hodl_strat():
@@ -158,7 +158,6 @@ def run_percent_strat():
         ps.percent_buy_strat(total_bitcoin)
 
     ps.percent_sell_strat()
-    ps.update_bittrex_coins()
 
 
 def initialize_keltner_strat():
@@ -195,19 +194,30 @@ ks = initialize_keltner_strat()
 ps = initialize_percent_strat()
 hs = initialize_hodl_strat()
 
+
+for i in range(105):
+    utils.print_and_write_to_logfile("howdy")
+
+
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
 
 # Main Driver
 while True:
-    total_bitcoin = utils.get_total_bitcoin(api)
+    try:
 
-    # run_keltner_strat()
-    run_percent_strat()
-    # run_hodl_strat()
+        total_bitcoin = utils.get_total_bitcoin(api)
 
-    orders = api.get_open_orders("")['result']
-    clean_orders(orders)
-    update_pending_orders(orders)
+        # run_keltner_strat()
+        run_percent_strat()
+        # run_hodl_strat()
+
+        orders = api.get_open_orders("")['result']
+        clean_orders(orders)
+        update_pending_orders(orders)
+
+    except:
+        utils.print_and_write_to_logfile("Program Crashed")
+
 
     time.sleep(10)
