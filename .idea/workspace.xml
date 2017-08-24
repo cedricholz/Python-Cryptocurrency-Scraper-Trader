@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03164066-c730-407c-9791-a1a5e46f9cc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/global_return.json" afterPath="$PROJECT_DIR$/Trader/Main/global_return.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/logs_to_send.txt" afterPath="$PROJECT_DIR$/Trader/Main/logs_to_send.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Utils.py" afterPath="$PROJECT_DIR$/Trader/Utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trader/Main/Main.py" afterPath="$PROJECT_DIR$/Trader/Main/Main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,14 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trader/Main/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-271">
-              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="346">
+              <caret line="52" column="68" lean-forward="false" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
               <folding>
-                <marker date="1503561336125" expanded="false" signature="6013:6325" ph="..." />
-                <marker date="1503561336125" expanded="false" signature="6352:6554" ph="..." />
+                <marker date="1503598664019" expanded="false" signature="6020:6332" ph="..." />
+                <marker date="1503598664019" expanded="false" signature="6359:6561" ph="..." />
               </folding>
             </state>
           </provider>
@@ -59,7 +57,7 @@
       <file leaf-file-name="logs_to_send.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trader/Main/logs_to_send.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="-1458">
               <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
@@ -76,14 +74,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="held_coins.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trader/Main/held_coins.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trader/Utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="283">
+              <caret line="104" column="47" lean-forward="false" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coin_highest_price_history.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,18 +135,6 @@
               <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bittrex3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trader/Main/Bittrex3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="14" />
-              <folding>
-                <element signature="e#45#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -234,10 +240,10 @@
         <option value="$PROJECT_DIR$/Trader/Main/Hodl_strat.py" />
         <option value="$PROJECT_DIR$/Trader/Main/Keltner_strat.py" />
         <option value="$PROJECT_DIR$/Trader/Main/email_info.json" />
-        <option value="$PROJECT_DIR$/Trader/Main/Main.py" />
         <option value="$PROJECT_DIR$/Trader/Main/logs_to_send.txt" />
         <option value="$PROJECT_DIR$/Trader/Main/global_return.json" />
         <option value="$PROJECT_DIR$/Trader/Utils.py" />
+        <option value="$PROJECT_DIR$/Trader/Main/Main.py" />
       </list>
     </option>
   </component>
@@ -248,9 +254,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="127" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1920" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
@@ -1020,7 +1026,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503561008899</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="commented out emails temporarily">
+      <created>1503561784760</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1503561784760</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1087,7 +1100,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="another text issue" />
     <MESSAGE value="small change" />
     <MESSAGE value="changed name of file" />
     <MESSAGE value="started on keltner stuff and queries from the server less" />
@@ -1112,7 +1124,8 @@
     <MESSAGE value="print bug" />
     <MESSAGE value="send email bug fixed" />
     <MESSAGE value="cleared global return" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleared global return" />
+    <MESSAGE value="commented out emails temporarily" />
+    <option name="LAST_COMMIT_MESSAGE" value="commented out emails temporarily" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1321,26 +1334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pi@10.0.0.97">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trader/Main/held_coins.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1395,33 +1392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trader/Main/logs_to_send.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trader/Main/global_return.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trader/Main/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <marker date="1503561336125" expanded="false" signature="6013:6325" ph="..." />
-            <marker date="1503561336125" expanded="false" signature="6352:6554" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Main/Hodl_strat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1452,10 +1422,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trader/Utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state relative-caret-position="283">
+          <caret line="104" column="47" lean-forward="false" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/global_return.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/logs_to_send.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/coin_highest_price_history.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/held_coins.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trader/Main/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="52" column="68" lean-forward="false" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+          <folding>
+            <marker date="1503598664019" expanded="false" signature="6020:6332" ph="..." />
+            <marker date="1503598664019" expanded="false" signature="6359:6561" ph="..." />
           </folding>
         </state>
       </provider>
