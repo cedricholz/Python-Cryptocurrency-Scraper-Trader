@@ -42,7 +42,9 @@ def clean_orders(orders):
 
                 utils.json_to_file(pending_orders, "pending_orders.json")
                 utils.print_and_write_to_logfile(
-                    "Cancel Order of " + str(order["Quantity"]) + str(order['Exchange']) + " Successful")
+                    "Cancel Order of " + str(order["Quantity"]) +" "+ str(order['Exchange']) + " Successful")
+                #remove highest price from highest history
+                utils.delete_entry_from_json("coin_highest_price_history.json", order['Exchange'])
             else:
                 utils.print_and_write_to_logfile(
                     "Cancel Order of " + order["Quantity"] + order['Exchange'] + " Unsuccessful: " + cancel_order[

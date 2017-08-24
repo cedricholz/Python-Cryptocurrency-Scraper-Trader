@@ -5,8 +5,8 @@ import urllib
 import json
 import re
 import sys
-sys.path.append('../../')
 
+sys.path.append('../../')
 
 
 def file_to_json(filename):
@@ -138,8 +138,7 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
     """
 
     total_to_spend = bitcoin_to_USD(coin_price * amount)
-    total_to_spend += total_to_spend*0.0025 #include the fee
-
+    total_to_spend += total_to_spend * 0.0025  # include the fee
 
     buy_order = api.buy_limit(market, amount, coin_price)
 
@@ -154,7 +153,8 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
         print_and_write_to_logfile("BUYING\n" + market + "\n24h%: " + str(
             percent_change_24h) + "\nUSD: $" + str(coin_price_usd) + "\nBTC: " + str(
             coin_price) + "\nAmount: " + str(amount)
-                                   + "\nTotal Paid: $" + str(total_to_spend) + "\nTime: " + time + "\n1hr%: " + str(percent_change_1h))
+                                   + "\nTotal Paid: $" + str(total_to_spend) + "\nTime: " + time + "\n1hr%: " + str(
+            percent_change_1h))
 
         t = {}
         t['market'] = market
@@ -203,7 +203,7 @@ def sell(api, amount, market, bittrex_coins):
 
     if sell_order['success']:
         selling_for = bitcoin_to_USD(cur_coin_price * amount)
-        selling_for -= selling_for*0.0025 #adding the fee for selling
+        selling_for -= selling_for * 0.0025  # adding the fee for selling
 
         net_gain_loss = selling_for - float(held_coins[market]['total_paid'])
         cur_coin_price_usd = bitcoin_to_USD(cur_coin_price)
@@ -240,8 +240,15 @@ def sell(api, amount, market, bittrex_coins):
 def percent_change(bought_price, cur_price):
     return 100 * (cur_price - bought_price) / bought_price
 
+
 def init_global_return():
-        global_return = file_to_json('global_return.json')
-        global_return['Invested'] = 0.0
-        global_return['Gain'] = 0.0
-        json_to_file(global_return, 'global_return.json')
+    global_return = file_to_json('global_return.json')
+    global_return['Invested'] = 0.0
+    global_return['Gain'] = 0.0
+    json_to_file(global_return, 'global_return.json')
+
+
+def delete_entry_from_json(fileName, key):
+    temp = file_to_json(fileName)
+    del temp[key]
+    json_to_file(temp, fileName)
