@@ -80,10 +80,27 @@ def get_rank():
     return d
 
 
+def get_lines_in_file(filename):
+    with open(filename) as f:
+        for i, l in enumerate(f):
+            pass
+    return i + 1
+
+
 def print_and_write_to_logfile(log_text):
-    print(log_text + "\n")
-    with open("logs.txt", "a") as myfile:
-        myfile.write(log_text + "\n\n")
+    print(log_text + '\n')
+    with open('logs.txt', 'a') as myfile:
+        myfile.write(log_text + '\n\n')
+
+    with open('logs_to_send.txt', '') as myfile:
+        myfile.write(log_text + '\n\n')
+
+    # Send logs if they're large enough
+    lines_in_file = get_lines_in_file('logs_to_send.txt')
+    if lines_in_file >= 20:
+        send_email(myfile.readlines())
+        f = open('logs_to_send.txt', 'w')
+        f.close()
 
 
 def get_total_bitcoin(api):
@@ -240,6 +257,7 @@ def sell(api, amount, market, bittrex_coins):
 def percent_change(bought_price, cur_price):
     return 100 * (cur_price - bought_price) / bought_price
 
+
 def init_global_return():
         global_return = file_to_json('global_return.json')
         global_return['Invested'] = 0.0
@@ -256,8 +274,12 @@ def send_email(message):
     password = email_info['password']
 
     import smtplib
-    FROM = email_info['email_address']
-    TO = email_info['email_address']
+    FROM = "Cynthia"
+    TO = email_address
+    SUBJECT = 'Crypto-Bot'
+
+    message = """From: %s\nTo: %s\nSubject: %s\n\n%s
+       """ % (FROM, ", ".join(TO), SUBJECT, message)
 
     try:
         server = smtplib.SMTP("smtp.gmail.com", 587)
@@ -266,7 +288,7 @@ def send_email(message):
         server.login(email_address, password)
         server.sendmail(FROM, TO, message)
         server.close()
-        print ('Successfully sent message')
+        print('Successfully sent message')
 
     except:
-        print ("Failed to send message")
+        print("Failed to send message")

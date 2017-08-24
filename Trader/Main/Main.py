@@ -4,7 +4,7 @@ sys.path.append('../../')
 import Trader.Utils as utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
-import Trader.Maiasdasdsn.Hodl_strat as HS
+import Trader.Main.Hodl_strat as HS
 import time
 
 
@@ -202,7 +202,7 @@ while True:
 
     # run_keltner_strat()
     run_percent_strat()
-    #run_hodl_strat()
+    # run_hodl_strat()
 
     orders = api.get_open_orders("")['result']
     clean_orders(orders)
