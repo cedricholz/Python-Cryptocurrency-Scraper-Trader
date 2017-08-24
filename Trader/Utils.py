@@ -240,7 +240,6 @@ def sell(api, amount, market, bittrex_coins):
 def percent_change(bought_price, cur_price):
     return 100 * (cur_price - bought_price) / bought_price
 
-
 def reset_global_return(self):
         global_return = file_to_json('global_return.json')
         global_return['Invested'] = 0.0

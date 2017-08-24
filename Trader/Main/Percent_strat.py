@@ -68,7 +68,6 @@ class PercentStrat:
                         percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[hist_coin])
                         utils.buy(self.api, hist_coin, amount, coin_price, percent_change_24h, 0, coin_1h_change)
 
-
         #chacking all bittrex coins to find the one
         for coin in self.bittrex_coins:
             percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[coin])
