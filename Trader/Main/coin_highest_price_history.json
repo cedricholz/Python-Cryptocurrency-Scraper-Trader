@@ -1,3 +1,11 @@
 {
-
+    "BTC-HKG": {
+        "highest_price_recorded": 1.654e-05
+    },
+    "BTC-KORE": {
+        "highest_price_recorded": 0.0005039
+    },
+    "BTC-PKB": {
+        "highest_price_recorded": 9.5e-05
+    }
 }

@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../../')
 
-import Trader.Utils as Utils
+import Trader.Utils as utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
@@ -47,7 +47,7 @@ def clean_orders(orders):
                 utils.json_to_file(pending_orders, "pending_orders.json")
                 utils.print_and_write_to_logfile(
                     "Cancel Order of " + str(order["Quantity"]) + " " + str(order['Exchange']) + " Successful")
-
+                del history_coin[market]
                 #remove highest price from highest history
                 #utils.delete_entry_from_json("coin_highest_price_history.json", order['Exchange'])
             else:
@@ -67,6 +67,7 @@ def move_to_from_held(pending_market, buying_or_selling):
 
     held_coins = utils.file_to_json("held_coins.json")
     pending_orders = utils.file_to_json("pending_orders.json")
+    history_coins = utils.file_to_json("coin_highest_price_history.json")
 
     global_return = utils.file_to_json('global_return.json')
 
