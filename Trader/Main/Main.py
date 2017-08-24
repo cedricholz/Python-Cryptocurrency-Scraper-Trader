@@ -1,14 +1,16 @@
-import Trader.Utils as utils
-import Trader.Main.Keltner_strat as KS
-import Trader.Main.Percent_strat as PS
-import Trader.Main.Hodl_strat as HS
-import time
 import sys
 sys.path.append('../../')
 
+import Trader.Utils as utils
+import Trader.Main.Keltner_strat as KS
+import Trader.Main.Percent_strat as PS
+import Trader.Maiasdasdsn.Hodl_strat as HS
+import time
+
+
 
 def clean_orders(orders):
-    """
+    """aasd
     Finds any order that has been attempting to buy
     or sell for longer than the variable
     time_until_cancel_processing_order_minutes
