@@ -208,9 +208,13 @@ while True:
         run_percent_strat()
         # run_hodl_strat()
 
-        orders = api.get_open_orders("")['result']
-        clean_orders(orders)
-        update_pending_orders(orders)
+        orders_query = api.get_open_orders("")
+
+        if orders_query['success']:
+            orders = orders_query['result']
+
+            clean_orders(orders)
+            update_pending_orders(orders)
 
     except:
         utils.print_and_write_to_logfile("Program Crashed")
