@@ -139,6 +139,7 @@ def run_hodl_strat():
 
 
 def initialize_percent_strat():
+    utils.init_global_return()
     buy_min_percent = 30
     buy_max_percent = 1000
     buy_desired_1h_change = 1.7

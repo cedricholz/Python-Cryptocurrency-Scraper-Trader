@@ -7,3 +7,9 @@ pending_orders.json
 keltner_coins.json
 coin_highest_price_history.json
 workspace.xml
+global_return.json
+Trader/Main/__pycache__/
+Trader/Main/global_return.json
+Trader/__pycache__/Bittrex3.cpython-35.pyc
+Trader/__pycache__/Utils.cpython-35.pyc
+Trader/__pycache__/__init__.cpython-35.pyc
