@@ -9,6 +9,7 @@ import sys
 sys.path.append('../../')
 
 
+
 def file_to_json(filename):
     try:
         file = open(filename, 'r')
@@ -80,10 +81,32 @@ def get_rank():
     return d
 
 
+def get_lines_in_file(filename):
+    with open(filename) as f:
+        for i, l in enumerate(f):
+            pass
+    return i + 1
+
+
+def clear_file(filename):
+    f = open(filename, 'w')
+    f.close()
+
+
 def print_and_write_to_logfile(log_text):
-    print(log_text + "\n")
-    with open("logs.txt", "a") as myfile:
-        myfile.write(log_text + "\n\n")
+    print(log_text + '\n')
+    with open('logs.txt', 'a') as myfile:
+        myfile.write(log_text + '\n\n')
+
+    with open('logs_to_send.txt', 'a') as send_file:
+        send_file.write(log_text + '\n\n')
+
+    # Send logs if they're large enough
+    lines_in_file = get_lines_in_file('logs_to_send.txt')
+    if lines_in_file >= 40:
+        with open('logs_to_send.txt', 'r') as f:
+            send_email(f.readlines())
+            clear_file('logs_to_sent.txt')
 
 
 def get_total_bitcoin(api):
@@ -139,6 +162,7 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
 
     total_to_spend = bitcoin_to_USD(coin_price * amount)
     total_to_spend += total_to_spend * 0.0025  # include the fee
+
 
     buy_order = api.buy_limit(market, amount, coin_price)
 
@@ -248,8 +272,43 @@ def init_global_return():
     json_to_file(global_return, 'global_return.json')
 
 
+
 def delete_entry_from_json(fileName, key):
     temp = file_to_json(fileName)
     if key in temp:
         del temp[key]
         json_to_file(temp, fileName)
+
+        global_return = file_to_json('global_return.json')
+        global_return['Invested'] = 0.0
+        global_return['Gain'] = 0.0
+        json_to_file(global_return, 'global_return.json')
+
+
+def send_email(message):
+    with open("email_info.json") as email_file:
+        email_info = json.load(email_file)
+        email_file.close()
+
+    email_address = email_info['email_address']
+    password = email_info['password']
+
+    import smtplib
+    FROM = "Cynthia"
+    TO = email_address
+    SUBJECT = 'Crypto-Bot'
+
+    message = """From: %s\nTo: %s\nSubject: %s\n\n%s
+       """ % (FROM, ", ".join(TO), SUBJECT, message)
+
+    try:
+        server = smtplib.SMTP("smtp.gmail.com", 587)
+        server.ehlo()
+        server.starttls()
+        server.login(email_address, password)
+        server.sendmail(FROM, TO, message)
+        server.close()
+        print('Successfully sent message')
+
+    except:
+        print("Failed to send message")

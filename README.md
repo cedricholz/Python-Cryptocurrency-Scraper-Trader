@@ -40,6 +40,13 @@
     "Selling": {}
 }
 
+
+12. Add file "email_info.json" to Main and fill it with your info
+{
+  "email_address": "myaddress",
+  "password": "mypassword"
+}
+
 Libraries to install through with pip and gitbash:
 
 pip install forex-python

@@ -1,14 +1,16 @@
+import sys
+sys.path.append('../../')
+
 import Trader.Utils as utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
 import time
-import sys
-sys.path.append('../../')
+
 
 
 def clean_orders(orders):
-    """
+    """aasd
     Finds any order that has been attempting to buy
     or sell for longer than the variable
     time_until_cancel_processing_order_minutes
@@ -195,13 +197,14 @@ hs = initialize_hodl_strat()
 
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
+
 # Main Driver
 while True:
     total_bitcoin = utils.get_total_bitcoin(api)
 
     # run_keltner_strat()
     run_percent_strat()
-    #run_hodl_strat()
+    # run_hodl_strat()
 
     orders = api.get_open_orders("")['result']
     clean_orders(orders)

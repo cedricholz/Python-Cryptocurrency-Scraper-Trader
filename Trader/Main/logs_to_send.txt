@@ -1,0 +1,68 @@
+
+**Beginning run at 0:41:7 8/24/2017**
+
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+
+**Beginning run at 0:41:38 8/24/2017**
+
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+holaaaaa
+
+
+**Beginning run at 0:41:59 8/24/2017**
+
+
+BUYING
+BTC-SNRG
+24h%: 178.66650029115712
+USD: $2.8313216937249996
+BTC: 0.00066997
+Amount: 6.582789975670552
+Total Paid: $18.684591053509877
+Time: 0:42:2 8/24/2017
+1hr%: 33.17
+
+Buy order: 65.94759402985075 of BTC-SLR Processed Successfully UUID: ec07988e-c949-48c9-9a78-52fd0841f5fa
+
