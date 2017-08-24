@@ -3,6 +3,8 @@ import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
 import time
+import sys
+sys.path.append('../../')
 
 
 def clean_orders(orders):

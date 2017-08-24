@@ -1,5 +1,6 @@
 import Trader.Utils as utils
-
+import sys
+sys.path.append('../../')
 
 class HodlStrat:
     satoshi_50k = 0.0005

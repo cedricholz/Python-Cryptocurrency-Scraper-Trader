@@ -1,4 +1,6 @@
 import Trader.Utils as utils
+import sys
+sys.path.append('../../')
 
 
 class PercentStrat:
