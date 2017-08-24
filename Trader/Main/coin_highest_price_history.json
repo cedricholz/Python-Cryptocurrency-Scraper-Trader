@@ -1,1 +1,8 @@
-{}
+{
+    "BTC-SLR": {
+        "highest_price_recorded": 5.104e-05
+    },
+    "BTC-VTC": {
+        "highest_price_recorded": 0.000169
+    }
+}

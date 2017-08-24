@@ -6,6 +6,7 @@ import json
 import re
 
 
+
 def file_to_json(filename):
     try:
         file = open(filename, 'r')
@@ -133,6 +134,8 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
 
 
     total_to_spend = bitcoin_to_USD(coin_price * amount)
+    total_to_spend += total_to_spend*0.0025 #include the fee
+
 
     buy_order = api.buy_limit(market, amount, coin_price)
 
@@ -167,8 +170,6 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
         coin_history[market] = s
         json_to_file(coin_history, "coin_highest_price_history.json")
 
-
-
         json_to_file(pending_orders, "pending_orders.json")
     else:
         print_and_write_to_logfile(
@@ -198,6 +199,8 @@ def sell(api, amount, market, bittrex_coins):
 
     if sell_order['success']:
         selling_for = bitcoin_to_USD(cur_coin_price * amount)
+        selling_for -= selling_for*0.0025 #adding the fee for selling
+
         net_gain_loss = selling_for - float(held_coins[market]['total_paid'])
         cur_coin_price_usd = bitcoin_to_USD(cur_coin_price)
         cur_date_time = get_date_time()
@@ -207,7 +210,7 @@ def sell(api, amount, market, bittrex_coins):
         print_and_write_to_logfile(
             "SELLING\n" + str(symbol) + "\nUSD: $" + str(cur_coin_price_usd) + "\nBTC: " + str(
                 cur_coin_price) + "\nAmount: " + str(amount)
-            + "\n24h%: " + str(cur_24h_change) + "\nTotal Paid: $" + str(selling_for) + "\nNet Gain/Loss: " + str(
+            + "\n24h%: " + str(cur_24h_change) + "\nTotal Sold For: $" + str(selling_for) + "\nNet Gain/Loss: " + str(
                 net_gain_loss) + "\nTime: " + str(cur_date_time))
 
         t = {}
@@ -222,6 +225,7 @@ def sell(api, amount, market, bittrex_coins):
         t['cur_date_time'] = cur_date_time
         t['cur_24h_change'] = cur_24h_change
         t['uuid'] = sell_order['result']['uuid']
+        t['gain'] = net_gain_loss
 
         pending_orders['Selling'][market] = t
         json_to_file(pending_orders, "pending_orders.json")
@@ -231,3 +235,10 @@ def sell(api, amount, market, bittrex_coins):
 
 def percent_change(bought_price, cur_price):
     return 100 * (cur_price - bought_price) / bought_price
+
+
+def reset_global_return(self):
+        global_return = file_to_json('global_return.json')
+        global_return['Invested'] = 0.0
+        global_return['Gain'] = 0.0
+        json_to_file(global_return, 'global_return.json')

@@ -34,7 +34,8 @@ def clean_orders(orders):
 
                 for uuid_market in pending_uuids_markets:
                     if uuid_market[0] == uuid:
-                        del pending_orders[buying_or_selling][uuid_market][1]
+                        market = uuid_market[1]
+                        del pending_orders[buying_or_selling][market]
                         break
 
                 utils.json_to_file(pending_orders, "pending_orders.json")
@@ -59,16 +60,22 @@ def move_to_held(pending_market, buying_or_selling):
     held_coins = utils.file_to_json("held_coins.json")
     pending_orders = utils.file_to_json("pending_orders.json")
 
+    global_return = utils.file_to_json('global_return.json')
+
+
     pending_order = pending_orders[buying_or_selling][pending_market]
 
     if buying_or_selling == 'Buying':
         held_coins[pending_order['market']] = pending_order
-        utils.json_to_file(held_coins, "held_coins.json")
+        utils.json_to_file(held_coins, 'held_coins.json')
+        global_return['Invested'] += pending_orders['Buying'][pending_market]['total_paid']
 
     elif buying_or_selling == 'Selling':
         del held_coins[pending_market]
         utils.json_to_file(held_coins, "held_coins.json")
+        global_return['Gain'] += pending_orders['Selling'][pending_market]['gain']
 
+    utils.json_to_file(global_return, 'global_return.json')
     del pending_orders[buying_or_selling][pending_market]
     utils.json_to_file(pending_orders, "pending_orders.json")
 
@@ -131,8 +138,8 @@ def run_hodl_strat():
 
 def initialize_percent_strat():
     buy_min_percent = 30
-    buy_max_percent = 60
-    buy_desired_1h_change = 12
+    buy_max_percent = 1000
+    buy_desired_1h_change = 1.7
     total_slots = 4
     return PS.PercentStrat(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots)
 
@@ -175,7 +182,7 @@ def run_keltner_strat():
 
 api = utils.get_api()
 
-time_until_cancel_processing_order_minutes = 2
+time_until_cancel_processing_order_minutes = 1
 satoshi_50k = 0.0005
 
 ks = initialize_keltner_strat()
