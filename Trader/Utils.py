@@ -99,7 +99,7 @@ def print_and_write_to_logfile(log_text):
 
     nlines = message_to_email.count('\n')
 
-    if nlines > 100:
+    if nlines > 30:
         message_to_email = ''.join(message_to_email)
         send_email(message_to_email)
 
@@ -166,7 +166,6 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
     if buy_order['success']:
 
         pending_orders = file_to_json("pending_orders.json")
-        coin_history = file_to_json("coin_highest_price_history.json")
 
         coin_price_usd = bitcoin_to_USD(coin_price)
         time = get_date_time()
@@ -192,8 +191,6 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
 
         s = {}
         s['highest_price_recorded'] = coin_price
-        coin_history[market] = s
-        json_to_file(coin_history, "coin_highest_price_history.json")
 
         json_to_file(pending_orders, "pending_orders.json")
     else:

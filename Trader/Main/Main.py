@@ -6,7 +6,6 @@ import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
 import logging
-import time
 
 
 def clean_orders(orders):
@@ -48,9 +47,6 @@ def clean_orders(orders):
                     utils.json_to_file(pending_orders, "pending_orders.json")
                     utils.print_and_write_to_logfile(
                         "Cancel Order of " + str(order["Quantity"]) + " " + str(order['Exchange']) + " Successful")
-
-                    #remove highest price from highest history
-                    #utils.delete_entry_from_json("coin_highest_price_history.json", order['Exchange'])
             else:
                 utils.print_and_write_to_logfile(
                     "Cancel Order of " + str(order["Quantity"]) + order['Exchange'] + " Unsuccessful: " + cancel_order[
@@ -97,7 +93,6 @@ def update_pending_orders(orders):
     :return:
     """
 
-    #held_coins = utils.file_to_json("held_coins.json")
     pending_orders = utils.file_to_json("pending_orders.json")
 
     # Move processed buy orders from pending_orders into held_coins
@@ -106,17 +101,25 @@ def update_pending_orders(orders):
     buy_uuids_markets = [(pending_orders['Buying'][market]['uuid'], market) for market in pending_orders['Buying']]
 
     for buy_uuids_market in buy_uuids_markets:
-        if buy_uuids_market[0] not in processing_orders:
-            pending_buy_order = pending_orders['Buying'][buy_uuids_market[1]]
+        buy_uuid = buy_uuids_market[0]
+        if buy_uuid not in processing_orders:
+            buy_market = buy_uuids_market[1]
+
+            pending_buy_order = pending_orders['Buying'][buy_market]
             amount = str(pending_buy_order['amount'])
             utils.print_and_write_to_logfile(
-                "Buy order: " + amount + " of " + buy_uuids_market[1] + " Processed Successfully " + "UUID: "
-                + buy_uuids_market[0])
-            move_to_from_held(buy_uuids_market[1], 'Buying')
+                "Buy order: " + amount + " of " + buy_market + " Processed Successfully " + "UUID: "
+                + buy_uuid)
+            move_to_from_held(buy_market, 'Buying')
 
-    sell_uuids_markets = [(pending_orders['Selling'][market]['uuid'], market) for market in pending_orders['Selling']]
+            # Add price to highest_price_history
+            highest_price_list = utils.file_to_json("coin_highest_price_history.json")
+            highest_price_list[buy_market] = pending_orders['Buying'][buy_market]['price_bought']
+            utils.json_to_file(highest_price_list, 'coin_highest_price_history.json')
 
     # Move processed sold orders from pending_orders into held_coins
+    sell_uuids_markets = [(pending_orders['Selling'][market]['uuid'], market) for market in pending_orders['Selling']]
+
     for sell_uuids_market in sell_uuids_markets:
         if sell_uuids_market[0] not in processing_orders:
             pending_sell_order = pending_orders['Selling'][sell_uuids_market[1]]
