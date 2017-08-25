@@ -9,3 +9,8 @@ coin_highest_price_history.json
 workspace.xml
 global_return.json
 logs_to_send.txt
+
+
+Trader/Main/coin_highest_price_history.json
+Trader/Main/global_return.json
+Trader/Main/logs_to_send.txt
