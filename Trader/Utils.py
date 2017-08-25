@@ -176,8 +176,8 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
         print_and_write_to_logfile("BUYING\n" + market + "\n24h%: " + str(
             percent_change_24h) + "\nUSD: $" + str(coin_price_usd) + "\nBTC: " + str(
             coin_price) + "\nAmount: " + str(amount)
-                                   + "\nTotal Paid: $" + str(total_to_spend) + "\nTime: " + time + "\n1hr%: " + str(
-            percent_change_1h))
+                                   + "\nTotal Paid: $" + str(total_to_spend) + "\n1hr%: " + str(
+            percent_change_1h) + + "\nTime: " + time)
 
         t = {}
         t['market'] = market
@@ -204,9 +204,8 @@ def sell(api, amount, market, bittrex_coins):
     Makes a sell order and adds the coin to pending_orders
     :param api:
     :param amount:
-    :param cur_coin_price:
+    :param bittrex_coins:
     :param market:
-    :param cur_24h_change:
     :return:
     """
 
@@ -227,16 +226,14 @@ def sell(api, amount, market, bittrex_coins):
         cur_coin_price_usd = bitcoin_to_USD(cur_coin_price)
         cur_date_time = get_date_time()
 
-        symbol = get_second_market_coin(market)
-
         print_and_write_to_logfile(
-            "SELLING\n" + str(symbol) + "\nUSD: $" + str(cur_coin_price_usd) + "\nBTC: " + str(
+            "SELLING\n" + market + "\nUSD: $" + "\n24h%: " + str(cur_24h_change) + str(cur_coin_price_usd) + "\nBTC: " + str(
                 cur_coin_price) + "\nAmount: " + str(amount)
-            + "\n24h%: " + str(cur_24h_change) + "\nTotal Sold For: $" + str(selling_for) + "\nNet Gain/Loss: " + str(
+            + "\nTotal Sold For: $" + str(selling_for) + "\nNet Gain/Loss: " + str(
                 net_gain_loss) + "\nTime: " + str(cur_date_time))
 
         t = {}
-        t['symbol'] = symbol
+        t['market'] = market
         t['cur_coin_price'] = cur_coin_price
         t['cur_coin_price_usd'] = cur_coin_price_usd
         t['amount'] = amount

@@ -47,11 +47,11 @@ def clean_orders(orders):
 
                     utils.json_to_file(pending_orders, "pending_orders.json")
                     utils.print_and_write_to_logfile(
-                        "Cancel Order of " + str(order["Quantity"]) + " " + str(order['Exchange']) + " Successful")
+                        "Cancel Order of " + str(order["Quantity"]) + " " + str(order['Exchange']) + " Successful " + utils.get_date_time())
             else:
                 utils.print_and_write_to_logfile(
                     "Cancel Order of " + str(order["Quantity"]) + order['Exchange'] + " Unsuccessful: " + cancel_order[
-                        'message'])
+                        'message'] + " " + utils.get_date_time())
 
 
 def move_to_from_held(pending_market, buying_or_selling):
@@ -110,7 +110,7 @@ def update_pending_orders(orders):
             amount = str(pending_buy_order['amount'])
             utils.print_and_write_to_logfile(
                 "Buy order: " + amount + " of " + buy_market + " Processed Successfully " + "UUID: "
-                + buy_uuid)
+                + buy_uuid + " " + utils.get_date_time())
             move_to_from_held(buy_market, 'Buying')
 
             # Add price to highest_price_history
@@ -127,7 +127,7 @@ def update_pending_orders(orders):
             amount = str(pending_sell_order['amount'])
             utils.print_and_write_to_logfile(
                 "Sell order: " + amount + " of " + " " + sell_uuids_market[1] + " Processed Successfully " + "UUID: "
-                + sell_uuids_market[0])
+                + sell_uuids_market[0] + " " + utils.get_date_time())
             move_to_from_held(sell_uuids_market[1], 'Selling')
 
 
