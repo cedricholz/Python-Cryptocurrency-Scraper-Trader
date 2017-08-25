@@ -5,7 +5,8 @@ import Trader.Utils as utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
-import logging
+import traceback
+import time
 
 
 def clean_orders(orders):
@@ -202,7 +203,6 @@ hs = initialize_hodl_strat()
 
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
-
 # Main Driver
 while True:
     try:
@@ -222,7 +222,6 @@ while True:
             update_pending_orders(orders)
 
     except Exception as e:
-        utils.print_and_write_to_logfile(logging.exception("message"))
-
+        utils.print_and_write_to_logfile(traceback.format_exc())
 
     time.sleep(10)

@@ -189,9 +189,6 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
 
         pending_orders['Buying'][market] = t
 
-        s = {}
-        s['highest_price_recorded'] = coin_price
-
         json_to_file(pending_orders, "pending_orders.json")
     else:
         print_and_write_to_logfile(

@@ -49,13 +49,13 @@ class PercentStrat:
             coin_price = float(self.bittrex_coins[hist_coin]['Last'])
             # update highest price recorded while held
             if hist_coin in self.held_coins:
-                highest_recorded_price = float(self.history_coins[hist_coin]['highest_price_recorded'])
+                highest_recorded_price = float(self.history_coins[hist_coin])
                 if coin_price > highest_recorded_price:
-                    self.history_coins[hist_coin]['highest_price_recorded'] = coin_price
-                    utils.json_to_file(self.history_coins,"coin_highest_price_history.json" )
+                    self.history_coins[hist_coin] = coin_price
+                    utils.json_to_file(self.history_coins, "coin_highest_price_history.json")
 
             # checking if the price of the sold coin is now greater then previously recorded high
-            elif float(self.history_coins[hist_coin]['highest_price_recorded'])*1.1 < coin_price:
+            elif float(self.history_coins[hist_coin])*1.1 < coin_price:
 
                 coins_pending_buy = [market for market in self.pending_orders['Buying']]
                 coins_pending_sell = [market for market in self.pending_orders['Selling']]
@@ -103,7 +103,7 @@ class PercentStrat:
 
         held_markets = [market for market in self.held_coins]
         for coin_market in held_markets:
-            current_high = self.history_coins[coin_market]['highest_price_recorded']
+            current_high = self.history_coins[coin_market]
             coin_price = float(self.bittrex_coins[coin_market]['Last'])
             """
             if cur_24h_change > highest_24h_change:
