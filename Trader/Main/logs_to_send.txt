@@ -1,2 +1,0 @@
-Sell order did not go through: INSUFFICIENT_FUNDS
-
