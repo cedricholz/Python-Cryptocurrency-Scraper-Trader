@@ -2,6 +2,12 @@
     "BTC-BSD": {
         "highest_price_recorded": 0.000123
     },
+    "BTC-BTA": {
+        "highest_price_recorded": 0.0001517
+    },
+    "BTC-CANN": {
+        "highest_price_recorded": 8.86e-06
+    },
     "BTC-HKG": {
         "highest_price_recorded": 1.654e-05
     },

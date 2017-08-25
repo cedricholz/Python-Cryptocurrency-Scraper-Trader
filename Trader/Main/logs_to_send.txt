@@ -122,3 +122,65 @@ Buy order: 147.00184999466552 of BTC-PKB Processed Successfully UUID: 234ba735-1
 
 0 slots open
 
+
+**Beginning run at 19:53:49 8/24/2017**
+
+
+0 slots open
+
+
+**Beginning run at 19:55:59 8/24/2017**
+
+
+BUYING
+BTC-BTA
+24h%: 48.72549019607844
+USD: $0.667203906
+BTC: 0.0001517
+Amount: 22.893015820698746
+Total Paid: $15.312495349629225
+Time: 19:56:1 8/24/2017
+1hr%: 6.13
+
+BUYING
+BTC-CANN
+24h%: 48.03149606299213
+USD: $0.0330743136
+BTC: 7.52e-06
+Amount: 461.81788563829787
+Total Paid: $15.312495349629225
+Time: 19:56:2 8/24/2017
+1hr%: 13.0
+
+
+**Beginning run at 19:57:35 8/24/2017**
+
+
+
+**Beginning run at 20:0:51 8/24/2017**
+
+
+
+**Beginning run at 20:1:12 8/24/2017**
+
+
+
+**Beginning run at 20:2:39 8/24/2017**
+
+
+Cancel Order of 22.89301582 BTC-BTA Successful
+
+Cancel Order of 461.81788563 BTC-CANN Successful
+
+BUYING
+BTC-CANN
+24h%: 73.22834645669293
+USD: $0.03862974544
+BTC: 8.8e-06
+Amount: 394.64437499999997
+Total Paid: $15.283124274941846
+Time: 20:2:57 8/24/2017
+1hr%: 20.85
+
+Buy order: 394.64437499999997 of BTC-CANN Processed Successfully UUID: 6156bb7b-0d85-4449-b254-ac0b75d2196e
+

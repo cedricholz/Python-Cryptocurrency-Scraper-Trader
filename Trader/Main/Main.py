@@ -9,7 +9,6 @@ import logging
 import time
 
 
-
 def clean_orders(orders):
     """
     Finds any order that has been attempting to buy
@@ -33,9 +32,9 @@ def clean_orders(orders):
 
         buying_or_selling = 'Buying' if order['OrderType'] == 'LIMIT_BUY' else 'Selling'
 
-        for pending_order in pending_orders[buying_or_selling]:
-            if pending_order['uuid'] == uuid:
-                market = pending_order['market']
+        for pending_market in pending_orders[buying_or_selling]:
+            if pending_orders[buying_or_selling][pending_market]['uuid'] == uuid:
+                market = pending_market
 
         if time_passed > time_until_cancel_processing_order_minutes:
             uuid = order['OrderUuid']
