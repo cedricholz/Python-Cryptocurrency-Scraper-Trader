@@ -87,13 +87,15 @@ def clear_file(filename):
 
 
 def print_and_write_to_logfile(log_text):
-    print(log_text + '\n')
-    with open('logs.txt', 'a') as myfile:
-        myfile.write(log_text + '\n\n')
+    if log_text is not None:
+        print(log_text + '\n')
 
-    with open('logs_to_send.txt', 'r+') as send_file:
-        send_file.write(log_text + '\n\n')
-        message_to_email = send_file.readlines()
+        with open('logs.txt', 'a') as myfile:
+            myfile.write(log_text + '\n\n')
+
+        with open('logs_to_send.txt', 'r+') as send_file:
+            send_file.write(log_text + '\n\n')
+            message_to_email = send_file.readlines()
 
     nlines = message_to_email.count('\n')
 
