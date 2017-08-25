@@ -177,7 +177,7 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
             percent_change_24h) + "\nUSD: $" + str(coin_price_usd) + "\nBTC: " + str(
             coin_price) + "\nAmount: " + str(amount)
                                    + "\nTotal Paid: $" + str(total_to_spend) + "\n1hr%: " + str(
-            percent_change_1h) + + "\nTime: " + time)
+            percent_change_1h) + "\nTime: " + time)
 
         t = {}
         t['market'] = market
