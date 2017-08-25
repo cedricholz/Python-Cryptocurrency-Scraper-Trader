@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../../')
 
-import Trader.Utils as Utils
+import Trader.Utils as utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
@@ -31,6 +31,8 @@ def clean_orders(orders):
         uuid = order['OrderUuid']
         market = ""
 
+        buying_or_selling = 'Buying' if order['OrderType'] == 'LIMIT_BUY' else 'Selling'
+
         for pending_order in pending_orders[buying_or_selling]:
             if pending_order['uuid'] == uuid:
                 market = pending_order['market']
@@ -40,16 +42,16 @@ def clean_orders(orders):
             cancel_order = api.cancel(uuid)
 
             if cancel_order['success']:
-                buying_or_selling = 'Buying' if order['OrderType'] == 'LIMIT_BUY' else 'Selling'
 
-                del pending_orders[buying_or_selling][market]
+                if market in pending_orders[buying_or_selling]:
+                    del pending_orders[buying_or_selling][market]
 
-                utils.json_to_file(pending_orders, "pending_orders.json")
-                utils.print_and_write_to_logfile(
-                    "Cancel Order of " + str(order["Quantity"]) + " " + str(order['Exchange']) + " Successful")
+                    utils.json_to_file(pending_orders, "pending_orders.json")
+                    utils.print_and_write_to_logfile(
+                        "Cancel Order of " + str(order["Quantity"]) + " " + str(order['Exchange']) + " Successful")
 
-                #remove highest price from highest history
-                #utils.delete_entry_from_json("coin_highest_price_history.json", order['Exchange'])
+                    #remove highest price from highest history
+                    #utils.delete_entry_from_json("coin_highest_price_history.json", order['Exchange'])
             else:
                 utils.print_and_write_to_logfile(
                     "Cancel Order of " + str(order["Quantity"]) + order['Exchange'] + " Unsuccessful: " + cancel_order[
