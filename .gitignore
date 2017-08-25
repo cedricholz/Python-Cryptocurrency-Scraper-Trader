@@ -8,3 +8,4 @@ keltner_coins.json
 coin_highest_price_history.json
 workspace.xml
 global_return.json
+logs_to_send.txt
