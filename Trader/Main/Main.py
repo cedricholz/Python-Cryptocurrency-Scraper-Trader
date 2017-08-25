@@ -152,7 +152,7 @@ def initialize_percent_strat():
     utils.init_global_return()
     buy_min_percent = 30
     buy_max_percent = 1000
-    buy_desired_1h_change = 1.7
+    buy_desired_1h_change = 10
     total_slots = 4
     return PS.PercentStrat(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots)
 
