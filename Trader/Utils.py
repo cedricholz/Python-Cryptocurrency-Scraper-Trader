@@ -65,16 +65,19 @@ def get_second_market_coin(market):
     return m.group(2)
 
 
-def get_coin_market_cap_1hr_change():
-    coinmarketcap_coins = query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
+def get_coinmarketcap_1hr_change(coinmarketcap_coins):
+    # coinmarketcap_coins = query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
     d = {}
     for coin in coinmarketcap_coins:
         d[coin['symbol']] = coin['percent_change_1h']
     return d
 
 
-def get_rank():
-    coinmarketcap_coins = query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
+def get_updated_coinmarketcap_coins():
+    return query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
+
+def get_rank(coinmarketcap_coins):
+    # coinmarketcap_coins = query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
     d = {}
     for coin in coinmarketcap_coins:
         d[coin['symbol']] = coin['rank']

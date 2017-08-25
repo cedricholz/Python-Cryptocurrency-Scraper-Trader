@@ -15,6 +15,8 @@ class PercentStrat:
         self.total_slots = total_slots
 
         self.bittrex_coins = utils.get_updated_bittrex_coins()
+        self.coinmarketcap_coins = utils.get_updated_coinmarketcap_coins()
+
         self.refresh_held_pending_history()
 
         self.held_coins = utils.file_to_json("held_coins.json")
@@ -30,7 +32,7 @@ class PercentStrat:
         :param total_bitcoin:
         :return:
         """
-        symbol_1h_change_pairs = utils.get_coin_market_cap_1hr_change()
+        symbol_1h_change_pairs = utils.get_coinmarketcap_1hr_change(self.coinmarketcap_coins)
         slots_open = self.total_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
             self.pending_orders['Selling'])
 
@@ -68,12 +70,12 @@ class PercentStrat:
                         percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[hist_coin])
                         utils.buy(self.api, hist_coin, amount, coin_price, percent_change_24h, 0, coin_1h_change)
 
-        #chacking all bittrex coins to find the one
+        # checking all bittrex coins to find the one
         for coin in self.bittrex_coins:
             percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[coin])
-            #if coin 24 increase between x and y
+            # if coin 24 increase between x and y
             if self.buy_min_percent <= percent_change_24h <= self.buy_max_percent:
-                rank = utils.get_rank()
+                rank = utils.get_rank(self.coinmarketcap_coins)
                 coin_rank = rank[utils.get_second_market_coin(coin)]
                 coin_volume = self.bittrex_coins[coin]['Volume']
                 # volume must be > 200 so we can sell when want
@@ -105,6 +107,7 @@ class PercentStrat:
         for coin_market in held_markets:
             current_high = self.history_coins[coin_market]
             coin_price = float(self.bittrex_coins[coin_market]['Last'])
+
             """
             if cur_24h_change > highest_24h_change:
                 self.held_coins[coin_market]['highest_24h_change'] = cur_24h_change
@@ -151,3 +154,5 @@ class PercentStrat:
     def update_bittrex_coins(self):
         self.bittrex_coins = utils.get_updated_bittrex_coins()
 
+    def update_coinmarketcap_coins(self):
+        self.coinmarketcap_coins = utils.get_updated_coinmarketcap_coins()

@@ -154,12 +154,14 @@ def initialize_percent_strat():
     buy_max_percent = 1000
     buy_desired_1h_change = 10
     total_slots = 4
+
     return PS.PercentStrat(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots)
 
 
 def run_percent_strat():
     ps.refresh_held_pending_history()
     ps.update_bittrex_coins()
+    ps.update_coinmarketcap_coins()
     if total_bitcoin > satoshi_50k:
         ps.percent_buy_strat(total_bitcoin)
 
