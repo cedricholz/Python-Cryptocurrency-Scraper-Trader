@@ -2,13 +2,12 @@ import sys
 sys.path.append('../../')
 from forex_python.bitcoin import BtcConverter
 from Trader.Bittrex3 import Bittrex3
-from datetime import datetime, timezone
+from datetime import datetime
+from collections import deque
 import urllib
 import json
 import re
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
+
 
 def file_to_json(filename):
     try:
@@ -302,3 +301,23 @@ def send_email(message):
 
     except:
         print("Failed to send message")
+
+
+def update_market_historical_list(market, historical_coin_data, bittrex_coins, num_ticks):
+    if market not in historical_coin_data:
+        new_list = deque([])
+    else:
+        new_list = historical_coin_data[market]
+    new_list.append(bittrex_coins[market]['Last'])
+    if len(new_list) > num_ticks:
+        new_list.popleft()
+    return new_list
+
+
+def update_historical_coin_data(historical_coin_data, bittrex_coins, data_ticks_to_save):
+    for market in bittrex_coins:
+        if market.startswith('BTC'):
+            historical_coin_data[market] = update_market_historical_list(market, historical_coin_data, bittrex_coins, data_ticks_to_save)
+        if market.startswith("ETC"):
+            break
+    return historical_coin_data

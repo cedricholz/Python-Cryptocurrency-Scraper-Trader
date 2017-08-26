@@ -10,6 +10,7 @@ workspace.xml
 global_return.json
 logs_to_send.txt
 email_info.json
+historical_coin_data.json
 
 Trader/Main/coin_highest_price_history.json
 Trader/Main/global_return.json

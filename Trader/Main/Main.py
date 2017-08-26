@@ -154,13 +154,17 @@ def initialize_percent_strat():
     buy_max_percent = 1000
     buy_desired_1h_change = 10
     total_slots = 4
+    data_ticks_to_save = 180
 
-    return PS.PercentStrat(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots)
+    return PS.PercentStrat(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots, data_ticks_to_save)
 
 
 def run_percent_strat():
     ps.refresh_held_pending_history()
     ps.update_bittrex_coins()
+
+    ps.historical_coin_data = utils.update_historical_coin_data(ps.historical_coin_data, ps.bittrex_coins, ps.data_ticks_to_save)
+
     ps.update_coinmarketcap_coins()
     if total_bitcoin > satoshi_50k:
         ps.percent_buy_strat(total_bitcoin)
@@ -183,15 +187,14 @@ def initialize_keltner_strat():
 def run_keltner_strat():
     ks.refresh_held_pending()
 
-    ks.update_keltner_coins()
-
     ks.update_bittrex_coins()
+
+    ks.update_keltner_coins()
 
     if total_bitcoin > satoshi_50k:
         ks.keltner_buy_strat(total_bitcoin)
 
     ks.keltner_sell_strat()
-
 
 api = utils.get_api()
 
@@ -202,8 +205,8 @@ ks = initialize_keltner_strat()
 ps = initialize_percent_strat()
 hs = initialize_hodl_strat()
 
-
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
+
 
 # Main Driver
 while True:

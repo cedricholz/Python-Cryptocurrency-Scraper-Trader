@@ -6,16 +6,18 @@ sys.path.append('../../')
 class PercentStrat:
     satoshi_50k = 0.0005
 
-
-    def __init__(self, api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots):
+    def __init__(self, api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots, data_ticks_to_save):
         self.api = api
         self.buy_min_percent = buy_min_percent
         self.buy_max_percent = buy_max_percent
         self.buy_desired_1h_change = buy_desired_1h_change
         self.total_slots = total_slots
+        self.data_ticks_to_save = data_ticks_to_save
 
         self.bittrex_coins = utils.get_updated_bittrex_coins()
         self.coinmarketcap_coins = utils.get_updated_coinmarketcap_coins()
+
+        self.historical_coin_data = {}
 
         self.refresh_held_pending_history()
 
