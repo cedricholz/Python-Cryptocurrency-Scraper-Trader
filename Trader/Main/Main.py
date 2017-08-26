@@ -4,6 +4,7 @@ sys.path.append('../../')
 import Trader.Utils as utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
+import Trader.Main.Percent_strat_high as PSH
 import Trader.Main.Hodl_strat as HS
 import traceback
 import time
@@ -171,6 +172,29 @@ def run_percent_strat():
 
     ps.percent_sell_strat()
 
+def initialize_percent_strat_high():
+    utils.init_global_return()
+    buy_min_percent = 73
+    buy_max_percent = 100
+    buy_desired_1h_change = 10
+    total_slots = 2
+    data_ticks_to_save = 180
+
+    return PSH.PercentStratHigh(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots, data_ticks_to_save)
+
+
+def run_percent_strat_high():
+    psh.refresh_held_pending_history()
+    psh.update_bittrex_coins()
+
+    psh.historical_coin_data = utils.update_historical_coin_data(psh.historical_coin_data, psh.bittrex_coins, psh.data_ticks_to_save)
+
+    psh.update_coinmarketcap_coins()
+    if total_bitcoin > satoshi_50k:
+        ps.percent_buy_strat(total_bitcoin)
+
+    psh.percent_sell_strat()
+
 
 def initialize_keltner_strat():
     keltner_period = 20
@@ -204,6 +228,7 @@ satoshi_50k = 0.0005
 ks = initialize_keltner_strat()
 ps = initialize_percent_strat()
 hs = initialize_hodl_strat()
+psh = initialize_percent_strat_high()
 
 utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
 
@@ -215,8 +240,9 @@ while True:
         total_bitcoin = utils.get_total_bitcoin(api)
 
         # run_keltner_strat()
-        run_percent_strat()
+        #run_percent_strat()
         # run_hodl_strat()
+        run_percent_strat_high()
 
         orders_query = api.get_open_orders("")
 
