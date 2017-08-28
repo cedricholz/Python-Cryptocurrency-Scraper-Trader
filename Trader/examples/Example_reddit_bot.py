@@ -12,7 +12,7 @@ reddit = praw.Reddit(client_id=reddit_secrets["client_id"], client_secret=reddit
 
 # Check to see OAuth worked
 print(str(reddit.user.me()) + '\n')
-
+# .hot(limit=25):
 
 # Print the first "limit" titles on r/cryptocurrency and print their sentiment
 for submission in reddit.subreddit('CryptoCurrency').hot(limit=25):

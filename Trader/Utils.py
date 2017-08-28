@@ -7,6 +7,9 @@ from collections import deque
 import urllib
 import json
 import re
+import praw
+import requests
+
 
 
 def file_to_json(filename):
@@ -144,6 +147,22 @@ def get_updated_bittrex_coins():
     for coin in bittrex_data:
         key = coin['MarketName']
         coins[key] = coin
+    return coins
+
+
+def get_bittrex_market_names():
+    bittrex_data = query_url("https://bittrex.com/api/v1.1/public/getmarkets")['result']
+    coins = {}
+    for coin in bittrex_data:
+        if coin['BaseCurrency'] =='BTC':
+            key = coin['MarketCurrency']
+            t = {}
+            t['full_name'] = coin['MarketCurrencyLong']
+            t['mentioned_ids'] = []
+            t['mentioned_times'] = []
+            t['text'] = []
+            t['upvotes'] = []
+            coins[key] = t
     return coins
 
 
@@ -321,3 +340,13 @@ def update_historical_coin_data(historical_coin_data, bittrex_coins, data_ticks_
         if market.startswith("ETC"):
             break
     return historical_coin_data
+
+
+def get_reddit_api():
+    with open("reddit_secrets.json") as secrets_file:
+        reddit_secrets = json.load(secrets_file)
+        secrets_file.close()
+
+    return praw.Reddit(client_id=reddit_secrets["client_id"], client_secret=reddit_secrets["client_secret"],
+                         password=reddit_secrets["password"], user_agent=reddit_secrets["user_agent"],
+                         username=reddit_secrets["username"])

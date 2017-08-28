@@ -5,6 +5,7 @@ import Trader.Utils as utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
+import Trader.Main.Reddit_strat as RS
 import traceback
 import time
 
@@ -148,30 +149,6 @@ def run_hodl_strat():
     hs.hodl_sell_strat()
 
 
-def initialize_percent_strat():
-    utils.init_global_return()
-    buy_min_percent = 30
-    buy_max_percent = 1000
-    buy_desired_1h_change = 10
-    total_slots = 4
-    data_ticks_to_save = 180
-
-    return PS.PercentStrat(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots, data_ticks_to_save)
-
-
-def run_percent_strat():
-    ps.refresh_held_pending_history()
-    ps.update_bittrex_coins()
-
-    ps.historical_coin_data = utils.update_historical_coin_data(ps.historical_coin_data, ps.bittrex_coins, ps.data_ticks_to_save)
-
-    ps.update_coinmarketcap_coins()
-    if total_bitcoin > satoshi_50k:
-        ps.percent_buy_strat(total_bitcoin)
-
-    ps.percent_sell_strat()
-
-
 def initialize_keltner_strat():
     keltner_period = 20
     keltner_multiplier = 2
@@ -196,6 +173,54 @@ def run_keltner_strat():
 
     ks.keltner_sell_strat()
 
+
+def initialize_reddit_strat():
+    reddit_api = utils.get_reddit_api()
+
+    total_slots = 5
+    return RS.RedditStrat(api, reddit_api, total_slots)
+
+
+def run_reddit_strat():
+    rs.refresh_held_pending()
+    rs.update_reddit_coins()
+
+    ranked_by_mentions = rs.rank_by_mentions()
+    ranked_by_upvotes = rs.rank_by_upvotes()
+
+    rs.update_bittrex_coins()
+
+    if total_bitcoin > satoshi_50k:
+        rs.reddit_buy_strat(total_bitcoin)
+
+    rs.reddit_sell_strat()
+
+    print("Done")
+
+
+def initialize_percent_strat():
+    utils.init_global_return()
+    buy_min_percent = 30
+    buy_max_percent = 1000
+    buy_desired_1h_change = 10
+    total_slots = 4
+    data_ticks_to_save = 180
+
+    return PS.PercentStrat(api, buy_min_percent, buy_max_percent, buy_desired_1h_change, total_slots, data_ticks_to_save)
+
+
+def run_percent_strat():
+    ps.refresh_held_pending_history()
+    ps.update_bittrex_coins()
+
+    ps.historical_coin_data = utils.update_historical_coin_data(ps.historical_coin_data, ps.bittrex_coins, ps.data_ticks_to_save)
+
+    ps.update_coinmarketcap_coins()
+    if total_bitcoin > satoshi_50k:
+        ps.percent_buy_strat(total_bitcoin)
+
+    ps.percent_sell_strat()
+
 api = utils.get_api()
 
 time_until_cancel_processing_order_minutes = 1
@@ -204,8 +229,9 @@ satoshi_50k = 0.0005
 ks = initialize_keltner_strat()
 ps = initialize_percent_strat()
 hs = initialize_hodl_strat()
+rs = initialize_reddit_strat()
 
-utils.print_and_write_to_logfile("\n**Beginning run at " + utils.get_date_time() + "**\n")
+utils.print_and_write_to_logfile("\n** Beginning run at " + utils.get_date_time() + " **\n")
 
 
 # Main Driver
@@ -215,8 +241,9 @@ while True:
         total_bitcoin = utils.get_total_bitcoin(api)
 
         # run_keltner_strat()
-        run_percent_strat()
+        # run_percent_strat()
         # run_hodl_strat()
+        run_reddit_strat()
 
         orders_query = api.get_open_orders("")
 
