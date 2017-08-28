@@ -2,15 +2,22 @@
 
 2. Set up Two-Factor Authentication with Google Authenticator
 
-3. Go to API Keys and add new key, turn on READ INFO, TRADE LIMIT, and TRADE MARKET and put in your authenticator code from Google Authenitcator.
+3. Go to API Keys and add new key, turn on 
+```
+READ INFO, TRADE LIMIT, and TRADE MARKET
+```
+and put in your authenticator code from Google Authenticator.
 
 4. Add file, "secrets.json" to file Trader folder, examples folder, and Main folder containing the code below and your key and secret from previous step.
-   This file is in the .gitignore so you don't accidentally push your key to the world.
 
+This file is in the .gitignore so you don't accidentally push your key to the world.
+
+```
 {
   "key": "mykey",
   "secret": "mysecret"
 }
+```
 
 5. Test that it works by running bittrex3_tests.py
 
@@ -24,6 +31,7 @@ client_secret is the string next to secret
 
 8. Add file "reddit_secrets.json" to file main folder, examples folder, and main folder containing the code below and your reddit information.
 
+```
 {
   "client_id": "zsdfj34jklkljsdfsfewfefwse",
   "client_secret": "sebt6xscuizxcdfrtsecvcb",
@@ -31,6 +39,7 @@ client_secret is the string next to secret
   "user_agent":"User-Agent: android:com.example.myredditapp:v1.2.3 (by /u/kemitche)",
   "username": "fakebot3"
 }
+```
 
 9. Test that it works by running example_reddit_bot.py
 
@@ -52,16 +61,21 @@ client_secret is the string next to secret
 
 
 12. Add file "email_info.json" to Main and fill it with your info
+
+```
 {
   "email_address": "myaddress",
   "password": "mypassword"
 }
+```
 
 Libraries to install through with pip and gitbash:
 
-pip install forex-python
+```
+pip3 install forex-python
 
-pip install praw
+pip3 install praw
+```
 
 Bird, Steven, Edward Loper and Ewan Klein (2009).
 Natural Language Processing with Python.  O'Reilly Media Inc.
