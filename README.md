@@ -4,7 +4,7 @@
 
 3. Go to API Keys and add new key, turn on READ INFO, TRADE LIMIT, and TRADE MARKET and put in your authenticator code from Google Authenitcator.
 
-4. Add file, "secrets.json" to file bittrex3 folder, examples folder, and Main folder containing the code below and your key and secret from previous step.
+4. Add file, "secrets.json" to file Trader folder, examples folder, and Main folder containing the code below and your key and secret from previous step.
    This file is in the .gitignore so you don't accidentally push your key to the world.
 
 {
@@ -16,7 +16,11 @@
 
 6. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation 
 
-7. Create reddit app to get a client_id and client_secret, hhttps://www.reddit.com/prefs/apps
+7. Create reddit app here, https://www.reddit.com/prefs/apps. Scroll down to the bottom and click create an app. Give it whatever name you want, click script, no description or about url necessary, for redirect url put http://127.0.0.1.
+
+client_id is the string under personal use script
+
+client_secret is the string next to secret
 
 8. Add file "reddit_secrets.json" to file main folder, examples folder, and main folder containing the code below and your reddit information.
 
@@ -30,7 +34,7 @@
 
 9. Test that it works by running example_reddit_bit.py
 
-10. In Main create new file called held_coins.json and fill it with {}
+10. In Main create new several files called held_coins.json, coin_highest_price_history.json, global_return.json, keltner_coins.json, reddit_coins.json and fill it with {}
 
 11. In Main create a new file called pending_orders.json and fill it with this
 
