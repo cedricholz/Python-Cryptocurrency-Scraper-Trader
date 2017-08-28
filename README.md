@@ -32,17 +32,23 @@ client_secret is the string next to secret
   "username": "fakebot3"
 }
 
-9. Test that it works by running example_reddit_bit.py
+9. Test that it works by running example_reddit_bot.py
 
-10. In Main create new several files called held_coins.json, coin_highest_price_history.json, global_return.json, keltner_coins.json, reddit_coins.json and fill it with {}
+10. In Main create new several files called held_coins.json, coin_highest_price_history.json, global_return.json, keltner_coins.json, reddit_coins.json and fill them with 
+
+```
+{}
+```
 
 11. In Main create a new file called pending_orders.json and fill it with this
 
+```
 {
     "Buying": {
     },
     "Selling": {}
 }
+```
 
 
 12. Add file "email_info.json" to Main and fill it with your info
