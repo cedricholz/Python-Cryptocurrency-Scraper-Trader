@@ -12,7 +12,7 @@ and put in your authenticator code from Google Authenticator.
 
 This file is in the .gitignore so you don't accidentally push your key to the world.
 
-```
+```python
 {
   "key": "mykey",
   "secret": "mysecret"
@@ -31,7 +31,7 @@ client_secret is the string next to secret
 
 8. Add file "reddit_secrets.json" to file main folder, examples folder, and main folder containing the code below and your reddit information.
 
-```
+```python
 {
   "client_id": "zsdfj34jklkljsdfsfewfefwse",
   "client_secret": "sebt6xscuizxcdfrtsecvcb",
@@ -45,13 +45,13 @@ client_secret is the string next to secret
 
 10. In Main create new several files called held_coins.json, coin_highest_price_history.json, global_return.json, keltner_coins.json, reddit_coins.json and fill them with 
 
-```
+```python
 {}
 ```
 
 11. In Main create a new file called pending_orders.json and fill it with this
 
-```
+```python
 {
     "Buying": {
     },
@@ -62,7 +62,7 @@ client_secret is the string next to secret
 
 12. Add file "email_info.json" to Main and fill it with your info
 
-```
+```python
 {
   "email_address": "myaddress",
   "password": "mypassword"
@@ -71,7 +71,7 @@ client_secret is the string next to secret
 
 Libraries to install through with pip and gitbash:
 
-```
+```python
 pip3 install forex-python
 
 pip3 install praw
