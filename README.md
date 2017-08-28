@@ -12,7 +12,7 @@ and put in your authenticator code from Google Authenticator.
 
 This file is in the .gitignore so you don't accidentally push your key to the world.
 
-```python
+```json
 {
   "key": "mykey",
   "secret": "mysecret"
