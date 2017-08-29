@@ -66,9 +66,17 @@ client_secret is the string next to secret
 }
 ```
 
-10. Install gitbash if you have windows, otherwise use your terminal https://git-scm.com/downloads
+12. Add file "coins_to_dismiss.json" and fill it with this
 
-11. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation 
+```python
+{
+  "coins_to_dismiss":  ["ETH", "BTC"]
+}
+```
+
+13. Install gitbash if you have windows, otherwise use your terminal https://git-scm.com/downloads
+
+14. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation 
 
 Libraries to install through with pip and through gitbash or terminal:
 
