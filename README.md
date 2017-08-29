@@ -19,16 +19,14 @@ and put in your authenticator code from Google Authenticator.
 
 5. Test that it works by running bittrex3_tests.py
 
-6. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation 
-
-7. Create reddit app here, https://www.reddit.com/prefs/apps. Scroll down to the bottom and click create an app. Give it whatever name you want, click script, no description or about url necessary, for redirect url put http://www.example.com/unused/redirect/uri.
+6. Create reddit app here, https://www.reddit.com/prefs/apps. Scroll down to the bottom and click create an app. Give it whatever name you want, click script, no description or about url necessary, for redirect url put http://www.example.com/unused/redirect/uri.
 
 client_id is the string under personal use script
 
 client_secret is the string next to secret
 ![alt text](https://github.com/cedricholz/Python-Cryptocurrency-Scraper-Trader/blob/master/Trader/reddit_ids.png "Logo Title Text 1")
 
-8. Add file "reddit_secrets.json" to file main folder, examples folder, and main folder containing the code below and your reddit information.
+7. Add file "reddit_secrets.json" to file main folder, examples folder, and main folder containing the code below and your reddit information.
 
 ```python
 {
@@ -40,15 +38,15 @@ client_secret is the string next to secret
 }
 ```
 
-9. Test that it works by running example_reddit_bot.py
+8. Test that it works by running example_reddit_bot.py
 
-10. In Main create new several files called held_coins.json, coin_highest_price_history.json, global_return.json, keltner_coins.json, reddit_coins.json and fill them with 
+9. In Main create new several files called held_coins.json, coin_highest_price_history.json, global_return.json, keltner_coins.json, reddit_coins.json and fill them with 
 
 ```python
 {}
 ```
 
-11. In Main create a new file called pending_orders.json and fill it with this
+10. In Main create a new file called pending_orders.json and fill it with this
 
 ```python
 {
@@ -59,7 +57,7 @@ client_secret is the string next to secret
 ```
 
 
-12. Add file "email_info.json" to Main and fill it with your gmail account info
+11. Add file "email_info.json" to Main and fill it with your gmail account info
 
 ```python
 {
@@ -68,7 +66,11 @@ client_secret is the string next to secret
 }
 ```
 
-Libraries to install through with pip and gitbash:
+10. Install gitbash if you have windows, otherwise use your terminal https://git-scm.com/downloads
+
+11. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation 
+
+Libraries to install through with pip and through gitbash or terminal:
 
 ```python
 pip3 install forex-python
@@ -76,7 +78,9 @@ pip3 install forex-python
 pip3 install praw
 ```
 
-Bird, Steven, Edward Loper and Ewan Klein (2009).
-Natural Language Processing with Python.  O'Reilly Media Inc.
 
-Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
+
+>Bird, Steven, Edward Loper and Ewan Klein (2009).
+>Natural Language Processing with Python.  O'Reilly Media Inc.
+
+>Python Bittrex Wrapper cloned from https://github.com/ericsomdahl/python-bittrex
