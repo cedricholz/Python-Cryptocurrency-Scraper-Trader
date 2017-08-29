@@ -147,6 +147,7 @@ def run_hodl_strat():
         hs.hodl_buy_strat(total_bitcoin)
 
     hs.hodl_sell_strat()
+    time.sleep(10)
 
 
 def initialize_keltner_strat():
@@ -172,6 +173,7 @@ def run_keltner_strat():
         ks.keltner_buy_strat(total_bitcoin)
 
     ks.keltner_sell_strat()
+    time.sleep(10)
 
 
 def initialize_reddit_strat():
@@ -183,19 +185,17 @@ def initialize_reddit_strat():
 
 def run_reddit_strat():
     rs.refresh_held_pending()
-    rs.update_reddit_coins()
 
-    ranked_by_mentions = rs.rank_by_mentions()
-    ranked_by_upvotes = rs.rank_by_upvotes()
+    rs.update_reddit_coins()
 
     rs.update_bittrex_coins()
 
-    if total_bitcoin > satoshi_50k:
-        rs.reddit_buy_strat(total_bitcoin)
+    # if total_bitcoin > satoshi_50k:
+    #     rs.reddit_buy_strat(total_bitcoin)
 
     rs.reddit_sell_strat()
 
-    print("Done")
+    time.sleep(10)
 
 
 def initialize_percent_strat():
@@ -220,6 +220,7 @@ def run_percent_strat():
         ps.percent_buy_strat(total_bitcoin)
 
     ps.percent_sell_strat()
+    time.sleep(10)
 
 api = utils.get_api()
 
@@ -240,10 +241,10 @@ while True:
 
         total_bitcoin = utils.get_total_bitcoin(api)
 
-        # run_keltner_strat()
+        run_keltner_strat()
         # run_percent_strat()
         # run_hodl_strat()
-        run_reddit_strat()
+        # run_reddit_strat()
 
         orders_query = api.get_open_orders("")
 
@@ -256,4 +257,3 @@ while True:
     except Exception as e:
         utils.print_and_write_to_logfile(traceback.format_exc())
 
-    time.sleep(10)

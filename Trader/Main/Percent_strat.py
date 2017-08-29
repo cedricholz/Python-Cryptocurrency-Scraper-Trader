@@ -98,7 +98,13 @@ class PercentStrat:
                             coin_price = float(self.bittrex_coins[coin]['Last'])
                             amount = bitcoin_to_use / coin_price
                             if amount > 0:
-                                utils.buy(self.api, market, amount, coin_price, percent_change_24h, 0, coin_1h_change)
+                                buy_request = utils.buy(self.api, market, amount, coin_price, percent_change_24h, 0, coin_1h_change)
+                                if buy_request['success']:
+                                    utils.print_and_write_to_logfile(
+                                        "Buy order of " + str(amount) + " " + market + " requested")
+                                    self.refresh_held_pending()
+                                else:
+                                    utils.print_and_write_to_logfile(buy_request['message'])
 
     def percent_sell_strat(self):
         """

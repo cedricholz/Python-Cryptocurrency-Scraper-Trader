@@ -8,8 +8,6 @@ import urllib
 import json
 import re
 import praw
-import requests
-
 
 
 def file_to_json(filename):

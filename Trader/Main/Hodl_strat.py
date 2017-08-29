@@ -18,9 +18,6 @@ class HodlStrat:
 
     def hodl_buy_strat(self, total_bitcoin):
 
-        # Over lower band, and cur_price > max(price_data)
-
-
         slots_open = self.total_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
             self.pending_orders['Selling'])
         bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
