@@ -112,9 +112,11 @@ def print_and_write_to_logfile(log_text):
 
 
 def get_total_bitcoin(api):
-    try:
+    result = api.get_balance('BTC')
+    if result['success']:
         return float(api.get_balance('BTC')['result']['Available'])
-    except LookupError:
+    else:
+        print_and_write_to_logfile("Bitcoin Balance Request Unsuccessful")
         return 0
 
 

@@ -152,7 +152,7 @@ def run_hodl_strat():
 
 def initialize_keltner_strat():
     keltner_period = 20
-    keltner_multiplier = 2
+    keltner_multiplier = 1.5
     keltner_slots = 2
     lowest_rank = 50
 
