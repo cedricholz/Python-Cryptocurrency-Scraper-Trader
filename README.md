@@ -70,7 +70,9 @@ client_secret is the string next to secret
 
 ```python
 {
-  "coins_to_dismiss":  ["ETH", "BTC"]
+  "established_coins":  ["ETH", "BTC"],
+  "coins_with_common_names" : ["TIME", "START","OMG","NEO", "RISE", "PAY", "STRAT","FUN","TRUST", "SHIFT"],
+  "coins_already_profited_on" :[]
 }
 ```
 
