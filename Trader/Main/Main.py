@@ -168,9 +168,9 @@ def initialize_keltner_strat():
 def run_keltner_strat():
     ks.refresh_held_pending()
 
-    ks.update_coinmarketcap_coins()
+    ks.coinmarketcap_coins = ks.update_coinmarketcap_coins()
 
-    ks.update_bittrex_coins(ks.coinmarketcap_coins)
+    ks.bittrex_coins = ks.update_bittrex_coins(ks.coinmarketcap_coins)
 
     ks.update_keltner_coins()
 

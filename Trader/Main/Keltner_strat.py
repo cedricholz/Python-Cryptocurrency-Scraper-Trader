@@ -46,8 +46,7 @@ class KeltnerStrat:
             highest_price_history = self.update_highest_price(market, highest_price_history, cur_price)
 
             if self.ten_second_count > 5:
-                self.ten_second_count = 0
-                self.keltner_coins[market]['price_data_minutes'].append(self.keltner_coins[market]['price_data_seconds'][-1])
+                self.keltner_coins[market]['price_data_minutes'].append(cur_price)
                 self.update_atr(market)
                 self.update_ema(market)
                 self.update_bands(market)
@@ -55,6 +54,9 @@ class KeltnerStrat:
 
                 if len(self.keltner_coins[market]['price_data_minutes']) == self.keltner_period:
                     self.keltner_coins[market]['price_data_minutes'].pop(0)
+        if self.ten_second_count > 5:
+            self.ten_second_count = 0
+        else:
             self.ten_second_count += 1
 
         utils.json_to_file(highest_price_history, 'coin_highest_price_history.json')
