@@ -8,11 +8,9 @@ READ INFO, TRADE LIMIT, and TRADE MARKET
 ```
 and put in your authenticator code from Google Authenticator.
 
-4. Add file, "secrets.json" to file Trader folder, examples folder, and Main folder containing the code below and your key and secret from previous step.
+4. Add file, "secrets.json" to file Trader folder, examples folder, and Main folder containing the code below and your key and secret from previous step. All files to add are in the git ignore so we don't push our secrets.
 
-This file is in the .gitignore so you don't accidentally push your key to the world.
-
-```json
+```
 {
   "key": "mykey",
   "secret": "mysecret"
@@ -23,11 +21,12 @@ This file is in the .gitignore so you don't accidentally push your key to the wo
 
 6. Install pip https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation 
 
-7. Create reddit app here, https://www.reddit.com/prefs/apps. Scroll down to the bottom and click create an app. Give it whatever name you want, click script, no description or about url necessary, for redirect url put http://127.0.0.1.
+7. Create reddit app here, https://www.reddit.com/prefs/apps. Scroll down to the bottom and click create an app. Give it whatever name you want, click script, no description or about url necessary, for redirect url put http://www.example.com/unused/redirect/uri.
 
 client_id is the string under personal use script
 
 client_secret is the string next to secret
+![alt text](https://github.com/cedricholz/Python-Cryptocurrency-Scraper-Trader/blob/master/Trader/reddit_info.png "Logo Title Text 1")
 
 8. Add file "reddit_secrets.json" to file main folder, examples folder, and main folder containing the code below and your reddit information.
 
@@ -60,7 +59,7 @@ client_secret is the string next to secret
 ```
 
 
-12. Add file "email_info.json" to Main and fill it with your info
+12. Add file "email_info.json" to Main and fill it with your gmail account info
 
 ```python
 {
