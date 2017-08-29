@@ -22,6 +22,8 @@ class KeltnerStrat:
 
         self.reset_keltner_coins()
 
+        self.ten_second_count = 0
+
     def refresh_held_pending(self):
         self.held_coins = utils.file_to_json("held_coins.json")
         self.pending_orders = utils.file_to_json("pending_orders.json")
@@ -44,12 +46,18 @@ class KeltnerStrat:
 
             highest_price_history = self.update_highest_price(market, highest_price_history, cur_price)
 
-            if len(self.keltner_coins[market]['price_data_seconds']) >= 6:
+            if self.ten_second_count > 5:
+                self.ten_second_count = 0
                 self.keltner_coins[market]['price_data_minutes'].append(self.keltner_coins[market]['price_data_seconds'][-1])
                 self.update_atr(market)
                 self.update_ema(market)
                 self.update_bands(market)
-                self.keltner_coins[market]['price_data_seconds'] = []
+                self.keltner_coins[market]['price_data_seconds'].pop(0)
+
+                if len(self.keltner_coins[market]['price_data_minutes']) == self.keltner_period:
+                    self.keltner_coins[market]['price_data_minutes'].pop(0)
+            self.ten_second_count += 1
+
         utils.json_to_file(highest_price_history, 'coin_highest_price_history.json')
         utils.json_to_file(self.keltner_coins, "keltner_coins.json")
 
@@ -87,10 +95,6 @@ class KeltnerStrat:
                     keltner_coin['tr_data'].pop(0)
 
                 keltner_coin['tr_data'].append(cur_tr)
-
-                keltner_coin['price_data_minutes'].pop(0)
-
-            keltner_coin['price_data_minutes'].append(cur_price)
 
     def update_ema(self, market):
         if market in self.keltner_coins:
@@ -189,54 +193,56 @@ class KeltnerStrat:
         utils.json_to_file(self.keltner_coins, "keltner_coins.json")
 
     def keltner_buy_strat(self, total_bitcoin):
-        keltner_slots_open = self.keltner_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
-            self.pending_orders['Selling'])
+        if len(self.keltner_coins['BTC-ETH']['upper_band_data']) > self.keltner_period:
+            keltner_slots_open = self.keltner_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
+                self.pending_orders['Selling'])
 
-        for coin in self.keltner_coins:
-            market = self.bittrex_coins[coin]['MarketName']
-            lower_band_data = self.keltner_coins[market]['lower_band_data']
-            if len(lower_band_data) == self.keltner_period:
-                coins_pending_buy = [market for market in self.pending_orders['Buying']]
-                coins_pending_sell = [market for market in self.pending_orders['Selling']]
+            for coin in self.keltner_coins:
+                market = self.bittrex_coins[coin]['MarketName']
+                lower_band_data = self.keltner_coins[market]['lower_band_data']
+                if len(lower_band_data) == self.keltner_period:
+                    coins_pending_buy = [market for market in self.pending_orders['Buying']]
+                    coins_pending_sell = [market for market in self.pending_orders['Selling']]
 
-                if market not in self.held_coins and market not in coins_pending_buy and market not in coins_pending_sell:
+                    if market not in self.held_coins and market not in coins_pending_buy and market not in coins_pending_sell:
 
-                    price_data_seconds = self.keltner_coins[market]['price_data_seconds']
-                    cur_price = float(price_data_seconds[-1])
-                    if self.upward_cross(market, 'lower_band_data'):
-                        bitcoin_to_use = float(total_bitcoin / (keltner_slots_open + .25))
-                        amount = bitcoin_to_use / cur_price
-                        percent_change_24h = utils.get_percent_change_24h(coin)
-                        utils.buy(self.api, market, amount, cur_price, percent_change_24h, 0)
+                        price_data_seconds = self.keltner_coins[market]['price_data_seconds']
+                        cur_price = cur_price = self.bittrex_coins[coin]['Last']
+                        if self.upward_cross(market, 'lower_band_data'):
+                            bitcoin_to_use = float(total_bitcoin / (keltner_slots_open + .25))
+                            amount = bitcoin_to_use / cur_price
+                            percent_change_24h = utils.get_percent_change_24h(coin)
+                            utils.buy(self.api, market, amount, cur_price, percent_change_24h, 0)
 
     def keltner_sell_strat(self):
-        for coin in self.keltner_coins:
-            market = self.bittrex_coins[coin]['MarketName']
-            lower_band_data = self.keltner_coins[market]['lower_band_data']
-
-            if len(lower_band_data) == self.keltner_period:
+        if len(self.keltner_coins['BTC-ETH']['upper_band_data']) > self.keltner_period:
+            for coin in self.keltner_coins:
                 market = self.bittrex_coins[coin]['MarketName']
-                coins_pending_buy = [market for market in self.pending_orders['Buying']]
-                coins_pending_sell = [market for market in self.pending_orders['Selling']]
+                lower_band_data = self.keltner_coins[market]['lower_band_data']
 
-                highest_price_history = utils.file_to_json('coin_highest_price_history.json')
-                if market not in coins_pending_buy and market not in coins_pending_sell and market in self.held_coins:
+                if len(lower_band_data) == self.keltner_period:
+                    market = self.bittrex_coins[coin]['MarketName']
+                    coins_pending_buy = [market for market in self.pending_orders['Buying']]
+                    coins_pending_sell = [market for market in self.pending_orders['Selling']]
 
-                    cur_price = price_data_seconds[-1]
-                    price_data_seconds = self.keltner_coins[market]['price_data_seconds']
+                    highest_price_history = utils.file_to_json('coin_highest_price_history.json')
+                    if market not in coins_pending_buy and market not in coins_pending_sell and market in self.held_coins:
 
-                    deviation = self.get_deviation_of_last_x(5, price_data_seconds)
+                        cur_price = price_data_seconds[-1]
+                        price_data_seconds = self.keltner_coins[market]['price_data_seconds']
 
-                    highest_coin_price = highest_price_history[market]
+                        deviation = self.get_deviation_of_last_x(5, price_data_seconds)
 
-                    if self.downward_cross(market, 'upper_band_data') or cur_price <= highest_coin_price - 2*deviation:
-                        coin_to_sell = utils.get_second_market_coin(market)
-                        balance = self.api.get_balance(coin_to_sell)
-                        if balance['success']:
-                            amount = float(balance['result']['Available'])
-                            utils.sell(self.api, amount, market, self.bittrex_coins)
-                        else:
-                            utils.print_and_write_to_logfile("Could not retrieve balance: " + balance['message'])
+                        highest_coin_price = highest_price_history[market]
+
+                        if self.downward_cross(market, 'upper_band_data') or cur_price <= highest_coin_price - 2*deviation:
+                            coin_to_sell = utils.get_second_market_coin(market)
+                            balance = self.api.get_balance(coin_to_sell)
+                            if balance['success']:
+                                amount = float(balance['result']['Available'])
+                                utils.sell(self.api, amount, market, self.bittrex_coins)
+                            else:
+                                utils.print_and_write_to_logfile("Could not retrieve balance: " + balance['message'])
 
     def get_deviation_of_last_x(self, x, array):
         deviation = 0
@@ -262,26 +268,28 @@ class KeltnerStrat:
         self.keltner_coins[market] = t
         utils.json_to_file(self.keltner_coins, "keltner_coins.json")
 
-    def add_bittrex_coins_to_keltner_coins(self):
+    def add_bittrex_coins_to_keltner_coins(self, coinmarketcap_coins):
         self.keltner_coins = {}
         self.update_coinmarketcap_coins()
         self.update_bittrex_coins(self.coinmarketcap_coins)
         for market in self.bittrex_coins:
             if market.startswith('BTC'):
-                coin_data = self.bittrex_coins[market]
+                symbol = utils.get_second_market_coin(market)
+                if symbol in coinmarketcap_coins:
+                    coin_rank = int(coinmarketcap_coins[symbol])
+                    if coin_rank <= self.lowest_rank:
+                        t = {}
+                        t['market'] = market
+                        t['price_data_seconds'] = []
+                        t['price_data_minutes'] = []
+                        t['tr_data'] = []
+                        t['atr_data'] = []
+                        t['ema_data'] = []
+                        t['upper_band_data'] = []
+                        t['middle_band_data'] = []
+                        t['lower_band_data'] = []
 
-                t = {}
-                t['market'] = market
-                t['price_data_seconds'] = []
-                t['price_data_minutes'] = []
-                t['tr_data'] = []
-                t['atr_data'] = []
-                t['ema_data'] = []
-                t['upper_band_data'] = []
-                t['middle_band_data'] = []
-                t['lower_band_data'] = []
-
-                self.keltner_coins[market] = t
+                        self.keltner_coins[market] = t
 
         utils.json_to_file(self.keltner_coins, "keltner_coins.json")
 
@@ -292,7 +300,7 @@ class KeltnerStrat:
             symbol = utils.get_second_market_coin(coin['MarketName'])
             if symbol in coinmarketcap_coins:
                 coin_rank = int(coinmarketcap_coins[symbol])
-                if coin_rank < self.lowest_rank:
+                if coin_rank <= self.lowest_rank:
                     key = coin['MarketName']
                     coins[key] = coin
         self.bittrex_coins = coins

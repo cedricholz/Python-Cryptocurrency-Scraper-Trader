@@ -151,7 +151,7 @@ def run_hodl_strat():
 
 
 def initialize_keltner_strat():
-    keltner_period = 2
+    keltner_period = 20
     keltner_multiplier = 2
     keltner_slots = 2
     lowest_rank = 50
@@ -159,7 +159,8 @@ def initialize_keltner_strat():
     ks_instance = KS.KeltnerStrat(api, keltner_period, keltner_multiplier, keltner_slots, lowest_rank)
 
     # Do keltner math on all bittrex coins once
-    ks_instance.add_bittrex_coins_to_keltner_coins()
+    ks_instance.update_coinmarketcap_coins()
+    ks_instance.add_bittrex_coins_to_keltner_coins(ks_instance.coinmarketcap_coins)
 
     return ks_instance
 
@@ -202,7 +203,6 @@ def run_reddit_strat():
     #     rs.reddit_buy_strat(total_bitcoin)
 
     # rs.reddit_sell_strat()
-
 
 
 def initialize_percent_strat():
