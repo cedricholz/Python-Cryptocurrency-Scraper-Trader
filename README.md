@@ -26,7 +26,7 @@ and put in your authenticator code from Google Authenticator.
 client_id is the string under personal use script
 
 client_secret is the string next to secret
-![alt text](https://github.com/cedricholz/Python-Cryptocurrency-Scraper-Trader/blob/master/Trader/reddit_info.png "Logo Title Text 1")
+![alt text](https://github.com/cedricholz/Python-Cryptocurrency-Scraper-Trader/blob/master/Trader/reddit_ids.png "Logo Title Text 1")
 
 8. Add file "reddit_secrets.json" to file main folder, examples folder, and main folder containing the code below and your reddit information.
 
