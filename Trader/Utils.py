@@ -76,7 +76,8 @@ def get_coinmarketcap_1hr_change(coinmarketcap_coins):
 def get_updated_coinmarketcap_coins():
     return query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
 
-def get_rank(coinmarketcap_coins):
+
+def get_ranks(coinmarketcap_coins):
     # coinmarketcap_coins = query_url("https://api.coinmarketcap.com/v1/ticker/?limit=2000")
     d = {}
     for coin in coinmarketcap_coins:

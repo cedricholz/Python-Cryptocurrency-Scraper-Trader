@@ -77,7 +77,7 @@ class PercentStrat:
             percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[coin])
             # if coin 24 increase between x and y
             if self.buy_min_percent <= percent_change_24h <= self.buy_max_percent:
-                rank = utils.get_rank(self.coinmarketcap_coins)
+                rank = utils.get_ranks(self.coinmarketcap_coins)
                 coin_rank = rank[utils.get_second_market_coin(coin)]
                 coin_volume = self.bittrex_coins[coin]['Volume']
                 # volume must be > 200 so we can sell when want

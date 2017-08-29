@@ -147,25 +147,29 @@ def run_hodl_strat():
         hs.hodl_buy_strat(total_bitcoin)
 
     hs.hodl_sell_strat()
-    time.sleep(10)
+    time.sleep(60)
 
 
 def initialize_keltner_strat():
-    keltner_period = 20
+    keltner_period = 2
     keltner_multiplier = 2
     keltner_slots = 2
-    keltner_prev_ticks = 3
+    lowest_rank = 50
 
-    # Uncomment to do keltner math on all bittrex coins once
-    # ks.add_bittrex_coins_to_keltner_coins()
+    ks_instance = KS.KeltnerStrat(api, keltner_period, keltner_multiplier, keltner_slots, lowest_rank)
 
-    return KS.KeltnerStrat(api, keltner_period, keltner_multiplier, keltner_slots, keltner_prev_ticks)
+    # Do keltner math on all bittrex coins once
+    ks_instance.add_bittrex_coins_to_keltner_coins()
+
+    return ks_instance
 
 
 def run_keltner_strat():
     ks.refresh_held_pending()
 
-    ks.update_bittrex_coins()
+    ks.update_coinmarketcap_coins()
+
+    ks.update_bittrex_coins(ks.coinmarketcap_coins)
 
     ks.update_keltner_coins()
 
@@ -190,12 +194,15 @@ def run_reddit_strat():
 
     rs.update_bittrex_coins()
 
+    most_upvoted = rs.coins_ranked_by_upvotes
+
+    most_mentioned = rs.coins_ranked_by_mentions
+
     # if total_bitcoin > satoshi_50k:
     #     rs.reddit_buy_strat(total_bitcoin)
 
-    rs.reddit_sell_strat()
+    # rs.reddit_sell_strat()
 
-    time.sleep(10)
 
 
 def initialize_percent_strat():
@@ -234,7 +241,6 @@ rs = initialize_reddit_strat()
 
 utils.print_and_write_to_logfile("\n** Beginning run at " + utils.get_date_time() + " **\n")
 
-
 # Main Driver
 while True:
     try:
@@ -256,4 +262,3 @@ while True:
 
     except Exception as e:
         utils.print_and_write_to_logfile(traceback.format_exc())
-
