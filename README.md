@@ -6,7 +6,7 @@
 ```
 READ INFO, TRADE LIMIT, and TRADE MARKET
 ```
-and put in your authenticator code from Google Authenticator.
+and put in your authenticator code from Google Authenticator to get your key and secret key.
 
 4. Add file, "secrets.json" to file Trader folder, examples folder, and Main folder containing the code below and your key and secret from previous step. All files to add are in the git ignore so we don't push our secrets.
 
