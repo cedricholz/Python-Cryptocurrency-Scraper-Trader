@@ -8,9 +8,7 @@ READ INFO, TRADE LIMIT, and TRADE MARKET
 ```
 and put in your authenticator code from Google Authenticator.
 
-4. Add file, "secrets.json" to file Trader folder, examples folder, and Main folder containing the code below and your key and secret from previous step.
-
-This file is in the .gitignore so you don't accidentally push your key to the world.
+4. Add file, "secrets.json" to file Trader folder, examples folder, and Main folder containing the code below and your key and secret from previous step. All files to add are in the git ignore so we don't push our secrets.
 
 ```
 {
@@ -61,7 +59,7 @@ client_secret is the string next to secret
 ```
 
 
-12. Add file "email_info.json" to Main and fill it with your info
+12. Add file "email_info.json" to Main and fill it with your gmail account info
 
 ```python
 {
