@@ -13,12 +13,11 @@ class KeltnerStrat:
         self.lowest_rank = lowest_rank
 
         self.keltner_coins = utils.file_to_json("keltner_coins.json")
-        self.bittrex_coins = utils.get_updated_bittrex_coins()
+        self.coinmarketcap_coins = self.update_coinmarketcap_coins()
+        self.bittrex_coins = self.update_bittrex_coins(self.coinmarketcap_coins)
 
         self.held_coins = utils.file_to_json("held_coins.json")
         self.pending_orders = utils.file_to_json("pending_orders.json")
-
-        self.coinmarketcap_coins = utils.get_updated_coinmarketcap_coins()
 
         self.reset_keltner_coins()
 
@@ -270,8 +269,8 @@ class KeltnerStrat:
 
     def add_bittrex_coins_to_keltner_coins(self, coinmarketcap_coins):
         self.keltner_coins = {}
-        self.update_coinmarketcap_coins()
-        self.update_bittrex_coins(self.coinmarketcap_coins)
+        self.coinmarketcap_coins = self.update_coinmarketcap_coins()
+        self.bittrex_coins = self.update_bittrex_coins(self.coinmarketcap_coins)
         for market in self.bittrex_coins:
             if market.startswith('BTC'):
                 symbol = utils.get_second_market_coin(market)
@@ -303,7 +302,7 @@ class KeltnerStrat:
                 if coin_rank <= self.lowest_rank:
                     key = coin['MarketName']
                     coins[key] = coin
-        self.bittrex_coins = coins
+        return coins
 
     def update_coinmarketcap_coins(self):
-        self.coinmarketcap_coins = utils.get_ranks(utils.get_updated_coinmarketcap_coins())
+        return utils.get_ranks(utils.get_updated_coinmarketcap_coins())

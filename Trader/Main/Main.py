@@ -159,7 +159,7 @@ def initialize_keltner_strat():
     ks_instance = KS.KeltnerStrat(api, keltner_period, keltner_multiplier, keltner_slots, lowest_rank)
 
     # Do keltner math on all bittrex coins once
-    ks_instance.update_coinmarketcap_coins()
+
     ks_instance.add_bittrex_coins_to_keltner_coins(ks_instance.coinmarketcap_coins)
 
     return ks_instance
@@ -235,9 +235,9 @@ time_until_cancel_processing_order_minutes = 1
 satoshi_50k = 0.0005
 
 ks = initialize_keltner_strat()
-ps = initialize_percent_strat()
-hs = initialize_hodl_strat()
-rs = initialize_reddit_strat()
+# ps = initialize_percent_strat()
+# hs = initialize_hodl_strat()
+# rs = initialize_reddit_strat()
 
 utils.print_and_write_to_logfile("\n** Beginning run at " + utils.get_date_time() + " **\n")
 
