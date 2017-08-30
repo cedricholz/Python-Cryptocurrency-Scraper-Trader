@@ -168,5 +168,5 @@ class RedditStrat:
             out_string += "\n\n"
         print(out_string)
         utils.send_email(out_string)
-        #utils.print_and_write_to_logfile(out_string)
+        # utils.print_and_write_to_logfile(out_string)
 

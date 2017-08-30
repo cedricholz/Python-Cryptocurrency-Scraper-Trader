@@ -151,7 +151,7 @@ def run_hodl_strat():
 
 
 def initialize_keltner_strat():
-    keltner_period = 20
+    keltner_period = 10
     keltner_multiplier = 1.5
     keltner_slots = 2
     lowest_rank = 50
@@ -231,7 +231,7 @@ def run_percent_strat():
 
 api = utils.get_api()
 
-time_until_cancel_processing_order_minutes = 1
+time_until_cancel_processing_order_minutes = 5
 satoshi_50k = 0.0005
 
 ks = initialize_keltner_strat()
@@ -247,10 +247,10 @@ while True:
 
         total_bitcoin = utils.get_total_bitcoin(api)
 
-        # run_keltner_strat()
+        run_keltner_strat()
         # run_percent_strat()
         # run_hodl_strat()
-        run_reddit_strat()
+        # run_reddit_strat()
 
         orders_query = api.get_open_orders("")
 

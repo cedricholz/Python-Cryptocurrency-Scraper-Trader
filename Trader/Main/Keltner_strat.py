@@ -51,7 +51,8 @@ class KeltnerStrat:
                     self.update_atr(market)
                     self.update_ema(market)
                     self.update_bands(market)
-                    self.keltner_coins[market]['price_data_seconds'].pop(0)
+                    self.keltner_coins[market]['price_data_seconds'] =\
+                        self.keltner_coins[market]['price_data_seconds'][-6:]
 
                     if len(self.keltner_coins[market]['price_data_minutes']) == self.keltner_period:
                         self.keltner_coins[market]['price_data_minutes'].pop(0)
@@ -208,8 +209,7 @@ class KeltnerStrat:
 
                     if market not in self.held_coins and market not in coins_pending_buy and market not in coins_pending_sell:
 
-                        price_data_seconds = self.keltner_coins[market]['price_data_seconds']
-                        cur_price = cur_price = self.bittrex_coins[coin]['Last']
+                        cur_price = self.bittrex_coins[coin]['Last']
                         if self.upward_cross(market, 'lower_band_data'):
                             bitcoin_to_use = float(total_bitcoin / (keltner_slots_open + .25))
                             amount = bitcoin_to_use / cur_price
@@ -245,7 +245,6 @@ class KeltnerStrat:
                                 utils.sell(self.api, amount, market, self.bittrex_coins)
                             else:
                                 utils.print_and_write_to_logfile("Could not retrieve balance: " + balance['message'])
-
 
     def get_deviation_of_last_x(self, x, array):
         deviation = 0
