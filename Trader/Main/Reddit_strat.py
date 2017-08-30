@@ -165,7 +165,8 @@ class RedditStrat:
             for i in range(len(upvote_list)):
                 out_string += str(sorted_comments[i][0]) + " : " + utils.time_stamp_to_date(
                     sorted_comments[i][2]) + " : " + sorted_comments[i][1] + "\n"
-            print(out_string)
-            utils.send_email(out_string)
-            #utils.print_and_write_to_logfile(out_string)
+            out_string += "\n\n"
+        print(out_string)
+        utils.send_email(out_string)
+        #utils.print_and_write_to_logfile(out_string)
 
