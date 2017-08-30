@@ -1,4 +1,5 @@
 import sys
+
 sys.path.append('../../')
 import Trader.Utils as utils
 import re
@@ -48,13 +49,12 @@ class RedditStrat:
                         percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[market])
                         buy_request = utils.buy(self.api, market, amount, coin_price, percent_change_24h, 0)
                         if buy_request['success']:
-                            utils.print_and_write_to_logfile("Buy order of " + str(amount) + " " + market + " requested")
+                            utils.print_and_write_to_logfile(
+                                "Buy order of " + str(amount) + " " + market + " requested")
                         else:
                             utils.print_and_write_to_logfile(buy_request['message'])
             if cur_coin not in coins_to_dismiss:
                 coin_rank += 1
-
-
 
     def reddit_sell_strat(self):
         return
@@ -68,15 +68,17 @@ class RedditStrat:
         reddit_coins = utils.file_to_json('reddit_coins.json')
         for submission in self.reddit_api.subreddit('CryptoCurrency').top('day'):
             if submission not in reddit_coins['submissions']:
-                reddit_coins = self.find_mentions(submission.title, reddit_coins, str(submission), submission.created, submission.score)
+                reddit_coins = self.find_mentions(submission.title, reddit_coins, str(submission), submission.created,
+                                                  submission.score)
                 for comment in submission.comments:
-                    reddit_coins = self.find_mentions(comment.body, reddit_coins, str(comment), comment.created, comment.score)
+                    reddit_coins = self.find_mentions(comment.body, reddit_coins, str(comment), comment.created,
+                                                      comment.score)
             reddit_coins['submissions'].append(str(submission))
         utils.json_to_file(reddit_coins, 'reddit_coins.json')
         self.rank_by_mentions()
         self.rank_by_upvotes()
 
-    def add_to_reddit_coin(self, reddit_coins, symbol, mentioned_id, mentioned_time,string,upvotes):
+    def add_to_reddit_coin(self, reddit_coins, symbol, mentioned_id, mentioned_time, string, upvotes):
         reddit_coins[symbol]['mentioned_ids'].append(mentioned_id)
         reddit_coins[symbol]['mentioned_times'].append(mentioned_time)
         reddit_coins[symbol]['text'].append(string)
@@ -93,7 +95,8 @@ class RedditStrat:
             symbol_reg = r"\b" + symbol + r"\b"
             if symbol not in coins_with_common_names:
                 if re.search(symbol_reg, string, re.IGNORECASE) or re.search(full_name_reg, string, re.IGNORECASE):
-                    reddit_coins = self.add_to_reddit_coin(reddit_coins, symbol, mentioned_id, mentioned_time,string,upvotes)
+                    reddit_coins = self.add_to_reddit_coin(reddit_coins, symbol, mentioned_id, mentioned_time, string,
+                                                           upvotes)
             else:
                 if symbol.lower() != full_name.lower():
                     if re.search(symbol_reg, string) or re.search(full_name_reg, string, re.IGNORECASE):
@@ -131,3 +134,38 @@ class RedditStrat:
 
     def update_bittrex_coins(self):
         self.bittrex_coins = utils.get_updated_bittrex_coins()
+
+    def sort_comments(self, upvote_list, text_list, time_list):
+        tuple_list = []
+        for i in range(len(upvote_list)):
+            tuple_list.append((upvote_list[i], text_list[i], time_list[i]))
+        return sorted(tuple_list, key=lambda tup: tup[0], reverse=True)
+
+    def store_top_10_data(self):
+        most_upvoted = self.coins_ranked_by_upvotes
+        # most_mentioned = self.coins_ranked_by_mentions
+        reddit_coins = utils.file_to_json('reddit_coins.json')
+        count = 10
+
+        for pair in most_upvoted:
+            if count <= 0:
+                break
+            symbol = pair[0]
+            coin_data = reddit_coins[symbol]
+            out_string = symbol + "\n"
+
+            # out_string += symbol
+
+            upvote_list = coin_data['upvotes']
+            text_list = coin_data['text']
+            time_list = coin_data['mentioned_times']
+
+            sorted_comments = self.sort_comments(upvote_list, text_list, time_list)
+
+            for i in range(len(upvote_list)):
+                out_string += str(sorted_comments[i][0]) + " : " + utils.time_stamp_to_date(
+                    sorted_comments[i][2]) + " : " + sorted_comments[i][1] + "\n"
+            print(out_string)
+            utils.send_email(out_string)
+            #utils.print_and_write_to_logfile(out_string)
+

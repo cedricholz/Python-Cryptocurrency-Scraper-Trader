@@ -246,6 +246,7 @@ class KeltnerStrat:
                             else:
                                 utils.print_and_write_to_logfile("Could not retrieve balance: " + balance['message'])
 
+
     def get_deviation_of_last_x(self, x, array):
         deviation = 0
         for i in range(x):

@@ -195,16 +195,14 @@ def run_reddit_strat():
 
     rs.update_bittrex_coins()
 
-    most_upvoted = rs.coins_ranked_by_upvotes
-
-    most_mentioned = rs.coins_ranked_by_mentions
-
-    print("3")
+    rs.store_top_10_data()
 
     # if total_bitcoin > satoshi_50k:
     #     rs.reddit_buy_strat(total_bitcoin)
 
     # rs.reddit_sell_strat()
+
+    time.sleep(3600)
 
 
 def initialize_percent_strat():

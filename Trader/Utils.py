@@ -125,6 +125,10 @@ def get_date_time():
     return "%s:%s:%s %s/%s/%s" % (now.hour, now.minute, now.second, now.month, now.day, now.year)
 
 
+def time_stamp_to_date(timstamp):
+    return datetime.fromtimestamp(int(timstamp)).strftime('%H:%M:%S %m/%d/%Y')
+
+
 def get_time_passed_minutes(time_opened):
     now = datetime.now()
 
