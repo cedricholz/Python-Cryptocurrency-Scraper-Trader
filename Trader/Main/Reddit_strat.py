@@ -146,15 +146,14 @@ class RedditStrat:
         # most_mentioned = self.coins_ranked_by_mentions
         reddit_coins = utils.file_to_json('reddit_coins.json')
         count = 10
-
+        out_string = ""
         for pair in most_upvoted:
             if count <= 0:
                 break
+            count -= 1
             symbol = pair[0]
             coin_data = reddit_coins[symbol]
-            out_string = symbol + "\n"
-
-            # out_string += symbol
+            out_string += symbol + "\n"
 
             upvote_list = coin_data['upvotes']
             text_list = coin_data['text']
@@ -166,6 +165,7 @@ class RedditStrat:
                 out_string += str(sorted_comments[i][0]) + " : " + utils.time_stamp_to_date(
                     sorted_comments[i][2]) + " : " + sorted_comments[i][1] + "\n"
             out_string += "\n\n"
+
         print(out_string)
         utils.send_email(out_string)
         # utils.print_and_write_to_logfile(out_string)
