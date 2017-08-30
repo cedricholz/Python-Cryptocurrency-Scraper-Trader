@@ -247,10 +247,10 @@ while True:
 
         total_bitcoin = utils.get_total_bitcoin(api)
 
-        run_keltner_strat()
+        # run_keltner_strat()
         # run_percent_strat()
         # run_hodl_strat()
-        # run_reddit_strat()
+        run_reddit_strat()
 
         orders_query = api.get_open_orders("")
 
