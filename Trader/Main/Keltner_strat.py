@@ -39,21 +39,22 @@ class KeltnerStrat:
         highest_price_history = utils.file_to_json('coin_highest_price_history.json')
 
         for market in self.keltner_coins:
-            bittrex_coin = self.bittrex_coins[market]
-            cur_price = bittrex_coin['Last']
-            self.keltner_coins[market]['price_data_seconds'].append(cur_price)
+            if market in self.bittrex_coins:
+                bittrex_coin = self.bittrex_coins[market]
+                cur_price = bittrex_coin['Last']
+                self.keltner_coins[market]['price_data_seconds'].append(cur_price)
 
-            highest_price_history = self.update_highest_price(market, highest_price_history, cur_price)
+                highest_price_history = self.update_highest_price(market, highest_price_history, cur_price)
 
-            if self.ten_second_count > 5:
-                self.keltner_coins[market]['price_data_minutes'].append(cur_price)
-                self.update_atr(market)
-                self.update_ema(market)
-                self.update_bands(market)
-                self.keltner_coins[market]['price_data_seconds'].pop(0)
+                if self.ten_second_count > 5:
+                    self.keltner_coins[market]['price_data_minutes'].append(cur_price)
+                    self.update_atr(market)
+                    self.update_ema(market)
+                    self.update_bands(market)
+                    self.keltner_coins[market]['price_data_seconds'].pop(0)
 
-                if len(self.keltner_coins[market]['price_data_minutes']) == self.keltner_period:
-                    self.keltner_coins[market]['price_data_minutes'].pop(0)
+                    if len(self.keltner_coins[market]['price_data_minutes']) == self.keltner_period:
+                        self.keltner_coins[market]['price_data_minutes'].pop(0)
         if self.ten_second_count > 5:
             self.ten_second_count = 0
         else:

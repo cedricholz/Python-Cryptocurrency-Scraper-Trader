@@ -199,6 +199,8 @@ def run_reddit_strat():
 
     most_mentioned = rs.coins_ranked_by_mentions
 
+    print("3")
+
     # if total_bitcoin > satoshi_50k:
     #     rs.reddit_buy_strat(total_bitcoin)
 
@@ -235,9 +237,9 @@ time_until_cancel_processing_order_minutes = 1
 satoshi_50k = 0.0005
 
 ks = initialize_keltner_strat()
-# ps = initialize_percent_strat()
-# hs = initialize_hodl_strat()
-# rs = initialize_reddit_strat()
+ps = initialize_percent_strat()
+hs = initialize_hodl_strat()
+rs = initialize_reddit_strat()
 
 utils.print_and_write_to_logfile("\n** Beginning run at " + utils.get_date_time() + " **\n")
 
@@ -247,10 +249,10 @@ while True:
 
         total_bitcoin = utils.get_total_bitcoin(api)
 
-        run_keltner_strat()
+        # run_keltner_strat()
         # run_percent_strat()
         # run_hodl_strat()
-        # run_reddit_strat()
+        run_reddit_strat()
 
         orders_query = api.get_open_orders("")
 
