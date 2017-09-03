@@ -141,19 +141,34 @@ class RedditStrat:
             tuple_list.append((upvote_list[i], text_list[i], time_list[i]))
         return sorted(tuple_list, key=lambda tup: tup[0], reverse=True)
 
+    def add_to_top_coins(self, market, top_coins, rank):
+        coin_info = self.bittrex_coins[market]
+        t = {}
+        t['market'] = market
+        t['cur_price'] = coin_info['Last']
+        t['24h_change'] = utils.get_percent_change_24h(coin_info)
+
+        top_coins[rank] = t
+
+
     def store_top_10_data(self):
         most_upvoted = self.coins_ranked_by_upvotes
         # most_mentioned = self.coins_ranked_by_mentions
         reddit_coins = utils.file_to_json('reddit_coins.json')
         count = 10
         out_string = ""
+        top_coins = {}
+        rank = 0
         for pair in most_upvoted:
             if count <= 0:
                 break
             count -= 1
             symbol = pair[0]
             coin_data = reddit_coins[symbol]
-            out_string += "** "+ symbol + " **"+ "\n"
+            out_string += "** "+ symbol + " **" + "\n"
+
+            self.add_to_top_coins("BTC-" + symbol, top_coins, rank)
+            rank += 1
 
             upvote_list = coin_data['upvotes']
             text_list = coin_data['text']
@@ -165,7 +180,7 @@ class RedditStrat:
                 out_string += str(sorted_comments[i][0]) + " : " + utils.time_stamp_to_date(
                     sorted_comments[i][2]) + " : " + sorted_comments[i][1] + "\n"
             out_string += "\n\n"
-
+        utils.json_to_file(top_coins, 'reddit_top_coins.json')
         print(out_string)
         utils.send_email(out_string)
         # utils.print_and_write_to_logfile(out_string)

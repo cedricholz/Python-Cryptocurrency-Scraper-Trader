@@ -216,6 +216,10 @@ class KeltnerStrat:
                             percent_change_24h = utils.get_percent_change_24h(coin)
                             utils.buy(self.api, market, amount, cur_price, percent_change_24h, 0)
 
+                            keltner_slots_open = self.total_slots - len(self.held_coins) - len(
+                                self.pending_orders['Buying']) - len(
+                                self.pending_orders['Selling'])
+
     def keltner_sell_strat(self):
         if len(self.keltner_coins['BTC-ETH']['upper_band_data']) > self.keltner_period:
             for coin in self.keltner_coins:

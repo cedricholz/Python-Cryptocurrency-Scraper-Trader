@@ -50,6 +50,7 @@ class PercentStrat:
             return
 
         for hist_coin in self.history_coins:
+            bitcoin_to_use = float(total_bitcoin / slots_open * 0.990)
             coin_price = float(self.bittrex_coins[hist_coin]['Last'])
             # update highest price recorded while held
             if hist_coin in self.held_coins:
@@ -71,6 +72,10 @@ class PercentStrat:
                         coin_1h_change = float(symbol_1h_change_pairs[coin_to_buy])
                         percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[hist_coin])
                         utils.buy(self.api, hist_coin, amount, coin_price, percent_change_24h, 0, coin_1h_change)
+
+                        slots_open = self.total_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
+                            self.pending_orders['Selling'])
+                        bitcoin_to_use = float(total_bitcoin / slots_open * 0.990)
 
         # checking all bittrex coins to find the one
         for coin in self.bittrex_coins:

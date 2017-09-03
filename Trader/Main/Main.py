@@ -6,6 +6,7 @@ import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
 import Trader.Main.Hodl_strat as HS
 import Trader.Main.Reddit_strat as RS
+import Trader.Main.Buy_Low_sell_high_strat as LH
 import traceback
 import time
 
@@ -150,6 +151,30 @@ def run_hodl_strat():
     time.sleep(60)
 
 
+def initialize_buy_low_sell_high_strat():
+    desired_gain = 20
+    desired_low_point = -10
+
+    total_slots = 4
+    return LH.BuyLowSellHighStrat(api, desired_gain, desired_low_point,  total_slots)
+
+
+def run_buy_low_sell_high_strat():
+    if hl.count_until_reddit_strat == 0:
+        #run_reddit_strat()
+        hl.count_until_reddit_strat = 360
+    hl.count_until_reddit_strat -= 1
+
+    hl.refresh_held_pending()
+    hl.update_bittrex_coins()
+
+    if total_bitcoin > satoshi_50k:
+        hl.low_high_buy_strat(total_bitcoin)
+
+    hl.low_high_sell_strat()
+    time.sleep(10)
+
+
 def initialize_keltner_strat():
     keltner_period = 10
     keltner_multiplier = 1.5
@@ -202,8 +227,6 @@ def run_reddit_strat():
 
     # rs.reddit_sell_strat()
 
-    time.sleep(3600)
-
 
 def initialize_percent_strat():
     utils.init_global_return()
@@ -238,6 +261,7 @@ ks = initialize_keltner_strat()
 ps = initialize_percent_strat()
 hs = initialize_hodl_strat()
 rs = initialize_reddit_strat()
+hl = initialize_buy_low_sell_high_strat()
 
 utils.print_and_write_to_logfile("\n** Beginning run at " + utils.get_date_time() + " **\n")
 
@@ -250,7 +274,8 @@ while True:
         # run_keltner_strat()
         # run_percent_strat()
         # run_hodl_strat()
-        run_reddit_strat()
+        # run_reddit_strat()
+        run_buy_low_sell_high_strat()
 
         orders_query = api.get_open_orders("")
 

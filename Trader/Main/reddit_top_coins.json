@@ -1,0 +1,52 @@
+{
+    "0": {
+        "24h_change": -2.8789199249619535,
+        "cur_price": 0.006575,
+        "market": "BTC-NEO"
+    },
+    "1": {
+        "24h_change": 2.5422742204206816,
+        "cur_price": 0.07618892,
+        "market": "BTC-ETH"
+    },
+    "2": {
+        "24h_change": 3.748316690993514,
+        "cur_price": 0.01745,
+        "market": "BTC-LTC"
+    },
+    "3": {
+        "24h_change": -2.8572401433691774,
+        "cur_price": 0.02710283,
+        "market": "BTC-XMR"
+    },
+    "4": {
+        "24h_change": 14.495412844036682,
+        "cur_price": 0.000312,
+        "market": "BTC-NAV"
+    },
+    "5": {
+        "24h_change": 9.236286671762016,
+        "cur_price": 0.0005574,
+        "market": "BTC-ARK"
+    },
+    "6": {
+        "24h_change": 2.409836194676318,
+        "cur_price": 0.13004001,
+        "market": "BTC-BCC"
+    },
+    "7": {
+        "24h_change": 2.147557437878933,
+        "cur_price": 0.00426416,
+        "market": "BTC-ETC"
+    },
+    "8": {
+        "24h_change": 2.6313507889717203,
+        "cur_price": 0.00260425,
+        "market": "BTC-PART"
+    },
+    "9": {
+        "24h_change": 58.373684210526314,
+        "cur_price": 0.00060182,
+        "market": "BTC-KMD"
+    }
+}
