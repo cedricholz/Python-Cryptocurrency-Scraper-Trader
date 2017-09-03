@@ -161,7 +161,7 @@ def initialize_buy_low_sell_high_strat():
 
 def run_buy_low_sell_high_strat():
     if hl.count_until_reddit_strat == 0:
-        #run_reddit_strat()
+        run_reddit_strat()
         hl.count_until_reddit_strat = 360
     hl.count_until_reddit_strat -= 1
 
