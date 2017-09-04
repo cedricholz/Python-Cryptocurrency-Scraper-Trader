@@ -9,10 +9,7 @@ import json
 import re
 import traceback
 import praw
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-from email.header import Header
+import ftplib
 
 
 
@@ -91,10 +88,11 @@ def get_ranks(coinmarketcap_coins):
     return d
 
 
-def clear_file(filename):
-    f = open(filename, 'w')
-    f.close()
+def clear_and_write_to_file(filename, text):
+    open(filename, 'w').close()
 
+    with open(filename, 'a') as myfile:
+        myfile.write(text)
 
 def print_and_write_to_logfile(log_text):
     if log_text is not None:
@@ -382,6 +380,23 @@ def update_historical_coin_data(historical_coin_data, bittrex_coins, data_ticks_
         if market.startswith("ETC"):
             break
     return historical_coin_data
+
+def send_to_ftp_server(filename):
+    try:
+
+
+        with open("ftp_server_info.json") as server_file:
+            info = json.load(server_file)
+            server_file.close()
+
+        session = ftplib.FTP(info['ip'], info['user'], info['pass'])
+        file = open(filename, 'rb')
+        session.storbinary('STOR public_html/' + filename, file)
+        file.close()
+        session.quit()
+    except:
+        print(traceback.format_exc())
+
 
 
 def get_reddit_api():
