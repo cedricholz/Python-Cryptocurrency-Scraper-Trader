@@ -62,7 +62,8 @@ client_secret is the string next to secret
 ```python
 {
   "email_address": "myaddress",
-  "password": "mypassword"
+  "password": "mypassword",
+  "recipiant_emails" = ["myaddress]
 }
 ```
 
