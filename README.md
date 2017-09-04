@@ -63,7 +63,7 @@ client_secret is the string next to secret
 {
   "email_address": "myaddress",
   "password": "mypassword",
-  "recipiant_emails" = ["myaddress]
+  "recipiant_emails" : ["myaddress","anotheremailaddress"]
 }
 ```
 
