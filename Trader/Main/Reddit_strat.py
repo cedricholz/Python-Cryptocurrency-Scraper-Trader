@@ -165,7 +165,7 @@ class RedditStrat:
             count -= 1
             symbol = pair[0]
             coin_data = reddit_coins[symbol]
-            out_string += "** "+ symbol + " **" + "\n"
+            out_string += "*********************** " + symbol + " ***********************" + "\n"
 
             self.add_to_top_coins("BTC-" + symbol, top_coins, rank)
             rank += 1
