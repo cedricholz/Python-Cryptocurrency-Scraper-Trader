@@ -16,3 +16,6 @@ reddit_coins.json
 Trader/Main/coin_highest_price_history.json
 Trader/Main/global_return.json
 Trader/Main/logs_to_send.txt
+/Trader/Main/reddit_top_coins.json
+Trader/Main/__pycache__/Buy_Low_sell_high_strat.cpython-36.pyc
+Trader/Main/__pycache__/Reddit_strat.cpython-36.pyc
