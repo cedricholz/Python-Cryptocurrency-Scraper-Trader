@@ -383,8 +383,6 @@ def update_historical_coin_data(historical_coin_data, bittrex_coins, data_ticks_
 
 def send_to_ftp_server(filename):
     try:
-
-
         with open("ftp_server_info.json") as server_file:
             info = json.load(server_file)
             server_file.close()
@@ -395,7 +393,7 @@ def send_to_ftp_server(filename):
         file.close()
         session.quit()
     except:
-        print(traceback.format_exc())
+        print("No ftp info on file")
 
 
 
