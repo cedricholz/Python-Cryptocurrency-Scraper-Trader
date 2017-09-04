@@ -45,7 +45,7 @@ class BuyLowSellHighStrat:
                         percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[market])
                         if percent_change_24h <= self.desired_low_point:
                             result = utils.buy(self.api, market, amount, coin_price, percent_change_24h,
-                                               self.desired_gain)
+                                               self.desired_gain, 0)
                             if not result['success']:
                                 utils.print_and_write_to_logfile("Failed to make buy order " + market)
 
