@@ -7,7 +7,13 @@ from collections import deque
 import urllib
 import json
 import re
+import traceback
 import praw
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.header import Header
+
 
 
 def file_to_json(filename):
@@ -313,6 +319,7 @@ def send_email(message):
 
     message = """From: %s\nTo: %s\nSubject: %s\n\n%s
        """ % (FROM, ", ".join(TO), SUBJECT, message)
+    message = message.encode('utf-8')
 
     try:
         server = smtplib.SMTP("smtp.gmail.com", 587)
@@ -324,7 +331,37 @@ def send_email(message):
         print('Successfully sent message')
 
     except:
-        print("Failed to send message")
+        print_and_write_to_logfile(traceback.format_exc())
+
+
+def send_reddit_email(message):
+    with open("email_info.json") as email_file:
+        email_info = json.load(email_file)
+        email_file.close()
+
+    email_address = email_info['email_address']
+    password = email_info['password']
+
+    import smtplib
+    FROM = "Cynthia"
+    TO = email_info['recipiant_emails']
+    SUBJECT = 'Crypto-Bot'
+
+    message = """From: %s\nTo: %s\nSubject: %s\n\n%s
+       """ % (FROM, ", ".join(TO), SUBJECT, message)
+    message = message.encode('utf-8')
+
+    try:
+        server = smtplib.SMTP("smtp.gmail.com", 587)
+        server.ehlo()
+        server.starttls()
+        server.login(email_address, password)
+        server.sendmail(FROM, TO, message)
+        server.close()
+        print('Successfully sent message')
+
+    except:
+        print_and_write_to_logfile(traceback.format_exc())
 
 
 def update_market_historical_list(market, historical_coin_data, bittrex_coins, num_ticks):

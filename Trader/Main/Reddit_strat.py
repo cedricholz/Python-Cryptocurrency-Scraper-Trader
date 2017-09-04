@@ -182,6 +182,6 @@ class RedditStrat:
             out_string += "\n\n"
         utils.json_to_file(top_coins, 'reddit_top_coins.json')
         print(out_string)
-        utils.send_email(out_string)
+        utils.send_reddit_email(out_string)
         # utils.print_and_write_to_logfile(out_string)
 

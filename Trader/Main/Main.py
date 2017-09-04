@@ -265,6 +265,7 @@ hl = initialize_buy_low_sell_high_strat()
 
 utils.print_and_write_to_logfile("\n** Beginning run at " + utils.get_date_time() + " **\n")
 
+
 # Main Driver
 while True:
     try:
