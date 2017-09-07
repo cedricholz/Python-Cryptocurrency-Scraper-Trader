@@ -181,7 +181,7 @@ class RedditStrat:
                     sorted_comments[i][2]) + " : " + sorted_comments[i][1] + "\n"
             out_string += "\n\n"
         utils.json_to_file(top_coins, 'reddit_top_coins.json')
-        utils.clear_and_write_to_file('reddit_info.txt', out_string.encode('utf-8'))
+        utils.clear_and_write_to_file('reddit_info.txt', out_string)
         utils.send_to_ftp_server('reddit_info.txt')
         print(out_string)
         utils.send_reddit_email(out_string)
