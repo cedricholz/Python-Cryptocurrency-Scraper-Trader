@@ -281,8 +281,6 @@ hl = initialize_buy_low_sell_high_strat()
 rands = initialize_random_strat()
 
 
-
-
 utils.print_and_write_to_logfile("\n** Beginning run at " + utils.get_date_time() + " **\n")
 
 
@@ -296,7 +294,7 @@ while True:
         # run_percent_strat()
         # run_hodl_strat()
         # run_reddit_strat()
-        #run_buy_low_sell_high_strat()
+        # run_buy_low_sell_high_strat()
         run_random_strat()
 
         orders_query = api.get_open_orders("")

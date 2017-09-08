@@ -45,9 +45,10 @@ class RandomStrat:
         i = 0
         while i < self.total_slots:
             rand_coin = bittrex_markets[randrange(len(bittrex_markets))]
-            result = self.buy(rand_coin, total_bitcoin)
-            if result['success']:
-                i += 1
+            if not rand_coin.startswith('ETH') and not rand_coin.startswith('USDT'):
+                result = self.buy(rand_coin, total_bitcoin)
+                if result['success']:
+                    i += 1
 
     def refresh_held_pending(self):
         self.held_coins = utils.file_to_json("held_coins.json")
