@@ -18,6 +18,7 @@ class BuyLowSellHighStrat:
 
         self.held_coins = utils.file_to_json("held_coins.json")
         self.pending_orders = utils.file_to_json("pending_orders.json")
+        self.fill_low_bars()
 
     def fill_low_bars(self):
         coin_low_bars = {}
