@@ -144,7 +144,7 @@ def run_random_strat():
     rands.update_bittrex_coins()
 
     if total_bitcoin > satoshi_50k:
-        rands.hodl_buy_strat(total_bitcoin)
+        rands.random_buy_strat(total_bitcoin)
 
     time.sleep(60)
 
@@ -296,8 +296,8 @@ while True:
         # run_percent_strat()
         # run_hodl_strat()
         # run_reddit_strat()
-        run_buy_low_sell_high_strat()
-        # run_random_strat()
+        #run_buy_low_sell_high_strat()
+        run_random_strat()
 
         orders_query = api.get_open_orders("")
 

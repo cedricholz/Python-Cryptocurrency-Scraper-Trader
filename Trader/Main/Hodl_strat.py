@@ -40,8 +40,12 @@ class HodlStrat:
                 if amount > 0:
                     percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[market])
                     result = utils.buy(self.api, market, amount, coin_price, percent_change_24h, desired_gain)
-                    if not result['success']:
+                    if result['success']:
+                        utils.print_and_write_to_logfile('Buy order of' + str(amount) + 'of' + market + 'unsuccessful')
+                    else:
                         failed_pairs.append(market_gain_pair)
+                        utils.print_and_write_to_logfile('Buy order of' + str(amount) + 'of' + market + 'successful')
+
         self.markets_desired_gain = failed_pairs
 
     def hodl_sell_strat(self):
