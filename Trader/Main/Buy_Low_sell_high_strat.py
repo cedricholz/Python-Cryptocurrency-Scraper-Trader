@@ -26,9 +26,7 @@ class BuyLowSellHighStrat:
             coin_low_bars[market] = self.desired_low_point
         utils.json_to_file(coin_low_bars, 'coin_low_bars.json')
 
-
     def low_high_buy_strat(self, total_bitcoin):
-
         top_reddit_coins = utils.file_to_json('reddit_top_coins.json')
         markets_to_ignore = ['BTC-ETH', 'BTC-BTC']
 
@@ -65,7 +63,7 @@ class BuyLowSellHighStrat:
                                 if not result['success']:
                                     utils.print_and_write_to_logfile("Failed to make buy order " + market)
                                 else:
-                                    utils.print_and_write_to_logfile("Attempting buy order of " + amount + " of " + market)
+                                    utils.print_and_write_to_logfile("Attempting buy order of " + str(amount) + " of " + market)
 
     def low_high_sell_strat(self):
         for market in self.held_coins:

@@ -4,6 +4,7 @@ sys.path.append('../../')
 import Trader.Utils as utils
 import Trader.Main.Keltner_strat as KS
 import Trader.Main.Percent_strat as PS
+import Trader.Main.Random_strat as RandS
 import Trader.Main.Hodl_strat as HS
 import Trader.Main.Reddit_strat as RS
 import Trader.Main.Buy_Low_sell_high_strat as LH
@@ -133,6 +134,20 @@ def update_pending_orders(orders):
             move_to_from_held(sell_uuids_market[1], 'Selling')
 
 
+def initialize_random_strat():
+    total_slots = 5
+    return RandS.RandomStrat(api, total_slots)
+
+
+def run_random_strat():
+    rands.refresh_held_pending()
+    rands.update_bittrex_coins()
+
+    if total_bitcoin > satoshi_50k:
+        rands.hodl_buy_strat(total_bitcoin)
+
+    time.sleep(60)
+
 def initialize_hodl_strat():
     # markets_desired_gain = [('BTC-STRAT', 20), ('BTC-SAFEX', 20)]
     markets_desired_gain = []
@@ -157,6 +172,7 @@ def initialize_buy_low_sell_high_strat():
 
     total_slots = 4
     return LH.BuyLowSellHighStrat(api, desired_gain, desired_low_point, total_slots)
+
 
 
 def run_buy_low_sell_high_strat():
@@ -262,6 +278,10 @@ ps = initialize_percent_strat()
 hs = initialize_hodl_strat()
 rs = initialize_reddit_strat()
 hl = initialize_buy_low_sell_high_strat()
+rands = initialize_random_strat()
+
+
+
 
 utils.print_and_write_to_logfile("\n** Beginning run at " + utils.get_date_time() + " **\n")
 
@@ -277,6 +297,7 @@ while True:
         # run_hodl_strat()
         # run_reddit_strat()
         run_buy_low_sell_high_strat()
+        # run_random_strat()
 
         orders_query = api.get_open_orders("")
 
