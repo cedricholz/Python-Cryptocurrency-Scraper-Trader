@@ -156,7 +156,7 @@ def initialize_buy_low_sell_high_strat():
     desired_low_point = -10
 
     total_slots = 4
-    return LH.BuyLowSellHighStrat(api, desired_gain, desired_low_point,  total_slots)
+    return LH.BuyLowSellHighStrat(api, desired_gain, desired_low_point, total_slots)
 
 
 def run_buy_low_sell_high_strat():

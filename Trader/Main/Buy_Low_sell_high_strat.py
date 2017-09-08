@@ -19,13 +19,23 @@ class BuyLowSellHighStrat:
         self.held_coins = utils.file_to_json("held_coins.json")
         self.pending_orders = utils.file_to_json("pending_orders.json")
 
+    def fill_low_bars(self):
+        coin_low_bars = {}
+        for market in self.bittrex_coins:
+            coin_low_bars[market]['low_bar'] = self.desired_low_point
+        utils.json_to_file(coin_low_bars, 'coin_low_bars.json')
+
+
     def low_high_buy_strat(self, total_bitcoin):
 
         top_reddit_coins = utils.file_to_json('reddit_top_coins.json')
-        markets_to_ignore = ['BTC-ETH', 'BTC-NEO, BTC-BTC']
+        markets_to_ignore = ['BTC-ETH', 'BTC-BTC']
+
         for rank in range(len(top_reddit_coins)):
             market = top_reddit_coins[str(rank)]['market']
+
             if market not in markets_to_ignore:
+
                 slots_open = self.total_slots - len(self.held_coins) - len(self.pending_orders['Buying']) - len(
                     self.pending_orders['Selling'])
                 bitcoin_to_use = float(total_bitcoin / (slots_open + .25))
@@ -36,18 +46,25 @@ class BuyLowSellHighStrat:
                 if market not in self.held_coins and market not in coins_pending_buy and market not in \
                         coins_pending_sell:
 
-                    self.update_bittrex_coins()
-
-                    coin_price = float(self.bittrex_coins[market]['Last'])
-                    amount = bitcoin_to_use / coin_price
-
-                    if amount > 0:
                         percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[market])
-                        if percent_change_24h <= self.desired_low_point:
-                            result = utils.buy(self.api, market, amount, coin_price, percent_change_24h,
-                                               self.desired_gain, 0)
-                            if not result['success']:
-                                utils.print_and_write_to_logfile("Failed to make buy order " + market)
+                        coin_low_bars = utils.file_to_json('coin_low_bars.json')
+                        low_bar = coin_low_bars[market]
+
+                        if percent_change_24h <= self.desired_low_point and percent_change_24h <= low_bar:
+                            coin_low_bars[market]['low_bar'] = low_bar - 10
+                            utils.json_to_file(coin_low_bars, 'coin_low_bars.json')
+
+                        elif low_bar != self.desired_low_point and percent_change_24h > low_bar + 10:
+                            self.update_bittrex_coins()
+                            coin_price = float(self.bittrex_coins[market]['Last'])
+                            amount = bitcoin_to_use / coin_price
+                            if amount > 0:
+                                result = utils.buy(self.api, market, amount, coin_price, percent_change_24h,
+                                                   self.desired_gain, 0)
+                                if not result['success']:
+                                    utils.print_and_write_to_logfile("Failed to make buy order " + market)
+                                else:
+                                    utils.print_and_write_to_logfile("Attempting buy order of " + amount + " of " + market)
 
     def low_high_sell_strat(self):
         for market in self.held_coins:
@@ -56,12 +73,12 @@ class BuyLowSellHighStrat:
             change = utils.percent_change(bought_price, cur_price)
 
             desired_gain = self.held_coins[market]['desired_gain']
-            bar = self.held_coins[market]['bar']
+            high_bar = self.held_coins[market]['high_bar']
 
-            if change >= desired_gain and change >= bar:
-                self.held_coins['bar'] = bar + 10
+            if change >= desired_gain and change >= high_bar:
+                self.held_coins['high_bar'] = high_bar + 10
                 utils.json_to_file(self.held_coins, 'held_coins.json')
-            elif bar != desired_gain and change < bar - 10:
+            elif high_bar != desired_gain and change < high_bar - 10:
                 coin_to_sell = utils.get_second_market_coin(market)
                 balance = self.api.get_balance(coin_to_sell)
                 if balance['success']:
