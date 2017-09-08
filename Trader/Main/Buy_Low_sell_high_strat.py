@@ -23,7 +23,7 @@ class BuyLowSellHighStrat:
     def fill_low_bars(self):
         coin_low_bars = {}
         for market in self.bittrex_coins:
-            coin_low_bars[market]['low_bar'] = self.desired_low_point
+            coin_low_bars[market] = self.desired_low_point
         utils.json_to_file(coin_low_bars, 'coin_low_bars.json')
 
 
@@ -52,7 +52,7 @@ class BuyLowSellHighStrat:
                         low_bar = coin_low_bars[market]
 
                         if percent_change_24h <= self.desired_low_point and percent_change_24h <= low_bar:
-                            coin_low_bars[market]['low_bar'] = low_bar - 10
+                            coin_low_bars[market] = low_bar - 10
                             utils.json_to_file(coin_low_bars, 'coin_low_bars.json')
 
                         elif low_bar != self.desired_low_point and percent_change_24h > low_bar + 10:
