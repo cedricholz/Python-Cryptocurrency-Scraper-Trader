@@ -178,12 +178,12 @@ class RedditStrat:
 
             for i in range(len(upvote_list)):
                 out_string += str(sorted_comments[i][0]) + " : " + utils.time_stamp_to_date(
-                    sorted_comments[i][2]) + " : " + sorted_comments[i][1] + "\n"
+                    sorted_comments[i][2]) + " : " + sorted_comments[i][1] + "\n\n"
             out_string += "\n\n"
         utils.json_to_file(top_coins, 'reddit_top_coins.json')
         utils.clear_and_write_to_file('reddit_info.txt', out_string)
         utils.send_to_ftp_server('reddit_info.txt')
-        print(out_string)
-        utils.send_reddit_email(out_string)
+        # print(out_string)
+        # utils.send_reddit_email(out_string)
         # utils.print_and_write_to_logfile(out_string)
 
