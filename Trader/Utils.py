@@ -216,7 +216,7 @@ def buy(api, market, amount, coin_price, percent_change_24h, desired_gain, perce
         t['sell_threshold'] = 5
         t['uuid'] = buy_order['result']['uuid']
         t['desired_gain'] = desired_gain
-        t['bar'] = desired_gain
+        t['high_bar'] = desired_gain
 
         pending_orders['Buying'][market] = t
 
