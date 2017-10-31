@@ -75,7 +75,7 @@ class BuyLowSellHighStrat:
             high_bar = self.held_coins[market]['high_bar']
 
             if change >= desired_gain and change >= high_bar:
-                self.held_coins['high_bar'] = high_bar + 10
+                self.held_coins[market]['high_bar'] = high_bar + 10
                 utils.json_to_file(self.held_coins, 'held_coins.json')
             elif high_bar != desired_gain and change < high_bar - 10:
                 coin_to_sell = utils.get_second_market_coin(market)

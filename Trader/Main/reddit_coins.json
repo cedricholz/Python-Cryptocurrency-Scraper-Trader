@@ -3,6 +3,7 @@
         "full_name": "FirstBlood",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -10,6 +11,7 @@
         "full_name": "2GIVE",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -17,13 +19,53 @@
         "full_name": "ArtByte",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
+    },
+    "ADA": {
+        "full_name": "Ada",
+        "mentioned_ids": [
+            "dp4gzt7",
+            "dp4pz8m",
+            "79s53q",
+            "dp4ors8",
+            "dp3fap2"
+        ],
+        "mentioned_times": [
+            1509443728.0,
+            1509455063.0,
+            1509439495.0,
+            1509453059.0,
+            1509402743.0
+        ],
+        "sentiments": [
+            0.15000000000000002,
+            0.0,
+            0.0,
+            0.28,
+            0.0
+        ],
+        "text": [
+            "If you're really worried about quantum computers posing a threat then have a look at ADA, but to be honest I don't think it's an imminent problem - not within the next few years. ",
+            "Will it be:\nXLM, XRP or ADA \ud83e\udd14\u2753",
+            "Why is no one talking about Cardano (ADA)",
+            "It already has a huge market cap.  It has 26 billion ADA circulating and 45 billion max supply which means its inflation rate will be high.  ",
+            "VTC, GRS, ADA (calling it now, Cardano is gonna be next ethereum)"
+        ],
+        "upvotes": [
+            1,
+            1,
+            6,
+            1,
+            -8
+        ]
     },
     "ADT": {
         "full_name": "adToken",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -31,20 +73,38 @@
         "full_name": "AdEx",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "AEON": {
         "full_name": "Aeon",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp4r19o",
+            "dp4lmf3"
+        ],
+        "mentioned_times": [
+            1509457109.0,
+            1509448781.0
+        ],
+        "sentiments": [
+            0.0,
+            -0.02666666666666668
+        ],
+        "text": [
+            "Might wanna add AEON to the list too.",
+            "One of few promising concepts, but keep in mind, there is not even roadmap at this time, slowly but steadily ppl will notice it....and may be same reason no one is talking about AEON"
+        ],
+        "upvotes": [
+            2,
+            2
+        ]
     },
     "AGRS": {
         "full_name": "IDNI Agoras",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -52,6 +112,7 @@
         "full_name": "AMP",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -59,6 +120,7 @@
         "full_name": "Aragon",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -66,6 +128,7 @@
         "full_name": "Apx",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -73,48 +136,160 @@
         "full_name": "Ardor",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "ARK": {
         "full_name": "Ark",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3j3zf",
+            "dp4t06g",
+            "dp4r7pw"
+        ],
+        "mentioned_times": [
+            1509407033.0,
+            1509461821.0,
+            1509457493.0
+        ],
+        "sentiments": [
+            0.384375,
+            0.375,
+            0.0666666666666667
+        ],
+        "text": [
+            "NEO is definitely a great long-term hold. I just transferred to wallet from exchange to get free GAS generated. It's about 7% yearly dividends for keeping it off an exchange & you don't have to stake/lock wallet like most other cryptos, which most of those coins are only offering 5% annual returns. Ark delegate voting hasn't given me the rates they're claiming to payout so next to SNGLS I think NEO is the best for passive income.",
+            "There's a lot more news then just that, they announce that you can stake it without a masternode, they announced that they are working with the Chinese government and to quote monitor (senior executive of WaltonChain) \"We innovated a double-chain design to organise WTC parent-chain and application-child-chains, by building inter-chain bridges for mutual trust and confirmation transition, and to support data exchange and value transfer. (We are quiet proud of this one!)\" Ark and NeoX are trying to do this",
+            "Here are few that come to my mind: \n\n* TenX - already working crypto currency card. only processing 100 cards/day - a huge backlog of orders already. \n* Qtum\n* OmiseGo\n* Ark\n* Kyber Network"
+        ],
+        "upvotes": [
+            13,
+            8,
+            3
+        ]
     },
     "AUR": {
         "full_name": "AuroraCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "BAT": {
         "full_name": "Basic Attention Token",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp40rww",
+            "79t7yi",
+            "dp4q5m7"
+        ],
+        "mentioned_times": [
+            1509425453.0,
+            1509449927.0,
+            1509455381.0
+        ],
+        "sentiments": [
+            0.06287878787878788,
+            0.0,
+            0.2976010101010101
+        ],
+        "text": [
+            "BAT because people already don't really use \"watch ads for money\" things anyway. Kind of like mail-in rebates. Even though you might get a small sum back, most people wouldn't be bothered to. With respect to their adblocking browsers, there's other adblocking browsers out there already.\n\nDASH because you can't be \"kind of private\". Monero or go home.\n\nENJ because game devs wouldn't want to actively support a secondary market they can't control.",
+            "Question about BAT",
+            "BAT has far more utility than most tokens, it's a great crypto asset but the price just isn't reflecting that. I'm down 25% but still plan on holding for now. Don't chase the FOMO just be patient, it's the hardest thing to do but over trading & taking losses just to chase gains on coins with new all-time-highs are even more likely to stick you with heavier bags."
+        ],
+        "upvotes": [
+            4,
+            5,
+            3
+        ]
     },
     "BAY": {
         "full_name": "BitBay",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3w61r"
+        ],
+        "mentioned_times": [
+            1509420594.0
+        ],
+        "sentiments": [
+            0.39187500000000003
+        ],
+        "text": [
+            "I have to say, I love this team, and the wtc sub. The team has held it's investors in high regard, made sure they gave us constant updates and put fudders at bay. On top of it, they continue to amaze by delivering on time. This is probably the most professional team in crypto space. Good stuff! "
+        ],
+        "upvotes": [
+            20
+        ]
     },
     "BCC": {
         "full_name": "Bitcoin Cash",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3i1jy",
+            "dp3sdgh",
+            "dp43n2i",
+            "dp48dzt",
+            "dp470le",
+            "79nzns",
+            "dp3gvwy",
+            "dp3sdag",
+            "dp3oknp",
+            "dp3cl9d"
+        ],
+        "mentioned_times": [
+            1509405866.0,
+            1509416626.0,
+            1509428616.0,
+            1509434155.0,
+            1509432525.0,
+            1509401896.0,
+            1509404560.0,
+            1509416621.0,
+            1509412759.0,
+            1509399367.0
+        ],
+        "sentiments": [
+            0.10416666666666667,
+            0.2857142857142857,
+            -0.4,
+            0.14265873015873012,
+            0.1,
+            0.13636363636363635,
+            -0.0931818181818182,
+            0.3213458110516934,
+            -0.4833333333333334,
+            -0.25
+        ],
+        "text": [
+            "do not use coinmarketcap as they put bitconnect ads. Use livecoinwatch instead. Regarding the topic, crypto is a unique market where fools look like geniuses and vice versa. Putting your money in Bitconnect in August would have generated more gains than ETH.\n\nEDIT: not sure if it is possible to sell bcc coins back to make above argument to work.",
+            "Am I right that Bittrex lists Bitcoin Cash (BCH) under the ticker BCC, or is it BitConnect?\n\nhttps://bittrex.com/Market/Index?MarketName=BTC-BCC",
+            "I think it\u2019s because the ticket is BCC which some exchanges are using for BCH? So noobs may be getting confused ",
+            "Coinmarketcap listing it ridicules the legitimacy of of taking Coinmarketcap's values seriously seeing as its market cap is predominantly derived from BCC own Exchange which is largely unverifiable. \n\nCoinmarketcap should delist it and a good few other currencies.",
+            "It's thanks to bitcoin-cash altcoin not only trying to take over \"Bitcoin\" name, but also trying to take over \"BCC\" ticker - when BitCONNECT was using it for 6 months already.\n\nDunno why they did that.\n\nMaybe just incompetence?\n\nOr perhaps they are the one profiting on this scam, who knows.",
+            "Bitcoin Cash announces a new DAA algorithm that will go live November 13",
+            "Bitcoin Cash is advertised as being true to Satoshi's original vision. Why was the emergency difficulty adjustment introduced in the first place? Was it part of Satoshi's vision? Ow wait it was a stupid mechanism to save this scammy shitcoin from dying out immediatly. But then it backfired. Now they have to toy around with the difficulty adjustment again. Way to go devs. At least this time they had it tested by ... nChain ... lmao that's reassuring.\n\nThen again, those people like to think Craig Wright *is* Satoshi. If you follow his vision, this retarded, centralized rip-off is exactly what you get. \n\nEdit: [Haha even the r/btc fanboys are pissed](https://np.reddit.com/r/btc/comments/79njk0/bitcoin_abc_statement_on_the_nov_2017_hard_fork/)",
+            "> Our decision to choose one specific proposal was not easy, because Bitcoin Cash has several independent development teams, and there was a great deal of deliberation between developers from the different groups.\n \n> We have the utmost respect for the all developers involved in the discussions, but only one algorithm could be chosen, and a timely decision was required.   \n\n> Therefore, we decided to take a scientific approach and utilized two impartial and unconnected testing teams: Bitprim and nChain.  These teams conducted their tests separately and came to the same conclusion of which algorithm was most appropriate.\n\nThis reminds me of the positive unified community that comes together to move forward together, to progress together. I'm really excited for Bitcoin Cash. Contrast this to Blockstream developers where every improvement is considered an attack on Bitcoin, miners are considered hostile villains, business people like Roger is considered Lord Voldemort, lol.\n\nI'm truly excited and affected by the positive vibe coming from this community and awesome people. Keep up the good work!",
+            "The algorithm is actually a very complicated classification machine learning algorithm that uses various decision tree models from the number of Bitcoin Cash coins you buy to determine what level of idiot you are",
+            "Neo. While I would usually suggest Bitcoin, I feel Bitcoin Cash is going to take the fire away from Bitcoin."
+        ],
+        "upvotes": [
+            10,
+            1,
+            1,
+            1,
+            0,
+            13,
+            7,
+            4,
+            0,
+            1
+        ]
     },
     "BCY": {
         "full_name": "BitCrystals",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -122,6 +297,7 @@
         "full_name": "BitBean",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -129,6 +305,7 @@
         "full_name": "Blitzcash",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -136,20 +313,63 @@
         "full_name": "BlackCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "BLOCK": {
         "full_name": "BlockNet",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3qt35",
+            "dp34073",
+            "dp3lc8v",
+            "dp4bngv",
+            "dp3v4qk",
+            "dp4sxw4",
+            "79oagf"
+        ],
+        "mentioned_times": [
+            1509415010.0,
+            1509380335.0,
+            1509409430.0,
+            1509438010.0,
+            1509419522.0,
+            1509461656.0,
+            1509404739.0
+        ],
+        "sentiments": [
+            -0.026448412698412704,
+            -0.03125,
+            0.2,
+            -0.0625,
+            0.09918546365914786,
+            0.125,
+            0.0
+        ],
+        "text": [
+            "All judgmental comments of something that is scary. I\u2019ve earned good and I\u2019ve more than tripled my btc. Who knows what the other alt-coins actually is? Do half of them even connect to a legit block chain? Who knows? Internet was scary at first too...\n\n\nThink about it: Bitconnect could actually take over all and become 1. And it would retain it\u2019s value because of the demand. As long is has a large user base and high lending rent, it will attract hungry investors.",
+            "Here is a list of threads in other subreddits about the same content:\n\n * [An analysis of Vertcoin: A centralization resistant digital currency](https://www.reddit.com/r/vertcoin/comments/79mdgf/an_analysis_of_vertcoin_a_centralization/) on /r/vertcoin with 3 karma (created at 2017-10-30 16:11:45 by /u/bitko2017)\n * [VTC has not reached the Asian market yet](https://www.reddit.com/r/VertcoinTrader/comments/79mbbc/vtc_has_not_reached_the_asian_market_yet/) on /r/VertcoinTrader with 3 karma (created at 2017-10-30 15:54:19 by /u/cliff-hanger)\n\n----\n\n ^^I ^^am ^^a ^^bot  ^^[FAQ](https://www.reddit.com/r/DuplicatesBot/wiki/index)-[Code](https://github.com/PokestarFan/DuplicateBot)-[Bugs](https://www.reddit.com/r/DuplicatesBot/comments/6ypgmx/bugs_and_problems/)-[Suggestions](https://www.reddit.com/r/DuplicatesBot/comments/6ypg85/suggestion_for_duplicatesbot/)-[Block](https://www.reddit.com/r/DuplicatesBot/wiki/index#wiki_block_bot_from_tagging_on_your_posts)\n\n^^Now ^^you ^^can ^^remove ^^the ^^comment ^^by ^^replying ^^delete!",
+            "Where\u2019s Phoenix coin at? \n\nCurrent Specifications:\n\nNeoScrypt (N = 128, r = 2, p = 1, etc.)\n~98 million total coins\nblock target is 1.5 minutes\nblock reward is 25 coins\nblock reward halves every 1 million blocks\nretargets every 20 blocks (~30 minutes)\n+2% to -5% max. change on every retarget\nadvanced averaging: 100 + 500 blocks 0.1 damped\nadvanced checkpointing against 51% attacks\nthe default P2P port is 9555, RPC port is 9554",
+            "Here is a list of threads in other subreddits about the same content:\n\n * [Introducing Metal Vault!](https://www.reddit.com/r/MetalPay/comments/79rw3x/introducing_metal_vault/) on /r/MetalPay with 2 karma (created at 2017-10-31 08:05:50 by /u/Fluffywiggle)\n\n----\n\n ^^I ^^am ^^a ^^bot  ^^[FAQ](https://www.reddit.com/r/DuplicatesBot/wiki/index)-[Code](https://github.com/PokestarFan/DuplicateBot)-[Bugs](https://www.reddit.com/r/DuplicatesBot/comments/6ypgmx/bugs_and_problems/)-[Suggestions](https://www.reddit.com/r/DuplicatesBot/comments/6ypg85/suggestion_for_duplicatesbot/)-[Block](https://www.reddit.com/r/DuplicatesBot/wiki/index#wiki_block_bot_from_tagging_on_your_posts)\n\n^^Now ^^you ^^can ^^remove ^^the ^^comment ^^by ^^replying ^^delete!",
+            ">It is unlikely that bitcoin will be used as the main currency for making purchases, simply because an average single confirmation time of 5 minutes (assuming your transaction occurs in the next block) is too slow for personal to business transactions. \n\nYou forgot to mention bitcoin smart contracts, faster sidechains including one with all capabilities of ethereum with its own lightning network and without the security issues of eth, enormous amount of lightning network work near finalized, other layer 2 solutions.\n\nIt's very misleading to pretend the most developed blockchain in existence is not going to do scaling. I suggest reading more than factually inaccurate subreddits like censored ethereum ones. There's a reason they are not good source of information when best known as [chain of liars and thieves.](https://medium.com/@WhalePanda/ethereum-chain-of-liars-thieves-b04aaa0762cb)\n\n",
+            "Reply from Vertcoin in the same post:\n\n> Vertcoin's first block reward halving is happening in December",
+            "I/O Coin 2 days until DIONS block call"
+        ],
+        "upvotes": [
+            -2,
+            5,
+            1,
+            2,
+            2,
+            4,
+            7
+        ]
     },
     "BNT": {
         "full_name": "Bancor",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -157,6 +377,7 @@
         "full_name": "Breakout",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -164,6 +385,7 @@
         "full_name": "Breakout Stake",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -171,13 +393,7 @@
         "full_name": "BitSend",
         "mentioned_ids": [],
         "mentioned_times": [],
-        "text": [],
-        "upvotes": []
-    },
-    "BTA": {
-        "full_name": "Bata",
-        "mentioned_ids": [],
-        "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -185,6 +401,7 @@
         "full_name": "BitcoinDark",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -192,6 +409,7 @@
         "full_name": "BitShares",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -199,6 +417,7 @@
         "full_name": "BURSTCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -206,6 +425,7 @@
         "full_name": "Bytecent",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -213,6 +433,7 @@
         "full_name": "CannabisCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -220,6 +441,7 @@
         "full_name": "Cofound.it",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -227,6 +449,7 @@
         "full_name": "CLAMs",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -234,6 +457,7 @@
         "full_name": "CloakCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -241,6 +465,7 @@
         "full_name": "ClubCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -248,6 +473,7 @@
         "full_name": "Circuits of Value",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -255,6 +481,7 @@
         "full_name": "CapriCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -262,6 +489,7 @@
         "full_name": "CreditBit",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -269,6 +497,7 @@
         "full_name": "Crown",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -276,6 +505,7 @@
         "full_name": "CureCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -283,41 +513,74 @@
         "full_name": "Civic",
         "mentioned_ids": [],
         "mentioned_times": [],
-        "text": [],
-        "upvotes": []
-    },
-    "DAR": {
-        "full_name": "Darcrus",
-        "mentioned_ids": [],
-        "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "DASH": {
         "full_name": "Dash",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3ny68",
+            "dp3z28p",
+            "dp40rww"
+        ],
+        "mentioned_times": [
+            1509412129.0,
+            1509423640.0,
+            1509425453.0
+        ],
+        "sentiments": [
+            0.2571428571428571,
+            0.0,
+            0.06287878787878788
+        ],
+        "text": [
+            "I personally don't invest in Dash because there is a code that allows the last 24 hours of transactions to be reversed.\n\nWhile I would hope this would only be used with the best intentions, I view it as a backdoor, and if you have a backdoor, I have a backdoor. Someone could be trying to hack that right now.",
+            "I avoid: dash,bitconnect, ripple, btc cash, tether, 0x",
+            "BAT because people already don't really use \"watch ads for money\" things anyway. Kind of like mail-in rebates. Even though you might get a small sum back, most people wouldn't be bothered to. With respect to their adblocking browsers, there's other adblocking browsers out there already.\n\nDASH because you can't be \"kind of private\". Monero or go home.\n\nENJ because game devs wouldn't want to actively support a secondary market they can't control."
+        ],
+        "upvotes": [
+            19,
+            9,
+            4
+        ]
     },
     "DCR": {
         "full_name": "Decred",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "DCT": {
         "full_name": "DECENT",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp42naz",
+            "dp3b6rq"
+        ],
+        "mentioned_times": [
+            1509427510.0,
+            1509397408.0
+        ],
+        "sentiments": [
+            0.16666666666666666,
+            0.2128205128205128
+        ],
+        "text": [
+            "Made a post about Ethino earlier asking why there isnt more hype about a project with an actual product and a marketcap of 1.5mil.. didnt get any decent answers",
+            "Interesting to see the phases in perspective.\n\nYet a issue with the article is that the author  uses normal scale. \nWith such price gains (% wise), you should always look at things with logaritmic scale.\nIn that case, the '99 bubble had a much much steeper ascend to its peak (and decent) than the following years. Those years look like normal growth actually. \nEven the 2008 crisis had a much smaller effect on the price (% wise) than the 99 crash.\n\nIt also provides a much clearer look on the theory that the author touches upon. Progression of a development is linear, but price swings around this progression trend in exponential ranges.\n\nTo see for yourself, go to www.tradingview.com and open the amazon chart. Set to weekly and log scale. \n"
+        ],
+        "upvotes": [
+            4,
+            1
+        ]
     },
     "DGB": {
         "full_name": "Digibyte",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -325,6 +588,7 @@
         "full_name": "DigixDAO",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -332,13 +596,38 @@
         "full_name": "Diamond",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
+    },
+    "DNT": {
+        "full_name": "district0x",
+        "mentioned_ids": [
+            "79oydr",
+            "dp45cjj"
+        ],
+        "mentioned_times": [
+            1509410748.0,
+            1509430563.0
+        ],
+        "sentiments": [
+            0.0,
+            0.475
+        ],
+        "text": [
+            "Bounty0x integrating with district0x",
+            "DNT is extremely undervalued. This is a coin with outstanding devs who have been working in the crypto community for years. They have hit every deadline they have set and the price has gone through a great correction. Do your own research. (I own DNT)"
+        ],
+        "upvotes": [
+            20,
+            1
+        ]
     },
     "DOGE": {
         "full_name": "Dogecoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -346,13 +635,7 @@
         "full_name": "DopeCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
-        "text": [],
-        "upvotes": []
-    },
-    "DRACO": {
-        "full_name": "DT Token",
-        "mentioned_ids": [],
-        "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -360,6 +643,7 @@
         "full_name": "Databits",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -367,6 +651,7 @@
         "full_name": "Dynamic",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -374,6 +659,7 @@
         "full_name": "eBoost",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -381,6 +667,7 @@
         "full_name": "Edgeless",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -388,6 +675,7 @@
         "full_name": "ElectronicGulden",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -395,6 +683,7 @@
         "full_name": "EverGreenCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -402,6 +691,7 @@
         "full_name": "EmerCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -409,6 +699,7 @@
         "full_name": "Einsteinium",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -416,34 +707,219 @@
         "full_name": "EnergyCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "ERC": {
         "full_name": "EuropeCoin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp4cnsr",
+            "dp4bt4s"
+        ],
+        "mentioned_times": [
+            1509439124.0,
+            1509438185.0
+        ],
+        "sentiments": [
+            0.02070707070707071,
+            0.023295454545454546
+        ],
+        "text": [
+            "Seem to be a couple of similar threads, so will re-post here...\n\nJust made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate.\n\nFor anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:\n- Metal, Ethereum, Bitcoin and ERC-20 under one roof\n- Hardware Integration with Trezor & Ledger\n- Private Key Backups\n- Multi-signature\n- Single-signature\n- 2FA Authentication with Google Authenticator\n- 24/7 Live Support\n\nHere are some of the features you can expect in the near future:\n- Integrated FDIC insured bank account for US Customers \n- In-wallet exchange functionality \n- Invoicing capability for Metal and Cash \n- Open API to develop on Metal platform\n\nOh and here's a link to the wallet: https://app.metalpay.com/login",
+            "Just made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate. \n\nFor anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:\n\n- Metal, Ethereum, Bitcoin and ERC-20 under one roof\n- Hardware Integration with Trezor & Ledger\n- Private Key Backups\n- Multi-signature\n- Single-signature\n- 2FA Authentication with Google Authenticator\n- 24/7 Live Support\n\nHere are some of the features you can expect in the near future:\n- Integrated FDIC insured bank account for US Customers\n- In-wallet exchange functionality\n- Invoicing capability for Metal and Cash\n- Open API to develop on Metal platform\n\nOh and here's a link to the wallet:\nhttps://app.metalpay.com/login"
+        ],
+        "upvotes": [
+            8,
+            -2
+        ]
     },
     "ETC": {
         "full_name": "Ethereum Classic",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "ETH": {
         "full_name": "Ethereum",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3i1jy",
+            "dp3qz9q",
+            "dp3rdzx",
+            "dp3wld2",
+            "dp4r76l",
+            "dp45a12",
+            "dp448hq",
+            "dp3ffrb",
+            "dp487rj",
+            "dp4jps7",
+            "dp4cnsr",
+            "dp4aktw",
+            "79ryh1",
+            "dp4bt4s",
+            "dp3yc4w",
+            "dp3ywzr",
+            "dp3wfeu",
+            "dp3tnas",
+            "79n3xb",
+            "dp4ahbh",
+            "dp39xbv",
+            "dp3l2v8",
+            "dp3fxta",
+            "dp3v4qk",
+            "dp3hw93",
+            "79q2sf",
+            "dp3lac8",
+            "dp3uivg",
+            "79pjam",
+            "dp3b08p",
+            "dp45pw3",
+            "dp3fap2"
+        ],
+        "mentioned_times": [
+            1509405866.0,
+            1509415185.0,
+            1509415606.0,
+            1509421039.0,
+            1509457463.0,
+            1509430480.0,
+            1509429283.0,
+            1509402906.0,
+            1509433948.0,
+            1509446649.0,
+            1509439124.0,
+            1509436770.0,
+            1509437750.0,
+            1509438185.0,
+            1509422865.0,
+            1509423484.0,
+            1509420867.0,
+            1509417959.0,
+            1509391990.0,
+            1509436656.0,
+            1509395381.0,
+            1509409156.0,
+            1509403483.0,
+            1509419522.0,
+            1509405701.0,
+            1509420524.0,
+            1509409374.0,
+            1509418878.0,
+            1509415813.0,
+            1509397128.0,
+            1509431002.0,
+            1509402743.0
+        ],
+        "sentiments": [
+            0.10416666666666667,
+            0.0,
+            0.04520089285714284,
+            0.33,
+            0.15425407925407925,
+            -0.15277777777777776,
+            0.3975,
+            0.10555555555555557,
+            0.0,
+            0.052535273368606694,
+            0.02070707070707071,
+            0.25,
+            0.3125,
+            0.023295454545454546,
+            0.36818181818181817,
+            -0.07499999999999998,
+            0.0,
+            0.14030612244897958,
+            0.0,
+            -0.1375,
+            0.2,
+            0.20952380952380953,
+            0.030000000000000006,
+            0.09918546365914786,
+            0.1875,
+            0.0,
+            0.0,
+            0.31,
+            0.2,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "text": [
+            "do not use coinmarketcap as they put bitconnect ads. Use livecoinwatch instead. Regarding the topic, crypto is a unique market where fools look like geniuses and vice versa. Putting your money in Bitconnect in August would have generated more gains than ETH.\n\nEDIT: not sure if it is possible to sell bcc coins back to make above argument to work.",
+            "There is one called Eth-connect that literally has Ponzi written on the front page next to the affiliate pyramid returns. ",
+            "I hate when people keep calling Bitconnect a Ponzi scheme. There are SOOO many scam coins out there and they want to hate on a coin that is doing better than any other coin. They are **THE ONLY** coin to have non stop steady growth without any major dips in price. Whoever created it is genius. Also they have had a bigger percentage growth than almost any coin including ETH and NEO. I\u2019m not even invested in BItconnect but it\u2019s just sad to see people so jealous. Get a life. Who cares if it\u2019s a Ponzi scheme if it makes you money and it\u2019s successful. Not one piece of evidence has come out to prove that it\u2019s a scam and actually all evidence right now proves it\u2019s a strong long term crypto.\n\nBy the way how it is a \u201cPonzi scheme\u201d? If you even know the definition. Explain why it\u2019s a Ponzi scheme in detail.....",
+            "The fact that you can stake without a masternode is huge. The fact that you can mine without a masternode is huge. The fact that you can stake and mine within the wallet itself is also huge.\n\nThe walton chain is compatible with ethereum tokens, huge\n\nThey have finished their multi-chain application development, huge\n\nThey meet their deadlines, huge\n\nThere's more to be revealed next month (as per Monitor on slack)\n\nThey have government support and their parent company (handles the technical development) have been contacted by the government to be involved in this http://www.chinadaily.com.cn/bizchina/2017-10/24/content_33653090.htm (also revealed by Monitor on slack). Beyond huge.",
+            "A complete and utter noob here, but doesn't Bitcoin tick off alarmingly many of these, even though it isn't in a start up phase anymore?\n\nThe product seems impractical and poor compared to later developed solutions (= should logically get out competed in the long run) and doesn't really have further development in the future, aside from third parties.\n\nAlso the use case seems to have switched from currency to a gold-like asset, that only seems to hold value because investors seem to expect the price to keep rising forever, which doesn't feel very sustainable especially when there are more practical options on the market.\n\nI've also just started studying Ethereum, and I'm wondering how it isn't more popular compared to Bitcoin since, at least at first glance, it seems to be doing everything better.\n\nOnce again I'm very new to this and this is what I've gathered so far, please if you know good educational material on the subject please point me in that direction.",
+            "https://www.reddit.com/r/JoyStream/comments/77l4jh/joystream_05_released/dou1wre/\n\nThe fees are ridiculous on Joystream due to using Bitcoin. An ETH-based client like this is definitely welcomed imo. \n\nEdit: meant this to be a reply to senzheng's comment, but I'll leave it",
+            "You mean like https://www.reddit.com/r/CryptoCurrency/comments/78zxpi/for_2_years_joystreamapp_has_quietly_built_a/\n\nor many others\n\nwithout relying on the most centralized project known to man, eth? lmao\n\nnot that it's even a good concept for end user",
+            "Some of you guys haven\u2019t even transferred your NEO from one wallet to another yet. By far, NEO is the fastest crypto for that. Compared to OMG, ETH, LTC and especially BTC, NEO is light speeds faster (FYI I have stakes in all of those aforementioned coins). Yes I know they had down time a couple days ago when releasing this years 15 million supply tokens. Yes some wallets have sync issues (if you follow the tutorials you\u2019re usually okay). But if we\u2019re going to use NEO as a form of real time currency, there\u2019s few that can compete. We\u2019ll see how plasma benefits OMG/ETH though.",
+            "You didn't post about Spectre.ai -- I'm seeing NOTHING on reddit about it which has me reluctant to get in but they have $5,000,000 in eth/usd within 3 days so IDK.  ",
+            "Confido blows all those icos in terms of potential gains. 400k starting mcap, first dapp with chainlink, strong real world use case\n\nhttps://www.reddit.com/r/CryptoCurrency/comments/79gkl4/confido_awesome_chainlink_use_case/\n\n\n- First dapp to use chainlink for smart contracts on the Ethereum and Bitcoin rootstock blockchain\n- Good product with real world use case; I think it'll be massively adopted by Craigslist and Gumtree users, or any classified advertising and online forum marketplace\n- Chainlink and confido team know each other well, Rory from chainlink even pinned confido twitter on chainlink slack\n- 1250 eth hard cap, 400k mcap. This is tiny for its potential! x10 merely makes it 4m mcap\n- Completely free to use without any fees if you use the confido tokens as payment method, so there's incentive to use the token over eth/btc\n- ETH payments distributed to token holders from fees collected\n- Creating plugins for major e-commerce platforms \n- Confido will also be implementing Kleros.io , directly into the smartcontract which is an awesome dispute resolution/voting jury blockchain, as an intermediary\n- Alpha web app and mobile app release in Q4, 2017\n- Small dedicated team that aren\u2019t greedy for once and only raising what they need. CEO is open to suggestions and in active talks with exchanges\n- It has plenty of hype and awareness in the crypto world. https://www.huffingtonpost.com/entry/3-cryptocurrencies-to-keep-an-eye-on-that-are-not-bitcoin_us_59d22c36e4b034ae778d4c32\n- Shit like Ethereum gold without even a fucking whitepaper goes 1000%, Confido is actually legit, this will moon so hard",
+            "Seem to be a couple of similar threads, so will re-post here...\n\nJust made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate.\n\nFor anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:\n- Metal, Ethereum, Bitcoin and ERC-20 under one roof\n- Hardware Integration with Trezor & Ledger\n- Private Key Backups\n- Multi-signature\n- Single-signature\n- 2FA Authentication with Google Authenticator\n- 24/7 Live Support\n\nHere are some of the features you can expect in the near future:\n- Integrated FDIC insured bank account for US Customers \n- In-wallet exchange functionality \n- Invoicing capability for Metal and Cash \n- Open API to develop on Metal platform\n\nOh and here's a link to the wallet: https://app.metalpay.com/login",
+            "Incentives for holding Eth and Metal in the vault. seems pretty legit",
+            "Introducing Metal Vault- the first BTC, ETH, erc20 web wallet with Ledger and Trezor support!",
+            "Just made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate. \n\nFor anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:\n\n- Metal, Ethereum, Bitcoin and ERC-20 under one roof\n- Hardware Integration with Trezor & Ledger\n- Private Key Backups\n- Multi-signature\n- Single-signature\n- 2FA Authentication with Google Authenticator\n- 24/7 Live Support\n\nHere are some of the features you can expect in the near future:\n- Integrated FDIC insured bank account for US Customers\n- In-wallet exchange functionality\n- Invoicing capability for Metal and Cash\n- Open API to develop on Metal platform\n\nOh and here's a link to the wallet:\nhttps://app.metalpay.com/login",
+            "This is kind of neat, any discussions about how this might change things up in crypto?  You no longer have to go into BTC or ETH when trading pairs, adds a new wrinkle.",
+            "Personally, no time to research.  There are 1001 coins and I only have so much funds to spread around.  I'm not going to invest in fancypantscoin unless I have time to research what it does and who's behind it.\n\nFor me, I dropped ETH when the DAO hardfork happened.  Just left a bad taste in my mouth.  Also dropped BTC as it's stagnated in dev hell for a few years.  Dropped XRP when what looked like a better flavor (STR) came along.",
+            "I don't invest in ETH because it won't scale like KMD does ",
+            "If your project is so special why dont you get a concept ready with VC funding? But no, the opportunity to grab $50m must be soo tempting \n\n\nAnd I dont really see what sets this apart from hundreds of other ICOs in the finance space. Atleast be creative, come on. For supposed Stanford grads you are proposing such an average run of the mill idea that wont even get selected for presentation in Stanford competitions. \n\n\nLending on ethereum, ID on ethereum, cards on entereum,voting, blah blah blah....  FFS we have heard about all of these a million times over ",
+            "Ethereum Price Close to Breaking $309 Resistance",
+            "ETH has won the most boring alt-coin ever prize. \nGraph is a flat line at $300. \nCorps also have a flat line heart beat.",
+            "does anyone really care about the fiat price of Ethereum? ",
+            "I don't think I'm the only one who is getting tired of this. I just plan on leaving my alts in place, buying more BTC with Fiat, and buying alts right before the fork. From what I can tell, the overall market cap for BTC is waning and alts are gaining more traction. Though, I do doubt BTC will come from the throne anytime soon. I also hope Monero and Ethereum both take a similar footing to BTC in the future since they are both awesome projects. ",
+            "I do think there's gonna be a big bull run, but I'm not sure what to do after the fork. I want to get into alts as quickly as possible after though, and idk if the 2x chain is going to be deposited instantly on coinbase when it happens. So because of that, I may end up dumping my BTC to ETH, then splitting ETH into alts. \n\nI'd rather dump 2x, but the problem is just that idk when it would be available for trading. Never took part in a fork before. Anyone know what to expect?",
+            ">It is unlikely that bitcoin will be used as the main currency for making purchases, simply because an average single confirmation time of 5 minutes (assuming your transaction occurs in the next block) is too slow for personal to business transactions. \n\nYou forgot to mention bitcoin smart contracts, faster sidechains including one with all capabilities of ethereum with its own lightning network and without the security issues of eth, enormous amount of lightning network work near finalized, other layer 2 solutions.\n\nIt's very misleading to pretend the most developed blockchain in existence is not going to do scaling. I suggest reading more than factually inaccurate subreddits like censored ethereum ones. There's a reason they are not good source of information when best known as [chain of liars and thieves.](https://medium.com/@WhalePanda/ethereum-chain-of-liars-thieves-b04aaa0762cb)\n\n",
+            "1) I use bitcointax. Makes life so much easier. \n2) Yes, there is a section for transaction fees\n2?) All transactions, BTC to USD, BTC to ETH, are taxable events\n3) Just use bitcointax, they have an option where you can import history from exchanges or upload your own history as a csv file. They calculate short vs. long term gains, and what I costs using various methods (first in first out, highest price first out, etc...)",
+            "Everyone has seen the troll u/ shenzeng posting ancient FUD about ETH everywhere on this sub: As it turns out, he is an EOS Shill....",
+            "Gotta love hodling ETH, I keep getting random coins airdropped into my wallet without signing up for anything ",
+            "Love how these airdrops are becoming free advertisement spamming every account while adding nothing to decentralization with their 1% here or even 5% total distributed. Ethereum does innovate in one thing really well - fraud.",
+            "KMD (komodo) will be listed on HitBTC against BTC, ETH and USDT very soon",
+            "Btc, vtc, eth, xmr",
+            "BTC, NEM, NEO, Ethereum, Lisk and OMG I see as lower risk investments.",
+            "VTC, GRS, ADA (calling it now, Cardano is gonna be next ethereum)"
+        ],
+        "upvotes": [
+            10,
+            2,
+            0,
+            118,
+            2,
+            4,
+            -6,
+            11,
+            2,
+            2,
+            8,
+            6,
+            25,
+            -2,
+            4,
+            4,
+            -1,
+            5,
+            16,
+            1,
+            -3,
+            1,
+            0,
+            2,
+            7,
+            10,
+            2,
+            3,
+            8,
+            4,
+            1,
+            -8
+        ]
     },
     "EXCL": {
         "full_name": "ExclusiveCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -451,6 +927,7 @@
         "full_name": "Expanse",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -458,48 +935,90 @@
         "full_name": "FairCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "FCT": {
         "full_name": "Factom",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3w60j",
+            "dp4o9zc"
+        ],
+        "mentioned_times": [
+            1509420593.0,
+            1509452293.0
+        ],
+        "sentiments": [
+            -0.25,
+            0.0
+        ],
+        "text": [
+            "[Factom lead developer?](https://www.factom.com/about/team) \n\nholy shit!",
+            "Factom.. I won't shill it,just read about it"
+        ],
+        "upvotes": [
+            15,
+            2
+        ]
     },
     "FLDC": {
         "full_name": "FoldingCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "FLO": {
         "full_name": "Florin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "79qsbd"
+        ],
+        "mentioned_times": [
+            1509426810.0
+        ],
+        "sentiments": [
+            0.0625
+        ],
+        "text": [
+            "Prediction: FLO will have a major pump nxt 24hrs"
+        ],
+        "upvotes": [
+            5
+        ]
     },
     "FTC": {
         "full_name": "Feathercoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "FUN": {
         "full_name": "FunFair",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp4jovw"
+        ],
+        "mentioned_times": [
+            1509446622.0
+        ],
+        "sentiments": [
+            0.10404040404040406
+        ],
+        "text": [
+            "I just joined this subreddit and I agree with the above.  There are exceptions, which careful pre-investment studying can reveal.  FunFair and TenX (I like both) are two companies that actually have transparent teams and working products (TenX) (FunFair has a showcase, goes live early next year).  Their tokens seem not to \u201cpump\u201d in good news or bad, because in my opinion their communities weed out FUD and are also great resources for knowledge.  "
+        ],
+        "upvotes": [
+            3
+        ]
     },
     "GAM": {
         "full_name": "Gambit",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -507,6 +1026,7 @@
         "full_name": "GameCredits",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -514,6 +1034,7 @@
         "full_name": "GBG",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -521,6 +1042,7 @@
         "full_name": "Bytes",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -528,6 +1050,7 @@
         "full_name": "GlobalCurrencyReserve",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -535,6 +1058,7 @@
         "full_name": "GeoCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -542,6 +1066,7 @@
         "full_name": "GoldCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -549,6 +1074,7 @@
         "full_name": "Gnosis",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -556,6 +1082,7 @@
         "full_name": "Golem",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -563,6 +1090,7 @@
         "full_name": "Golos",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -570,20 +1098,198 @@
         "full_name": "GridCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "GRS": {
         "full_name": "Groestlcoin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "79ng05",
+            "dp3al8m",
+            "dp3gdgo",
+            "dp3i80t",
+            "dp3bpih",
+            "dp3k2zy",
+            "dp3agfg",
+            "dp3d28a",
+            "dp3ljl1",
+            "dp3yxxm",
+            "dp47o9k",
+            "dp3eowd",
+            "79nav5",
+            "dp3dwrd",
+            "dp3ddxs",
+            "dp3dvkn",
+            "dp3eabu",
+            "dp3rif9",
+            "dp3rzhs",
+            "dp3auua",
+            "dp4185k",
+            "dp3c1vm",
+            "dp39fe3",
+            "dp3gnnm",
+            "dp4i3wz",
+            "dp4tlie",
+            "79okzv",
+            "dp3sg33",
+            "dp3fap2",
+            "dp3m2nc",
+            "dp3b996",
+            "79tgnj",
+            "dp4rnoz",
+            "dp426gn"
+        ],
+        "mentioned_times": [
+            1509396128.0,
+            1509396482.0,
+            1509403980.0,
+            1509406062.0,
+            1509398169.0,
+            1509408077.0,
+            1509396268.0,
+            1509399986.0,
+            1509409644.0,
+            1509423512.0,
+            1509433303.0,
+            1509402030.0,
+            1509394458.0,
+            1509401066.0,
+            1509400407.0,
+            1509401025.0,
+            1509401536.0,
+            1509415732.0,
+            1509416223.0,
+            1509396900.0,
+            1509425936.0,
+            1509398637.0,
+            1509394520.0,
+            1509404297.0,
+            1509444933.0,
+            1509463457.0,
+            1509407467.0,
+            1509416699.0,
+            1509402743.0,
+            1509410194.0,
+            1509397514.0,
+            1509452673.0,
+            1509458495.0,
+            1509426990.0
+        ],
+        "sentiments": [
+            0.0,
+            0.4,
+            0.0,
+            0.6000000000000001,
+            -0.08333333333333333,
+            -0.275,
+            0.15000000000000002,
+            0.0,
+            0.0,
+            0.0,
+            -0.16666666666666666,
+            0.0,
+            0.0,
+            0.010000000000000009,
+            0.0,
+            0.0,
+            -0.019444444444444486,
+            0.13888888888888887,
+            0.0,
+            0.2642857142857143,
+            0.2,
+            0.7666666666666666,
+            -0.1953125,
+            0.0,
+            0.10075757575757577,
+            0.0,
+            0.0,
+            0.1133333333333334,
+            0.0,
+            0.0,
+            0.0,
+            -0.060185185185185196,
+            0.0,
+            0.0
+        ],
+        "text": [
+            "Groestlcoin AMA on friday",
+            "Fantastic for the confirmation. People ask and the GRS team deliver. ",
+            "What is Groestlcoin, first time I hear about this :/",
+            "Can this coin gain mainstream adoption with a name like 'Groestlcoin'?? LOL Not doubting the tech, but branding seems important...",
+            "Just made a small initial investment in GRS after reading up on it during the last week.",
+            "I'm sorry for having been a dick to the GRS people sometimes...\n\nHaving said that, I am onboard guys. Strapping in for the long hold.",
+            "WoW thanks a lot for information. GRS to moon:D",
+            "I can't wait! I've got a couple of questions about GRS.",
+            "Another week another coin. Nothing against GRS but we're gonna end up with 10 gorillion similar coins after the next year.",
+            "GRS over $1 this week. Watch!",
+            "I just sold half my Vert to get Groestlcoin. I think this is going to be at Vert price in a couple months. ",
+            "Report all these GRS threads as spam please.",
+            "Here's an updated/corrected GRS/VTC/LTC/BTC comparison chart from the GRS team!",
+            "Now *this* is where true shilling is. VTC devs have made it a point to avoid this type of stuff and have said as much, and the second GRS gets a second of the spotlight they get in on this comparison chart bullshit.\n\nLaughable.",
+            "*\"Accidentally hardforked. Activated on second try.\"*\n\nThat seems rather passive aggressive. I presume this is one of the rows added by the GRS team? Why not just put \"Yes\"?",
+            "Stop spamming this GRS garbage to the front page.",
+            "Let both VTC and GRS do their own thing.  Nothing but good can come from two dev teams working hard on what they believe in.  If you like one but not the other, then don\u2019t have any part in it.  When you take into account all the awful coins out there that will not make it, there\u2019s definitely room for both of these coins to flourish.  It\u2019s not tug o\u2019 war.",
+            "GRS may or may not be a good coin but the GRS Super Shill Squad is gonna ruin any chance of it being big, ppl already see GRS in a negative light because of them. At least the pump from 3k to 9k tripled my VTC bags so im thankful to GRS for that",
+            "why does GRS have multiple wallets instead of one official one for each platform, how are they gonna manage all those wallets? Seems like a wasteful use of resources. Also what is their roadmap? What is their Vision?. VTC is the people's coin with a roadmap to show for that. All GRS does is 3-4 updates per year and they don't even tell you what they are updating til it comes out",
+            "To people shouting bias, could you elaborate? I think we are all for accurate information, giving more information than just shouting bias would be really helpful.\n\nWhat exactly is biased? Is a fact about one of the coins wrong? That way we can all get a better grasp of GRS/VTC/LTC/BTC.",
+            "\"No. Apple don't accept VTC as Virtual Currency\"\n\nFuckin lel. Do these guys really think Apple accepts GRS as a virtual currency? Or hell, even LTC or BTC?\n\nApple doesn't accept anything as \"virtual currency\". All they accept is fiat.",
+            "Both VTC and GRS are great coins, and my understanding from reading here on Reddit is that many invest in both \u2013 because they are both great coins!",
+            "GRS on that next level shit!!!",
+            "GRS has highest potential atm IMO... still at low market cap compared to others https://coincodex.com/crypto/groestlcoin/",
+            "So your theory is that reddit is wagging the dog? Bitcoin Gold had nothing to do with VTC or GRS, it had to do with the fact that the tech is in demand and some people wanted to use that as a cash grab. As it stands, that drew attention to Asic Resistance which shed light on an under represented MKT segment. It happens to be that both coins are Segwit active coins and that just so happens to be the next tfork. So yeah, your opinion is something you are entitled to but I disagree. Crypto is still so new, its going to take time for the market to call forward the coins that matter forward for them to run and gain the mkt caps they deserve.",
+            "Yeah. VTC and GRS especially have essentially nothing going for them except for being hyped on these forums.",
+            "Groestlcoin possible rebrand in July 2018 after a community poll",
+            "\"Groestlcoin will now be known as pukecoin from now own!\" I jest, I jest :) Hopefully it works out for this coin since the name is very bad. ",
+            "VTC, GRS, ADA (calling it now, Cardano is gonna be next ethereum)",
+            "VTC, GRS, FST, VRC and BTC",
+            "GRS",
+            "GRS just mooned from 7500 to 8900 in a minute flat. Bittrex responds by closing down GRS for \"routine maintenance\" a minute later.",
+            "This is only the beginning! GRS will surpass VTC.",
+            "VTC and GRS are the only things allowed to pump these days son "
+        ],
+        "upvotes": [
+            113,
+            26,
+            12,
+            11,
+            8,
+            6,
+            7,
+            3,
+            2,
+            2,
+            0,
+            -7,
+            35,
+            23,
+            21,
+            9,
+            6,
+            6,
+            6,
+            2,
+            3,
+            0,
+            1,
+            -1,
+            1,
+            1,
+            8,
+            3,
+            -8,
+            -5,
+            -8,
+            11,
+            1,
+            1
+        ]
     },
     "GUP": {
         "full_name": "Guppy",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -591,6 +1297,7 @@
         "full_name": "Humaniq",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -598,6 +1305,7 @@
         "full_name": "Incent",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -605,20 +1313,33 @@
         "full_name": "InfluxCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "IOC": {
         "full_name": "I/OCoin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3lx6c"
+        ],
+        "mentioned_times": [
+            1509410037.0
+        ],
+        "sentiments": [
+            -0.02083333333333333
+        ],
+        "text": [
+            "Ioc has been seriously overlooked but has a lot of potential features to have staying power in the future. The team is communicative on their discord, their website/new wallet are among the cleanest I've seen. I'm pretty optimistic about what's to come with DIONS"
+        ],
+        "upvotes": [
+            3
+        ]
     },
     "ION": {
         "full_name": "Ion",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -626,20 +1347,43 @@
         "full_name": "Internet Of People",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "KMD": {
         "full_name": "Komodo",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3wfeu",
+            "79pjam",
+            "dp3sg80"
+        ],
+        "mentioned_times": [
+            1509420867.0,
+            1509415813.0,
+            1509416703.0
+        ],
+        "sentiments": [
+            0.0,
+            0.2,
+            0.0775
+        ],
+        "text": [
+            "I don't invest in ETH because it won't scale like KMD does ",
+            "KMD (komodo) will be listed on HitBTC against BTC, ETH and USDT very soon",
+            "I've been seeing more KMD posts recently, which has me following the coin a bit now. What does /r/cryptocurrency think of Komodo? The discussions in recent posts haven't been that in depth, so I'm curious to see the different viewpoints.\n\n\nThe idea of dICO's and exchange using atomic swaps definitely seems novel and solves many of the complaints other ICO's get...but I'm assuming there are some criticisms as price seems low versus their tech?"
+        ],
+        "upvotes": [
+            -1,
+            8,
+            4
+        ]
     },
     "KORE": {
-        "full_name": "KoreCoin",
+        "full_name": "Kore",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -647,6 +1391,7 @@
         "full_name": "LBRY Credits",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -654,6 +1399,7 @@
         "full_name": "Legends",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -661,27 +1407,86 @@
         "full_name": "Lomocoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "LSK": {
         "full_name": "Lisk",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp45pw3"
+        ],
+        "mentioned_times": [
+            1509431002.0
+        ],
+        "sentiments": [
+            0.0
+        ],
+        "text": [
+            "BTC, NEM, NEO, Ethereum, Lisk and OMG I see as lower risk investments."
+        ],
+        "upvotes": [
+            1
+        ]
     },
     "LTC": {
         "full_name": "Litecoin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3ffrb",
+            "79nav5",
+            "dp39ps1",
+            "dp3auua",
+            "dp4185k",
+            "dp3dgr7",
+            "dp3jsxk",
+            "dp4tsb5"
+        ],
+        "mentioned_times": [
+            1509402906.0,
+            1509394458.0,
+            1509395023.0,
+            1509396900.0,
+            1509425936.0,
+            1509400507.0,
+            1509407775.0,
+            1509463999.0
+        ],
+        "sentiments": [
+            0.10555555555555557,
+            0.0,
+            0.0,
+            0.2642857142857143,
+            0.2,
+            0.0,
+            0.3575757575757576,
+            0.0
+        ],
+        "text": [
+            "Some of you guys haven\u2019t even transferred your NEO from one wallet to another yet. By far, NEO is the fastest crypto for that. Compared to OMG, ETH, LTC and especially BTC, NEO is light speeds faster (FYI I have stakes in all of those aforementioned coins). Yes I know they had down time a couple days ago when releasing this years 15 million supply tokens. Yes some wallets have sync issues (if you follow the tutorials you\u2019re usually okay). But if we\u2019re going to use NEO as a form of real time currency, there\u2019s few that can compete. We\u2019ll see how plasma benefits OMG/ETH though.",
+            "Here's an updated/corrected GRS/VTC/LTC/BTC comparison chart from the GRS team!",
+            "On chain atomic swaps have already been achieved with Vertcoin and Litecoin.",
+            "To people shouting bias, could you elaborate? I think we are all for accurate information, giving more information than just shouting bias would be really helpful.\n\nWhat exactly is biased? Is a fact about one of the coins wrong? That way we can all get a better grasp of GRS/VTC/LTC/BTC.",
+            "\"No. Apple don't accept VTC as Virtual Currency\"\n\nFuckin lel. Do these guys really think Apple accepts GRS as a virtual currency? Or hell, even LTC or BTC?\n\nApple doesn't accept anything as \"virtual currency\". All they accept is fiat.",
+            "VIA vs. VTC vs. LTC vs. BTC Comparison Chart: https://i.redd.it/sqvdlmxl6tuz.jpg",
+            "So basically vert coin is like a shitter new litecoin. \n\nLol getting downvoted by the shrills that live in this sub. ",
+            "Just gotta wait for LTC to gain 67% and Chain to go 100% then. Any day now! "
+        ],
+        "upvotes": [
+            11,
+            35,
+            17,
+            2,
+            3,
+            -4,
+            -3,
+            1
+        ]
     },
     "LUN": {
         "full_name": "Lunyr",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -689,6 +1494,15 @@
         "full_name": "MaidSafe",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
+    },
+    "MANA": {
+        "full_name": "Decentraland",
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -696,6 +1510,7 @@
         "full_name": "Monaco",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -703,6 +1518,7 @@
         "full_name": "Memetic",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -710,6 +1526,7 @@
         "full_name": "Melon",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -717,62 +1534,296 @@
         "full_name": "MonaCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "MTL": {
         "full_name": "Metal",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "79rq6e",
+            "dp4cnsr",
+            "dp4d2en",
+            "dp4aktw",
+            "79ryh1",
+            "dp4bngv",
+            "dp4bt4s"
+        ],
+        "mentioned_times": [
+            1509435549.0,
+            1509439124.0,
+            1509439561.0,
+            1509436770.0,
+            1509437750.0,
+            1509438010.0,
+            1509438185.0
+        ],
+        "sentiments": [
+            0.0,
+            0.02070707070707071,
+            0.4160256410256411,
+            0.25,
+            0.3125,
+            -0.0625,
+            0.023295454545454546
+        ],
+        "text": [
+            "Introducing Metal Vault Alpha",
+            "Seem to be a couple of similar threads, so will re-post here...\n\nJust made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate.\n\nFor anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:\n- Metal, Ethereum, Bitcoin and ERC-20 under one roof\n- Hardware Integration with Trezor & Ledger\n- Private Key Backups\n- Multi-signature\n- Single-signature\n- 2FA Authentication with Google Authenticator\n- 24/7 Live Support\n\nHere are some of the features you can expect in the near future:\n- Integrated FDIC insured bank account for US Customers \n- In-wallet exchange functionality \n- Invoicing capability for Metal and Cash \n- Open API to develop on Metal platform\n\nOh and here's a link to the wallet: https://app.metalpay.com/login",
+            "Trezor support is amazing and the wallet is so sleek and beautiful! This is only alpha version and the beta version will be even better! From the CEO: \n\n  - \"We will quickly power through Alpha into beta. That being said Vault, Pay and Merchant are three separate products that interlink.\n\n  - Vault being the advanced wallet that holds multiple cryptos, exchange features, advanced banking features (wires, loans etc)\n\n  - Pay being the Venmo killer that acts as p2p sending and spending with PoPP, that links to your vault\n\n  - Merchant being the merchant app, with full PoS, invoicing, and more\n\nThe future is bright with Metal :)\n\nEdit:formatting\n",
+            "Incentives for holding Eth and Metal in the vault. seems pretty legit",
+            "Introducing Metal Vault- the first BTC, ETH, erc20 web wallet with Ledger and Trezor support!",
+            "Here is a list of threads in other subreddits about the same content:\n\n * [Introducing Metal Vault!](https://www.reddit.com/r/MetalPay/comments/79rw3x/introducing_metal_vault/) on /r/MetalPay with 2 karma (created at 2017-10-31 08:05:50 by /u/Fluffywiggle)\n\n----\n\n ^^I ^^am ^^a ^^bot  ^^[FAQ](https://www.reddit.com/r/DuplicatesBot/wiki/index)-[Code](https://github.com/PokestarFan/DuplicateBot)-[Bugs](https://www.reddit.com/r/DuplicatesBot/comments/6ypgmx/bugs_and_problems/)-[Suggestions](https://www.reddit.com/r/DuplicatesBot/comments/6ypg85/suggestion_for_duplicatesbot/)-[Block](https://www.reddit.com/r/DuplicatesBot/wiki/index#wiki_block_bot_from_tagging_on_your_posts)\n\n^^Now ^^you ^^can ^^remove ^^the ^^comment ^^by ^^replying ^^delete!",
+            "Just made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate. \n\nFor anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:\n\n- Metal, Ethereum, Bitcoin and ERC-20 under one roof\n- Hardware Integration with Trezor & Ledger\n- Private Key Backups\n- Multi-signature\n- Single-signature\n- 2FA Authentication with Google Authenticator\n- 24/7 Live Support\n\nHere are some of the features you can expect in the near future:\n- Integrated FDIC insured bank account for US Customers\n- In-wallet exchange functionality\n- Invoicing capability for Metal and Cash\n- Open API to develop on Metal platform\n\nOh and here's a link to the wallet:\nhttps://app.metalpay.com/login"
+        ],
+        "upvotes": [
+            35,
+            8,
+            10,
+            6,
+            25,
+            2,
+            -2
+        ]
     },
     "MUE": {
         "full_name": "MonetaryUnit",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "MUSIC": {
         "full_name": "Musicoin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3qk1e"
+        ],
+        "mentioned_times": [
+            1509414756.0
+        ],
+        "sentiments": [
+            0.15714285714285714
+        ],
+        "text": [
+            "They're growing fast because they are spending lots of marketing.\nThey even had shitty music videos:  \n\n* https://www.youtube.com/watch?v=Fnj0UG9biLc\n* https://www.youtube.com/watch?v=hXRhIXp4idM\n\nTheir target audience seems to be people that wouldn't know any better with limited exposure to the core cryptocurrency community but lots of exposure to mainstream financial news.  \n\n"
+        ],
+        "upvotes": [
+            1
+        ]
     },
     "MYST": {
         "full_name": "Mysterium",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "NAV": {
         "full_name": "NAVCoin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "79qt5v",
+            "dp46esx",
+            "dp49gu4",
+            "dp4jckb",
+            "dp4g0r8"
+        ],
+        "mentioned_times": [
+            1509427042.0,
+            1509431808.0,
+            1509435446.0,
+            1509446261.0,
+            1509442690.0
+        ],
+        "sentiments": [
+            0.3571428571428571,
+            0.0,
+            0.5681818181818181,
+            0.75,
+            0.0
+        ],
+        "text": [
+            "NAV Coin's NavPay BETA will be released tomorrow. Also roadmap updated on Polymorph! Right now team is having AMA!",
+            "Go all in on Navcoin, its gonna rocket soon!",
+            "Awesome news! To anyone new to NAV, see the sticky on r/NavCoin: https://www.reddit.com/r/navcoin/comments/6k7gou/_/",
+            "This is huge news! I\u2019ve been in NavCoin for a year and it has been my best investment yet. I can\u2019t wait to see where we are in a year from now.",
+            "so next up - BUY SYS AND NAV if you wanna ride the waves"
+        ],
+        "upvotes": [
+            109,
+            15,
+            8,
+            6,
+            10
+        ]
     },
     "NBT": {
         "full_name": "Nubits",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "NEO": {
         "full_name": "Neo",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3rdzx",
+            "79mmt0",
+            "dp3i4lw",
+            "dp3bim1",
+            "dp3j3zf",
+            "dp3ffrb",
+            "dp3s2wq",
+            "dp3n6xd",
+            "dp3x7mk",
+            "dp425qq",
+            "dp3mih3",
+            "dp3k4po",
+            "79pfuv",
+            "dp45dj4",
+            "79qwoy",
+            "79re2v",
+            "dp4rqdr",
+            "dp48p3v",
+            "79ok8e",
+            "dp3lk9x",
+            "dp3jr4a",
+            "dp3w2uw",
+            "79o0pp",
+            "79tc63",
+            "dp3cb1g",
+            "dp3cl9d",
+            "dp45pw3",
+            "dp44h30"
+        ],
+        "mentioned_times": [
+            1509415606.0,
+            1509384679.0,
+            1509405959.0,
+            1509397898.0,
+            1509407033.0,
+            1509402906.0,
+            1509416321.0,
+            1509411349.0,
+            1509421684.0,
+            1509426969.0,
+            1509410652.0,
+            1509408129.0,
+            1509414995.0,
+            1509430596.0,
+            1509427938.0,
+            1509432394.0,
+            1509458663.0,
+            1509434523.0,
+            1509407277.0,
+            1509409664.0,
+            1509407722.0,
+            1509420504.0,
+            1509402192.0,
+            1509451260.0,
+            1509398983.0,
+            1509399367.0,
+            1509431002.0,
+            1509429549.0
+        ],
+        "sentiments": [
+            0.04520089285714284,
+            0.0,
+            0.19375,
+            0.11666666666666665,
+            0.384375,
+            0.10555555555555557,
+            0.24,
+            0.25,
+            0.2928571428571428,
+            0.07485119047619049,
+            0.55,
+            -0.09924242424242423,
+            0.125,
+            0.225,
+            0.0,
+            0.05,
+            0.43333333333333335,
+            0.04116883116883115,
+            0.025,
+            0.23611111111111108,
+            0.0125,
+            0.25,
+            0.0,
+            -0.2916666666666667,
+            0.35,
+            -0.25,
+            0.0,
+            0.2333333333333333
+        ],
+        "text": [
+            "I hate when people keep calling Bitconnect a Ponzi scheme. There are SOOO many scam coins out there and they want to hate on a coin that is doing better than any other coin. They are **THE ONLY** coin to have non stop steady growth without any major dips in price. Whoever created it is genius. Also they have had a bigger percentage growth than almost any coin including ETH and NEO. I\u2019m not even invested in BItconnect but it\u2019s just sad to see people so jealous. Get a life. Who cares if it\u2019s a Ponzi scheme if it makes you money and it\u2019s successful. Not one piece of evidence has come out to prove that it\u2019s a scam and actually all evidence right now proves it\u2019s a strong long term crypto.\n\nBy the way how it is a \u201cPonzi scheme\u201d? If you even know the definition. Explain why it\u2019s a Ponzi scheme in detail.....",
+            "Why NEO is my go-to Alt at the moment.",
+            "Anyone whose done any thorough research into NEO will know that it's an incredible platform and not to forget the future developments that will be released in 2018 for it. Extremely bullish on its potential!\n\nhttps://neo.org/blog/details/3014",
+            "soon there will be dapps launched on NEO. Red Pulse is the first so far? \n\nstrap yourselves. ",
+            "NEO is definitely a great long-term hold. I just transferred to wallet from exchange to get free GAS generated. It's about 7% yearly dividends for keeping it off an exchange & you don't have to stake/lock wallet like most other cryptos, which most of those coins are only offering 5% annual returns. Ark delegate voting hasn't given me the rates they're claiming to payout so next to SNGLS I think NEO is the best for passive income.",
+            "Some of you guys haven\u2019t even transferred your NEO from one wallet to another yet. By far, NEO is the fastest crypto for that. Compared to OMG, ETH, LTC and especially BTC, NEO is light speeds faster (FYI I have stakes in all of those aforementioned coins). Yes I know they had down time a couple days ago when releasing this years 15 million supply tokens. Yes some wallets have sync issues (if you follow the tutorials you\u2019re usually okay). But if we\u2019re going to use NEO as a form of real time currency, there\u2019s few that can compete. We\u2019ll see how plasma benefits OMG/ETH though.",
+            "Well yeah the Chinese government are indeed letting them keep on. Im not saying NEO is the only option, more that it has a favourable set of parameters to it. My point is any thing China allows within its borders can be a worthwhile investment really. NEO or otherwise",
+            "I need to buy more NEO, I sold off at $37 a couple weeks back. Time to buy in again. ",
+            "NEO owners just announced their golden parachutes. I would not be holding NEO right now. https://neo.org/blog",
+            "> China\u2019s economy is founded on Chinese companies/projects that replace banned western tech (Alibaba, WeChat) So something like NEO has the possibility to power Chinese blockchain operations.\n\n>NEO has more than 26 dApps being built right now, and I'm not even counting its ICOs.\n\n>These dapps are for now unknown as being developed for the dApp competition (So some of them might be bad\n\n>So for the details, you'll have to wait a little (Next month is the end of the competition) :)\n\nI don't even know how to respond to this. Mostly disgust.",
+            ">Regardless of when China resumes it's crypto activities, that will obviously be a huge boost for NEO\n\nBasically why I will never invest.\n\n>Not to mention all the alt pumps after the B2X fork\n\nOh boy. So any alt is good then.\n\n",
+            "I profited from NEO but the devs just released 15 million Neo for development. They still want to release another 35 million Neo for contingencies and such. That's WAAAAAAAAAAAAAAAAAAAY too much. \n\nHalf of the total supply is developer controlled(!) That is unheard of greed. No matter how you try to paint it. Make them cut supply by 35 million by destroying them. At that point they'd still control too many coins but at least it would be somewhat reasonable. The developers don't need 50 million times $28.80, that's just ridiculous, no matter what idiotic reason they or their fanbois come up with. Burn the coins to regain credibility or die due to greed. ",
+            "NEO is Giving Back the Money Raised During their First ICO",
+            "> \u201cWe decide to officially launch the NEO sponsor giveback plan designed to unconditionally give back to the early sponsors in the amount equal to the fiat value they contributed back then\n\nDamn, that is pretty awesome of them. Way to go NEO team",
+            "NEO Rebrands Its Web : Can NEO/USD Keep The Increasing Pace",
+            "NEO blockchain project to give back funds to its early backers",
+            "This is great news as NEO set an example for ICO and how they should respond when people want their money back. \nSo many scam ICO out there and NEO warns them all.",
+            "I have seen a few positive posts about Neo recently but you are right it is nothing like it was and it is certainly not reflected in the price.",
+            "NEO Sponsor Giveback Plan: \"We decide to ... unconditionally give back to the early sponsors in the amount equal to the fiat value they contributed back then\" (During ICO)",
+            "Regardless of the giveback, ICO investors of NEO would be super rich if they had just held onto the ANS coins from back then  ",
+            "From the Blog-Post:\n\n\"Today, NEO Council has gained sufficient funds and resources to sustain the R&D and community development efforts in the years to come. Therefore, we decide to officially launch the NEO sponsor giveback plan designed to unconditionally give back to the early sponsors in the amount equal to the fiat value they contributed back then...\n**The giveback comes from the remainder of the total funds raised during the seed-round financing, ICO1 and ICO2**. Initial sponsors may claim their respective portions either through bank transfer (in CNY only) or in NEO. For those who choose to claim the giveback in NEO, NEO Council will purchase NEO with the remaining funds. **The 50% NEO under the management of NEO Council will not be used for the giveback**, as it is reserved for the development of community and ecosystem.\"\n",
+            "So the people running NEO are giving themselves back their investment. Sounds like most will cut and run. Get out now. ",
+            "NEO Price Shows Signs of Life Despite Ciruclaitng Supply Increasing by 15 Million",
+            "NEO is working hard.",
+            "Neo for that sweet gas. ",
+            "Neo. While I would usually suggest Bitcoin, I feel Bitcoin Cash is going to take the fire away from Bitcoin.",
+            "BTC, NEM, NEO, Ethereum, Lisk and OMG I see as lower risk investments.",
+            "hahaha me too, all i do is smoke joints and talk/trade crypto. \n\nNEO is my second largest holding, after Verge. Even got me some more yesterday"
+        ],
+        "upvotes": [
+            0,
+            76,
+            32,
+            16,
+            13,
+            11,
+            12,
+            8,
+            2,
+            1,
+            -1,
+            -6,
+            50,
+            4,
+            49,
+            34,
+            2,
+            4,
+            23,
+            7,
+            7,
+            -4,
+            23,
+            23,
+            5,
+            1,
+            1,
+            2
+        ]
     },
     "NEOS": {
         "full_name": "NeosCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -780,6 +1831,7 @@
         "full_name": "Gulden",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -787,6 +1839,7 @@
         "full_name": "Numeraire",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -794,6 +1847,7 @@
         "full_name": "Nexium",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -801,34 +1855,104 @@
         "full_name": "Nexus",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "NXT": {
         "full_name": "NXT",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "79qsbd"
+        ],
+        "mentioned_times": [
+            1509426810.0
+        ],
+        "sentiments": [
+            0.0625
+        ],
+        "text": [
+            "Prediction: FLO will have a major pump nxt 24hrs"
+        ],
+        "upvotes": [
+            5
+        ]
     },
     "OK": {
         "full_name": "OkCash",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3knko"
+        ],
+        "mentioned_times": [
+            1509408703.0
+        ],
+        "sentiments": [
+            0.12709523809523807
+        ],
+        "text": [
+            "Ok, downvote me if you want, but as an newcomer to cryptocurrencies, I did buy in to this.  Of all the crypto's I'm in, this is the only one that has already jumped up 2x from my buy in (when it was $118) so if it gets high enough that my earned fractional bitconnect coins are worth my original investment, I can get out Scott free and potentially make a few bucks if they return my hundred bucks in a few months. \n\nAny other suggestions? Feeling kinda dumb now.\nI knew I wouldn't be one of those motherfuckers making $700 a day, but it sure would help me out if I could just be sitting on the right coins at the right time..."
+        ],
+        "upvotes": [
+            -3
+        ]
     },
     "OMG": {
         "full_name": "OmiseGO",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3ffrb",
+            "dp3vb0n",
+            "dp3g0sw",
+            "dp3bkno",
+            "dp4t4v4",
+            "dp4lkw1",
+            "dp4r7pw",
+            "dp45pw3"
+        ],
+        "mentioned_times": [
+            1509402906.0,
+            1509419707.0,
+            1509403578.0,
+            1509397977.0,
+            1509462179.0,
+            1509448732.0,
+            1509457493.0,
+            1509431002.0
+        ],
+        "sentiments": [
+            0.10555555555555557,
+            0.125,
+            -0.08750000000000001,
+            0.0,
+            0.7,
+            0.0,
+            0.0666666666666667,
+            0.0
+        ],
+        "text": [
+            "Some of you guys haven\u2019t even transferred your NEO from one wallet to another yet. By far, NEO is the fastest crypto for that. Compared to OMG, ETH, LTC and especially BTC, NEO is light speeds faster (FYI I have stakes in all of those aforementioned coins). Yes I know they had down time a couple days ago when releasing this years 15 million supply tokens. Yes some wallets have sync issues (if you follow the tutorials you\u2019re usually okay). But if we\u2019re going to use NEO as a form of real time currency, there\u2019s few that can compete. We\u2019ll see how plasma benefits OMG/ETH though.",
+            "OMG coz it had a funny name, same with Antshares  \u00af\\_(\u30c4)_/\u00af",
+            "There is one massive difference between Everex and OmiseGo.\n\nThe Everex token is pretty worthless from an investment perspective.\n\nYou cannot stake as with OMG, the token doesn't serve much real valuable purpose at all.",
+            "> It only has about 5% of OMGs market cap though\n\nOMG was shilled by Vitalik. EVX is shilled by you. Feel the difference?",
+            "Lol this is par for course for cryptocurrencies. OMG was over a billion when it was unclear if they had even started developing their own blockchain.",
+            "OmiseGo",
+            "Here are few that come to my mind: \n\n* TenX - already working crypto currency card. only processing 100 cards/day - a huge backlog of orders already. \n* Qtum\n* OmiseGo\n* Ark\n* Kyber Network",
+            "BTC, NEM, NEO, Ethereum, Lisk and OMG I see as lower risk investments."
+        ],
+        "upvotes": [
+            11,
+            2,
+            -4,
+            -7,
+            2,
+            3,
+            3,
+            1
+        ]
     },
     "OMNI": {
         "full_name": "OMNI",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -836,6 +1960,7 @@
         "full_name": "Particl",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -843,6 +1968,7 @@
         "full_name": "TenX Pay Token",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -850,6 +1976,7 @@
         "full_name": "Project Decorum",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -857,20 +1984,33 @@
         "full_name": "PinkCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "PIVX": {
         "full_name": "Pivx",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "79qxkj"
+        ],
+        "mentioned_times": [
+            1509428156.0
+        ],
+        "sentiments": [
+            0.1065340909090909
+        ],
+        "text": [
+            "PIVX Final core wallet (v3.0.4) is LIVE!!"
+        ],
+        "upvotes": [
+            7
+        ]
     },
     "PKB": {
         "full_name": "ParkByte",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -878,6 +2018,7 @@
         "full_name": "PotCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -885,6 +2026,7 @@
         "full_name": "Peercoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -892,6 +2034,7 @@
         "full_name": "PesetaCoin ",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -899,27 +2042,56 @@
         "full_name": "Patientory",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "QRL": {
         "full_name": "Quantum Resistant Ledger",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3aevn",
+            "dp4bt1q"
+        ],
+        "mentioned_times": [
+            1509396199.0,
+            1509438183.0
+        ],
+        "sentiments": [
+            0.0,
+            -0.375
+        ],
+        "text": [
+            "Quantum Resistant Ledger should do the shill",
+            "None if you invest in QRL. get in on the ground floor before it's too late!"
+        ],
+        "upvotes": [
+            7,
+            1
+        ]
     },
     "QTUM": {
         "full_name": "Qtum",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp4r7pw"
+        ],
+        "mentioned_times": [
+            1509457493.0
+        ],
+        "sentiments": [
+            0.0666666666666667
+        ],
+        "text": [
+            "Here are few that come to my mind: \n\n* TenX - already working crypto currency card. only processing 100 cards/day - a huge backlog of orders already. \n* Qtum\n* OmiseGo\n* Ark\n* Kyber Network"
+        ],
+        "upvotes": [
+            3
+        ]
     },
     "QWARK": {
         "full_name": "Qwark",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -927,6 +2099,7 @@
         "full_name": "Radium",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -934,6 +2107,7 @@
         "full_name": "RubyCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -941,6 +2115,7 @@
         "full_name": "ReddCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -948,6 +2123,7 @@
         "full_name": "Augur",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -955,6 +2131,7 @@
         "full_name": "Rise",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -962,6 +2139,7 @@
         "full_name": "iEx.ec",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -969,13 +2147,33 @@
         "full_name": "SafeExchangeCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
+    },
+    "SALT": {
+        "full_name": "Salt",
+        "mentioned_ids": [
+            "dp3gccy"
+        ],
+        "mentioned_times": [
+            1509403945.0
+        ],
+        "sentiments": [
+            0.05454545454545454
+        ],
+        "text": [
+            "Man, to be honest-- I have no idea. However, I believe(now take this with a grain of salt, and if anyone could correct me if I'm wrong, please) in our current place and time, crypto-trading is treated in the same vein as stocks. So to answer the 2nd #2 question, I think it is only considered a taxable gain once you turn any profit from however many trades back into USD. I'm under the impression all I need to report is my initial investment and only gains after, like you said, they are withdrawn back into USD"
+        ],
+        "upvotes": [
+            -1
+        ]
     },
     "SBD": {
         "full_name": "SteemDollars",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -983,6 +2181,7 @@
         "full_name": "Siacoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -990,6 +2189,7 @@
         "full_name": "Sequence",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -997,6 +2197,7 @@
         "full_name": "Shift",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1004,6 +2205,7 @@
         "full_name": "Siberian Chervonets",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1011,6 +2213,7 @@
         "full_name": "SolarCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1018,20 +2221,33 @@
         "full_name": "SaluS",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "SNGLS": {
         "full_name": "SingularDTV",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3j3zf"
+        ],
+        "mentioned_times": [
+            1509407033.0
+        ],
+        "sentiments": [
+            0.384375
+        ],
+        "text": [
+            "NEO is definitely a great long-term hold. I just transferred to wallet from exchange to get free GAS generated. It's about 7% yearly dividends for keeping it off an exchange & you don't have to stake/lock wallet like most other cryptos, which most of those coins are only offering 5% annual returns. Ark delegate voting hasn't given me the rates they're claiming to payout so next to SNGLS I think NEO is the best for passive income."
+        ],
+        "upvotes": [
+            13
+        ]
     },
     "SNRG": {
         "full_name": "Synergy",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1039,6 +2255,7 @@
         "full_name": "Status Network Token",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1046,6 +2263,7 @@
         "full_name": "Sphere",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1053,6 +2271,7 @@
         "full_name": "SpreadCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1060,6 +2279,7 @@
         "full_name": "StartCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1067,6 +2287,7 @@
         "full_name": "STEEM",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1074,20 +2295,48 @@
         "full_name": "Storj",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "STRAT": {
         "full_name": "Stratis",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "79oxnq",
+            "dp3y0n6",
+            "dp3zt1g",
+            "dp3z0zr"
+        ],
+        "mentioned_times": [
+            1509410566.0,
+            1509422525.0,
+            1509424427.0,
+            1509423604.0
+        ],
+        "sentiments": [
+            0.0,
+            0.20000000000000004,
+            0.07833333333333334,
+            0.43333333333333335
+        ],
+        "text": [
+            "Stratis Masternode Alpha Release !",
+            "*\"Please note that although this release is on testnet, the tech is tested and fully working on mainnet. If testing goes well, you can expect a mainnet release very soon.\"* - Krushang, Slack Channel\n\n\nWe might see big money coming to the Stratis platform. Bitcoin tumbling is huge. ",
+            "This sounds very centralized and limiting the nodes stratis will have(relative to other masternodes coins). How does having a high coin masternode benefit Stratis?",
+            "Stratis? Lol... I suppose today is good day for the dead to rise"
+        ],
+        "upvotes": [
+            8,
+            2,
+            1,
+            -1
+        ]
     },
     "SWIFT": {
         "full_name": "Bitswift",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1095,6 +2344,7 @@
         "full_name": "Swarm City Token",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1102,20 +2352,33 @@
         "full_name": "Syndicate",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "SYS": {
         "full_name": "SysCoin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp4g0r8"
+        ],
+        "mentioned_times": [
+            1509442690.0
+        ],
+        "sentiments": [
+            0.0
+        ],
+        "text": [
+            "so next up - BUY SYS AND NAV if you wanna ride the waves"
+        ],
+        "upvotes": [
+            10
+        ]
     },
     "THC": {
         "full_name": "HempCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1123,6 +2386,15 @@
         "full_name": "Chronobank Time",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
+    },
+    "TIX": {
+        "full_name": "Blocktix",
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1130,6 +2402,7 @@
         "full_name": "TokenCard",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1137,6 +2410,7 @@
         "full_name": "Tokes",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1144,6 +2418,7 @@
         "full_name": "TRIG Token",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1151,6 +2426,7 @@
         "full_name": "Trustcoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1158,6 +2434,7 @@
         "full_name": "TrustPlus",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1165,6 +2442,7 @@
         "full_name": "TransferCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1172,6 +2450,7 @@
         "full_name": "Ubiq",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1179,55 +2458,265 @@
         "full_name": "UnbreakableCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
-        "text": [],
-        "upvotes": []
-    },
-    "UNO": {
-        "full_name": "Unobtanium",
-        "mentioned_ids": [],
-        "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "VIA": {
         "full_name": "ViaCoin ",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp48zbz",
+            "dp3dgr7",
+            "dp3t1nt"
+        ],
+        "mentioned_times": [
+            1509434860.0,
+            1509400507.0,
+            1509417327.0
+        ],
+        "sentiments": [
+            0.051884920634920645,
+            0.0,
+            0.010416666666666657
+        ],
+        "text": [
+            "Will some of these features work automatically in tandem? For instance, can I set up a main wallet to refill other wallets like a car wallet or cell phone wallet when they empty out? Also, will I be able to do the same thing to the main wallet via the exchange so that when it empties, or reaches a certain threshold, it sends a notification for a refill?\n\nFrom what I can tell the first question might be a yes, but I\u2019m not sure if it will work dynamically between personal wallets.\n\nIn any case, this will provide a really smooth backend for users, but it\u2019ll be truly crazy if I can just have my car recharge via Iota and never worry if there are sufficient funds in the wallet.",
+            "VIA vs. VTC vs. LTC vs. BTC Comparison Chart: https://i.redd.it/sqvdlmxl6tuz.jpg",
+            "### Warning to newbies\n\nWhen observing scaling debates, always look for post quality, not post quantity, as the latter is easily manipulated via organized trolling, of which this thread is a good example.\n\nIgnore posts containing empty statements, name calling and zero arguments, and ask questions. Also don't be afraid to look at downvoted comments, those are usually the most informative (but inconvenient)."
+        ],
+        "upvotes": [
+            1,
+            -4,
+            11
+        ]
     },
     "VOX": {
         "full_name": "Voxels",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "VRC": {
         "full_name": "VeriCoin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3m2nc"
+        ],
+        "mentioned_times": [
+            1509410194.0
+        ],
+        "sentiments": [
+            0.0
+        ],
+        "text": [
+            "VTC, GRS, FST, VRC and BTC"
+        ],
+        "upvotes": [
+            -5
+        ]
     },
     "VRM": {
         "full_name": "Verium",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "VTC": {
         "full_name": "Vertcoin",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "79mdn4",
+            "dp34073",
+            "dp3osnt",
+            "dp3wo6f",
+            "79nav5",
+            "dp3a0sf",
+            "dp3dwrd",
+            "dp39ps1",
+            "dp3eabu",
+            "dp3rif9",
+            "dp3rzhs",
+            "dp3auua",
+            "dp4185k",
+            "dp3vqy1",
+            "dp3abpo",
+            "dp3c1vm",
+            "dp3vrw6",
+            "dp3dgr7",
+            "dp4i3wz",
+            "dp4tlie",
+            "79pxx9",
+            "dp496h6",
+            "79tb4p",
+            "dp4qhym",
+            "79u0xn",
+            "dp4sxw4",
+            "dp4nmal",
+            "dp3b08p",
+            "dp3zvnn",
+            "dp3fap2",
+            "dp3m2nc",
+            "dp4t6yw",
+            "dp4rnoz",
+            "dp4mp3b",
+            "dp426gn"
+        ],
+        "mentioned_times": [
+            1509379986.0,
+            1509380335.0,
+            1509412986.0,
+            1509421123.0,
+            1509394458.0,
+            1509395543.0,
+            1509401066.0,
+            1509395023.0,
+            1509401536.0,
+            1509415732.0,
+            1509416223.0,
+            1509396900.0,
+            1509425936.0,
+            1509420170.0,
+            1509396058.0,
+            1509398637.0,
+            1509420196.0,
+            1509400507.0,
+            1509444933.0,
+            1509463457.0,
+            1509419368.0,
+            1509435101.0,
+            1509450931.0,
+            1509456030.0,
+            1509460582.0,
+            1509461656.0,
+            1509451342.0,
+            1509397128.0,
+            1509424506.0,
+            1509402743.0,
+            1509410194.0,
+            1509462342.0,
+            1509458495.0,
+            1509450099.0,
+            1509426990.0
+        ],
+        "sentiments": [
+            0.0,
+            -0.03125,
+            0.27499999999999997,
+            0.31111111111111106,
+            0.0,
+            0.2119047619047619,
+            0.010000000000000009,
+            0.0,
+            -0.019444444444444486,
+            0.13888888888888887,
+            0.0,
+            0.2642857142857143,
+            0.2,
+            0.0,
+            0.8,
+            0.7666666666666666,
+            0.0,
+            0.0,
+            0.10075757575757577,
+            0.0,
+            0.0,
+            0.7125,
+            0.0,
+            0.0,
+            0.0,
+            0.125,
+            0.11161616161616161,
+            0.0,
+            -0.09375,
+            0.0,
+            0.0,
+            0.2166666666666667,
+            0.0,
+            0.19270833333333334,
+            0.0
+        ],
+        "text": [
+            "An analysis of Vertcoin: A centralization resistant digital currency",
+            "Here is a list of threads in other subreddits about the same content:\n\n * [An analysis of Vertcoin: A centralization resistant digital currency](https://www.reddit.com/r/vertcoin/comments/79mdgf/an_analysis_of_vertcoin_a_centralization/) on /r/vertcoin with 3 karma (created at 2017-10-30 16:11:45 by /u/bitko2017)\n * [VTC has not reached the Asian market yet](https://www.reddit.com/r/VertcoinTrader/comments/79mbbc/vtc_has_not_reached_the_asian_market_yet/) on /r/VertcoinTrader with 3 karma (created at 2017-10-30 15:54:19 by /u/cliff-hanger)\n\n----\n\n ^^I ^^am ^^a ^^bot  ^^[FAQ](https://www.reddit.com/r/DuplicatesBot/wiki/index)-[Code](https://github.com/PokestarFan/DuplicateBot)-[Bugs](https://www.reddit.com/r/DuplicatesBot/comments/6ypgmx/bugs_and_problems/)-[Suggestions](https://www.reddit.com/r/DuplicatesBot/comments/6ypg85/suggestion_for_duplicatesbot/)-[Block](https://www.reddit.com/r/DuplicatesBot/wiki/index#wiki_block_bot_from_tagging_on_your_posts)\n\n^^Now ^^you ^^can ^^remove ^^the ^^comment ^^by ^^replying ^^delete!",
+            "For anyone who wants a more in-depth look here\u2019s our interview with VTC lead developer James Lovejoy! Hope this helps some of the people trying to further understand VTC!  https://soundcloud.com/matthew-aaron-690749808/james-lovejoy-lead-developer-of-vertcoin-vtc",
+            "Concerning the sustainability, here is an interesting super old post: https://www.reddit.com/r/vertcoin/comments/26h17v/can_asic_resistance_be_maintained/",
+            "Here's an updated/corrected GRS/VTC/LTC/BTC comparison chart from the GRS team!",
+            "Looks very biased. Also for Android wallet, people can use coinpayments and coinomi to store their vertcoin so it's not like there's not a single android wallet available for it",
+            "Now *this* is where true shilling is. VTC devs have made it a point to avoid this type of stuff and have said as much, and the second GRS gets a second of the spotlight they get in on this comparison chart bullshit.\n\nLaughable.",
+            "On chain atomic swaps have already been achieved with Vertcoin and Litecoin.",
+            "Let both VTC and GRS do their own thing.  Nothing but good can come from two dev teams working hard on what they believe in.  If you like one but not the other, then don\u2019t have any part in it.  When you take into account all the awful coins out there that will not make it, there\u2019s definitely room for both of these coins to flourish.  It\u2019s not tug o\u2019 war.",
+            "GRS may or may not be a good coin but the GRS Super Shill Squad is gonna ruin any chance of it being big, ppl already see GRS in a negative light because of them. At least the pump from 3k to 9k tripled my VTC bags so im thankful to GRS for that",
+            "why does GRS have multiple wallets instead of one official one for each platform, how are they gonna manage all those wallets? Seems like a wasteful use of resources. Also what is their roadmap? What is their Vision?. VTC is the people's coin with a roadmap to show for that. All GRS does is 3-4 updates per year and they don't even tell you what they are updating til it comes out",
+            "To people shouting bias, could you elaborate? I think we are all for accurate information, giving more information than just shouting bias would be really helpful.\n\nWhat exactly is biased? Is a fact about one of the coins wrong? That way we can all get a better grasp of GRS/VTC/LTC/BTC.",
+            "\"No. Apple don't accept VTC as Virtual Currency\"\n\nFuckin lel. Do these guys really think Apple accepts GRS as a virtual currency? Or hell, even LTC or BTC?\n\nApple doesn't accept anything as \"virtual currency\". All they accept is fiat.",
+            "Experience on changing algo when Asic is there: no. VTC: Yes. Others: n/a",
+            "Both of them are great coins. By the time, VTC already passed $5.",
+            "Both VTC and GRS are great coins, and my understanding from reading here on Reddit is that many invest in both \u2013 because they are both great coins!",
+            "Experience on changing algo when Asic is there: no. VTC: Yes. Others: n/a",
+            "VIA vs. VTC vs. LTC vs. BTC Comparison Chart: https://i.redd.it/sqvdlmxl6tuz.jpg",
+            "So your theory is that reddit is wagging the dog? Bitcoin Gold had nothing to do with VTC or GRS, it had to do with the fact that the tech is in demand and some people wanted to use that as a cash grab. As it stands, that drew attention to Asic Resistance which shed light on an under represented MKT segment. It happens to be that both coins are Segwit active coins and that just so happens to be the next tfork. So yeah, your opinion is something you are entitled to but I disagree. Crypto is still so new, its going to take time for the market to call forward the coins that matter forward for them to run and gain the mkt caps they deserve.",
+            "Yeah. VTC and GRS especially have essentially nothing going for them except for being hyped on these forums.",
+            "David Hay on vertcoin ~",
+            "Vertcoin keeps moving towards the mainstream. Great to see this as something to introduce more people to Asic resistance and the value of vertcoin!",
+            "VTC Faucet",
+            "\"VTC Address Error: address not found.\"",
+            "Vertcoin announces halving will happen soon",
+            "Reply from Vertcoin in the same post:\n\n> Vertcoin's first block reward halving is happening in December",
+            "Note those are all varying degrees of ASIC resistant with VTC and XMR being the most resistant.  VTC's algorithm was the only one designed with it in mind: \n\n1) memory intensive makes it particularly difficult to develop an ASIC\n\n 2) easily revisable within existing infrastructure in case ASIC is developed to fork smoothly to new revision of Lyra.",
+            "Btc, vtc, eth, xmr",
+            "Bitcoin, also put a little into Vertcoin just because it will probably be the next to blow up.",
+            "VTC, GRS, ADA (calling it now, Cardano is gonna be next ethereum)",
+            "VTC, GRS, FST, VRC and BTC",
+            "This is pretty routine. Happened with XLM and Vertcoin both during the middle of a huge bull run. ",
+            "This is only the beginning! GRS will surpass VTC.",
+            "Same boat. I regularly use the Brave browser and really like it, but wish there was some upward movement in the price. I sold half of mine for VTC and I\u2019m hoping for the best with the other half.",
+            "VTC and GRS are the only things allowed to pump these days son "
+        ],
+        "upvotes": [
+            87,
+            5,
+            4,
+            2,
+            35,
+            23,
+            23,
+            17,
+            6,
+            6,
+            6,
+            2,
+            3,
+            1,
+            -1,
+            0,
+            0,
+            -4,
+            1,
+            1,
+            27,
+            4,
+            11,
+            3,
+            14,
+            4,
+            7,
+            4,
+            1,
+            -8,
+            -5,
+            2,
+            1,
+            1,
+            1
+        ]
     },
     "VTR": {
         "full_name": "vTorrent",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1235,6 +2724,7 @@
         "full_name": "Waves",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1242,6 +2732,7 @@
         "full_name": "Wings DAO",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1249,6 +2740,7 @@
         "full_name": "Xaurum",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1256,6 +2748,7 @@
         "full_name": "Counterparty",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1263,6 +2756,7 @@
         "full_name": "DigitalNote",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1270,6 +2764,7 @@
         "full_name": "Elastic",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1277,48 +2772,135 @@
         "full_name": "NewEconomyMovement",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "XLM": {
         "full_name": "Lumen",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp4pz8m",
+            "dp4t6yw"
+        ],
+        "mentioned_times": [
+            1509455063.0,
+            1509462342.0
+        ],
+        "sentiments": [
+            0.0,
+            0.2166666666666667
+        ],
+        "text": [
+            "Will it be:\nXLM, XRP or ADA \ud83e\udd14\u2753",
+            "This is pretty routine. Happened with XLM and Vertcoin both during the middle of a huge bull run. "
+        ],
+        "upvotes": [
+            1,
+            2
+        ]
     },
     "XMG": {
         "full_name": "Magi",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "XMR": {
         "full_name": "Monero",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "79nic7",
+            "dp40rww",
+            "dp3l2v8",
+            "dp3skos",
+            "dp4qqkn",
+            "dp4nmal",
+            "dp3b08p",
+            "dp3e4l1"
+        ],
+        "mentioned_times": [
+            1509396857.0,
+            1509425453.0,
+            1509409156.0,
+            1509416835.0,
+            1509456503.0,
+            1509451342.0,
+            1509397128.0,
+            1509401339.0
+        ],
+        "sentiments": [
+            0.0,
+            0.06287878787878788,
+            0.20952380952380953,
+            0.3,
+            0.028888888888888874,
+            0.11161616161616161,
+            0.0,
+            0.0
+        ],
+        "text": [
+            "BitConnect Ponzi Coin is now in the Top10 Most Capitalized Cryptocurencie, even Before Monero. WTF ????",
+            "BAT because people already don't really use \"watch ads for money\" things anyway. Kind of like mail-in rebates. Even though you might get a small sum back, most people wouldn't be bothered to. With respect to their adblocking browsers, there's other adblocking browsers out there already.\n\nDASH because you can't be \"kind of private\". Monero or go home.\n\nENJ because game devs wouldn't want to actively support a secondary market they can't control.",
+            "I don't think I'm the only one who is getting tired of this. I just plan on leaving my alts in place, buying more BTC with Fiat, and buying alts right before the fork. From what I can tell, the overall market cap for BTC is waning and alts are gaining more traction. Though, I do doubt BTC will come from the throne anytime soon. I also hope Monero and Ethereum both take a similar footing to BTC in the future since they are both awesome projects. ",
+            "I honestly think Bitcoin will have an even playing field with Monero. I would rather my money be private and solely visible to me rather than in a way where anybody can see my transaction history and balance. However, I do admit that Bitcoin will remain dominant in terms of how valuable it is even with these shortcomings. I am a fan of both. ",
+            "Cool idea.  Here's a graphic breaking down the long term payout if you were to keep running it in perpetuity:  https://postimg.org/image/4zp90k54wr/\n\nIf there was a way to embed mining into the open browser window, like the Monero page does, you could increase rewards.\n",
+            "Note those are all varying degrees of ASIC resistant with VTC and XMR being the most resistant.  VTC's algorithm was the only one designed with it in mind: \n\n1) memory intensive makes it particularly difficult to develop an ASIC\n\n 2) easily revisable within existing infrastructure in case ASIC is developed to fork smoothly to new revision of Lyra.",
+            "Btc, vtc, eth, xmr",
+            "XMR"
+        ],
+        "upvotes": [
+            407,
+            4,
+            1,
+            8,
+            2,
+            7,
+            4,
+            3
+        ]
     },
     "XMY": {
         "full_name": "Myriad",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "XRP": {
         "full_name": "Ripple",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp3z28p",
+            "dp3ywzr",
+            "dp4pz8m"
+        ],
+        "mentioned_times": [
+            1509423640.0,
+            1509423484.0,
+            1509455063.0
+        ],
+        "sentiments": [
+            0.0,
+            -0.07499999999999998,
+            0.0
+        ],
+        "text": [
+            "I avoid: dash,bitconnect, ripple, btc cash, tether, 0x",
+            "Personally, no time to research.  There are 1001 coins and I only have so much funds to spread around.  I'm not going to invest in fancypantscoin unless I have time to research what it does and who's behind it.\n\nFor me, I dropped ETH when the DAO hardfork happened.  Just left a bad taste in my mouth.  Also dropped BTC as it's stagnated in dev hell for a few years.  Dropped XRP when what looked like a better flavor (STR) came along.",
+            "Will it be:\nXLM, XRP or ADA \ud83e\udd14\u2753"
+        ],
+        "upvotes": [
+            9,
+            4,
+            1
+        ]
     },
     "XST": {
         "full_name": "StealthCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1326,20 +2908,33 @@
         "full_name": "Vcash",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
     "XVG": {
         "full_name": "Verge",
-        "mentioned_ids": [],
-        "mentioned_times": [],
-        "text": [],
-        "upvotes": []
+        "mentioned_ids": [
+            "dp44h30"
+        ],
+        "mentioned_times": [
+            1509429549.0
+        ],
+        "sentiments": [
+            0.2333333333333333
+        ],
+        "text": [
+            "hahaha me too, all i do is smoke joints and talk/trade crypto. \n\nNEO is my second largest holding, after Verge. Even got me some more yesterday"
+        ],
+        "upvotes": [
+            2
+        ]
     },
     "XWC": {
         "full_name": "WhiteCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1347,6 +2942,7 @@
         "full_name": "ZCoin",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1354,6 +2950,7 @@
         "full_name": "Zclassic",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1361,6 +2958,7 @@
         "full_name": "Zcash",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
@@ -1368,8 +2966,110 @@
         "full_name": "Zencash",
         "mentioned_ids": [],
         "mentioned_times": [],
+        "sentiments": [],
         "text": [],
         "upvotes": []
     },
-    "submissions": []
+    "submissions": [
+        "79nic7",
+        "79pcfd",
+        "79ovkt",
+        "79ng05",
+        "79qt5v",
+        "79qs65",
+        "79mdn4",
+        "79mmt0",
+        "79qkur",
+        "79r83d",
+        "79qpv7",
+        "79pfuv",
+        "79qwoy",
+        "79oph0",
+        "79nav5",
+        "79pptc",
+        "79mo3a",
+        "79rq6e",
+        "79re2v",
+        "79rlcf",
+        "79ryh1",
+        "79pxx9",
+        "79okmm",
+        "79ok8e",
+        "79sx3k",
+        "79o0pp",
+        "79o6vy",
+        "79oydr",
+        "79n73n",
+        "79n363",
+        "79q6e1",
+        "79szdh",
+        "79on1v",
+        "79tkiz",
+        "79tc63",
+        "79orig",
+        "79n3xb",
+        "79qnqq",
+        "79rbwv",
+        "79n7rc",
+        "79ofda",
+        "79ta1k",
+        "79rvul",
+        "79qo0k",
+        "79o0mu",
+        "79nzns",
+        "79mwe5",
+        "79tb4p",
+        "79otmz",
+        "79n03j",
+        "79mp3z",
+        "79q2sf",
+        "79otpr",
+        "79obs6",
+        "79nyiq",
+        "79nw9p",
+        "79nduh",
+        "79mcw6",
+        "79tbpa",
+        "79soae",
+        "79pxo5",
+        "79o7gm",
+        "79u0xn",
+        "79ttjp",
+        "79sp7y",
+        "79q7so",
+        "79pjam",
+        "79pi8s",
+        "79p43o",
+        "79okzv",
+        "79oagf",
+        "79o52x",
+        "79n2fi",
+        "79tahl",
+        "79t9tk",
+        "79t99k",
+        "79sdyb",
+        "79s53q",
+        "79rdkm",
+        "79rbix",
+        "79r0ih",
+        "79qxkj",
+        "79qtr4",
+        "79oxnq",
+        "79olcl",
+        "79ojui",
+        "79oj0u",
+        "79ogib",
+        "79nfsb",
+        "79neon",
+        "79n2z3",
+        "79tkgv",
+        "79tgnj",
+        "79t9ip",
+        "79t7yi",
+        "79r7rk",
+        "79r16r",
+        "79qsbd",
+        "79qkz5",
+        "79p4pd"
+    ]
 }

@@ -1,1 +1,574 @@
-hi
+*********************** ETH ***********************
+118 : 20:37:19 10/30/2017 : The fact that you can stake without a masternode is huge. The fact that you can mine without a masternode is huge. The fact that you can stake and mine within the wallet itself is also huge.
+
+The walton chain is compatible with ethereum tokens, huge
+
+They have finished their multi-chain application development, huge
+
+They meet their deadlines, huge
+
+There's more to be revealed next month (as per Monitor on slack)
+
+They have government support and their parent company (handles the technical development) have been contacted by the government to be involved in this http://www.chinadaily.com.cn/bizchina/2017-10/24/content_33653090.htm (also revealed by Monitor on slack). Beyond huge.
+
+25 : 01:15:50 10/31/2017 : Introducing Metal Vault- the first BTC, ETH, erc20 web wallet with Ledger and Trezor support!
+
+16 : 12:33:10 10/30/2017 : Ethereum Price Close to Breaking $309 Resistance
+
+11 : 15:35:06 10/30/2017 : Some of you guys haven’t even transferred your NEO from one wallet to another yet. By far, NEO is the fastest crypto for that. Compared to OMG, ETH, LTC and especially BTC, NEO is light speeds faster (FYI I have stakes in all of those aforementioned coins). Yes I know they had down time a couple days ago when releasing this years 15 million supply tokens. Yes some wallets have sync issues (if you follow the tutorials you’re usually okay). But if we’re going to use NEO as a form of real time currency, there’s few that can compete. We’ll see how plasma benefits OMG/ETH though.
+
+10 : 16:24:26 10/30/2017 : do not use coinmarketcap as they put bitconnect ads. Use livecoinwatch instead. Regarding the topic, crypto is a unique market where fools look like geniuses and vice versa. Putting your money in Bitconnect in August would have generated more gains than ETH.
+
+EDIT: not sure if it is possible to sell bcc coins back to make above argument to work.
+
+10 : 20:28:44 10/30/2017 : Everyone has seen the troll u/ shenzeng posting ancient FUD about ETH everywhere on this sub: As it turns out, he is an EOS Shill....
+
+8 : 01:38:44 10/31/2017 : Seem to be a couple of similar threads, so will re-post here...
+
+Just made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate.
+
+For anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:
+- Metal, Ethereum, Bitcoin and ERC-20 under one roof
+- Hardware Integration with Trezor & Ledger
+- Private Key Backups
+- Multi-signature
+- Single-signature
+- 2FA Authentication with Google Authenticator
+- 24/7 Live Support
+
+Here are some of the features you can expect in the near future:
+- Integrated FDIC insured bank account for US Customers 
+- In-wallet exchange functionality 
+- Invoicing capability for Metal and Cash 
+- Open API to develop on Metal platform
+
+Oh and here's a link to the wallet: https://app.metalpay.com/login
+
+8 : 19:10:13 10/30/2017 : KMD (komodo) will be listed on HitBTC against BTC, ETH and USDT very soon
+
+7 : 16:21:41 10/30/2017 : 1) I use bitcointax. Makes life so much easier. 
+2) Yes, there is a section for transaction fees
+2?) All transactions, BTC to USD, BTC to ETH, are taxable events
+3) Just use bitcointax, they have an option where you can import history from exchanges or upload your own history as a csv file. They calculate short vs. long term gains, and what I costs using various methods (first in first out, highest price first out, etc...)
+
+6 : 00:59:30 10/31/2017 : Incentives for holding Eth and Metal in the vault. seems pretty legit
+
+5 : 19:45:59 10/30/2017 : If your project is so special why dont you get a concept ready with VC funding? But no, the opportunity to grab $50m must be soo tempting 
+
+
+And I dont really see what sets this apart from hundreds of other ICOs in the finance space. Atleast be creative, come on. For supposed Stanford grads you are proposing such an average run of the mill idea that wont even get selected for presentation in Stanford competitions. 
+
+
+Lending on ethereum, ID on ethereum, cards on entereum,voting, blah blah blah....  FFS we have heard about all of these a million times over 
+
+4 : 23:14:40 10/30/2017 : https://www.reddit.com/r/JoyStream/comments/77l4jh/joystream_05_released/dou1wre/
+
+The fees are ridiculous on Joystream due to using Bitcoin. An ETH-based client like this is definitely welcomed imo. 
+
+Edit: meant this to be a reply to senzheng's comment, but I'll leave it
+
+4 : 21:07:45 10/30/2017 : This is kind of neat, any discussions about how this might change things up in crypto?  You no longer have to go into BTC or ETH when trading pairs, adds a new wrinkle.
+
+4 : 21:18:04 10/30/2017 : Personally, no time to research.  There are 1001 coins and I only have so much funds to spread around.  I'm not going to invest in fancypantscoin unless I have time to research what it does and who's behind it.
+
+For me, I dropped ETH when the DAO hardfork happened.  Just left a bad taste in my mouth.  Also dropped BTC as it's stagnated in dev hell for a few years.  Dropped XRP when what looked like a better flavor (STR) came along.
+
+4 : 13:58:48 10/30/2017 : Btc, vtc, eth, xmr
+
+3 : 20:01:18 10/30/2017 : Love how these airdrops are becoming free advertisement spamming every account while adding nothing to decentralization with their 1% here or even 5% total distributed. Ethereum does innovate in one thing really well - fraud.
+
+2 : 18:59:45 10/30/2017 : There is one called Eth-connect that literally has Ponzi written on the front page next to the affiliate pyramid returns. 
+
+2 : 06:44:23 10/31/2017 : A complete and utter noob here, but doesn't Bitcoin tick off alarmingly many of these, even though it isn't in a start up phase anymore?
+
+The product seems impractical and poor compared to later developed solutions (= should logically get out competed in the long run) and doesn't really have further development in the future, aside from third parties.
+
+Also the use case seems to have switched from currency to a gold-like asset, that only seems to hold value because investors seem to expect the price to keep rising forever, which doesn't feel very sustainable especially when there are more practical options on the market.
+
+I've also just started studying Ethereum, and I'm wondering how it isn't more popular compared to Bitcoin since, at least at first glance, it seems to be doing everything better.
+
+Once again I'm very new to this and this is what I've gathered so far, please if you know good educational material on the subject please point me in that direction.
+
+2 : 00:12:28 10/31/2017 : You didn't post about Spectre.ai -- I'm seeing NOTHING on reddit about it which has me reluctant to get in but they have $5,000,000 in eth/usd within 3 days so IDK.  
+
+2 : 03:44:09 10/31/2017 : Confido blows all those icos in terms of potential gains. 400k starting mcap, first dapp with chainlink, strong real world use case
+
+https://www.reddit.com/r/CryptoCurrency/comments/79gkl4/confido_awesome_chainlink_use_case/
+
+
+- First dapp to use chainlink for smart contracts on the Ethereum and Bitcoin rootstock blockchain
+- Good product with real world use case; I think it'll be massively adopted by Craigslist and Gumtree users, or any classified advertising and online forum marketplace
+- Chainlink and confido team know each other well, Rory from chainlink even pinned confido twitter on chainlink slack
+- 1250 eth hard cap, 400k mcap. This is tiny for its potential! x10 merely makes it 4m mcap
+- Completely free to use without any fees if you use the confido tokens as payment method, so there's incentive to use the token over eth/btc
+- ETH payments distributed to token holders from fees collected
+- Creating plugins for major e-commerce platforms 
+- Confido will also be implementing Kleros.io , directly into the smartcontract which is an awesome dispute resolution/voting jury blockchain, as an intermediary
+- Alpha web app and mobile app release in Q4, 2017
+- Small dedicated team that aren’t greedy for once and only raising what they need. CEO is open to suggestions and in active talks with exchanges
+- It has plenty of hype and awareness in the crypto world. https://www.huffingtonpost.com/entry/3-cryptocurrencies-to-keep-an-eye-on-that-are-not-bitcoin_us_59d22c36e4b034ae778d4c32
+- Shit like Ethereum gold without even a fucking whitepaper goes 1000%, Confido is actually legit, this will moon so hard
+
+2 : 20:12:02 10/30/2017 : >It is unlikely that bitcoin will be used as the main currency for making purchases, simply because an average single confirmation time of 5 minutes (assuming your transaction occurs in the next block) is too slow for personal to business transactions. 
+
+You forgot to mention bitcoin smart contracts, faster sidechains including one with all capabilities of ethereum with its own lightning network and without the security issues of eth, enormous amount of lightning network work near finalized, other layer 2 solutions.
+
+It's very misleading to pretend the most developed blockchain in existence is not going to do scaling. I suggest reading more than factually inaccurate subreddits like censored ethereum ones. There's a reason they are not good source of information when best known as [chain of liars and thieves.](https://medium.com/@WhalePanda/ethereum-chain-of-liars-thieves-b04aaa0762cb)
+
+
+
+2 : 17:22:54 10/30/2017 : Gotta love hodling ETH, I keep getting random coins airdropped into my wallet without signing up for anything 
+
+1 : 00:57:36 10/31/2017 : ETH has won the most boring alt-coin ever prize. 
+Graph is a flat line at $300. 
+Corps also have a flat line heart beat.
+
+1 : 17:19:16 10/30/2017 : I don't think I'm the only one who is getting tired of this. I just plan on leaving my alts in place, buying more BTC with Fiat, and buying alts right before the fork. From what I can tell, the overall market cap for BTC is waning and alts are gaining more traction. Though, I do doubt BTC will come from the throne anytime soon. I also hope Monero and Ethereum both take a similar footing to BTC in the future since they are both awesome projects. 
+
+1 : 23:23:22 10/30/2017 : BTC, NEM, NEO, Ethereum, Lisk and OMG I see as lower risk investments.
+
+0 : 19:06:46 10/30/2017 : I hate when people keep calling Bitconnect a Ponzi scheme. There are SOOO many scam coins out there and they want to hate on a coin that is doing better than any other coin. They are **THE ONLY** coin to have non stop steady growth without any major dips in price. Whoever created it is genius. Also they have had a bigger percentage growth than almost any coin including ETH and NEO. I’m not even invested in BItconnect but it’s just sad to see people so jealous. Get a life. Who cares if it’s a Ponzi scheme if it makes you money and it’s successful. Not one piece of evidence has come out to prove that it’s a scam and actually all evidence right now proves it’s a strong long term crypto.
+
+By the way how it is a “Ponzi scheme”? If you even know the definition. Explain why it’s a Ponzi scheme in detail.....
+
+0 : 15:44:43 10/30/2017 : I do think there's gonna be a big bull run, but I'm not sure what to do after the fork. I want to get into alts as quickly as possible after though, and idk if the 2x chain is going to be deposited instantly on coinbase when it happens. So because of that, I may end up dumping my BTC to ETH, then splitting ETH into alts. 
+
+I'd rather dump 2x, but the problem is just that idk when it would be available for trading. Never took part in a fork before. Anyone know what to expect?
+
+-1 : 20:34:27 10/30/2017 : I don't invest in ETH because it won't scale like KMD does 
+
+-2 : 01:23:05 10/31/2017 : Just made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate. 
+
+For anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:
+
+- Metal, Ethereum, Bitcoin and ERC-20 under one roof
+- Hardware Integration with Trezor & Ledger
+- Private Key Backups
+- Multi-signature
+- Single-signature
+- 2FA Authentication with Google Authenticator
+- 24/7 Live Support
+
+Here are some of the features you can expect in the near future:
+- Integrated FDIC insured bank account for US Customers
+- In-wallet exchange functionality
+- Invoicing capability for Metal and Cash
+- Open API to develop on Metal platform
+
+Oh and here's a link to the wallet:
+https://app.metalpay.com/login
+
+-3 : 13:29:41 10/30/2017 : does anyone really care about the fiat price of Ethereum? 
+
+-6 : 22:54:43 10/30/2017 : You mean like https://www.reddit.com/r/CryptoCurrency/comments/78zxpi/for_2_years_joystreamapp_has_quietly_built_a/
+
+or many others
+
+without relying on the most centralized project known to man, eth? lmao
+
+not that it's even a good concept for end user
+
+-8 : 15:32:23 10/30/2017 : VTC, GRS, ADA (calling it now, Cardano is gonna be next ethereum)
+
+
+
+*********************** NAV ***********************
+109 : 22:17:22 10/30/2017 : NAV Coin's NavPay BETA will be released tomorrow. Also roadmap updated on Polymorph! Right now team is having AMA!
+
+15 : 23:36:48 10/30/2017 : Go all in on Navcoin, its gonna rocket soon!
+
+10 : 02:38:10 10/31/2017 : so next up - BUY SYS AND NAV if you wanna ride the waves
+
+8 : 00:37:26 10/31/2017 : Awesome news! To anyone new to NAV, see the sticky on r/NavCoin: https://www.reddit.com/r/navcoin/comments/6k7gou/_/
+
+6 : 03:37:41 10/31/2017 : This is huge news! I’ve been in NavCoin for a year and it has been my best investment yet. I can’t wait to see where we are in a year from now.
+
+
+
+*********************** NEO ***********************
+76 : 10:31:19 10/30/2017 : Why NEO is my go-to Alt at the moment.
+
+50 : 18:56:35 10/30/2017 : NEO is Giving Back the Money Raised During their First ICO
+
+49 : 22:32:18 10/30/2017 : NEO Rebrands Its Web : Can NEO/USD Keep The Increasing Pace
+
+34 : 23:46:34 10/30/2017 : NEO blockchain project to give back funds to its early backers
+
+32 : 16:25:59 10/30/2017 : Anyone whose done any thorough research into NEO will know that it's an incredible platform and not to forget the future developments that will be released in 2018 for it. Extremely bullish on its potential!
+
+https://neo.org/blog/details/3014
+
+23 : 16:47:57 10/30/2017 : NEO Sponsor Giveback Plan: "We decide to ... unconditionally give back to the early sponsors in the amount equal to the fiat value they contributed back then" (During ICO)
+
+23 : 15:23:12 10/30/2017 : NEO Price Shows Signs of Life Despite Ciruclaitng Supply Increasing by 15 Million
+
+23 : 05:01:00 10/31/2017 : NEO is working hard.
+
+16 : 14:11:38 10/30/2017 : soon there will be dapps launched on NEO. Red Pulse is the first so far? 
+
+strap yourselves. 
+
+13 : 16:43:53 10/30/2017 : NEO is definitely a great long-term hold. I just transferred to wallet from exchange to get free GAS generated. It's about 7% yearly dividends for keeping it off an exchange & you don't have to stake/lock wallet like most other cryptos, which most of those coins are only offering 5% annual returns. Ark delegate voting hasn't given me the rates they're claiming to payout so next to SNGLS I think NEO is the best for passive income.
+
+12 : 19:18:41 10/30/2017 : Well yeah the Chinese government are indeed letting them keep on. Im not saying NEO is the only option, more that it has a favourable set of parameters to it. My point is any thing China allows within its borders can be a worthwhile investment really. NEO or otherwise
+
+11 : 15:35:06 10/30/2017 : Some of you guys haven’t even transferred your NEO from one wallet to another yet. By far, NEO is the fastest crypto for that. Compared to OMG, ETH, LTC and especially BTC, NEO is light speeds faster (FYI I have stakes in all of those aforementioned coins). Yes I know they had down time a couple days ago when releasing this years 15 million supply tokens. Yes some wallets have sync issues (if you follow the tutorials you’re usually okay). But if we’re going to use NEO as a form of real time currency, there’s few that can compete. We’ll see how plasma benefits OMG/ETH though.
+
+8 : 17:55:49 10/30/2017 : I need to buy more NEO, I sold off at $37 a couple weeks back. Time to buy in again. 
+
+7 : 17:27:44 10/30/2017 : Regardless of the giveback, ICO investors of NEO would be super rich if they had just held onto the ANS coins from back then  
+
+7 : 16:55:22 10/30/2017 : From the Blog-Post:
+
+"Today, NEO Council has gained sufficient funds and resources to sustain the R&D and community development efforts in the years to come. Therefore, we decide to officially launch the NEO sponsor giveback plan designed to unconditionally give back to the early sponsors in the amount equal to the fiat value they contributed back then...
+**The giveback comes from the remainder of the total funds raised during the seed-round financing, ICO1 and ICO2**. Initial sponsors may claim their respective portions either through bank transfer (in CNY only) or in NEO. For those who choose to claim the giveback in NEO, NEO Council will purchase NEO with the remaining funds. **The 50% NEO under the management of NEO Council will not be used for the giveback**, as it is reserved for the development of community and ecosystem."
+
+
+5 : 14:29:43 10/30/2017 : Neo for that sweet gas. 
+
+4 : 23:16:36 10/30/2017 : > “We decide to officially launch the NEO sponsor giveback plan designed to unconditionally give back to the early sponsors in the amount equal to the fiat value they contributed back then
+
+Damn, that is pretty awesome of them. Way to go NEO team
+
+4 : 00:22:03 10/31/2017 : I have seen a few positive posts about Neo recently but you are right it is nothing like it was and it is certainly not reflected in the price.
+
+2 : 20:48:04 10/30/2017 : NEO owners just announced their golden parachutes. I would not be holding NEO right now. https://neo.org/blog
+
+2 : 07:04:23 10/31/2017 : This is great news as NEO set an example for ICO and how they should respond when people want their money back. 
+So many scam ICO out there and NEO warns them all.
+
+2 : 22:59:09 10/30/2017 : hahaha me too, all i do is smoke joints and talk/trade crypto. 
+
+NEO is my second largest holding, after Verge. Even got me some more yesterday
+
+1 : 22:16:09 10/30/2017 : > China’s economy is founded on Chinese companies/projects that replace banned western tech (Alibaba, WeChat) So something like NEO has the possibility to power Chinese blockchain operations.
+
+>NEO has more than 26 dApps being built right now, and I'm not even counting its ICOs.
+
+>These dapps are for now unknown as being developed for the dApp competition (So some of them might be bad
+
+>So for the details, you'll have to wait a little (Next month is the end of the competition) :)
+
+I don't even know how to respond to this. Mostly disgust.
+
+1 : 14:36:07 10/30/2017 : Neo. While I would usually suggest Bitcoin, I feel Bitcoin Cash is going to take the fire away from Bitcoin.
+
+1 : 23:23:22 10/30/2017 : BTC, NEM, NEO, Ethereum, Lisk and OMG I see as lower risk investments.
+
+0 : 19:06:46 10/30/2017 : I hate when people keep calling Bitconnect a Ponzi scheme. There are SOOO many scam coins out there and they want to hate on a coin that is doing better than any other coin. They are **THE ONLY** coin to have non stop steady growth without any major dips in price. Whoever created it is genius. Also they have had a bigger percentage growth than almost any coin including ETH and NEO. I’m not even invested in BItconnect but it’s just sad to see people so jealous. Get a life. Who cares if it’s a Ponzi scheme if it makes you money and it’s successful. Not one piece of evidence has come out to prove that it’s a scam and actually all evidence right now proves it’s a strong long term crypto.
+
+By the way how it is a “Ponzi scheme”? If you even know the definition. Explain why it’s a Ponzi scheme in detail.....
+
+-1 : 17:44:12 10/30/2017 : >Regardless of when China resumes it's crypto activities, that will obviously be a huge boost for NEO
+
+Basically why I will never invest.
+
+>Not to mention all the alt pumps after the B2X fork
+
+Oh boy. So any alt is good then.
+
+
+
+-4 : 20:28:24 10/30/2017 : So the people running NEO are giving themselves back their investment. Sounds like most will cut and run. Get out now. 
+
+-6 : 17:02:09 10/30/2017 : I profited from NEO but the devs just released 15 million Neo for development. They still want to release another 35 million Neo for contingencies and such. That's WAAAAAAAAAAAAAAAAAAAY too much. 
+
+Half of the total supply is developer controlled(!) That is unheard of greed. No matter how you try to paint it. Make them cut supply by 35 million by destroying them. At that point they'd still control too many coins but at least it would be somewhat reasonable. The developers don't need 50 million times $28.80, that's just ridiculous, no matter what idiotic reason they or their fanbois come up with. Burn the coins to regain credibility or die due to greed. 
+
+
+
+*********************** GRS ***********************
+113 : 13:42:08 10/30/2017 : Groestlcoin AMA on friday
+
+35 : 13:14:18 10/30/2017 : Here's an updated/corrected GRS/VTC/LTC/BTC comparison chart from the GRS team!
+
+26 : 13:48:02 10/30/2017 : Fantastic for the confirmation. People ask and the GRS team deliver. 
+
+23 : 15:04:26 10/30/2017 : Now *this* is where true shilling is. VTC devs have made it a point to avoid this type of stuff and have said as much, and the second GRS gets a second of the spotlight they get in on this comparison chart bullshit.
+
+Laughable.
+
+21 : 14:53:27 10/30/2017 : *"Accidentally hardforked. Activated on second try."*
+
+That seems rather passive aggressive. I presume this is one of the rows added by the GRS team? Why not just put "Yes"?
+
+12 : 15:53:00 10/30/2017 : What is Groestlcoin, first time I hear about this :/
+
+11 : 16:27:42 10/30/2017 : Can this coin gain mainstream adoption with a name like 'Groestlcoin'?? LOL Not doubting the tech, but branding seems important...
+
+11 : 05:24:33 10/31/2017 : GRS just mooned from 7500 to 8900 in a minute flat. Bittrex responds by closing down GRS for "routine maintenance" a minute later.
+
+9 : 15:03:45 10/30/2017 : Stop spamming this GRS garbage to the front page.
+
+8 : 14:16:09 10/30/2017 : Just made a small initial investment in GRS after reading up on it during the last week.
+
+8 : 16:51:07 10/30/2017 : Groestlcoin possible rebrand in July 2018 after a community poll
+
+7 : 13:44:28 10/30/2017 : WoW thanks a lot for information. GRS to moon:D
+
+6 : 17:01:17 10/30/2017 : I'm sorry for having been a dick to the GRS people sometimes...
+
+Having said that, I am onboard guys. Strapping in for the long hold.
+
+6 : 15:12:16 10/30/2017 : Let both VTC and GRS do their own thing.  Nothing but good can come from two dev teams working hard on what they believe in.  If you like one but not the other, then don’t have any part in it.  When you take into account all the awful coins out there that will not make it, there’s definitely room for both of these coins to flourish.  It’s not tug o’ war.
+
+6 : 19:08:52 10/30/2017 : GRS may or may not be a good coin but the GRS Super Shill Squad is gonna ruin any chance of it being big, ppl already see GRS in a negative light because of them. At least the pump from 3k to 9k tripled my VTC bags so im thankful to GRS for that
+
+6 : 19:17:03 10/30/2017 : why does GRS have multiple wallets instead of one official one for each platform, how are they gonna manage all those wallets? Seems like a wasteful use of resources. Also what is their roadmap? What is their Vision?. VTC is the people's coin with a roadmap to show for that. All GRS does is 3-4 updates per year and they don't even tell you what they are updating til it comes out
+
+3 : 14:46:26 10/30/2017 : I can't wait! I've got a couple of questions about GRS.
+
+3 : 21:58:56 10/30/2017 : "No. Apple don't accept VTC as Virtual Currency"
+
+Fuckin lel. Do these guys really think Apple accepts GRS as a virtual currency? Or hell, even LTC or BTC?
+
+Apple doesn't accept anything as "virtual currency". All they accept is fiat.
+
+3 : 19:24:59 10/30/2017 : "Groestlcoin will now be known as pukecoin from now own!" I jest, I jest :) Hopefully it works out for this coin since the name is very bad. 
+
+2 : 17:27:24 10/30/2017 : Another week another coin. Nothing against GRS but we're gonna end up with 10 gorillion similar coins after the next year.
+
+2 : 21:18:32 10/30/2017 : GRS over $1 this week. Watch!
+
+2 : 13:55:00 10/30/2017 : To people shouting bias, could you elaborate? I think we are all for accurate information, giving more information than just shouting bias would be really helpful.
+
+What exactly is biased? Is a fact about one of the coins wrong? That way we can all get a better grasp of GRS/VTC/LTC/BTC.
+
+1 : 13:15:20 10/30/2017 : GRS on that next level shit!!!
+
+1 : 03:15:33 10/31/2017 : So your theory is that reddit is wagging the dog? Bitcoin Gold had nothing to do with VTC or GRS, it had to do with the fact that the tech is in demand and some people wanted to use that as a cash grab. As it stands, that drew attention to Asic Resistance which shed light on an under represented MKT segment. It happens to be that both coins are Segwit active coins and that just so happens to be the next tfork. So yeah, your opinion is something you are entitled to but I disagree. Crypto is still so new, its going to take time for the market to call forward the coins that matter forward for them to run and gain the mkt caps they deserve.
+
+1 : 08:24:17 10/31/2017 : Yeah. VTC and GRS especially have essentially nothing going for them except for being hyped on these forums.
+
+1 : 07:01:35 10/31/2017 : This is only the beginning! GRS will surpass VTC.
+
+1 : 22:16:30 10/30/2017 : VTC and GRS are the only things allowed to pump these days son 
+
+0 : 00:01:43 10/31/2017 : I just sold half my Vert to get Groestlcoin. I think this is going to be at Vert price in a couple months. 
+
+0 : 14:23:57 10/30/2017 : Both VTC and GRS are great coins, and my understanding from reading here on Reddit is that many invest in both – because they are both great coins!
+
+-1 : 15:58:17 10/30/2017 : GRS has highest potential atm IMO... still at low market cap compared to others https://coincodex.com/crypto/groestlcoin/
+
+-5 : 17:36:34 10/30/2017 : VTC, GRS, FST, VRC and BTC
+
+-7 : 15:20:30 10/30/2017 : Report all these GRS threads as spam please.
+
+-8 : 15:32:23 10/30/2017 : VTC, GRS, ADA (calling it now, Cardano is gonna be next ethereum)
+
+-8 : 14:05:14 10/30/2017 : GRS
+
+
+
+*********************** MTL ***********************
+35 : 00:39:09 10/31/2017 : Introducing Metal Vault Alpha
+
+25 : 01:15:50 10/31/2017 : Introducing Metal Vault- the first BTC, ETH, erc20 web wallet with Ledger and Trezor support!
+
+10 : 01:46:01 10/31/2017 : Trezor support is amazing and the wallet is so sleek and beautiful! This is only alpha version and the beta version will be even better! From the CEO: 
+
+  - "We will quickly power through Alpha into beta. That being said Vault, Pay and Merchant are three separate products that interlink.
+
+  - Vault being the advanced wallet that holds multiple cryptos, exchange features, advanced banking features (wires, loans etc)
+
+  - Pay being the Venmo killer that acts as p2p sending and spending with PoPP, that links to your vault
+
+  - Merchant being the merchant app, with full PoS, invoicing, and more
+
+The future is bright with Metal :)
+
+Edit:formatting
+
+
+8 : 01:38:44 10/31/2017 : Seem to be a couple of similar threads, so will re-post here...
+
+Just made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate.
+
+For anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:
+- Metal, Ethereum, Bitcoin and ERC-20 under one roof
+- Hardware Integration with Trezor & Ledger
+- Private Key Backups
+- Multi-signature
+- Single-signature
+- 2FA Authentication with Google Authenticator
+- 24/7 Live Support
+
+Here are some of the features you can expect in the near future:
+- Integrated FDIC insured bank account for US Customers 
+- In-wallet exchange functionality 
+- Invoicing capability for Metal and Cash 
+- Open API to develop on Metal platform
+
+Oh and here's a link to the wallet: https://app.metalpay.com/login
+
+6 : 00:59:30 10/31/2017 : Incentives for holding Eth and Metal in the vault. seems pretty legit
+
+2 : 01:20:10 10/31/2017 : Here is a list of threads in other subreddits about the same content:
+
+ * [Introducing Metal Vault!](https://www.reddit.com/r/MetalPay/comments/79rw3x/introducing_metal_vault/) on /r/MetalPay with 2 karma (created at 2017-10-31 08:05:50 by /u/Fluffywiggle)
+
+----
+
+ ^^I ^^am ^^a ^^bot  ^^[FAQ](https://www.reddit.com/r/DuplicatesBot/wiki/index)-[Code](https://github.com/PokestarFan/DuplicateBot)-[Bugs](https://www.reddit.com/r/DuplicatesBot/comments/6ypgmx/bugs_and_problems/)-[Suggestions](https://www.reddit.com/r/DuplicatesBot/comments/6ypg85/suggestion_for_duplicatesbot/)-[Block](https://www.reddit.com/r/DuplicatesBot/wiki/index#wiki_block_bot_from_tagging_on_your_posts)
+
+^^Now ^^you ^^can ^^remove ^^the ^^comment ^^by ^^replying ^^delete!
+
+-2 : 01:23:05 10/31/2017 : Just made a wallet and works like a treat, have my BTC and ERC20 tokens in there. No more MEW for me, so much easier to navigate. 
+
+For anyone who CBF'd clicking the link, here are some of the features you will notice in Vault Alpha:
+
+- Metal, Ethereum, Bitcoin and ERC-20 under one roof
+- Hardware Integration with Trezor & Ledger
+- Private Key Backups
+- Multi-signature
+- Single-signature
+- 2FA Authentication with Google Authenticator
+- 24/7 Live Support
+
+Here are some of the features you can expect in the near future:
+- Integrated FDIC insured bank account for US Customers
+- In-wallet exchange functionality
+- Invoicing capability for Metal and Cash
+- Open API to develop on Metal platform
+
+Oh and here's a link to the wallet:
+https://app.metalpay.com/login
+
+
+
+*********************** VTC ***********************
+87 : 09:13:06 10/30/2017 : An analysis of Vertcoin: A centralization resistant digital currency
+
+35 : 13:14:18 10/30/2017 : Here's an updated/corrected GRS/VTC/LTC/BTC comparison chart from the GRS team!
+
+27 : 20:09:28 10/30/2017 : David Hay on vertcoin ~
+
+23 : 13:32:23 10/30/2017 : Looks very biased. Also for Android wallet, people can use coinpayments and coinomi to store their vertcoin so it's not like there's not a single android wallet available for it
+
+23 : 15:04:26 10/30/2017 : Now *this* is where true shilling is. VTC devs have made it a point to avoid this type of stuff and have said as much, and the second GRS gets a second of the spotlight they get in on this comparison chart bullshit.
+
+Laughable.
+
+17 : 13:23:43 10/30/2017 : On chain atomic swaps have already been achieved with Vertcoin and Litecoin.
+
+14 : 07:36:22 10/31/2017 : Vertcoin announces halving will happen soon
+
+11 : 04:55:31 10/31/2017 : VTC Faucet
+
+7 : 05:02:22 10/31/2017 : Note those are all varying degrees of ASIC resistant with VTC and XMR being the most resistant.  VTC's algorithm was the only one designed with it in mind: 
+
+1) memory intensive makes it particularly difficult to develop an ASIC
+
+ 2) easily revisable within existing infrastructure in case ASIC is developed to fork smoothly to new revision of Lyra.
+
+6 : 15:12:16 10/30/2017 : Let both VTC and GRS do their own thing.  Nothing but good can come from two dev teams working hard on what they believe in.  If you like one but not the other, then don’t have any part in it.  When you take into account all the awful coins out there that will not make it, there’s definitely room for both of these coins to flourish.  It’s not tug o’ war.
+
+6 : 19:08:52 10/30/2017 : GRS may or may not be a good coin but the GRS Super Shill Squad is gonna ruin any chance of it being big, ppl already see GRS in a negative light because of them. At least the pump from 3k to 9k tripled my VTC bags so im thankful to GRS for that
+
+6 : 19:17:03 10/30/2017 : why does GRS have multiple wallets instead of one official one for each platform, how are they gonna manage all those wallets? Seems like a wasteful use of resources. Also what is their roadmap? What is their Vision?. VTC is the people's coin with a roadmap to show for that. All GRS does is 3-4 updates per year and they don't even tell you what they are updating til it comes out
+
+5 : 09:18:55 10/30/2017 : Here is a list of threads in other subreddits about the same content:
+
+ * [An analysis of Vertcoin: A centralization resistant digital currency](https://www.reddit.com/r/vertcoin/comments/79mdgf/an_analysis_of_vertcoin_a_centralization/) on /r/vertcoin with 3 karma (created at 2017-10-30 16:11:45 by /u/bitko2017)
+ * [VTC has not reached the Asian market yet](https://www.reddit.com/r/VertcoinTrader/comments/79mbbc/vtc_has_not_reached_the_asian_market_yet/) on /r/VertcoinTrader with 3 karma (created at 2017-10-30 15:54:19 by /u/cliff-hanger)
+
+----
+
+ ^^I ^^am ^^a ^^bot  ^^[FAQ](https://www.reddit.com/r/DuplicatesBot/wiki/index)-[Code](https://github.com/PokestarFan/DuplicateBot)-[Bugs](https://www.reddit.com/r/DuplicatesBot/comments/6ypgmx/bugs_and_problems/)-[Suggestions](https://www.reddit.com/r/DuplicatesBot/comments/6ypg85/suggestion_for_duplicatesbot/)-[Block](https://www.reddit.com/r/DuplicatesBot/wiki/index#wiki_block_bot_from_tagging_on_your_posts)
+
+^^Now ^^you ^^can ^^remove ^^the ^^comment ^^by ^^replying ^^delete!
+
+4 : 18:23:06 10/30/2017 : For anyone who wants a more in-depth look here’s our interview with VTC lead developer James Lovejoy! Hope this helps some of the people trying to further understand VTC!  https://soundcloud.com/matthew-aaron-690749808/james-lovejoy-lead-developer-of-vertcoin-vtc
+
+4 : 00:31:41 10/31/2017 : Vertcoin keeps moving towards the mainstream. Great to see this as something to introduce more people to Asic resistance and the value of vertcoin!
+
+4 : 07:54:16 10/31/2017 : Reply from Vertcoin in the same post:
+
+> Vertcoin's first block reward halving is happening in December
+
+4 : 13:58:48 10/30/2017 : Btc, vtc, eth, xmr
+
+3 : 21:58:56 10/30/2017 : "No. Apple don't accept VTC as Virtual Currency"
+
+Fuckin lel. Do these guys really think Apple accepts GRS as a virtual currency? Or hell, even LTC or BTC?
+
+Apple doesn't accept anything as "virtual currency". All they accept is fiat.
+
+3 : 06:20:30 10/31/2017 : "VTC Address Error: address not found."
+
+2 : 20:38:43 10/30/2017 : Concerning the sustainability, here is an interesting super old post: https://www.reddit.com/r/vertcoin/comments/26h17v/can_asic_resistance_be_maintained/
+
+2 : 13:55:00 10/30/2017 : To people shouting bias, could you elaborate? I think we are all for accurate information, giving more information than just shouting bias would be really helpful.
+
+What exactly is biased? Is a fact about one of the coins wrong? That way we can all get a better grasp of GRS/VTC/LTC/BTC.
+
+2 : 08:05:42 10/31/2017 : This is pretty routine. Happened with XLM and Vertcoin both during the middle of a huge bull run. 
+
+1 : 20:22:50 10/30/2017 : Experience on changing algo when Asic is there: no. VTC: Yes. Others: n/a
+
+1 : 03:15:33 10/31/2017 : So your theory is that reddit is wagging the dog? Bitcoin Gold had nothing to do with VTC or GRS, it had to do with the fact that the tech is in demand and some people wanted to use that as a cash grab. As it stands, that drew attention to Asic Resistance which shed light on an under represented MKT segment. It happens to be that both coins are Segwit active coins and that just so happens to be the next tfork. So yeah, your opinion is something you are entitled to but I disagree. Crypto is still so new, its going to take time for the market to call forward the coins that matter forward for them to run and gain the mkt caps they deserve.
+
+1 : 08:24:17 10/31/2017 : Yeah. VTC and GRS especially have essentially nothing going for them except for being hyped on these forums.
+
+1 : 21:35:06 10/30/2017 : Bitcoin, also put a little into Vertcoin just because it will probably be the next to blow up.
+
+1 : 07:01:35 10/31/2017 : This is only the beginning! GRS will surpass VTC.
+
+1 : 04:41:39 10/31/2017 : Same boat. I regularly use the Brave browser and really like it, but wish there was some upward movement in the price. I sold half of mine for VTC and I’m hoping for the best with the other half.
+
+1 : 22:16:30 10/30/2017 : VTC and GRS are the only things allowed to pump these days son 
+
+0 : 14:23:57 10/30/2017 : Both VTC and GRS are great coins, and my understanding from reading here on Reddit is that many invest in both – because they are both great coins!
+
+0 : 20:23:16 10/30/2017 : Experience on changing algo when Asic is there: no. VTC: Yes. Others: n/a
+
+-1 : 13:40:58 10/30/2017 : Both of them are great coins. By the time, VTC already passed $5.
+
+-4 : 14:55:07 10/30/2017 : VIA vs. VTC vs. LTC vs. BTC Comparison Chart: https://i.redd.it/sqvdlmxl6tuz.jpg
+
+-5 : 17:36:34 10/30/2017 : VTC, GRS, FST, VRC and BTC
+
+-8 : 15:32:23 10/30/2017 : VTC, GRS, ADA (calling it now, Cardano is gonna be next ethereum)
+
+
+
+*********************** ARK ***********************
+13 : 16:43:53 10/30/2017 : NEO is definitely a great long-term hold. I just transferred to wallet from exchange to get free GAS generated. It's about 7% yearly dividends for keeping it off an exchange & you don't have to stake/lock wallet like most other cryptos, which most of those coins are only offering 5% annual returns. Ark delegate voting hasn't given me the rates they're claiming to payout so next to SNGLS I think NEO is the best for passive income.
+
+8 : 07:57:01 10/31/2017 : There's a lot more news then just that, they announce that you can stake it without a masternode, they announced that they are working with the Chinese government and to quote monitor (senior executive of WaltonChain) "We innovated a double-chain design to organise WTC parent-chain and application-child-chains, by building inter-chain bridges for mutual trust and confirmation transition, and to support data exchange and value transfer. (We are quiet proud of this one!)" Ark and NeoX are trying to do this
+
+3 : 06:44:53 10/31/2017 : Here are few that come to my mind: 
+
+* TenX - already working crypto currency card. only processing 100 cards/day - a huge backlog of orders already. 
+* Qtum
+* OmiseGo
+* Ark
+* Kyber Network
+
+
+
+*********************** BAY ***********************
+20 : 20:29:54 10/30/2017 : I have to say, I love this team, and the wtc sub. The team has held it's investors in high regard, made sure they gave us constant updates and put fudders at bay. On top of it, they continue to amaze by delivering on time. This is probably the most professional team in crypto space. Good stuff! 
+
+
+
+*********************** DASH ***********************
+19 : 18:08:49 10/30/2017 : I personally don't invest in Dash because there is a code that allows the last 24 hours of transactions to be reversed.
+
+While I would hope this would only be used with the best intentions, I view it as a backdoor, and if you have a backdoor, I have a backdoor. Someone could be trying to hack that right now.
+
+9 : 21:20:40 10/30/2017 : I avoid: dash,bitconnect, ripple, btc cash, tether, 0x
+
+4 : 21:50:53 10/30/2017 : BAT because people already don't really use "watch ads for money" things anyway. Kind of like mail-in rebates. Even though you might get a small sum back, most people wouldn't be bothered to. With respect to their adblocking browsers, there's other adblocking browsers out there already.
+
+DASH because you can't be "kind of private". Monero or go home.
+
+ENJ because game devs wouldn't want to actively support a secondary market they can't control.
+
+
+
+*********************** SNGLS ***********************
+13 : 16:43:53 10/30/2017 : NEO is definitely a great long-term hold. I just transferred to wallet from exchange to get free GAS generated. It's about 7% yearly dividends for keeping it off an exchange & you don't have to stake/lock wallet like most other cryptos, which most of those coins are only offering 5% annual returns. Ark delegate voting hasn't given me the rates they're claiming to payout so next to SNGLS I think NEO is the best for passive income.
+
+
+

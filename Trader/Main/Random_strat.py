@@ -35,10 +35,12 @@ class RandomStrat:
                 percent_change_24h = utils.get_percent_change_24h(self.bittrex_coins[market])
                 result = utils.buy(self.api, market, amount, coin_price, percent_change_24h, 0, 0)
                 if result['success']:
-                    utils.print_and_write_to_logfile('Buy order of' + str(amount) + 'of' + market + 'Unsuccessful')
+                    utils.print_and_write_to_logfile('Buy order of' + str(amount) + 'of' + market + 'successful')
+                    return True
                 else:
-                    utils.print_and_write_to_logfile('Buy order of' + str(amount) + 'of' + market + 'Successful')
-                return result
+                    utils.print_and_write_to_logfile('Buy order of' + str(amount) + 'of' + market + 'Unsuccessful')
+                    return False
+        return False
 
     def random_buy_strat(self, total_bitcoin):
         bittrex_markets = [market for market in self.bittrex_coins]
@@ -48,7 +50,7 @@ class RandomStrat:
             rand_coin = bittrex_markets[randrange(len(bittrex_markets))]
             if not rand_coin.startswith('ETH') and not rand_coin.startswith('USDT') and rand_coin not in established_markets:
                 result = self.buy(rand_coin, total_bitcoin)
-                if result['success']:
+                if result:
                     i += 1
 
     def refresh_held_pending(self):

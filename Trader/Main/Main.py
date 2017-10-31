@@ -174,7 +174,6 @@ def initialize_buy_low_sell_high_strat():
     return LH.BuyLowSellHighStrat(api, desired_gain, desired_low_point, total_slots)
 
 
-
 def run_buy_low_sell_high_strat():
     if hl.count_until_reddit_strat == 0:
         run_reddit_strat()
@@ -294,8 +293,8 @@ while True:
         # run_percent_strat()
         # run_hodl_strat()
         # run_reddit_strat()
-        # run_buy_low_sell_high_strat()
-        run_random_strat()
+        run_buy_low_sell_high_strat()
+        # run_random_strat()
 
         orders_query = api.get_open_orders("")
 

@@ -1,6 +1,8 @@
 import praw
 import json
 import requests
+from textblob import TextBlob
+import Trader.Utils as utils
 
 with open("reddit_secrets.json") as secrets_file:
     reddit_secrets = json.load(secrets_file)
@@ -12,15 +14,12 @@ reddit = praw.Reddit(client_id=reddit_secrets["client_id"], client_secret=reddit
 
 # Check to see OAuth worked
 print(str(reddit.user.me()) + '\n')
+
+
 # .hot(limit=25):
 
-# Print the first "limit" titles on r/cryptocurrency and print their sentiment
-for submission in reddit.subreddit('CryptoCurrency').hot(limit=25):
-    print(submission.title)
 
-    # for x in submission.comments:
-    #     print(x.body)
-
+def text_processing_com(s):
     r = requests.post("http://text-processing.com/api/sentiment/", data={'text': submission.title})
     processedText = json.loads(r.text)
 
@@ -38,9 +37,16 @@ for submission in reddit.subreddit('CryptoCurrency').hot(limit=25):
     print("Neutral " + str(neutral))
     print("Negative " + str(neg) + "\n")
 
+def nltk(s):
+    sentiment = TextBlob(s)
+    return sentiment.sentiment.polarity
 
 
 
+# Print the first "limit" titles on r/cryptocurrency and print their sentiment
+for submission in reddit.subreddit('CryptoCurrency').hot(limit=25):
+    print(submission.title)
+    print(nltk(submission.title))
 
-
-
+    # for x in submission.comments:
+    #     print(x.body)

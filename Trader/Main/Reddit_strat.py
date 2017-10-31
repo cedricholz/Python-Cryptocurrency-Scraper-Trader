@@ -23,7 +23,10 @@ class RedditStrat:
 
         self.coins_ranked_by_upvotes = ('CoinName', 0)
 
+        self.coins_ranked_by_upvotes_and_sentiment = ('CoinName', 0)
+
         self.initialize_reddit_coins()
+        self.mentioned_words = {}
 
     def reddit_buy_strat(self, total_bitcoin):
         coin_rank = 0
@@ -64,25 +67,42 @@ class RedditStrat:
         market_names['submissions'] = []
         utils.json_to_file(market_names, 'reddit_coins.json')
 
+    def add_to_words_coins(self, s, upvotes, created):
+        split_words = s.split()
+        for word in split_words:
+            if word not in self.mentioned_words:
+                self.mentioned_words[word] = [(s, upvotes, created)]
+            else:
+                self.mentioned_words[word].append((s, upvotes, created))
+
     def update_reddit_coins(self):
+        self.mentioned_words = {}
         reddit_coins = utils.file_to_json('reddit_coins.json')
         for submission in self.reddit_api.subreddit('CryptoCurrency').top('day'):
             if submission not in reddit_coins['submissions']:
+                self.add_to_words_coins(submission.title, submission.score, submission.created)
+
                 reddit_coins = self.find_mentions(submission.title, reddit_coins, str(submission), submission.created,
                                                   submission.score)
                 for comment in submission.comments:
                     reddit_coins = self.find_mentions(comment.body, reddit_coins, str(comment), comment.created,
                                                       comment.score)
+                    try:
+                        self.add_to_words_coins(comment.body, comment.score, comment.created)
+                    except:
+                        pass
             reddit_coins['submissions'].append(str(submission))
         utils.json_to_file(reddit_coins, 'reddit_coins.json')
         self.rank_by_mentions()
         self.rank_by_upvotes()
+        self.rank_by_upvotes_and_sentiment()
 
     def add_to_reddit_coin(self, reddit_coins, symbol, mentioned_id, mentioned_time, string, upvotes):
         reddit_coins[symbol]['mentioned_ids'].append(mentioned_id)
         reddit_coins[symbol]['mentioned_times'].append(mentioned_time)
         reddit_coins[symbol]['text'].append(string)
         reddit_coins[symbol]['upvotes'].append(upvotes)
+        reddit_coins[symbol]['sentiments'].append(utils.get_sentiment(string))
         return reddit_coins
 
     def find_mentions(self, string, reddit_coins, mentioned_id, mentioned_time, upvotes):
@@ -119,6 +139,23 @@ class RedditStrat:
         sorted_coins = sorted(ranked_coins.items(), key=operator.itemgetter(1), reverse=True)
         self.coins_ranked_by_mentions = sorted_coins
 
+    def rank_by_upvotes_and_sentiment(self):
+        reddit_coins = utils.file_to_json('reddit_coins.json')
+        del reddit_coins['submissions']
+        ranked_coins = {}
+
+        for coin in reddit_coins:
+            upvote_list = reddit_coins[coin]['upvotes']
+            sentiment_list = reddit_coins[coin]['sentiments']
+
+            rank = 0
+            for i in range(len(upvote_list)):
+                rank += upvote_list[i] * sentiment_list[i]
+                ranked_coins[coin] = rank
+
+        sorted_coins = sorted(ranked_coins.items(), key=operator.itemgetter(1), reverse=True)
+        self.coins_ranked_by_upvotes_and_sentiment = sorted_coins
+
     def rank_by_upvotes(self):
         reddit_coins = utils.file_to_json('reddit_coins.json')
         del reddit_coins['submissions']
@@ -148,18 +185,20 @@ class RedditStrat:
         t['cur_price'] = coin_info['Last']
         t['24h_change'] = utils.get_percent_change_24h(coin_info)
 
+
         top_coins[rank] = t
 
 
     def store_top_10_data(self):
-        most_upvoted = self.coins_ranked_by_upvotes
+        # most_upvoted = self.coins_ranked_by_upvotes
         # most_mentioned = self.coins_ranked_by_mentions
+        most_sentiment = self.coins_ranked_by_upvotes_and_sentiment
         reddit_coins = utils.file_to_json('reddit_coins.json')
         count = 10
         out_string = ""
         top_coins = {}
         rank = 0
-        for pair in most_upvoted:
+        for pair in most_sentiment:
             if count <= 0:
                 break
             count -= 1

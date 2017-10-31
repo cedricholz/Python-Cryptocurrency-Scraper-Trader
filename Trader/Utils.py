@@ -10,7 +10,7 @@ import re
 import traceback
 import praw
 import ftplib
-
+from textblob import TextBlob
 
 
 def file_to_json(filename):
@@ -171,6 +171,7 @@ def get_bittrex_market_names():
             t['mentioned_times'] = []
             t['text'] = []
             t['upvotes'] = []
+            t['sentiments'] = []
             coins[key] = t
     return coins
 
@@ -406,3 +407,7 @@ def get_reddit_api():
     return praw.Reddit(client_id=reddit_secrets["client_id"], client_secret=reddit_secrets["client_secret"],
                          password=reddit_secrets["password"], user_agent=reddit_secrets["user_agent"],
                          username=reddit_secrets["username"])
+
+def get_sentiment(s):
+    sentiment = TextBlob(s)
+    return sentiment.sentiment.polarity
