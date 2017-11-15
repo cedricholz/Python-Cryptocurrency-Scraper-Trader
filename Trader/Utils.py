@@ -91,8 +91,9 @@ def get_ranks(coinmarketcap_coins):
 def clear_and_write_to_file(filename, text):
     open(filename, 'w').close()
 
-    with open(filename, 'a') as myfile:
+    with open(filename, 'a', encoding="utf-8") as myfile:
         myfile.write(text)
+
 
 def print_and_write_to_logfile(log_text):
     if log_text is not None:

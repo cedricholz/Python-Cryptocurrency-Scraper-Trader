@@ -185,20 +185,18 @@ class RedditStrat:
         t['cur_price'] = coin_info['Last']
         t['24h_change'] = utils.get_percent_change_24h(coin_info)
 
-
         top_coins[rank] = t
 
-
     def store_top_10_data(self):
-        # most_upvoted = self.coins_ranked_by_upvotes
+        most_upvoted = self.coins_ranked_by_upvotes
         # most_mentioned = self.coins_ranked_by_mentions
-        most_sentiment = self.coins_ranked_by_upvotes_and_sentiment
+        # most_sentiment = self.coins_ranked_by_upvotes_and_sentiment
         reddit_coins = utils.file_to_json('reddit_coins.json')
         count = 10
         out_string = ""
         top_coins = {}
         rank = 0
-        for pair in most_sentiment:
+        for pair in most_upvoted:
             if count <= 0:
                 break
             count -= 1
@@ -225,4 +223,3 @@ class RedditStrat:
         # print(out_string)
         # utils.send_reddit_email(out_string)
         # utils.print_and_write_to_logfile(out_string)
-
