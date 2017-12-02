@@ -305,6 +305,7 @@ while True:
         #     update_pending_orders(orders)
 
         run_reddit_strat()
+        print("Reddit coins Updated")
         time.sleep(3600)
 
     except Exception as e:
