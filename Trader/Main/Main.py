@@ -292,18 +292,20 @@ while True:
         # run_keltner_strat()
         # run_percent_strat()
         # run_hodl_strat()
-        # run_reddit_strat()
-        run_buy_low_sell_high_strat()
+
+        # run_buy_low_sell_high_strat()
         # run_random_strat()
 
-        orders_query = api.get_open_orders("")
+        # orders_query = api.get_open_orders("")
+        #
+        # if orders_query['success']:
+        #     orders = orders_query['result']
+        #
+        #     clean_orders(orders)
+        #     update_pending_orders(orders)
 
-        if orders_query['success']:
-            orders = orders_query['result']
-
-            clean_orders(orders)
-            update_pending_orders(orders)
-
+        run_reddit_strat()
+        time.sleep(3600)
 
     except Exception as e:
         utils.print_and_write_to_logfile(traceback.format_exc())

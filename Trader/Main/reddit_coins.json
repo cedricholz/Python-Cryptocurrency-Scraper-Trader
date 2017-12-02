@@ -25,31 +25,11 @@
     },
     "ADA": {
         "full_name": "Ada",
-        "mentioned_ids": [
-            "dqn4pau",
-            "dqlk05v",
-            "dqmtv65"
-        ],
-        "mentioned_times": [
-            1512213422.0,
-            1512138971.0,
-            1512199657.0
-        ],
-        "sentiments": [
-            0.2380952380952381,
-            0.5,
-            0.06666666666666667
-        ],
-        "text": [
-            "Why is ADA only going up? I thought it was oke but not so special. After a couple of days I am no longer thinking it is a pump. What is so special about it?",
-            "Been looking at ADA and I\u2019m not convinced it\u2019s any better than ethereum. What makes you think it is?",
-            "> Beyond this, ADA cannot hide the fact that there is no tangible developments in place. At this point in time, the coin is simply vaporware. The mainnet is more of a litenet than anything, as none of the planned features are currently in place. In comparison to it\u2019s competitors, such as ETH, IOTA, NEO, and WAVES, ADA is seriously lacking in terms of framework. The team, which parades its \u201cglobal background\u201d, seems to be void of industry veterans and respected individuals within the crypto sphere.\n\nHard to disagree with that assessment. I think Cardano and it\u2019s team are very prominent and could have a future, but this 450% with no news with features not implemented means this coin is gonna fall hard. In a year that won\u2019t be the case since ADA will have a lot more stuff, I just think it\u2019s way overvalued with fewer features than IOTA, NEO, etc."
-        ],
-        "upvotes": [
-            3,
-            2,
-            5
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "ADT": {
         "full_name": "adToken",
@@ -69,21 +49,11 @@
     },
     "AEON": {
         "full_name": "Aeon",
-        "mentioned_ids": [
-            "dqmrtiq"
-        ],
-        "mentioned_times": [
-            1512197335.0
-        ],
-        "sentiments": [
-            0.05930555555555557
-        ],
-        "text": [
-            "I think privacy is a bit under-represented in your portfolio. 2018 is going to be the first year where quite a large group of people have to pay taxes on their financial gains through cryptocurrency. The community as a whole will gain a much larger awareness of the idea that your funds and transactions on standard blockchains are not at all hidden.\n\nI like a few privacy-oriented projects a lot now and for 2018:\n\n**XMR** - Big daddy in anonymous tech. The infrastructure is finally catching up to the network interest - hardware/mobile wallets, fiat exchanges, etc. Monero will be $1,000+ in 2018.\n\n**SUMO** - Monero's helpful little brother. SUMO is a Monero fork started in May 2017 that has shown a ton of progress and active development in a short timeframe. SUMO has already launched features like anonymous sub-addresses and anti-botnet code that have or will likely be added to Monero in the future. $2 million market cap right now. I expect that to grow quite a bit in 2018. [r/SumoCurrency](https://www.reddit.com/r/SumoCurrency/) [r/sumokoin](https://www.reddit.com/r/sumokoin/)\n\n**AEON** - Mobile Monero. I believe AEON is waiting on mobile technology to catch up before it really starts to see development and takes off, and 2018 might be the year that happens. I think AEON will grow slowly through 2018 and catch fire sometime later in the year. [r/AEON](https://www.reddit.com/r/aeon/)\n\n**HUSH** - HUSH is the only Zcash based coin I like long term. HUSH removed the founders reward present in most other Z-coins. They have an ambitious roadmap including secure messaging and counterparty + ethereum virtual machine integration into the platform. The developers build open source and remind me of other qualified open source teams like Monero's and Ark's. I expect HUSH to grow steadily in 2018 as pieces of the roadmap are completed. [r/myhush](https://www.reddit.com/r/Myhush)\n\n"
-        ],
-        "upvotes": [
-            3
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "AGRS": {
         "full_name": "IDNI Agoras",
@@ -127,131 +97,11 @@
     },
     "ARK": {
         "full_name": "Ark",
-        "mentioned_ids": [
-            "7gwtxg",
-            "dqmoyrl",
-            "dqmiya0",
-            "dqme3hw",
-            "dqmuef3",
-            "dqmytkj",
-            "dqmsjpp",
-            "7gv0um",
-            "dqlzb8l",
-            "dqmavr7",
-            "dqm0dmc",
-            "dqmylyq",
-            "dqln845",
-            "dqm2yqo",
-            "7gyu5e",
-            "dqmsl1s",
-            "dqmsmn0",
-            "dqn70xb",
-            "dqmsosb",
-            "dqmua5z",
-            "dqmul3t",
-            "dqna84k",
-            "dqmnbvp"
-        ],
-        "mentioned_times": [
-            1512180678.0,
-            1512194243.0,
-            1512188273.0,
-            1512183587.0,
-            1512200289.0,
-            1512205798.0,
-            1512198146.0,
-            1512164488.0,
-            1512169552.0,
-            1512180576.0,
-            1512170675.0,
-            1512205519.0,
-            1512146072.0,
-            1512173197.0,
-            1512198027.0,
-            1512198187.0,
-            1512198237.0,
-            1512216653.0,
-            1512198304.0,
-            1512200148.0,
-            1512200511.0,
-            1512221754.0,
-            1512192594.0
-        ],
-        "sentiments": [
-            0.0,
-            -0.06071428571428572,
-            0.4,
-            0.0,
-            0.0,
-            -0.3333333333333333,
-            -0.1875,
-            0.5,
-            0.3,
-            0.0,
-            -0.19999999999999998,
-            0.5,
-            0.07500000000000001,
-            0.14444444444444446,
-            0.0,
-            0.0,
-            0.4,
-            0.021875,
-            0.35,
-            0.14404761904761904,
-            0.0,
-            0.024116161616161612,
-            0.19353479853479855
-        ],
-        "text": [
-            "(ARK) Development of the ARK and Bitcoin Listeners Completed",
-            "So, am I right, that in the nearest future it would be possible to buy ARK for BTC with the Ark Ecosystem without any exchange? And some time letter it will be posstible to buy, for example, LTC with BTC using Ark Ecosystem? This is probably only a small part of marketplace, but it can change the rules of the game.",
-            "Ark will facilitate Atomic Swap marketplaces....Holy shit thats awesome..",
-            "will the already created listeners and services continue to work on ark core v2 when it\u2019s released? or do they need to be recreated?",
-            "Thank you to the Ark devs. No hype, just work, output, and results.\n\nLets go! \ud83d\ude80\ud83c\udf15",
-            "Ark is so undervalued it's ridiculous. Well done to the ACES team.",
-            "Another \"small question\". Please correct me if I'm wrong. The idea is that in the future it will be possible to buy something with price in fiat using Ark Ecosystem? For example, I have BTC and would like to buy something in Amazon for $. Will ARK allow to do this too?",
-            "ARK is now available on Yahoo! FInance",
-            "Hey! I met the ARK guys at HackPrinceton. They seem pretty cool.",
-            "ark sleeping giant",
-            "I'm so sad. I spent about $150 on Ark, put the decryption phrase in a text file, AES encrypted the file...and when I opened it again, the text file was blank. So now I'm locked out of my Ark wallet. I'm gonna be so salty if it shoots up.",
-            "ARK is probably the biggest technological advancement of this quarter. So glad to have 25% of my holdings in it.",
-            "Thoughts on ETH IOTA MOD REQ as long term holdings? Maybe ARK too.",
-            "i'm holding 11 coins, but BTC, LTC, and XMR make up 3/4s of my total portfolio.  1/2 of the remaining 25% is split evenly across 3 coins, OMG POWR, VTC. Ark takes a similar sized chunk out of the remaining 12.5%, with NEO, GRS, BTG (from the split), and XRP filling out the rest.\n\ni'd say just hold out and see what rises to the top, but personally i like to have some \"ballast\" with a few \"top tier\" (entirely subjective) coins making up most of the total value.",
-            "ARK or LTC",
-            "Ark ",
-            "ARK is nice because you can vote for any of the top 51 delegates and earn more ARK (passive income). Something similar to how holding NEO rewards you with GAS. ",
-            "BTC growth will probably outpace litecoin. Many are predicting 4-5x growth next year. \n\nArk will grow at a faster pace. They just established a business entity in EU, completed the Bitcoin listener and are soon releasing the mobile wallet. Next two quarters should see ark core 2.0 and ark VM which is when it'll start to explode. Additionally, the DPOS rewards are at 10% or something currently and over 60% of current supply is in wallets being stalked causing an increase in demand. I firmly believe ARK will 10x over the next year due to all these reasons.",
-            "I'd say both because LTC is fairly stable while Ark has potential for massive growth. Diversification is always good after all.",
-            "I don't dare predict price movements, but I'll just say what I have done. In order to \"retire\" from trading I wanted to just park all my crypto, like I had in ETH on its entire run up from single digit prices. I'm holding ARK long term and collecting the staking rewards, which for me right now equals about $800 local currency monthly. A really good traders profit for being \"retired\" I like to think. ",
-            "I'd go 70% Ark 30% LTC",
-            "Litecoin will wither when Bitcoin implements 2nd-layer scaling solutions...and if Bitcoin fails to do that, it'll go down hard, and Litecoin will wither under that circumstance, too.  All Litecoin is good for is riding Bitcoin's coattails and sweeping up those who are okay with BTC being a \"store of value\" that isn't functional as a transactional currency.  For now, speculation will keep driving it up, I'm holding some for that reason alone...but it's not a sound long-term play.\n\nARK is, IMO, somewhere between Ethereum and Ripple in terms of structure, ideology, and application.  SmartBridges, \"push-button\" blockchains for businesses, DPoS...its value will come from its utility in the services it provides to connect and deploy disparate blockchains.  DPoS incentivizes hodling, while SmartBridges could make the ARK coin a sort of universal blockchain token.  It's not really anyone's anarcho-capitalist revolution, but it strikes me as a better investment than a coin whose only claim to fame is being Bitcoin's cheeky little brother.",
-            "Mine? \n\nIota Ark and NEO \n\nBut they all need A LOT of work before they ascend.\n\nArk needs its Smart contract environment to be up and running, it needs to be connected to more coins than just eth (and btc now!), it needs to become what it claims to be (an entry point to consumers who want to create their own natively bridged chains) using push button blockchains, and they seriously need, once they get that set, to pivot on their marketing philosophy into well... actually marketing.\n\nIota needs a better wallet, it needs to be easier to add to exchanges and it needs to eliminate its last shreds of centralization by getting to a point where coordinator nodes are no longer needed.\n\nNeo\u2019s needs to decentralize as well, to allow what antshares originally promised (that \u201cshares\u201d or NEO coins as they\u2019re known now don\u2019t just generate gas but allow voting too). The rest is out of Neo\u2019s hands to some degree as they need China\u2019s government to get its ducks in a row and tell us just what the fuck their policy is going to be going forward.\n\nIf these three coins can actually achieve these things I see no reason why they won\u2019t have positions in the top 10 for a very long time.\n\nHonorable mention is Monero, I didn\u2019t include it because I already think it\u2019s a top coin along with Btc, eth, and ltc."
-        ],
-        "upvotes": [
-            271,
-            12,
-            6,
-            5,
-            5,
-            6,
-            1,
-            201,
-            19,
-            2,
-            2,
-            19,
-            5,
-            4,
-            12,
-            18,
-            7,
-            3,
-            2,
-            2,
-            2,
-            1,
-            12
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "AUR": {
         "full_name": "AuroraCoin",
@@ -311,21 +161,11 @@
     },
     "BLK": {
         "full_name": "BlackCoin",
-        "mentioned_ids": [
-            "dqmfjne"
-        ],
-        "mentioned_times": [
-            1512184968.0
-        ],
-        "sentiments": [
-            0.0
-        ],
-        "text": [
-            "Try Blackcoin for a truly decentralized experience. "
-        ],
-        "upvotes": [
-            -14
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "BLOCK": {
         "full_name": "BlockNet",
@@ -345,21 +185,11 @@
     },
     "BRK": {
         "full_name": "Breakout",
-        "mentioned_ids": [
-            "dqljx3c"
-        ],
-        "mentioned_times": [
-            1512138810.0
-        ],
-        "sentiments": [
-            0.0
-        ],
-        "text": [
-            "If this turns into a bullish flag breakout we could be headed to ~$12,500. https://imgur.com/a/KSEgm"
-        ],
-        "upvotes": [
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "BRX": {
         "full_name": "Breakout Stake",
@@ -395,21 +225,11 @@
     },
     "BTS": {
         "full_name": "BitShares",
-        "mentioned_ids": [
-            "dqmo83v"
-        ],
-        "mentioned_times": [
-            1512193499.0
-        ],
-        "sentiments": [
-            0.7
-        ],
-        "text": [
-            "Go decentralized - bitshares is good\n"
-        ],
-        "upvotes": [
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "BURST": {
         "full_name": "BURSTCoin",
@@ -517,92 +337,27 @@
     },
     "DASH": {
         "full_name": "Dash",
-        "mentioned_ids": [
-            "dqm2z89",
-            "dqlun58",
-            "dqn3yuf",
-            "dqm3bp9",
-            "dqmarkz",
-            "dqm9hdq"
-        ],
-        "mentioned_times": [
-            1512173210.0,
-            1512163636.0,
-            1512212440.0,
-            1512173536.0,
-            1512180465.0,
-            1512179258.0
-        ],
-        "sentiments": [
-            0.0,
-            0.1,
-            -0.039999999999999966,
-            0.2333333333333333,
-            -0.125,
-            0.6
-        ],
-        "text": [
-            "Would actually donate if they took dash or bch.",
-            "HUR DUR crypto won't be used for  real payment solution, the future is the utility of ledger technology hur der my dash hur der i can buy a house with bitcoin",
-            "Wow, I thought I had it bad because I sold 100 DASH in January this year.\nThis loss of $30K just from a reused address is absolutely unreal. I think it this happened to me, after all the emotional struggles I've been dealing with already, I think I'd really snap.",
-            "What's everyone's general sentiment on DASH and DCR? Is DCR a good long term HODL? Is Dash going to end up losing steam soon?",
-            "If you plan to hold through 2018 make sure you have some Dash and DRP.   \nYou won't be disappointed.",
-            "I hodl. I held onto DASH and it paid off nicely."
-        ],
-        "upvotes": [
-            2,
-            -1,
-            6,
-            1,
-            0,
-            2
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "DCR": {
         "full_name": "Decred",
-        "mentioned_ids": [
-            "7gygy5",
-            "dqn9y4i"
-        ],
-        "mentioned_times": [
-            1512194605.0,
-            1512221271.0
-        ],
-        "sentiments": [
-            0.375,
-            0.0
-        ],
-        "text": [
-            "Decred Rap - Original Governance - ft. Crypto Rap Up",
-            "IOTA, MONERO and tbd  possibly QTUM, KOMODO, LUNYR, DECRED or STATUS"
-        ],
-        "upvotes": [
-            30,
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "DCT": {
         "full_name": "DECENT",
-        "mentioned_ids": [
-            "dqm0mk6",
-            "dqlxguo"
-        ],
-        "mentioned_times": [
-            1512170926.0,
-            1512167500.0
-        ],
-        "sentiments": [
-            0.10833333333333334,
-            0.18194444444444446
-        ],
-        "text": [
-            "Hey Guys, Hope everyone is doing well! I came across this post recently and I wanted to throw a few questions around, and hopefully someone could guide me. So, My brother and I are interested in getting into the cryptocurrency world. And we have our eyes on bitcoin, ethereum, ripple, cardano. I was hoping someone could shed some light on what decent buys currently and how to actually purchase these things. I dont understand the hold wallet, or how to go about this just yet. So if anyone could give some advice or guidance, it would be greatly appreciated. thank you!",
-            "First time posting,\n\nWho's with me waiting for the real correction to hit? At what price do you have your buying orders and for what coin? \nI'm waiting for that cheap eth at 300-375 spread.\n\nI don't get how the market get's excited every time btc goes from 9.5 to 10.5. Wall's still intact. Zooming out you would expect 10.000 not to hold without an decent correction. Imo at least."
-        ],
-        "upvotes": [
-            3,
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "DGB": {
         "full_name": "Digibyte",
@@ -622,21 +377,11 @@
     },
     "DMD": {
         "full_name": "Diamond",
-        "mentioned_ids": [
-            "dqmeqqa"
-        ],
-        "mentioned_times": [
-            1512184205.0
-        ],
-        "sentiments": [
-            -0.3125
-        ],
-        "text": [
-            "Is there a masternode calculator?  Like if I wanted to jump in on the diamond level, what does the +20% mean?  What is the ROI to begin with?"
-        ],
-        "upvotes": [
-            3
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "DNT": {
         "full_name": "district0x",
@@ -760,111 +505,11 @@
     },
     "ETH": {
         "full_name": "Ethereum",
-        "mentioned_ids": [
-            "7gw3h1",
-            "7gwz9r",
-            "7gvr25",
-            "dqmn5pf",
-            "dqmaqk7",
-            "dqn2kia",
-            "dqlocrt",
-            "dqml8dr",
-            "dqmem4e",
-            "dqm4sv5",
-            "dqms36v",
-            "7gx3ms",
-            "dqmrtiq",
-            "dqm82yy",
-            "dqna84k",
-            "dqn8x3p",
-            "dqn2f17",
-            "dqmrr0r",
-            "7gx9dh"
-        ],
-        "mentioned_times": [
-            1512174563.0,
-            1512181916.0,
-            1512171565.0,
-            1512192420.0,
-            1512180438.0,
-            1512210631.0,
-            1512149060.0,
-            1512190501.0,
-            1512184085.0,
-            1512174929.0,
-            1512197637.0,
-            1512182946.0,
-            1512197335.0,
-            1512177958.0,
-            1512221754.0,
-            1512219518.0,
-            1512210437.0,
-            1512197257.0,
-            1512184278.0
-        ],
-        "sentiments": [
-            0.0,
-            0.1,
-            0.0,
-            0.2,
-            -0.0255952380952381,
-            0.8,
-            0.0,
-            0.0,
-            0.05,
-            -0.008333333333333331,
-            0.21666666666666667,
-            0.25,
-            0.05930555555555557,
-            0.11111111111111109,
-            0.024116161616161612,
-            0.10902777777777777,
-            0.39999999999999997,
-            0.38888888888888884,
-            0.3125
-        ],
-        "text": [
-            "Founders of Ethereum and Litecoin Warn that BitConnect is a Ponzi Scheme!",
-            "Crypto-bull Mike Novogratz Promotes Bitcoin, Ethereum and Alts To The Entire CNBC Fast Money Audience",
-            "Is Ethereum undervalued or overvalued in your opinion?",
-            "undervalued, the whole world is gonna be running on ethereum in 10 years",
-            "It depends if ETH plans to enter the payment business or not. Without it, I think it's hard for it to become a trillion dollar crypto. Even though Vitalik's vision is to focus on smart contracts, I see nothing is stopping it from entering the payment space. With proof of stake and Raiden in place, it will be far ahead of Bitcoin. On the other hand, no one seems to think of Ethereum as a method for day to day payment. Maybe it's the brand. ",
-            "Ethereum has competitors like ark.\n\nAnd a blockchain computer like eth/ark/anyone else are inherently in uncharted waters. No one knows who will win here.\n\nSo its risky and overvalued imo.",
-            "Some tasty ETH news today...\n\nFurther confirmation that Ethereum is the blockchain of the future.\n\nhttps://www.coindesk.com/world-computer-new-protocol-supercharge-ethereums-blockchain/",
-            "Can Ethereum help me quit smoking?",
-            "Sorry for the very noob question, but I am in fact a noob. Is Ethereum a worthwhile investement at this point, or should we be exclusively riding the wave of BTC? (Speaking as someone who recently bought BTC at 10k and has not bought any Ethereum. ",
-            "Re: Ethereum & Casper\n\nWhat happens to the blocks (and the transactions in them) on a forked chain that won't become the longest chain? Will the blockchain simply have one long chain with many small chains (that eventually end) attached at various blocks? If so, are those small forks still part of the 'blockchain' even though it not the longest chain?",
-            "Ethereum and Bitcoin are completely different and could easily coexist with eachother.",
-            "The first blockchain smartphone will come preloaded with mobile Ethereum client Status (SNT)",
-            "I think privacy is a bit under-represented in your portfolio. 2018 is going to be the first year where quite a large group of people have to pay taxes on their financial gains through cryptocurrency. The community as a whole will gain a much larger awareness of the idea that your funds and transactions on standard blockchains are not at all hidden.\n\nI like a few privacy-oriented projects a lot now and for 2018:\n\n**XMR** - Big daddy in anonymous tech. The infrastructure is finally catching up to the network interest - hardware/mobile wallets, fiat exchanges, etc. Monero will be $1,000+ in 2018.\n\n**SUMO** - Monero's helpful little brother. SUMO is a Monero fork started in May 2017 that has shown a ton of progress and active development in a short timeframe. SUMO has already launched features like anonymous sub-addresses and anti-botnet code that have or will likely be added to Monero in the future. $2 million market cap right now. I expect that to grow quite a bit in 2018. [r/SumoCurrency](https://www.reddit.com/r/SumoCurrency/) [r/sumokoin](https://www.reddit.com/r/sumokoin/)\n\n**AEON** - Mobile Monero. I believe AEON is waiting on mobile technology to catch up before it really starts to see development and takes off, and 2018 might be the year that happens. I think AEON will grow slowly through 2018 and catch fire sometime later in the year. [r/AEON](https://www.reddit.com/r/aeon/)\n\n**HUSH** - HUSH is the only Zcash based coin I like long term. HUSH removed the founders reward present in most other Z-coins. They have an ambitious roadmap including secure messaging and counterparty + ethereum virtual machine integration into the platform. The developers build open source and remind me of other qualified open source teams like Monero's and Ark's. I expect HUSH to grow steadily in 2018 as pieces of the roadmap are completed. [r/myhush](https://www.reddit.com/r/Myhush)\n\n",
-            "Why are you so high on NEO? Very few teams are developing on their platform and the network effects around Ethereum are strong. I don't see why we would have two winners in this category.",
-            "Litecoin will wither when Bitcoin implements 2nd-layer scaling solutions...and if Bitcoin fails to do that, it'll go down hard, and Litecoin will wither under that circumstance, too.  All Litecoin is good for is riding Bitcoin's coattails and sweeping up those who are okay with BTC being a \"store of value\" that isn't functional as a transactional currency.  For now, speculation will keep driving it up, I'm holding some for that reason alone...but it's not a sound long-term play.\n\nARK is, IMO, somewhere between Ethereum and Ripple in terms of structure, ideology, and application.  SmartBridges, \"push-button\" blockchains for businesses, DPoS...its value will come from its utility in the services it provides to connect and deploy disparate blockchains.  DPoS incentivizes hodling, while SmartBridges could make the ARK coin a sort of universal blockchain token.  It's not really anyone's anarcho-capitalist revolution, but it strikes me as a better investment than a coin whose only claim to fame is being Bitcoin's cheeky little brother.",
-            "If you're a relatively small-time investor looking to sink $100-$200 a month into a crypto portfolio, BTC is a bad idea; the exchange fees will eat your lunch.  ETH is a better bet and has almost as many trading pairs on exchanges as BTC does, so it's a great way to get into alts (I've yet to find an alt I like that I couldn't buy with ETH).  \n\nUnlike BTC, ETH also has a variety of use-cases supporting its value, not just speculation; Ethereum is a platform and ETH is a resource that must be spent to participate in that platform.  Beyond that, the Ethereum roadmap is exciting...transitioning to proof-of-stake, zk-SNARK integration for truly private and fungible transactions.  By some metrics the Ethereum blockchain also processes around 50% of all crypto transactions on a daily basis.  \n\nLTC is a good holding, too, as it's been on a slow but steady upward trajectory for a long time.  However, I'm not real bullish on it, because it's committed to being nothing more than a BTC epiphyte...it's not really trying to compete with BTC for anything and is only really useful if it can capitalize on BTC remaining slow and expensive to use.  Whenever BTC adopts Lightning Network, LTC will basically get kicked to the curb.\n\nBTC may keep appreciating, but the community is fragmented and seems to be focusing more energy on bad-mouthing Bitcoin Cash (BCH) than on solving their scaling issues.  I sold mine off around $8k and have no regrets, as the alts I exchanged it for have done much better over the same timeframe.  Ignore the fiat value of the coin and look at percentage gains.",
-            "No. \n\nBecause ethereum has competitors like ark.\n\nAnd a blockchain computer like eth/ark/anyone else are inherently in uncharted waters. No one knows who will win here.\n\nBut bitcoin has proven itself over last eight years. Its stable, and its not going anywhere. \n\nBitcoin is the best bet in the top ten cryptos. There could be better growing smaller cryptos, but you have to dig for them. ",
-            "Yeah, couldn't agree more with this assessment. I'd also add Bitcoin Cash, Bitcoin Gold, and Ethereum Classic as none of these deserve to be in the top 10.",
-            "The first blockchain smartphone will come preloaded with Ethereum client Status!"
-        ],
-        "upvotes": [
-            294,
-            120,
-            42,
-            6,
-            2,
-            1,
-            14,
-            3,
-            2,
-            1,
-            9,
-            17,
-            3,
-            -3,
-            1,
-            1,
-            -10,
-            0,
-            7
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "EXCL": {
         "full_name": "ExclusiveCoin",
@@ -892,21 +537,11 @@
     },
     "FCT": {
         "full_name": "Factom",
-        "mentioned_ids": [
-            "7gu5mp"
-        ],
-        "mentioned_times": [
-            1512152320.0
-        ],
-        "sentiments": [
-            0.0
-        ],
-        "text": [
-            "Factom (FCT) Getting attention in China."
-        ],
-        "upvotes": [
-            28
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "FLDC": {
         "full_name": "FoldingCoin",
@@ -1006,26 +641,11 @@
     },
     "GNT": {
         "full_name": "Golem",
-        "mentioned_ids": [
-            "dqm7ong",
-            "dqmoi84"
-        ],
-        "mentioned_times": [
-            1512177590.0,
-            1512193776.0
-        ],
-        "sentiments": [
-            0.3166666666666667,
-            0.0
-        ],
-        "text": [
-            "Seriously, this project is like way better than Golem or SONM(their closest competitors) and is waay undervalued imo. Go check it yourself, the team is great, they deliver on time and the market for what they are doing will be worth billions of dollars.",
-            "GNT is baeeee. Anyone using Golem applicably at Home / Work ?"
-        ],
-        "upvotes": [
-            5,
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "GOLOS": {
         "full_name": "Golos",
@@ -1149,87 +769,27 @@
     },
     "LSK": {
         "full_name": "Lisk",
-        "mentioned_ids": [
-            "dqmbb35"
-        ],
-        "mentioned_times": [
-            1512180981.0
-        ],
-        "sentiments": [
-            0.0
-        ],
-        "text": [
-            "So is LISK"
-        ],
-        "upvotes": [
-            -1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "LTC": {
         "full_name": "Litecoin",
-        "mentioned_ids": [
-            "7gw3h1",
-            "7gtswn",
-            "dqmjj6r",
-            "dqn2qm3",
-            "dqna84k",
-            "7gzlpl",
-            "dqmubn8"
-        ],
-        "mentioned_times": [
-            1512174563.0,
-            1512146581.0,
-            1512188843.0,
-            1512210848.0,
-            1512221754.0,
-            1512205615.0,
-            1512200197.0
-        ],
-        "sentiments": [
-            0.0,
-            0.0,
-            0.0,
-            0.5,
-            0.024116161616161612,
-            0.5,
-            -0.5
-        ],
-        "text": [
-            "Founders of Ethereum and Litecoin Warn that BitConnect is a Ponzi Scheme!",
-            "Litecoin has now been added to the LoMoStar app. Currently there is an airdrop for 1000 users to receive Litecoins",
-            "Can't even spell Litecoin correctly...",
-            "I just saw about/team page of ark.  most of its founders seem like business people. \n\nIts structured like a company. \n\nBut litecoin is not a company. Its modeled on bitcoin. \n\nI think world will prefer decentralized coins like litecoin/bitcoin as stores of value. \n\n\n",
-            "Litecoin will wither when Bitcoin implements 2nd-layer scaling solutions...and if Bitcoin fails to do that, it'll go down hard, and Litecoin will wither under that circumstance, too.  All Litecoin is good for is riding Bitcoin's coattails and sweeping up those who are okay with BTC being a \"store of value\" that isn't functional as a transactional currency.  For now, speculation will keep driving it up, I'm holding some for that reason alone...but it's not a sound long-term play.\n\nARK is, IMO, somewhere between Ethereum and Ripple in terms of structure, ideology, and application.  SmartBridges, \"push-button\" blockchains for businesses, DPoS...its value will come from its utility in the services it provides to connect and deploy disparate blockchains.  DPoS incentivizes hodling, while SmartBridges could make the ARK coin a sort of universal blockchain token.  It's not really anyone's anarcho-capitalist revolution, but it strikes me as a better investment than a coin whose only claim to fame is being Bitcoin's cheeky little brother.",
-            "Is it better to invest in Litecoin and/or Ether rather than Bitcoin at the moment?",
-            "Iota - not a fan of the coin, only the tech\n\nMonero - insane development\n\nVertcoin - decentralized Litecoin"
-        ],
-        "upvotes": [
-            294,
-            76,
-            16,
-            1,
-            1,
-            12,
-            4
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "LUN": {
         "full_name": "Lunyr",
-        "mentioned_ids": [
-            "dqlq0he"
-        ],
-        "mentioned_times": [
-            1512153703.0
-        ],
-        "sentiments": [
-            0.0
-        ],
-        "text": [
-            "this is why I invested in Lunyr"
-        ],
-        "upvotes": [
-            3
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "MAID": {
         "full_name": "MaidSafe",
@@ -1289,21 +849,11 @@
     },
     "MTL": {
         "full_name": "Metal",
-        "mentioned_ids": [
-            "dqlwufv"
-        ],
-        "mentioned_times": [
-            1512166748.0
-        ],
-        "sentiments": [
-            0.23714285714285713
-        ],
-        "text": [
-            "In Dec SALT releases their platform, and RCN releases their SDK.  If anyone wants a good investment for the month, go in on these two.  METAL is coming up on releasing their BETA and their full Platform in the next couple of months.  It should also go pretty high.  Their Alpha release last month drove it up to 160k sats."
-        ],
-        "upvotes": [
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "MUE": {
         "full_name": "MonetaryUnit",
@@ -1347,76 +897,11 @@
     },
     "NEO": {
         "full_name": "Neo",
-        "mentioned_ids": [
-            "dqn2g8c",
-            "dqmboby",
-            "dqlsuer",
-            "dqmkboq",
-            "dqmddjo",
-            "dqmsmn0",
-            "dqlxurf",
-            "dqmnbvp",
-            "dqn8ico",
-            "7gxifn",
-            "dqmhfyk",
-            "dqmmbl1"
-        ],
-        "mentioned_times": [
-            1512210479.0,
-            1512181325.0,
-            1512160542.0,
-            1512189615.0,
-            1512182909.0,
-            1512198237.0,
-            1512167948.0,
-            1512192594.0,
-            1512218857.0,
-            1512186398.0,
-            1512186795.0,
-            1512191590.0
-        ],
-        "sentiments": [
-            0.13636363636363635,
-            0.2861111111111111,
-            0.5,
-            0.0,
-            0.0732142857142857,
-            0.4,
-            0.19999999999999998,
-            0.19353479853479855,
-            0.2333333333333333,
-            0.0,
-            0.5,
-            0.24375
-        ],
-        "text": [
-            "Yeah I think I\u2019m done with Bittrex. All they have is shitcoins and they don\u2019t pay GAS on NEO in wallets. Binance is my new exchange for alts",
-            "People are starting to use Eth I think it's a great investment at the moment but I am a Neo fan so I know Neo preforms better than Eth but all it comes down too is who is planning to use it and Eth has a lot of people beginning to use it.",
-            "So between NEO and GAS, what is the better investment?",
-            "Why won't NEO climb out of this damn hole??  ",
-            "I would sell a good chunk of the NEO and pick up at least a little bit of Bitcoin Cash.\n\nI'm also way heavier in Ethereum.\n\nIt wouldn't hurt you to pick up some smaller stakes in a few more small-to-mid cap coins. You really only need one of them to work out to make up for the duds.",
-            "ARK is nice because you can vote for any of the top 51 delegates and earn more ARK (passive income). Something similar to how holding NEO rewards you with GAS. ",
-            "Mostly HODL.  I'll make some trades occasionally and try to strike gold like I did with NEO at $4 and $7 and VTC at $.52.  I mostly move profits to take on different risks such as MOD and REQ now.",
-            "Mine? \n\nIota Ark and NEO \n\nBut they all need A LOT of work before they ascend.\n\nArk needs its Smart contract environment to be up and running, it needs to be connected to more coins than just eth (and btc now!), it needs to become what it claims to be (an entry point to consumers who want to create their own natively bridged chains) using push button blockchains, and they seriously need, once they get that set, to pivot on their marketing philosophy into well... actually marketing.\n\nIota needs a better wallet, it needs to be easier to add to exchanges and it needs to eliminate its last shreds of centralization by getting to a point where coordinator nodes are no longer needed.\n\nNeo\u2019s needs to decentralize as well, to allow what antshares originally promised (that \u201cshares\u201d or NEO coins as they\u2019re known now don\u2019t just generate gas but allow voting too). The rest is out of Neo\u2019s hands to some degree as they need China\u2019s government to get its ducks in a row and tell us just what the fuck their policy is going to be going forward.\n\nIf these three coins can actually achieve these things I see no reason why they won\u2019t have positions in the top 10 for a very long time.\n\nHonorable mention is Monero, I didn\u2019t include it because I already think it\u2019s a top coin along with Btc, eth, and ltc.",
-            "Buy NEO, we are going to triple digits soon. A ton of ICOs starting on NEO in the near future. Many dapps now developing. This is the last chance in 2017 for making great investment. ",
-            "NEO monthly report: Decentralization coming and international marketing stepping up",
-            "Please help NEO get out of this hole.... :)",
-            "Yeah, you are spot on.  Not to mention the environmental impact of PoW.  Look into Proof of Stake coins like NEO or distributed PoS like ARK.  ETH is going to PoS eventually too.  It is far easier to be a block validator (miner), is way more environmentally friendly, and I believe it is the future of crypto."
-        ],
-        "upvotes": [
-            1,
-            0,
-            2,
-            1,
-            1,
-            7,
-            6,
-            12,
-            1,
-            8,
-            -1,
-            2
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "NEOS": {
         "full_name": "NeosCoin",
@@ -1524,21 +1009,11 @@
     },
     "PIVX": {
         "full_name": "Pivx",
-        "mentioned_ids": [
-            "dqmewst"
-        ],
-        "mentioned_times": [
-            1512184366.0
-        ],
-        "sentiments": [
-            0.0
-        ],
-        "text": [
-            "Where is your: Particl, PIVX and Golem?"
-        ],
-        "upvotes": [
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "PKB": {
         "full_name": "ParkByte",
@@ -1678,26 +1153,11 @@
     },
     "SALT": {
         "full_name": "Salt",
-        "mentioned_ids": [
-            "dqlwufv",
-            "7gzw4z"
-        ],
-        "mentioned_times": [
-            1512166748.0,
-            1512208889.0
-        ],
-        "sentiments": [
-            0.23714285714285713,
-            0.0
-        ],
-        "text": [
-            "In Dec SALT releases their platform, and RCN releases their SDK.  If anyone wants a good investment for the month, go in on these two.  METAL is coming up on releasing their BETA and their full Platform in the next couple of months.  It should also go pretty high.  Their Alpha release last month drove it up to 160k sats.",
-            "What is a Non-purpose Loan? \u2013 Salt Lending"
-        ],
-        "upvotes": [
-            1,
-            10
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "SBD": {
         "full_name": "SteemDollars",
@@ -1989,56 +1449,11 @@
     },
     "VTC": {
         "full_name": "Vertcoin",
-        "mentioned_ids": [
-            "7gy7jn",
-            "dqmun0d",
-            "dqmv3gf",
-            "7gy2k9",
-            "dqn2g7v",
-            "7guvdw",
-            "dqlyynj",
-            "dqn98yc"
-        ],
-        "mentioned_times": [
-            1512192328.0,
-            1512200572.0,
-            1512201115.0,
-            1512191133.0,
-            1512210478.0,
-            1512162763.0,
-            1512169169.0,
-            1512220067.0
-        ],
-        "sentiments": [
-            0.0,
-            0.2,
-            0.0,
-            0.4,
-            0.11388888888888887,
-            0.0,
-            0.0,
-            0.0
-        ],
-        "text": [
-            "How To Mine Vertcoin With One-Click Miner",
-            "I've always wanted to get into mining but overall it just seems like too much work for the return. Instead of buying say 4 GTX 1080s which are fantastic for mining Vertcoin you might as well put that about $1600 into Vertcoin instead. You'll probably see greater returns with the latter.  Unless you have a powerful enough setup that can melt windows. You really aren't doing that well. ",
-            "What's like the minimum setup you could have to mine vertcoin with?  I don't mind spending a bit of money cause I'm trying to buy some stuff anyways for WTC masternode mining.",
-            "Vertcoin Is Giving Away Free VTC all of December",
-            "If this is the December surprise I'm a little disappointed honestly. I have a fair bit of vertcoin but 2 people a day getting 5 coins is about $60 worth of giveaways, multiply by 31 that's about $1800 worth, relatively generous I suppose but not in any way major news. ",
-            "This is what it looks like when we mine Vertcoin",
-            "I dont understand I tried to mine on my gtx 10 and my calculations tell me I'd get 1/4th of a vertcoin in 24 hours. Thats under $2 and my costs are more than that. Am I doing something wrong? I've been following the official guide how to mine on the vertcoin website.",
-            "Ark, vertcoin and sparklecoin"
-        ],
-        "upvotes": [
-            94,
-            15,
-            6,
-            19,
-            0,
-            17,
-            5,
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "VTR": {
         "full_name": "vTorrent",
@@ -2074,21 +1489,11 @@
     },
     "XCP": {
         "full_name": "Counterparty",
-        "mentioned_ids": [
-            "dqmrtiq"
-        ],
-        "mentioned_times": [
-            1512197335.0
-        ],
-        "sentiments": [
-            0.05930555555555557
-        ],
-        "text": [
-            "I think privacy is a bit under-represented in your portfolio. 2018 is going to be the first year where quite a large group of people have to pay taxes on their financial gains through cryptocurrency. The community as a whole will gain a much larger awareness of the idea that your funds and transactions on standard blockchains are not at all hidden.\n\nI like a few privacy-oriented projects a lot now and for 2018:\n\n**XMR** - Big daddy in anonymous tech. The infrastructure is finally catching up to the network interest - hardware/mobile wallets, fiat exchanges, etc. Monero will be $1,000+ in 2018.\n\n**SUMO** - Monero's helpful little brother. SUMO is a Monero fork started in May 2017 that has shown a ton of progress and active development in a short timeframe. SUMO has already launched features like anonymous sub-addresses and anti-botnet code that have or will likely be added to Monero in the future. $2 million market cap right now. I expect that to grow quite a bit in 2018. [r/SumoCurrency](https://www.reddit.com/r/SumoCurrency/) [r/sumokoin](https://www.reddit.com/r/sumokoin/)\n\n**AEON** - Mobile Monero. I believe AEON is waiting on mobile technology to catch up before it really starts to see development and takes off, and 2018 might be the year that happens. I think AEON will grow slowly through 2018 and catch fire sometime later in the year. [r/AEON](https://www.reddit.com/r/aeon/)\n\n**HUSH** - HUSH is the only Zcash based coin I like long term. HUSH removed the founders reward present in most other Z-coins. They have an ambitious roadmap including secure messaging and counterparty + ethereum virtual machine integration into the platform. The developers build open source and remind me of other qualified open source teams like Monero's and Ark's. I expect HUSH to grow steadily in 2018 as pieces of the roadmap are completed. [r/myhush](https://www.reddit.com/r/Myhush)\n\n"
-        ],
-        "upvotes": [
-            3
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "XDN": {
         "full_name": "DigitalNote",
@@ -2116,21 +1521,11 @@
     },
     "XLM": {
         "full_name": "Lumen",
-        "mentioned_ids": [
-            "dqmpcl8"
-        ],
-        "mentioned_times": [
-            1512194647.0
-        ],
-        "sentiments": [
-            0.255
-        ],
-        "text": [
-            "Iota - Very promising technology  \n\nRipple - I believe in the company and in the power of the banks   \n\nStellar Lumen - I believe in the company and its vision   "
-        ],
-        "upvotes": [
-            4
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "XMG": {
         "full_name": "Magi",
@@ -2142,26 +1537,11 @@
     },
     "XMR": {
         "full_name": "Monero",
-        "mentioned_ids": [
-            "dqmrtiq",
-            "dqn9y4i"
-        ],
-        "mentioned_times": [
-            1512197335.0,
-            1512221271.0
-        ],
-        "sentiments": [
-            0.05930555555555557,
-            0.0
-        ],
-        "text": [
-            "I think privacy is a bit under-represented in your portfolio. 2018 is going to be the first year where quite a large group of people have to pay taxes on their financial gains through cryptocurrency. The community as a whole will gain a much larger awareness of the idea that your funds and transactions on standard blockchains are not at all hidden.\n\nI like a few privacy-oriented projects a lot now and for 2018:\n\n**XMR** - Big daddy in anonymous tech. The infrastructure is finally catching up to the network interest - hardware/mobile wallets, fiat exchanges, etc. Monero will be $1,000+ in 2018.\n\n**SUMO** - Monero's helpful little brother. SUMO is a Monero fork started in May 2017 that has shown a ton of progress and active development in a short timeframe. SUMO has already launched features like anonymous sub-addresses and anti-botnet code that have or will likely be added to Monero in the future. $2 million market cap right now. I expect that to grow quite a bit in 2018. [r/SumoCurrency](https://www.reddit.com/r/SumoCurrency/) [r/sumokoin](https://www.reddit.com/r/sumokoin/)\n\n**AEON** - Mobile Monero. I believe AEON is waiting on mobile technology to catch up before it really starts to see development and takes off, and 2018 might be the year that happens. I think AEON will grow slowly through 2018 and catch fire sometime later in the year. [r/AEON](https://www.reddit.com/r/aeon/)\n\n**HUSH** - HUSH is the only Zcash based coin I like long term. HUSH removed the founders reward present in most other Z-coins. They have an ambitious roadmap including secure messaging and counterparty + ethereum virtual machine integration into the platform. The developers build open source and remind me of other qualified open source teams like Monero's and Ark's. I expect HUSH to grow steadily in 2018 as pieces of the roadmap are completed. [r/myhush](https://www.reddit.com/r/Myhush)\n\n",
-            "IOTA, MONERO and tbd  possibly QTUM, KOMODO, LUNYR, DECRED or STATUS"
-        ],
-        "upvotes": [
-            3,
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "XMY": {
         "full_name": "Myriad",
@@ -2173,26 +1553,11 @@
     },
     "XRP": {
         "full_name": "Ripple",
-        "mentioned_ids": [
-            "dqmmj98",
-            "dqna84k"
-        ],
-        "mentioned_times": [
-            1512191803.0,
-            1512221754.0
-        ],
-        "sentiments": [
-            0.19126984126984126,
-            0.024116161616161612
-        ],
-        "text": [
-            "What do you all think of Ripple? People think just because it is not volatile and does not have jumps that it is not a great company to invest in. I totally disagree. The way ripple does business, by working with banks, they need a steady price, because increased volatility means more risk which means a higher cost of doing business. That is why I think ripple is such a safe bet to hedge riskier bets because 1.) very smart and legit execs on their team 2.) many top banking clients worldwide 3.) they are looking for value and steady growth, not a quick buck. Thoughts?",
-            "Litecoin will wither when Bitcoin implements 2nd-layer scaling solutions...and if Bitcoin fails to do that, it'll go down hard, and Litecoin will wither under that circumstance, too.  All Litecoin is good for is riding Bitcoin's coattails and sweeping up those who are okay with BTC being a \"store of value\" that isn't functional as a transactional currency.  For now, speculation will keep driving it up, I'm holding some for that reason alone...but it's not a sound long-term play.\n\nARK is, IMO, somewhere between Ethereum and Ripple in terms of structure, ideology, and application.  SmartBridges, \"push-button\" blockchains for businesses, DPoS...its value will come from its utility in the services it provides to connect and deploy disparate blockchains.  DPoS incentivizes hodling, while SmartBridges could make the ARK coin a sort of universal blockchain token.  It's not really anyone's anarcho-capitalist revolution, but it strikes me as a better investment than a coin whose only claim to fame is being Bitcoin's cheeky little brother."
-        ],
-        "upvotes": [
-            2,
-            1
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "XST": {
         "full_name": "StealthCoin",
@@ -2244,21 +1609,11 @@
     },
     "ZEC": {
         "full_name": "Zcash",
-        "mentioned_ids": [
-            "dqmrtiq"
-        ],
-        "mentioned_times": [
-            1512197335.0
-        ],
-        "sentiments": [
-            0.05930555555555557
-        ],
-        "text": [
-            "I think privacy is a bit under-represented in your portfolio. 2018 is going to be the first year where quite a large group of people have to pay taxes on their financial gains through cryptocurrency. The community as a whole will gain a much larger awareness of the idea that your funds and transactions on standard blockchains are not at all hidden.\n\nI like a few privacy-oriented projects a lot now and for 2018:\n\n**XMR** - Big daddy in anonymous tech. The infrastructure is finally catching up to the network interest - hardware/mobile wallets, fiat exchanges, etc. Monero will be $1,000+ in 2018.\n\n**SUMO** - Monero's helpful little brother. SUMO is a Monero fork started in May 2017 that has shown a ton of progress and active development in a short timeframe. SUMO has already launched features like anonymous sub-addresses and anti-botnet code that have or will likely be added to Monero in the future. $2 million market cap right now. I expect that to grow quite a bit in 2018. [r/SumoCurrency](https://www.reddit.com/r/SumoCurrency/) [r/sumokoin](https://www.reddit.com/r/sumokoin/)\n\n**AEON** - Mobile Monero. I believe AEON is waiting on mobile technology to catch up before it really starts to see development and takes off, and 2018 might be the year that happens. I think AEON will grow slowly through 2018 and catch fire sometime later in the year. [r/AEON](https://www.reddit.com/r/aeon/)\n\n**HUSH** - HUSH is the only Zcash based coin I like long term. HUSH removed the founders reward present in most other Z-coins. They have an ambitious roadmap including secure messaging and counterparty + ethereum virtual machine integration into the platform. The developers build open source and remind me of other qualified open source teams like Monero's and Ark's. I expect HUSH to grow steadily in 2018 as pieces of the roadmap are completed. [r/myhush](https://www.reddit.com/r/Myhush)\n\n"
-        ],
-        "upvotes": [
-            3
-        ]
+        "mentioned_ids": [],
+        "mentioned_times": [],
+        "sentiments": [],
+        "text": [],
+        "upvotes": []
     },
     "ZEN": {
         "full_name": "Zencash",
@@ -2268,106 +1623,5 @@
         "text": [],
         "upvotes": []
     },
-    "submissions": [
-        "7gwj9n",
-        "7guo99",
-        "7gtb08",
-        "7gvcq0",
-        "7gw3h1",
-        "7gwtxg",
-        "7gzpgk",
-        "7gwl38",
-        "7gv0um",
-        "7gv1zp",
-        "7gyqar",
-        "7gxdx8",
-        "7gv7nt",
-        "7guuro",
-        "7gw8v0",
-        "7gwz9r",
-        "7gw6fz",
-        "7gwtuc",
-        "7gy7jn",
-        "7gzg9b",
-        "7gudmi",
-        "7gtswn",
-        "7gxbrg",
-        "7gxecq",
-        "7guv2l",
-        "7gvb7z",
-        "7gublm",
-        "7gygzv",
-        "7gvlww",
-        "7gu9oo",
-        "7gvmwq",
-        "7gvujj",
-        "7gu4mx",
-        "7gty1n",
-        "7gywnn",
-        "7gxbli",
-        "7gvr25",
-        "7gyiko",
-        "7gvonq",
-        "7gw6gk",
-        "7gt4bk",
-        "7gygy5",
-        "7gv3pu",
-        "7gu5mp",
-        "7gwenz",
-        "7gvlcg",
-        "7gzov7",
-        "7gxai1",
-        "7gzabx",
-        "7gx9ow",
-        "7gv6sv",
-        "7gzj9g",
-        "7gvax8",
-        "7h0lxo",
-        "7gy0hu",
-        "7gy2k9",
-        "7gx3ms",
-        "7gvqzm",
-        "7guvdw",
-        "7gypn7",
-        "7gw8qq",
-        "7gvprq",
-        "7gv5mi",
-        "7gt602",
-        "7gz4ms",
-        "7gwdwc",
-        "7guow8",
-        "7gyu5e",
-        "7gxusd",
-        "7gveoa",
-        "7guhi2",
-        "7gzlpl",
-        "7gyun1",
-        "7gx11e",
-        "7gvkuf",
-        "7gv2yd",
-        "7guyv7",
-        "7gzsit",
-        "7gyf74",
-        "7gy1ln",
-        "7gwpor",
-        "7gv9ao",
-        "7gv3ee",
-        "7gzqew",
-        "7gz1t8",
-        "7gxx5z",
-        "7gxt8w",
-        "7gwnh2",
-        "7gud99",
-        "7gt409",
-        "7gzw4z",
-        "7gzezm",
-        "7gxp8x",
-        "7gxifn",
-        "7gx9s2",
-        "7gx9dh",
-        "7gvovq",
-        "7gvfzv",
-        "7h0kxr",
-        "7gxukf"
-    ]
+    "submissions": []
 }
