@@ -118,13 +118,16 @@ class RedditStrat:
                 symbols_and_names_map[symbol] = symbol
                 full_name = reddit_coins[symbol]['full_name'].lower()
                 symbols_and_names_map[full_name] = symbol
-
+        already_seen = set()
         for word in string.split(" "):
             lower_case_word = word.lower()
             if lower_case_word in symbols_and_names_map:
-                reddit_coins = self.add_to_reddit_coin(reddit_coins, symbols_and_names_map[lower_case_word], mentioned_id,
-                                                       mentioned_time, string,
-                                                       upvotes)
+                if lower_case_word not in already_seen and symbols_and_names_map[lower_case_word] not in lower_case_word:
+                    reddit_coins = self.add_to_reddit_coin(reddit_coins, symbols_and_names_map[lower_case_word], mentioned_id,
+                                                           mentioned_time, string,
+                                                           upvotes)
+                already_seen.add(lower_case_word)
+                already_seen.add(symbols_and_names_map[lower_case_word])
         reddit_coins['submissions'] = submissions
         return reddit_coins
 
@@ -186,15 +189,15 @@ class RedditStrat:
         top_coins[rank] = t
 
     def store_top_10_data(self):
-        most_upvoted = self.coins_ranked_by_upvotes
-        # most_mentioned = self.coins_ranked_by_mentions
+        # most_upvoted = self.coins_ranked_by_upvotes
+        most_mentioned = self.coins_ranked_by_mentions
         # most_sentiment = self.coins_ranked_by_upvotes_and_sentiment
         reddit_coins = utils.file_to_json('reddit_coins.json')
         count = 10
         out_string = ""
         top_coins = {}
         rank = 0
-        for pair in most_upvoted:
+        for pair in most_mentioned:
             if count <= 0:
                 break
             count -= 1

@@ -307,5 +307,3 @@ while True:
 
     except Exception as e:
         utils.print_and_write_to_logfile(traceback.format_exc())
-
-    print("donezo")

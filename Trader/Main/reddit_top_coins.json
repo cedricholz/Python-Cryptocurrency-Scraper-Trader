@@ -1,52 +1,52 @@
 {
     "0": {
-        "24h_change": -3.6753590325019014,
-        "cur_price": 0.00030585,
+        "24h_change": -5.261359754014339,
+        "cur_price": 0.00030503,
         "market": "BTC-ARK"
     },
     "1": {
-        "24h_change": -4.23844061650045,
-        "cur_price": 0.04225,
+        "24h_change": -4.246754929069285,
+        "cur_price": 0.0423555,
         "market": "BTC-ETH"
     },
     "2": {
-        "24h_change": 5.766292072489865,
-        "cur_price": 0.00914999,
-        "market": "BTC-LTC"
+        "24h_change": -6.964617983507193,
+        "cur_price": 0.00521,
+        "market": "BTC-DCR"
     },
     "3": {
-        "24h_change": 7.267601638268828,
-        "cur_price": 0.000605,
+        "24h_change": 9.654839919290037,
+        "cur_price": 0.0006141,
         "market": "BTC-VTC"
     },
     "4": {
-        "24h_change": -9.75499368028303,
-        "cur_price": 0.0032701,
+        "24h_change": -8.157547884124616,
+        "cur_price": 0.00327501,
         "market": "BTC-NEO"
     },
     "5": {
-        "24h_change": -4.430634072231054,
-        "cur_price": 0.00520854,
-        "market": "BTC-DCR"
+        "24h_change": 7.628361801841654,
+        "cur_price": 0.00934,
+        "market": "BTC-LTC"
     },
     "6": {
-        "24h_change": -7.169059940982859,
-        "cur_price": 0.00207,
-        "market": "BTC-FCT"
-    },
-    "7": {
-        "24h_change": 1.6722408026755842,
-        "cur_price": 1.216e-05,
+        "24h_change": 1.1774600504625754,
+        "cur_price": 1.203e-05,
         "market": "BTC-ADA"
     },
+    "7": {
+        "24h_change": -5.779612575420767,
+        "cur_price": 2.967e-05,
+        "market": "BTC-GNT"
+    },
     "8": {
-        "24h_change": -2.511181349904157,
-        "cur_price": 0.01724158,
-        "market": "BTC-XMR"
+        "24h_change": -9.882243998688677,
+        "cur_price": 0.0704,
+        "market": "BTC-DASH"
     },
     "9": {
-        "24h_change": -9.231173469387743,
-        "cur_price": 0.07116276,
-        "market": "BTC-DASH"
+        "24h_change": 16.365979381443285,
+        "cur_price": 9.03e-06,
+        "market": "BTC-XLM"
     }
 }
