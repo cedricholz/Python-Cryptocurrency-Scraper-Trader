@@ -1,997 +1,421 @@
-﻿*********************** VTC ***********************
-1544 : 09:58:47 11/14/2017 : What is Vertcoin? A very informative infographic!
+*********************** ARK ***********************
+268 : 18:11:18 12/01/2017 : (ARK) Development of the ARK and Bitcoin Listeners Completed
 
-142 : 13:23:36 11/14/2017 : Genuine question: what does vertcoin have going for it that monero isn’t doing as well or better?
+202 : 13:41:28 12/01/2017 : ARK is now available on Yahoo! FInance
 
-111 : 21:59:30 11/14/2017 : Hey guys, Vertcoin Dev here. There’s no doubt that our community can get a little...excited about VTC and go a bit overboard with the posting on r/cryptocurrency. We’ve seen this happening over the past few months and have kindly asked them to tone it down. Our recent jump in price also has also brought a lot of new people to Vertcoin and they seem to be just as excited to share.
+18 : 23:03:07 12/01/2017 : Ark 
 
-One thing I’d like to clear up is that these posts and shills are not representative our our coin or larger community. We pride ourselves with that claim that we have one of the best communities in crypto and we truly believe it. We’ll continue to do our best to work with our community, but I just ask all of you judge Vertcoin objectively by its philosophy & technology and not by a few posts in a subreddit.
+17 : 15:05:52 12/01/2017 : Hey! I met the ARK guys at HackPrinceton. They seem pretty cool.
 
-Thanks!
+14 : 21:57:23 12/01/2017 : So, am I right, that in the nearest future it would be possible to buy ARK for BTC with the Ark Ecosystem without any exchange? And some time letter it will be posstible to buy, for example, LTC with BTC using Ark Ecosystem? This is probably only a small part of marketplace, but it can change the rules of the game.
 
+14 : 21:57:23 12/01/2017 : So, am I right, that in the nearest future it would be possible to buy ARK for BTC with the Ark Ecosystem without any exchange? And some time letter it will be posstible to buy, for example, LTC with BTC using Ark Ecosystem? This is probably only a small part of marketplace, but it can change the rules of the game.
 
-67 : 15:58:02 11/14/2017 : Is shilling successful enough to be worth the backlash? (e.g., Vertcoin hype)
+14 : 21:57:23 12/01/2017 : So, am I right, that in the nearest future it would be possible to buy ARK for BTC with the Ark Ecosystem without any exchange? And some time letter it will be posstible to buy, for example, LTC with BTC using Ark Ecosystem? This is probably only a small part of marketplace, but it can change the rules of the game.
 
-61 : 15:07:06 11/14/2017 : It is a nice infographic but reactions seem to be calling OP a shill for communism or that vertcoin "don't know shit about economy". Much hate for an honest cryptocurrency here. 
+14 : 01:05:19 12/02/2017 : ARK is probably the biggest technological advancement of this quarter. So glad to have 25% of my holdings in it.
 
-51 : 14:21:23 11/14/2017 : dont own any vertcoin, but this kind of passion and quality design, you just have to respect!
+14 : 21:29:54 12/01/2017 : Mine? 
 
-38 : 09:59:15 11/14/2017 : Saw there was a need for some graphic propaganda, so I picked the infos here and there and made this. I hope it will help spreading the message!
+Iota Ark and NEO 
 
-36 : 16:04:14 11/14/2017 : The Vertcoin downvote brigade is insane.
+But they all need A LOT of work before they ascend.
 
-20 : 16:56:39 11/14/2017 : VTC is the hero we have been waiting for
+Ark needs its Smart contract environment to be up and running, it needs to be connected to more coins than just eth (and btc now!), it needs to become what it claims to be (an entry point to consumers who want to create their own natively bridged chains) using push button blockchains, and they seriously need, once they get that set, to pivot on their marketing philosophy into well... actually marketing.
 
-20 : 16:00:22 11/14/2017 : Good post and point. Vertcoin is a great coin but the shilling was pretty gross. It does seem as if the discussion around vertcoin has become more intelligent and less TO THE MOON ROFL which is great
+Iota needs a better wallet, it needs to be easier to add to exchanges and it needs to eliminate its last shreds of centralization by getting to a point where coordinator nodes are no longer needed.
 
-19 : 13:48:04 11/14/2017 : Great info graphic, but I need some answers after reading it. 
+Neo’s needs to decentralize as well, to allow what antshares originally promised (that “shares” or NEO coins as they’re known now don’t just generate gas but allow voting too). The rest is out of Neo’s hands to some degree as they need China’s government to get its ducks in a row and tell us just what the fuck their policy is going to be going forward.
 
-1. Is a segwit good selling point? So far I only hear that it breaks 0-conf transactions and reduces security in Bitcoin. Could someone elaborate on the topic? 
+If these three coins can actually achieve these things I see no reason why they won’t have positions in the top 10 for a very long time.
 
-2. Could anyone compare Vertcoin privacy to Monero? Are there any major differences? 
+Honorable mention is Monero, I didn’t include it because I already think it’s a top coin along with Btc, eth, and ltc.
 
-14 : 19:01:42 11/14/2017 : I've been debating this internally lately.  I own some VTC.  Got in at a great price and planned on holding long-term.  But the more shilling I see, the more I wonder if the price bumps are a result of echo-chamber hype or actual buy-in from the community.
+13 : 23:00:27 12/01/2017 : ARK or LTC
 
-Currently I'm sticking to my plan as a long hodl.  I agree with others here that say the community aspect of the coin naturally brings more excitement among people on messages boards.  
+8 : 20:17:53 12/01/2017 : Ark will facilitate Atomic Swap marketplaces....Holy shit thats awesome..
 
-I'm keeping my eye on things though.  I think OP raises a good point.
+8 : 23:03:57 12/01/2017 : ARK is nice because you can vote for any of the top 51 delegates and earn more ARK (passive income). Something similar to how holding NEO rewards you with GAS. 
 
-14 : 09:19:39 11/14/2017 : I hope NAV will implement Atomic Swaps soon. Then there would be no reason for Vertcoin imo.
+8 : 23:03:57 12/01/2017 : ARK is nice because you can vote for any of the top 51 delegates and earn more ARK (passive income). Something similar to how holding NEO rewards you with GAS. 
 
-12 : 08:41:03 11/14/2017 : Yeah, the other day, I was specifically trying to find cons, and couldn't find any compelling ones. I could for other somewhat similar coins, like Vertcoin and Monero, which I'm invested in, but NAV just seems very undervalued for what it is.
+6 : 18:59:47 12/01/2017 : will the already created listeners and services continue to work on ark core v2 when it’s released? or do they need to be recreated?
 
-11 : 16:01:54 11/14/2017 : If I’m being honest, I try and identify obvious shill campaigns early so I can get in and get out quick. Easy money. 
+5 : 23:38:09 12/01/2017 : Thank you to the Ark devs. No hype, just work, output, and results.
 
-Either way the results speak for themselves, VTC has gone up and stayed up. That being said, VTC isn’t a bad coin and might actually deserve it. 
+Lets go! 🚀🌕
 
-But yeah, the shilling is super gross. But it’s just one of a dozen seedy things about crypto right now anyway. 
+5 : 01:09:58 12/02/2017 : Ark is so undervalued it's ridiculous. Well done to the ACES team.
 
-11 : 16:02:14 11/14/2017 : Have you research about Vertcoin to try to understand why are people so passionate about Vertcoin? Vertcoin gives back the power to the people. Simple as that. That's why I love Vertcoin over any other coin. And I don't believe Vertcoin has a get rich quick scheme like ethereum did back in the day or like ripple does. Vertcoin to me has fundamentals, it is fair and decentralized. There is really not a reason to hate it.
+5 : 08:34:32 12/01/2017 : Thoughts on ETH IOTA MOD REQ as long term holdings? Maybe ARK too.
 
-11 : 16:40:34 11/14/2017 : I️ like this too. The only one I’m not sure about is VTC for 20%
+4 : 16:06:37 12/01/2017 : i'm holding 11 coins, but BTC, LTC, and XMR make up 3/4s of my total portfolio.  1/2 of the remaining 25% is split evenly across 3 coins, OMG POWR, VTC. Ark takes a similar sized chunk out of the remaining 12.5%, with NEO, GRS, BTG (from the split), and XRP filling out the rest.
 
-9 : 20:15:52 11/14/2017 : Long Term you should have ETH.
+i'd say just hold out and see what rises to the top, but personally i like to have some "ballast" with a few "top tier" (entirely subjective) coins making up most of the total value.
 
-If you go by %:
+3 : 18:09:36 12/01/2017 : ark sleeping giant
 
-25% BTC
-25% ETH
-10% XMR
+3 : 04:10:53 12/02/2017 : BTC growth will probably outpace litecoin. Many are predicting 4-5x growth next year. 
 
-Long term these 3 will get you the better results. (if crypto keeps growing ofc)
+Ark will grow at a faster pace. They just established a business entity in EU, completed the Bitcoin listener and are soon releasing the mobile wallet. Next two quarters should see ark core 2.0 and ark VM which is when it'll start to explode. Additionally, the DPOS rewards are at 10% or something currently and over 60% of current supply is in wallets being stalked causing an increase in demand. I firmly believe ARK will 10x over the next year due to all these reasons.
 
-Now the alt coins... that's up to you. If I had to advise something maybe. 10% VTC, 10% LTC, 10% NEO, 5% ARK, 5% LSK
+3 : 04:10:53 12/02/2017 : BTC growth will probably outpace litecoin. Many are predicting 4-5x growth next year. 
 
-8 : 17:17:18 11/14/2017 : EXCUSE ME HAVE YOU HEARD ABOUT OUR LORD AND SAVIOR VERTCOIN THIS HOUR?
+Ark will grow at a faster pace. They just established a business entity in EU, completed the Bitcoin listener and are soon releasing the mobile wallet. Next two quarters should see ark core 2.0 and ark VM which is when it'll start to explode. Additionally, the DPOS rewards are at 10% or something currently and over 60% of current supply is in wallets being stalked causing an increase in demand. I firmly believe ARK will 10x over the next year due to all these reasons.
 
-7 : 23:20:41 11/14/2017 : Just hiding transaction amounts is not anonymous. You still can see who sent to whom and how much someone owns. 
-If John owns 10 LTC and a few hours later after selling his drugs on a DNM he owns 11 LTC, and Jim did a Confidential transaction to John, it’s easy to know that Jim sent 1 LTC to John. 
-This is just a small confidentiality bonus and it isn’t even default.
+3 : 04:10:53 12/02/2017 : BTC growth will probably outpace litecoin. Many are predicting 4-5x growth next year. 
 
-IMHO Litecoin is endangered by Vertcoin. But I appreciate both currencies. 
+Ark will grow at a faster pace. They just established a business entity in EU, completed the Bitcoin listener and are soon releasing the mobile wallet. Next two quarters should see ark core 2.0 and ark VM which is when it'll start to explode. Additionally, the DPOS rewards are at 10% or something currently and over 60% of current supply is in wallets being stalked causing an increase in demand. I firmly believe ARK will 10x over the next year due to all these reasons.
 
-6 : 17:08:38 11/14/2017 : As someone with very little experience and knowledge in the cryptocurrency arena, is this a viable currency for beginners to get in on? 
+2 : 15:24:35 12/01/2017 : I'm so sad. I spent about $150 on Ark, put the decryption phrase in a text file, AES encrypted the file...and when I opened it again, the text file was blank. So now I'm locked out of my Ark wallet. I'm gonna be so salty if it shoots up.
 
-Reason I ask is, everything I've read about mining bitcoin is don't unless you have a self sustaining solar farm of 700 dedicated rigs mining 24/7. Is vertcoin a legitimate, self mineable solution?
+2 : 23:05:04 12/01/2017 : I'd say both because LTC is fairly stable while Ark has potential for massive growth. Diversification is always good after all.
 
-If anyone has any information, or can point me to some literature or a beginners guide, I would appreciate it. 
+2 : 23:35:48 12/01/2017 : I don't dare predict price movements, but I'll just say what I have done. In order to "retire" from trading I wanted to just park all my crypto, like I had in ETH on its entire run up from single digit prices. I'm holding ARK long term and collecting the staking rewards, which for me right now equals about $800 local currency monthly. A really good traders profit for being "retired" I like to think. 
 
-6 : 21:12:13 11/14/2017 : You might be misattributing the boost in VTC value to the shilling campaigns. consider how much shilling IOTA has gotten, yet it's value hasn't maintained the tops.
+2 : 23:41:51 12/01/2017 : I'd go 70% Ark 30% LTC
 
-5 : 15:32:44 11/14/2017 : As someone who doesn't really know a lot about bitcoin, where is one to start to understand it? It seems something worthwhile investing in, but is it really worth it? And what is the difference between Vertcoin and others, is it just easier?
+1 : 23:02:26 12/01/2017 : Another "small question". Please correct me if I'm wrong. The idea is that in the future it will be possible to buy something with price in fiat using Ark Ecosystem? For example, I have BTC and would like to buy something in Amazon for $. Will ARK allow to do this too?
 
-5 : 19:05:43 11/14/2017 : tl;dr: stay ignorant, I don't care. That's on you.
+1 : 23:02:26 12/01/2017 : Another "small question". Please correct me if I'm wrong. The idea is that in the future it will be possible to buy something with price in fiat using Ark Ecosystem? For example, I have BTC and would like to buy something in Amazon for $. Will ARK allow to do this too?
 
-I don't think you have a good idea about this coin, **and yes I actually shit and shat and spit all over this coin when I first heard about it**. But after a good hard look in the mirror about it's abilities, and what the power of an open source community is potentially able to accomplish. I've actually seen more pros coming out of VTC and it's community about ideas to tackle in this market with using their own tech then anywhere else in the crypto space. I'm not even joking, especially in the last 48 hours! This coin and its investors want to move, and the investors themselves can help move it by spreading more awareness, which is what you saw. Also the Radeon version of the One Click miner is also around the corner(Nvidia OCM is already out, was released last week) and the Discord I'm told is even more of active place.(I haven't had the time to sit down and chat- yet) *A lot of people say 'they've barely done any work in the last several months', thats completely untrue and misleading info.*
+1 : 05:35:54 12/02/2017 : Litecoin will wither when Bitcoin implements 2nd-layer scaling solutions...and if Bitcoin fails to do that, it'll go down hard, and Litecoin will wither under that circumstance, too.  All Litecoin is good for is riding Bitcoin's coattails and sweeping up those who are okay with BTC being a "store of value" that isn't functional as a transactional currency.  For now, speculation will keep driving it up, I'm holding some for that reason alone...but it's not a sound long-term play.
 
-
-
-VTC at the end of the day just keeps looking like the real winner in this market for it's price point and it's governing tech. It's actually decentralized instead of false promises of decentralization which Bitcoins essentially spelling out the last couple weeks, it's also easily mined and doesn't require ridiculous amounts of power, and for those two reasons literally every GPU owner can simply mine it in their spare time and add to its decentralized network. I personally see that type of decentralized blockchain a lot better then allowing the only profitability be to those who've been set up and had a monopoly on ASIC-resist-free(ASIC Ruled) blockchains this entire time; Russia, China, Bitmain. If I had to choose between leaving this market and moving to VTC, I moved to VTC. I can't justify buying into a market that claims its decentralized if it really isn't, that's a pyramid I don't play with. And if it's true about Bitmain and Bitcoin, then I guarantee this market will eventually fail and we'll use Jamie Dimon coin in the future.
-
-
-
-You want to use Jamie Dimon coin? Personally I sure as fuck don't want to leave a centralized economic system, to move to another centralized economic system, arguably to avoid this monopolized + centralized economic crossroad.
-
-
-
-and BCH is not an acceptable replacement in this market. I feel bad for telling two personal friends to jump ship with me on Friday. we made a little money, but I couldn't pry them away! They wanted to stay and hodl! Oh God what the fuck did I do!? It's totally owned by Bitmain! Its all they accept for miners!
-
-
-
-This markets turning into a secretive monopoly behind a lot of peoples backs very quickly that almost intentionally want to stay ignorant to it and drag other sheeple down with them, wake up and take the Green pill. 
-
-
-
-5 : 01:59:33 11/15/2017 : Take 2:
-
-* BTC 30.00%
-* ETH 15.00%
-* XMR 15.00%
-* NEO 10.00%
-* VTC 10.00%
-* LSK 5.00%
-* ARK 5.00%
-* NAV 5.00%
-* OMG 5.00%
-
-5 : 13:56:47 11/14/2017 : I’m pretty sure this coin is dead unfortunately. Not trying to spread FUD or be unnecessarily negative but this coin was quite clearly and pump and dump off of vertcoin a success. Hopefully I’m wrong but I’m just trying to help anyone still holding it. 
-
-4 : 14:34:50 11/14/2017 : The idea of promoting decentralization by design is great, but anyone interested in mining Vertcoin should read [this assessment](https://www.reddit.com/r/VertcoinMining/comments/7bucv8/mining_just_doesnt_make_sense/) on the current reality of it.
-
-4 : 06:13:58 11/15/2017 : I have VTC, XMR, and NAV right now. I'm really strong on NAV. I'm looking into ARK and LISK. 
-
-3 : 15:36:32 11/14/2017 : Vertcoin, is missing the #1 key feature - Governance built into protocol.  Just look at Bitcoin problems.  #2 - No DAO  #3 No selfing funding  #4 Not user friendly interface  #5 No marketing  #6  No on-chain scaling      This is why there is Dash and everything else.  Smartcash is also interesting too.  Vertcoin is a clone of Lite Coin, except since 2012.
-
-3 : 20:19:40 11/14/2017 : Maybe *you're* a shill and this is reverse psychology. I can't help but notice I've never seen you and Vertcoin in the same room at the same time. 
-
-3 : 22:08:36 11/14/2017 : I'm a to the moon guy myself, but I don't think worshiping the coin every day with a new nothing-post is a good way to build support for it. We lose people like you who are put off by the shill posts, while also pushing away potential new investors. Remember that there are a lot of people in the Vertcoin community who are not just in it for the money but see something more in it (and that doesn't just apply to Vertcoin, but to any other community with the same issue), but the people you see at the front are the to the moon types. :) 
-
-Just my 2 cents.
-
-2 : 10:13:08 11/14/2017 : Can I mine Vertcoin profitably on my 4 year old laptop?
-
-Would it be worth my while even trying?
-
-2 : 17:17:51 11/14/2017 : I'm sure nobody will be asking "Whats a Vertcoin?" next year....
-
-2 : 17:56:10 11/14/2017 : Why does it have value though? Gold is valuable because people desire it for vanity reasons and a more legitimate use in circuits. Is the only value of vertcoin it's security?
-
-2 : 23:50:54 11/14/2017 : Why is Vertcoin so cheap with such a community backing it?
-
-2 : 20:15:48 11/14/2017 : but did you buy VTC cheap and are now 3 times richer is the question?
-
-2 : 02:46:28 11/15/2017 : Guys I'm sorry to neg, but branding is everything. Vertcoin is a *shit name*.
-
-Take an example from NEO (previously known as Antshares) and fix your branding problem.
-
-2 : 16:10:17 11/14/2017 : There are a lot of first-time alt coin investors jumping onto vertcoin due to its recent (past month) rise.  Many are overly enthusiastic and simply don't know any better than to be over-the-top annoying about it.
-
-  
-
-Ignore the annoying shills, look into things for yourself. It's a decent coin.
-
-1 : 13:25:00 11/14/2017 : Is it worth mining VTC on a R9 380 4GB graphics card? 
-
-1 : 15:25:31 11/14/2017 : Noob question here, in Belgium it's not worth mining btc cuz of the high electricity bills, is mining vtc as intensive as btc? 
-
-1 : 15:25:54 11/14/2017 : All you got for this work of art is 3.8 vtc tips??
-LMAO!
-Poor People's coin
-
-1 : 17:44:34 11/14/2017 : I'm a bot, *bleep*, *bloop*. Someone has linked to this thread from another place on reddit:
-
-- [/r/vertcoin] [(Link) What is Vertcoin? A very informative infographic!](https://www.reddit.com/r/vertcoin/comments/7cx9v5/link_what_is_vertcoin_a_very_informative/)
-
-&nbsp;*^(If you follow any of the above links, please respect the rules of reddit and don't vote in the other threads.) ^\([Info](/r/TotesMessenger) ^/ ^[Contact](/message/compose?to=/r/TotesMessenger))*
-
-1 : 22:27:16 11/14/2017 : Much Wow I’ve been on this Reddit for months and no one has mentioned vertcoin before 😂
-
-1 : 05:24:39 11/15/2017 : Don't really understand Vertcoin, seems like just another fork.
-
-1 : 02:55:53 11/15/2017 : What price did you get your VTC at?
-
-1 : 21:41:34 11/14/2017 : I did some research and started mining it when it was in the $1 range and was pretty pleased. At first I liked that VTC was getting more attention but when it turns into shilling I start to question the validity of the attention. 
-
-1 : 02:11:36 11/15/2017 : I've noticed VTC everywhere all the sudden also. I thought it was really strange.
-
-
-1 : 06:12:33 11/15/2017 : Some vertcoin thoughts of mine (downvote me to frig if you'd like)
-
-1. There are at least 5 other strictly currency coins with leads on market cap. Sure, I know the response "but the tech! Asic resistance!". Whatever, fact is there is competition well ahead in market share and that is my first point.
-
-2. Asic resistance is ok, but is that really going to stop mining whales from significantly outpacing your average joe? I'd say no, but who knows maybe AMD/NVIDIA would have a problem selling a large chunk of their silicon to one buyer. 
-
-3. That awful name. Ok this is petty and a matter of taste, but vertcoin makes me think of teenage skateboarders or old folks trying to be hip. Cringe. 
-
-Well that's all, but what do I know? Yall will probably murder my gainz. 
-
-
-
-1 : 01:04:15 11/15/2017 : Switch your VTC to ETH.  
-
-I don't dislike VTC, but I still question whether it's earned a spot for long-term holding unless you really love speculating.  Even then, 20% is awfully high.  
-
-I know ASIC-resistance is a very shiny concept right now, particularly because of the drama with Bitcoin, but I'm not convinced it's a long-term problem facing crypto.  Plenty of other coins can still actively fight centralized mining.  Monero has already pledged to hard fork if they deem it necessary.  And PoS coins, such as ARK, LSK, and NAV, don't have the problem at all.
-
-1 : 02:15:12 11/15/2017 : So dropping an ASIC mined coin for another almost identical ASIC mined coin is a good idea? Interesting.
-
-How about drop the Bitmain coins for something GPU mined like VTC.
-
-0 : 14:02:20 11/14/2017 : It's a good infographic. But I don't like Vertcoin. Segwit adds nothing. ASIC resistance can also be found with Monero and privacywise that's the far better coin.
-
--2 : 16:45:26 11/14/2017 : What about GRS?? Isn't GRS an improved fork to Vertcoin?? Why is GRS only 1/6 of VTC market cap??
-
--6 : 18:16:31 11/14/2017 : How you know it's a shill coin.
-
-1. Starts with a coordinated price talk injection. No points about what makes coin. OP makes that point
-
-2. No new standout updates since 2014. What's really new since 2014? VTC posts updates on language additions, tweets out and then someone posts about it here. Making it sound like an actual update.
-
-3. Dear goodness the upvotes (the main VTC post on the front page for example).
-
-4. More coordination on the sub /r/Vertcoin about shilling. Theyre open and don't even care that other people see it. Please go see their sub.
-
-5. They praise things that their coin does, that other currency does or mulitple do. 
-
-6. Their lead Developer talks down other coins more than promoting his own.
-
-Edit 
-
-7. You have to have a dev come to this sub to defend the shills.
-
--12 : 18:43:35 11/14/2017 : Drop vtc for 20% bqx
-
--37 : 11:15:23 11/14/2017 : What is Vertcoin? Just another piece of shit crypto with a large cult following who have nothing better to do than spamming r/cc with VTC posts, that has nothing going for it that other crypto's aren't doing better.
+ARK is, IMO, somewhere between Ethereum and Ripple in terms of structure, ideology, and application.  SmartBridges, "push-button" blockchains for businesses, DPoS...its value will come from its utility in the services it provides to connect and deploy disparate blockchains.  DPoS incentivizes hodling, while SmartBridges could make the ARK coin a sort of universal blockchain token.  It's not really anyone's anarcho-capitalist revolution, but it strikes me as a better investment than a coin whose only claim to fame is being Bitcoin's cheeky little brother.
 
 
 
 *********************** ETH ***********************
-197 : 17:00:33 11/14/2017 : Just found out there is ethereum Gold and ethereum Cash as well lol..
+284 : 16:29:23 12/01/2017 : Founders of Ethereum and Litecoin Warn that BitConnect is a Ponzi Scheme!
 
-edit: I'm in deep boys. Just realized there is Litecoin Gold too.
+112 : 18:31:56 12/01/2017 : Crypto-bull Mike Novogratz Promotes Bitcoin, Ethereum and Alts To The Entire CNBC Fast Money Audience
 
-edit 2: I believe I have reached the dark markets. I have unearthed Neo Gold.
+43 : 15:39:25 12/01/2017 : Is Ethereum undervalued or overvalued in your opinion?
 
-edit 3: We have reached singularity. Just discovered ZCash Gold.
+18 : 18:49:06 12/01/2017 : The first blockchain smartphone will come preloaded with mobile Ethereum client Status (SNT)
 
-163 : 13:38:27 11/14/2017 : Ethereum Process Approximately Twice More Transactions Than Bitcoin
+12 : 09:24:20 12/01/2017 : Some tasty ETH news today...
 
-149 : 22:06:25 11/14/2017 : What? Tell your mom to stop being so close minded in the age of technology.
+Further confirmation that Ethereum is the blockchain of the future.
 
-Post me an ETH address. I'll send you $150 worth of ETH to tell your mom the truth and prove to her crypto investing gives people like me the ability to shit-comment like this. Then another $150 worth of ETH if you have a photo of your mom with a sign that has a timestamp acknowledging /r/cryptocurrency
+https://www.coindesk.com/world-computer-new-protocol-supercharge-ethereums-blockchain/
 
-Edit: This first half of the offer will be good for 2 hours. The second half 24 hours from this comment.
+8 : 22:53:57 12/01/2017 : Ethereum and Bitcoin are completely different and could easily coexist with eachother.
 
+8 : 19:11:18 12/01/2017 : The first blockchain smartphone will come preloaded with Ethereum client Status!
 
-52 : 18:25:19 11/14/2017 : Personally, I can't imagine a long term portfolio without ETH in it. They're the biggest dapp platform, and unless you think NEO is going to steam-roll them straight out of existence, then ETH is just going to grow as more and more dapps come out and are actually *used*.
+6 : 21:27:00 12/01/2017 : undervalued, the whole world is gonna be running on ethereum in 10 years
 
-30 : 18:44:34 11/14/2017 : 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 2018 
- 
-Landmark year for crypto. The masses are coming. Be happy. Be very very happy.
+3 : 20:55:01 12/01/2017 : Can Ethereum help me quit smoking?
 
-And rightfully ETH is first on that banner. I'm calling it now this time next year ETH will have the biggest market cap. Quote me. Thank me. 
+3 : 22:48:55 12/01/2017 : I think privacy is a bit under-represented in your portfolio. 2018 is going to be the first year where quite a large group of people have to pay taxes on their financial gains through cryptocurrency. The community as a whole will gain a much larger awareness of the idea that your funds and transactions on standard blockchains are not at all hidden.
 
-16 : 20:59:47 11/14/2017 : Long-term musts for me are: IOTA, XMR, ETH and/or NEO
+I like a few privacy-oriented projects a lot now and for 2018:
 
-15 : 17:47:13 11/14/2017 : I always use ETH for transferring value
+**XMR** - Big daddy in anonymous tech. The infrastructure is finally catching up to the network interest - hardware/mobile wallets, fiat exchanges, etc. Monero will be $1,000+ in 2018.
 
-15 : 06:15:38 11/15/2017 : Ethereum currently hundreds of times faster and cheaper than Bitcoin
+**SUMO** - Monero's helpful little brother. SUMO is a Monero fork started in May 2017 that has shown a ton of progress and active development in a short timeframe. SUMO has already launched features like anonymous sub-addresses and anti-botnet code that have or will likely be added to Monero in the future. $2 million market cap right now. I expect that to grow quite a bit in 2018. [r/SumoCurrency](https://www.reddit.com/r/SumoCurrency/) [r/sumokoin](https://www.reddit.com/r/sumokoin/)
 
-12 : 17:29:15 11/14/2017 : Interesting eth is befor btc
+**AEON** - Mobile Monero. I believe AEON is waiting on mobile technology to catch up before it really starts to see development and takes off, and 2018 might be the year that happens. I think AEON will grow slowly through 2018 and catch fire sometime later in the year. [r/AEON](https://www.reddit.com/r/aeon/)
 
-12 : 23:31:54 11/14/2017 : Confido (CFD). Let me call it the cryptocurrency Ebay as an example use case. Where you dont have to trust buyer or seller and have funds held in escrow in a smartcontract using oracle (chainlink) to release the funds after delivery has been made (shipment tracking). Outstanding ICO with fair distribution (max. 3 ETH) and a freaking low hardcap of about 400k USD. 
-Marketcap about 10MM.
+**HUSH** - HUSH is the only Zcash based coin I like long term. HUSH removed the founders reward present in most other Z-coins. They have an ambitious roadmap including secure messaging and counterparty + ethereum virtual machine integration into the platform. The developers build open source and remind me of other qualified open source teams like Monero's and Ark's. I expect HUSH to grow steadily in 2018 as pieces of the roadmap are completed. [r/myhush](https://www.reddit.com/r/Myhush)
 
-11 : 16:02:14 11/14/2017 : Have you research about Vertcoin to try to understand why are people so passionate about Vertcoin? Vertcoin gives back the power to the people. Simple as that. That's why I love Vertcoin over any other coin. And I don't believe Vertcoin has a get rich quick scheme like ethereum did back in the day or like ripple does. Vertcoin to me has fundamentals, it is fair and decentralized. There is really not a reason to hate it.
 
-9 : 20:15:52 11/14/2017 : Long Term you should have ETH.
 
-If you go by %:
+2 : 18:07:18 12/01/2017 : It depends if ETH plans to enter the payment business or not. Without it, I think it's hard for it to become a trillion dollar crypto. Even though Vitalik's vision is to focus on smart contracts, I see nothing is stopping it from entering the payment space. With proof of stake and Raiden in place, it will be far ahead of Bitcoin. On the other hand, no one seems to think of Ethereum as a method for day to day payment. Maybe it's the brand. 
 
-25% BTC
-25% ETH
-10% XMR
+2 : 19:08:05 12/01/2017 : Sorry for the very noob question, but I am in fact a noob. Is Ethereum a worthwhile investement at this point, or should we be exclusively riding the wave of BTC? (Speaking as someone who recently bought BTC at 10k and has not bought any Ethereum. 
 
-Long term these 3 will get you the better results. (if crypto keeps growing ofc)
+1 : 02:30:31 12/02/2017 : Ethereum has competitors like ark.
 
-Now the alt coins... that's up to you. If I had to advise something maybe. 10% VTC, 10% LTC, 10% NEO, 5% ARK, 5% LSK
+And a blockchain computer like eth/ark/anyone else are inherently in uncharted waters. No one knows who will win here.
 
-9 : 13:56:42 11/14/2017 : Looking to buy ethereum
+So its risky and overvalued imo.
 
-9 : 08:35:33 11/14/2017 : Why ETH is the next big wave.
+1 : 16:35:29 12/01/2017 : Re: Ethereum & Casper
 
-7 : 18:24:44 11/14/2017 : I sold my lambo to go all in on Eth. Should be over $1000 in a month.
+What happens to the blocks (and the transactions in them) on a forked chain that won't become the longest chain? Will the blockchain simply have one long chain with many small chains (that eventually end) attached at various blocks? If so, are those small forks still part of the 'blockchain' even though it not the longest chain?
 
-5 : 01:59:33 11/15/2017 : Take 2:
+1 : 05:35:54 12/02/2017 : Litecoin will wither when Bitcoin implements 2nd-layer scaling solutions...and if Bitcoin fails to do that, it'll go down hard, and Litecoin will wither under that circumstance, too.  All Litecoin is good for is riding Bitcoin's coattails and sweeping up those who are okay with BTC being a "store of value" that isn't functional as a transactional currency.  For now, speculation will keep driving it up, I'm holding some for that reason alone...but it's not a sound long-term play.
 
-* BTC 30.00%
-* ETH 15.00%
-* XMR 15.00%
-* NEO 10.00%
-* VTC 10.00%
-* LSK 5.00%
-* ARK 5.00%
-* NAV 5.00%
-* OMG 5.00%
+ARK is, IMO, somewhere between Ethereum and Ripple in terms of structure, ideology, and application.  SmartBridges, "push-button" blockchains for businesses, DPoS...its value will come from its utility in the services it provides to connect and deploy disparate blockchains.  DPoS incentivizes hodling, while SmartBridges could make the ARK coin a sort of universal blockchain token.  It's not really anyone's anarcho-capitalist revolution, but it strikes me as a better investment than a coin whose only claim to fame is being Bitcoin's cheeky little brother.
 
-5 : 18:58:46 11/14/2017 : If they do it right, the DApp development challenge will give a lot of attention to this project, also outside of the crypto sphere. I think a lot of people underestimate how much value this project gives to the ethereum ecosystem.
+1 : 04:58:38 12/02/2017 : If you're a relatively small-time investor looking to sink $100-$200 a month into a crypto portfolio, BTC is a bad idea; the exchange fees will eat your lunch.  ETH is a better bet and has almost as many trading pairs on exchanges as BTC does, so it's a great way to get into alts (I've yet to find an alt I like that I couldn't buy with ETH).  
 
-5 : 20:47:53 11/14/2017 : Hey, nice seeing WAX on /r/CryptoCurrency!
+Unlike BTC, ETH also has a variety of use-cases supporting its value, not just speculation; Ethereum is a platform and ETH is a resource that must be spent to participate in that platform.  Beyond that, the Ethereum roadmap is exciting...transitioning to proof-of-stake, zk-SNARK integration for truly private and fungible transactions.  By some metrics the Ethereum blockchain also processes around 50% of all crypto transactions on a daily basis.  
 
-Highly recommend looking into this.
+LTC is a good holding, too, as it's been on a slow but steady upward trajectory for a long time.  However, I'm not real bullish on it, because it's committed to being nothing more than a BTC epiphyte...it's not really trying to compete with BTC for anything and is only really useful if it can capitalize on BTC remaining slow and expensive to use.  Whenever BTC adopts Lightning Network, LTC will basically get kicked to the curb.
 
-Gamers should understand pretty quickly, but others should learn as well.
+BTC may keep appreciating, but the community is fragmented and seems to be focusing more energy on bad-mouthing Bitcoin Cash (BCH) than on solving their scaling issues.  I sold mine off around $8k and have no regrets, as the alts I exchanged it for have done much better over the same timeframe.  Ignore the fiat value of the coin and look at percentage gains.
 
-check out the subreddit for more info /r/waxtoken 
+1 : 04:58:38 12/02/2017 : If you're a relatively small-time investor looking to sink $100-$200 a month into a crypto portfolio, BTC is a bad idea; the exchange fees will eat your lunch.  ETH is a better bet and has almost as many trading pairs on exchanges as BTC does, so it's a great way to get into alts (I've yet to find an alt I like that I couldn't buy with ETH).  
 
-https://twitter.com/opskinsgo
+Unlike BTC, ETH also has a variety of use-cases supporting its value, not just speculation; Ethereum is a platform and ETH is a resource that must be spent to participate in that platform.  Beyond that, the Ethereum roadmap is exciting...transitioning to proof-of-stake, zk-SNARK integration for truly private and fungible transactions.  By some metrics the Ethereum blockchain also processes around 50% of all crypto transactions on a daily basis.  
 
-https://twitter.com/WAXToken
+LTC is a good holding, too, as it's been on a slow but steady upward trajectory for a long time.  However, I'm not real bullish on it, because it's committed to being nothing more than a BTC epiphyte...it's not really trying to compete with BTC for anything and is only really useful if it can capitalize on BTC remaining slow and expensive to use.  Whenever BTC adopts Lightning Network, LTC will basically get kicked to the curb.
 
-Biggest project with immediate integration. 50 Billion dollar market, 400+ million gamers making transactions. OPSkins is #1 in trading digital assets like skins. They process between 15b and 23b of the 50 billion market.
+BTC may keep appreciating, but the community is fragmented and seems to be focusing more energy on bad-mouthing Bitcoin Cash (BCH) than on solving their scaling issues.  I sold mine off around $8k and have no regrets, as the alts I exchanged it for have done much better over the same timeframe.  Ignore the fiat value of the coin and look at percentage gains.
 
-WAX will be a utility token, not only currency. It allows decentralized marketplaces with trustless trades. No game integration required.
+1 : 04:58:38 12/02/2017 : If you're a relatively small-time investor looking to sink $100-$200 a month into a crypto portfolio, BTC is a bad idea; the exchange fees will eat your lunch.  ETH is a better bet and has almost as many trading pairs on exchanges as BTC does, so it's a great way to get into alts (I've yet to find an alt I like that I couldn't buy with ETH).  
 
-It will start as ETH token, but will be developing their own DPOS blockchain for the volume and features it will allow. It will use every feature of DPOS as a tool. 
+Unlike BTC, ETH also has a variety of use-cases supporting its value, not just speculation; Ethereum is a platform and ETH is a resource that must be spent to participate in that platform.  Beyond that, the Ethereum roadmap is exciting...transitioning to proof-of-stake, zk-SNARK integration for truly private and fungible transactions.  By some metrics the Ethereum blockchain also processes around 50% of all crypto transactions on a daily basis.  
 
- completion planned for end of 2018/start of 2019.
+LTC is a good holding, too, as it's been on a slow but steady upward trajectory for a long time.  However, I'm not real bullish on it, because it's committed to being nothing more than a BTC epiphyte...it's not really trying to compete with BTC for anything and is only really useful if it can capitalize on BTC remaining slow and expensive to use.  Whenever BTC adopts Lightning Network, LTC will basically get kicked to the curb.
 
-OPSkins will not be the only marketplace to use WAX, it will be it's first user of WAX. WAX solves a lot of problems. 
+BTC may keep appreciating, but the community is fragmented and seems to be focusing more energy on bad-mouthing Bitcoin Cash (BCH) than on solving their scaling issues.  I sold mine off around $8k and have no regrets, as the alts I exchanged it for have done much better over the same timeframe.  Ignore the fiat value of the coin and look at percentage gains.
 
-OPSkins is a global company with the majority of trades being different countries with different currencies. These conversion fees are a problem. Introducing WAX ;)
+0 : 22:47:37 12/01/2017 : Yeah, couldn't agree more with this assessment. I'd also add Bitcoin Cash, Bitcoin Gold, and Ethereum Classic as none of these deserve to be in the top 10.
 
-Passionate supporter, no affiliation other than I invested in the Gamer sale.
+-2 : 17:25:58 12/01/2017 : Why are you so high on NEO? Very few teams are developing on their platform and the network effects around Ethereum are strong. I don't see why we would have two winners in this category.
 
-5 : 20:56:02 11/14/2017 : Also, Amber is a pure utility token, the CEO came out and said they don’t want it to go up in price as the token itself is only for utility, it’s a big reason why I didn’t invest.  I was going to but then I backed away from it.  
+-9 : 02:27:17 12/02/2017 : No. 
 
-Nice thing about MOD is they pay out dividends in the form of ETH.  I love passive income so that’s why I went with MOD instead of AMB.
+Because ethereum has competitors like ark.
 
-5 : 23:51:28 11/14/2017 : Just bought into Iexec myself. I found it really heady and boring type of stuff, BUT:
+And a blockchain computer like eth/ark/anyone else are inherently in uncharted waters. No one knows who will win here.
 
-- Cloud based Dapps that are decentralized. Releasing a "store" for these dapps in December.
-- Started on eth, but can/is moving to other blockchains.
-- French roots and Huge co-development program partnership with China.
-- They are currently recruiting developers to work on their newly developed sdk. 
-- Apparently, really good feedback from devcon regarding this sdk.
-- Running a contest to develop dapps for their store.
-- Projected to be in market thats worth $200 Billion in 2020. (Current mrktcap is 45+mill.) 
-- Read a few places people were calling it the "AirBnB for servers."
+But bitcoin has proven itself over last eight years. Its stable, and its not going anywhere. 
 
-CONS
-
-- Minimal marketing for the time being. 
-- Word of mouth will drive this tech. 
-
-Wonderful investment in my opinion. 
-
-
-
-4 : 19:25:57 11/14/2017 : People are always going to biased in favour of their own holdings, whether BTC or BCH. No one wants to lose money. That said, if BTC transactions keep being this expensive and slow for too long, usage may move to BCH and kill BTC altogether like what happened with ETH and ETC.
-
-4 : 21:23:46 11/14/2017 : I'd add ETH and OMG
-
-4 : 07:00:12 11/15/2017 :  * [OmiseGo](http://wcibtc.com/omg) - BTC fork hit OMG hard. No reason for it not to be breaking ATH's with their mainnet release due early next year
-
- * [Request Network](http://wcibtc.com/req) - Still selling around ICO price. Criminally undervalued which their detailed roadmap, open and concise AMA's and solid partner backings. I've been loading up the last 3 weeks.
-
- * [IOTA](http://wcibtc.com/iota) - Obligatory IOTA inclusion. "Big December News" Def worth buying the rumour imho
-
- * [Monero](http://wcibtc.com/xmr) - Although I wonder how both BTC & ETH privacy updates will effect Monero, I still think it has huge potential.
-
-3 : 23:18:03 11/14/2017 : Thank you everyone for upvoting. Thank you u/slickguy for sending me $150 worth of ETH. I'm still struggling to process it. 
-
-3 : 04:42:36 11/15/2017 : I got into cryptos thanks to mining, I started in the recent ETH boom, I had by pure luck bought an RX480 for 170$ before all the now a days shortages and high prices. 
-
-I did some math and intermediately started mining (I had no idea at all of what I was doing) I was using nicehash and I had to wait until I had 10 mBTC for my first payment, I was skeptical about them paying me at all. By that time It only took less than 7 days to get to 10 mBTC. 
-
-When I was 3 days away from being paid and told my mom and dad about what I was doing, they said good job, nice!, but they didn't look surprised at all/had very little interest (likely thought it was an scam), surprisingly it was my grandma that knew something about BTC when I told her what I was doing.
-
-It wasnt until I had my first payment that my father started researching and asking me questions about cryptos, the following day my whole family was discussing about cryptos.
-
-And now well, my entire family is mining/going to mine right now. Even my father asked me if he could buy some of my BTCs.
-
-Mining it's been a miracle for us, even with the ''low'' profits of today, I still pull several times the minimum wage here (venezuela).
-
-
-3 : 06:23:24 11/15/2017 : Agree. The Ethereum community is far more focused on creating a winning product rather than just making money. Ironically, in this end this will see Ethereum with the most money and Bitcoin creating a bad product that's good for nothing other than parking your money. 
-
-Bitcoin's got the name though - it'll probably only increase in value, and the fact that it's hideously clunky and expensive for everyday transactions will mean it will only be hoarded and not really spent. 
-
-2 : 02:58:07 11/15/2017 : Make sure she doesn’t confuse eth and meth!
-
-2 : 17:59:35 11/14/2017 : Wow. This basically is a slap in the face that I need to start buying the bigger name coins.... wow. 
-
-I’m 100% in alt coins. Guess I’m buying ETH next...
-
-2 : 04:29:10 11/15/2017 : ETH positioned first :) all is fine
-
-2 : 01:44:10 11/15/2017 : Impressive. It probably has more transactions due to trading bots and People moving to and from different alts to day trade. It makes more sense to use ethereum due to the lower transaction cost.
-
-Can it scale up to the level of visa and other bank transactions?
-
-2 : 19:43:51 11/14/2017 : That's how ethereum started
-
-2 : 18:35:02 11/14/2017 : If anyone wants to see how an ico should take place check out CFD. Market cap at $400k, limit of only 2 ETH per investor with a whitelist process to ensure no duplicate investors. Developers secured 30% of the coins which is fine as they require an income from the dividends provided and this is locked up until a working beta is released.
-
-Why does Bloom need $50m to create this project? If they believe in tge project they should raise far less and keep a small percentage of coins for themselves to make a gain on future sucess of the coin.
-
-Im no longer investing in high cap icos i think they are a scam unless they have a working product with proven returns.
-
-
-2 : 23:19:48 11/14/2017 : Where's IOTA and ETH for long term? 
-
-2 : 01:47:37 11/15/2017 : Copy-pasting from my response to [yesterday's shill thread](https://www.reddit.com/r/CryptoCurrency/comments/7cskd2/coins_with_low_market_cap_and_high_potential/).
-
----
-
-[**Pink**](https://np.reddit.com/r/PinkApp/comments/79bx75/pinkapp_faq_a_blockchainfunded_dividendproducing/). High-risk, high-reward.
-
-Business model that just makes sense, tapping into the $200b sex industry. Not trying to invent new technology; just leveraging existing privacy and blockchain tech to create the [Uber/AirBnB of escorting apps](https://vimeo.com/239655911). Clients pay in cash, escorts pay a commission to Pink, dividends go to investors via ETH and/or XMR.
-
-Series A investment closed, Series B opening in a few weeks at $2.50/share with IPO target for 2018 Q1 at $10. Only about $1m invested during Series A. Beta launch in Toronto targeted for December/January. Rollout in other major cities to follow.
-
-Even more bullish on it since [Eros-Guide was recently raided](http://www.xbiz.com/news/231580/report-eros-guides-call-center-is-raided) by the Department of Homeland Security. There's a need for a site that can protect both client/escort personal information and provide a slick, convenient booking experience for both parties.
-
----
-
-**Official Site**  
-https://pinkapp.io
-
-**Video Demo**  
-https://vimeo.com/239655911
-
-**FAQ**  
-https://np.reddit.com/r/PinkApp/comments/79bx75/pinkapp_faq_a_blockchainfunded_dividendproducing
-
-1 : 22:18:59 11/14/2017 : How funny, the ones I've been spotting in London the last few weeks all have Ethereum Classic instead of bitcoin cash. They must just have changed that
-
-1 : 23:41:31 11/14/2017 : ###&#009;
-######&#009;
-####&#009;
-
-Acronyms, initialisms, abbreviations, contractions, and other phrases which expand to something larger, that I've seen in this thread:
-
-|Fewer Letters|More Letters|
-|-------|---------|---|
-|[BTC](/r/CryptoCurrency/comments/7cwtvg//dpuj19z "Last usage")|[Coin] Bitcoin|
-|[ETH](/r/CryptoCurrency/comments/7cwtvg//dpuf62a "Last usage")|[Coin] Ethereum|
-|[ICO](/r/CryptoCurrency/comments/7cwtvg//dpuf62a "Last usage")|Initial Coin Offering|
-|[LTC](/r/CryptoCurrency/comments/7cwtvg//dpuj19z "Last usage")|[Coin] Litecoin|
-|[XRP](/r/CryptoCurrency/comments/7cwtvg//dpu8p15 "Last usage")|[Coin] Ripple|
-
-----------------
-^(*If you come across an acronym that isn't defined, please* )[*^let ^the ^mods ^know.*](https://www.reddit.com/message/compose?to=%2Fr%2FCryptoCurrency))  
-^([Thread #137 for this sub, first seen 14th Nov 2017, 23:41]) 
-[^\[FAQ\]](http://decronym.xyz/) [^\[Full ^list\]](http://decronym.xyz/acronyms/CryptoCurrency) [^\[Contact\]](https://reddit.com/message/compose?to=OrangeredStilton&subject=Hey,+your+acronym+bot+sucks) [^\[Source ^code\]](https://gist.github.com/Two9A/1d976f9b7441694162c8)
-
-1 : 22:23:49 11/14/2017 : I've been making a lot of Ethereum transactions recently and it's completely painless. Much better than bitcoin!
-
-1 : 00:48:14 11/15/2017 : Fairly sure this isn’t an apples to apples comparison due to the difference in the way that bitcoin and ethereum transactions are constructed. Bitcoin uses UTXOs while ethereum uses accounts. 
-
-1 : 06:44:25 11/15/2017 : that's funny, XRP is 40x faster than ETH and can process 100x more transactions.
-
-1 : 18:27:26 11/14/2017 : LTC, ETH and NEM missing for me. 
-
-1 : 19:46:33 11/14/2017 : No eth? Why so much lisk?
-
-1 : 23:59:59 11/14/2017 : ETH is a MUST!! 
-
-1 : 01:04:15 11/15/2017 : Switch your VTC to ETH.  
-
-I don't dislike VTC, but I still question whether it's earned a spot for long-term holding unless you really love speculating.  Even then, 20% is awfully high.  
-
-I know ASIC-resistance is a very shiny concept right now, particularly because of the drama with Bitcoin, but I'm not convinced it's a long-term problem facing crypto.  Plenty of other coins can still actively fight centralized mining.  Monero has already pledged to hard fork if they deem it necessary.  And PoS coins, such as ARK, LSK, and NAV, don't have the problem at all.
-
-1 : 06:38:43 11/15/2017 : Pretty awesome tech, and I agree it's an improvement over BTC. Then again, IOTA takes the fee//TX time to a unbeatable level. I can't wait to see how they'll compete with Ethereum in a year or so. Ethereum has its shit together.
-
-1 : 06:41:17 11/15/2017 : We all know ETH is better. Just give people time. They will realize this soon.
-
-1 : 06:45:09 11/15/2017 : When I’m injecting fiat into my portfolio I use ETH now. No brainer. Keep your money. 
-
-1 : 07:04:29 11/15/2017 : https://www.reddit.com/r/ethereum/comments/6ef4lw/transferring_ethereum_from_coinbase_to_nano/
-
-ethereum transactions should usually post very quickly (miinutes) but the parts that connect to traditional banking/credit are kinda slow. you might also check whether you need to confirm the transaction on email. 
-
-
-
-
-1 : 06:58:32 11/15/2017 : Iota or RaiBlocks.  If by micropayment you mean >$0.01 but <$1.00, ethereum still works very well at the moment.
-
-0 : 22:42:46 11/14/2017 : ###&#009;
-######&#009;
-####&#009;
-
-Acronyms, initialisms, abbreviations, contractions, and other phrases which expand to something larger, that I've seen in this thread:
-
-|Fewer Letters|More Letters|
-|-------|---------|---|
-|[ANS](/r/CryptoCurrency/comments/7cwg6m//dptrbei "Last usage")|[Coin] AntShares|
-|[API](/r/CryptoCurrency/comments/7cwg6m//dptu1rc "Last usage")|Application Programming Interface|
-|[ETH](/r/CryptoCurrency/comments/7cwg6m//dptrbei "Last usage")|[Coin] Ethereum|
-
-----------------
-^(*If you come across an acronym that isn't defined, please* )[*^let ^the ^mods ^know.*](https://www.reddit.com/message/compose?to=%2Fr%2FCryptoCurrency))  
-^(3 acronyms in this thread; )[^the ^most ^compressed ^thread ^commented ^on ^today](/r/CryptoCurrency/comments/7cwtvg)^( has 5 acronyms.)  
-^([Thread #136 for this sub, first seen 14th Nov 2017, 22:42]) 
-[^\[FAQ\]](http://decronym.xyz/) [^\[Full ^list\]](http://decronym.xyz/acronyms/CryptoCurrency) [^\[Contact\]](https://reddit.com/message/compose?to=OrangeredStilton&subject=Hey,+your+acronym+bot+sucks) [^\[Source ^code\]](https://gist.github.com/Two9A/1d976f9b7441694162c8)
-
-0 : 21:30:46 11/14/2017 : The only thing that ticks me off, is they include stuff like dash, and not featured here ethereum classic on every other advert all over london (and these guys are all over london).
-
-But nonetheless, publicity and more awareness is good!
-
-0 : 22:56:41 11/14/2017 : I would add NAV and ETH. I'm not really too sure about ARK. And LSK seems like more of a short-term buy with their new tech and partnerships.. not sure about long term prospects. 
-
-0 : 23:50:01 11/14/2017 : This is my long term portfolio:
-
-http://www.coinparator.com/yKwJQH/
-
-I know, that a lot of my coins are in the red. That's because I put this portfolio together right before BTC crash (when it touched $5000 and then crashed). But since then most of the coins are recovering and rising again. I would recommend you any coin from my portfolio EXCEPT following: XAS, STRAT, TENX, MCO, EBET (these were mistakes).
-
-If I have to be specific, you are mainly missing LTC, ETH and maybe some WAVES/OMG.
-
-0 : 07:05:47 11/15/2017 : I don't think transaction volume and confirmation speeds should be taken without looking at the impact it has on security. A blockchain is firstly a decentralized security mechanism. Trading off that security for speed and scalability is not really impressive. If that becomes the metric, then old protocols like PayPal end up being the winner anyway. 
-
-The transaction volume with Ethereum goes at the expense of a bigger bandwidth and disk requirements. Shorter confirmations are less sure to not be rolled back by a group of miners. 
-
-The goal is to reach all those metrics with the highest decentralized security possible _and_ improving capabilities and developer tools at the service time.
-
-Now the Ethereum community is really doing this. With constant improvements on clients requiring less bandwidth, less disk usage, higher processing speeds, more features and a huge community working on building tools. But I don't think it's fair to say it's better at everything because of that. 
-
-0 : 19:38:55 11/14/2017 : Ethereum payment channels.
-
--1 : 14:58:44 11/14/2017 : ###&#009;
-######&#009;
-####&#009;
-
-Acronyms, initialisms, abbreviations, contractions, and other phrases which expand to something larger, that I've seen in this thread:
-
-|Fewer Letters|More Letters|
-|-------|---------|---|
-|[BTC](/r/CryptoCurrency/comments/7cumy3//dpu7fcp "Last usage")|[Coin] Bitcoin|
-|[ETH](/r/CryptoCurrency/comments/7cumy3//dpu4w1h "Last usage")|[Coin] Ethereum|
-|[ICO](/r/CryptoCurrency/comments/7cumy3//dpt25vs "Last usage")|Initial Coin Offering|
-|[LTC](/r/CryptoCurrency/comments/7cumy3//dptzhuy "Last usage")|[Coin] Litecoin|
-
-----------------
-^(*If you come across an acronym that isn't defined, please* )[*^let ^the ^mods ^know.*](https://www.reddit.com/message/compose?to=%2Fr%2FCryptoCurrency))  
-^(4 acronyms in this thread; )[^the ^most ^compressed ^thread ^commented ^on ^today](/r/CryptoCurrency/comments/7cwtvg)^( has 5 acronyms.)  
-^([Thread #134 for this sub, first seen 14th Nov 2017, 14:58]) 
-[^\[FAQ\]](http://decronym.xyz/) [^\[Full ^list\]](http://decronym.xyz/acronyms/CryptoCurrency) [^\[Contact\]](https://reddit.com/message/compose?to=OrangeredStilton&subject=Hey,+your+acronym+bot+sucks) [^\[Source ^code\]](https://gist.github.com/Two9A/1d976f9b7441694162c8)
-
--7 : 14:57:26 11/14/2017 : Do people actually think lisk will compete with ethereum or is this very wishful thinking?
-
-
-
-*********************** XMR ***********************
-320 : 11:56:59 11/14/2017 : > "Top privacy"
-
-Monero doesn't agree.
-
-142 : 13:23:36 11/14/2017 : Genuine question: what does vertcoin have going for it that monero isn’t doing as well or better?
-
-21 : 20:10:01 11/14/2017 : I recommend even more XMR. It’s going to be the main currency of the darknet markets in the future so it has a lot of room to grow.
-
-19 : 13:48:04 11/14/2017 : Great info graphic, but I need some answers after reading it. 
-
-1. Is a segwit good selling point? So far I only hear that it breaks 0-conf transactions and reduces security in Bitcoin. Could someone elaborate on the topic? 
-
-2. Could anyone compare Vertcoin privacy to Monero? Are there any major differences? 
-
-16 : 20:59:47 11/14/2017 : Long-term musts for me are: IOTA, XMR, ETH and/or NEO
-
-13 : 21:20:22 11/14/2017 : because of the confidential transactions? lol!
-
-bitcoin will hardfork to implement and ltc will just add it as a feature that 99% won't even realize was added.
-
-no, i'd say monero will be fine.
-
-12 : 08:41:03 11/14/2017 : Yeah, the other day, I was specifically trying to find cons, and couldn't find any compelling ones. I could for other somewhat similar coins, like Vertcoin and Monero, which I'm invested in, but NAV just seems very undervalued for what it is.
-
-11 : 11:24:28 11/14/2017 : WOW! Manager from other department tips in XMR
-
-10 : 20:48:43 11/14/2017 : John McAfee: „Litecoin and Bitcoin making a move against Monero“
-
-9 : 00:56:14 11/15/2017 : Bitcoin Cash? Where is Monero?
-
-9 : 20:15:52 11/14/2017 : Long Term you should have ETH.
-
-If you go by %:
-
-25% BTC
-25% ETH
-10% XMR
-
-Long term these 3 will get you the better results. (if crypto keeps growing ofc)
-
-Now the alt coins... that's up to you. If I had to advise something maybe. 10% VTC, 10% LTC, 10% NEO, 5% ARK, 5% LSK
-
-5 : 01:59:33 11/15/2017 : Take 2:
-
-* BTC 30.00%
-* ETH 15.00%
-* XMR 15.00%
-* NEO 10.00%
-* VTC 10.00%
-* LSK 5.00%
-* ARK 5.00%
-* NAV 5.00%
-* OMG 5.00%
-
-4 : 06:13:58 11/15/2017 : I have VTC, XMR, and NAV right now. I'm really strong on NAV. I'm looking into ARK and LISK. 
-
-4 : 07:00:12 11/15/2017 :  * [OmiseGo](http://wcibtc.com/omg) - BTC fork hit OMG hard. No reason for it not to be breaking ATH's with their mainnet release due early next year
-
- * [Request Network](http://wcibtc.com/req) - Still selling around ICO price. Criminally undervalued which their detailed roadmap, open and concise AMA's and solid partner backings. I've been loading up the last 3 weeks.
-
- * [IOTA](http://wcibtc.com/iota) - Obligatory IOTA inclusion. "Big December News" Def worth buying the rumour imho
-
- * [Monero](http://wcibtc.com/xmr) - Although I wonder how both BTC & ETH privacy updates will effect Monero, I still think it has huge potential.
-
-3 : 23:48:48 11/14/2017 : Every time I see ads like this for coins, I just assume is a pump and dump and stay FAR AWAY. 
-
-Do you own research, come to your own conclusions.
-
-For me, right now, it's Bitcoin and Monero.
-
-3 : 11:47:13 11/14/2017 : Cool thanks for this, I've been seeing a lot of superficial info, but haven't done a deep dive.  It looks a lot like xmr without the privacy aspect, correct?
-
-2 : 05:18:26 11/15/2017 : You can tax my Monero, which I have an undisclosed amount of.
-
-2 : 01:47:37 11/15/2017 : Copy-pasting from my response to [yesterday's shill thread](https://www.reddit.com/r/CryptoCurrency/comments/7cskd2/coins_with_low_market_cap_and_high_potential/).
-
----
-
-[**Pink**](https://np.reddit.com/r/PinkApp/comments/79bx75/pinkapp_faq_a_blockchainfunded_dividendproducing/). High-risk, high-reward.
-
-Business model that just makes sense, tapping into the $200b sex industry. Not trying to invent new technology; just leveraging existing privacy and blockchain tech to create the [Uber/AirBnB of escorting apps](https://vimeo.com/239655911). Clients pay in cash, escorts pay a commission to Pink, dividends go to investors via ETH and/or XMR.
-
-Series A investment closed, Series B opening in a few weeks at $2.50/share with IPO target for 2018 Q1 at $10. Only about $1m invested during Series A. Beta launch in Toronto targeted for December/January. Rollout in other major cities to follow.
-
-Even more bullish on it since [Eros-Guide was recently raided](http://www.xbiz.com/news/231580/report-eros-guides-call-center-is-raided) by the Department of Homeland Security. There's a need for a site that can protect both client/escort personal information and provide a slick, convenient booking experience for both parties.
-
----
-
-**Official Site**  
-https://pinkapp.io
-
-**Video Demo**  
-https://vimeo.com/239655911
-
-**FAQ**  
-https://np.reddit.com/r/PinkApp/comments/79bx75/pinkapp_faq_a_blockchainfunded_dividendproducing
-
-1 : 06:41:28 11/15/2017 : Note to self, don't mention the word privacy around here if it doesn't involve XMR. Pretty sure XMR guys have some sort of email list that send notifications every time someone does because god damn they fuckin hit this thread like crazy.
-
-1 : 01:04:15 11/15/2017 : Switch your VTC to ETH.  
-
-I don't dislike VTC, but I still question whether it's earned a spot for long-term holding unless you really love speculating.  Even then, 20% is awfully high.  
-
-I know ASIC-resistance is a very shiny concept right now, particularly because of the drama with Bitcoin, but I'm not convinced it's a long-term problem facing crypto.  Plenty of other coins can still actively fight centralized mining.  Monero has already pledged to hard fork if they deem it necessary.  And PoS coins, such as ARK, LSK, and NAV, don't have the problem at all.
-
-1 : 06:51:54 11/15/2017 : Definitely will be. Buying into LISK and then upping my XMR and then hodl’n hard :)
-
-0 : 14:02:20 11/14/2017 : It's a good infographic. But I don't like Vertcoin. Segwit adds nothing. ASIC resistance can also be found with Monero and privacywise that's the far better coin.
-
-
-
-*********************** NEO ***********************
-197 : 17:00:33 11/14/2017 : Just found out there is ethereum Gold and ethereum Cash as well lol..
-
-edit: I'm in deep boys. Just realized there is Litecoin Gold too.
-
-edit 2: I believe I have reached the dark markets. I have unearthed Neo Gold.
-
-edit 3: We have reached singularity. Just discovered ZCash Gold.
-
-52 : 18:25:19 11/14/2017 : Personally, I can't imagine a long term portfolio without ETH in it. They're the biggest dapp platform, and unless you think NEO is going to steam-roll them straight out of existence, then ETH is just going to grow as more and more dapps come out and are actually *used*.
-
-16 : 20:59:47 11/14/2017 : Long-term musts for me are: IOTA, XMR, ETH and/or NEO
-
-10 : 20:34:26 11/14/2017 : THEKEY building identity verification solution on NEO blockchain
-
-9 : 20:15:52 11/14/2017 : Long Term you should have ETH.
-
-If you go by %:
-
-25% BTC
-25% ETH
-10% XMR
-
-Long term these 3 will get you the better results. (if crypto keeps growing ofc)
-
-Now the alt coins... that's up to you. If I had to advise something maybe. 10% VTC, 10% LTC, 10% NEO, 5% ARK, 5% LSK
-
-5 : 01:59:33 11/15/2017 : Take 2:
-
-* BTC 30.00%
-* ETH 15.00%
-* XMR 15.00%
-* NEO 10.00%
-* VTC 10.00%
-* LSK 5.00%
-* ARK 5.00%
-* NAV 5.00%
-* OMG 5.00%
-
-4 : 04:43:42 11/15/2017 : sold.neo in china fud
-
-but lost all healthcare chain bought 1 bitcoin worth at 5000 satoshi now it costs 250 because of china fud
-
-
-better is china food
-
-2 : 02:46:28 11/15/2017 : Guys I'm sorry to neg, but branding is everything. Vertcoin is a *shit name*.
-
-Take an example from NEO (previously known as Antshares) and fix your branding problem.
-
-2 : 06:06:35 11/15/2017 : I got NEO, OMG, ARK, LISK locked and loaded. I got too much money invested in Crypto for this to fail ;)
-
-Edit: Spelling
-
-1 : 19:42:47 11/14/2017 : NEO can do more.
-
--1 : 22:23:20 11/14/2017 : Let’s talk about Neo 1,000 transactions per second with capabilities going up to 10,000 a second 
-
--5 : 06:13:08 11/15/2017 : The author's problem is that he bought Chinacoin, literally. NEO was developed in China by Chinese nationalists. People forget, while China is more capitalistic than it was 20 years ago, it's still run by the communist party. The government there has absolute control. 
-
-Also, NEO was pumped like mad shortly before and after August 1st (Segwit & bitcoin fiasco), there was no question it's value was going to fall after the dust settled. Buying into a currency that just renamed itself and was massively pumped around a time of uncertainty is foolish no matter how you cut it. And I would never buy into Chinacoin no matter what it promises, I don't like the idea of China controlling my investment (if they don't now, they certainly will if it ever gains enough marketshare -- they can just march in and sieze control and nobody could do anything to stop them). That's what you risk when you buy into something in one of the most authoritarian governments on the planet.
+Bitcoin is the best bet in the top ten cryptos. There could be better growing smaller cryptos, but you have to dig for them. 
 
 
 
 *********************** LTC ***********************
-197 : 17:00:33 11/14/2017 : Just found out there is ethereum Gold and ethereum Cash as well lol..
+284 : 16:29:23 12/01/2017 : Founders of Ethereum and Litecoin Warn that BitConnect is a Ponzi Scheme!
 
-edit: I'm in deep boys. Just realized there is Litecoin Gold too.
+73 : 08:43:01 12/01/2017 : Litecoin has now been added to the LoMoStar app. Currently there is an airdrop for 1000 users to receive Litecoins
 
-edit 2: I believe I have reached the dark markets. I have unearthed Neo Gold.
+14 : 20:27:23 12/01/2017 : Can't even spell Litecoin correctly...
 
-edit 3: We have reached singularity. Just discovered ZCash Gold.
+11 : 01:06:55 12/02/2017 : Is it better to invest in Litecoin and/or Ether rather than Bitcoin at the moment?
 
-16 : 20:37:44 11/14/2017 : My bias opinion LTC
+2 : 13:50:40 12/01/2017 : I agree with him in this particular instance, but let's be honest here: Charlie is hardly an authority or even impartial third party when it comes to appraising the merits of various cryptos. He's too butthurt that Litecoin isn't #2, despite being around for a long time, and still hopes for it to be bitcoin's spendable little bro, which it will NEVER be IMO. That colors his statements and opinions of other coins.
 
-13 : 21:20:22 11/14/2017 : because of the confidential transactions? lol!
+2 : 23:36:37 12/01/2017 : Iota - not a fan of the coin, only the tech
 
-bitcoin will hardfork to implement and ltc will just add it as a feature that 99% won't even realize was added.
+Monero - insane development
 
-no, i'd say monero will be fine.
+Vertcoin - decentralized Litecoin
 
-10 : 10:29:42 11/14/2017 : @LTCFoundation: We are looking forward to sponsoring both Litecoin and Bitcoin developers to fulfill our mission.
+1 : 02:34:08 12/02/2017 : I just saw about/team page of ark.  most of its founders seem like business people. 
 
-10 : 20:48:43 11/14/2017 : John McAfee: „Litecoin and Bitcoin making a move against Monero“
+Its structured like a company. 
 
-9 : 20:15:52 11/14/2017 : Long Term you should have ETH.
+But litecoin is not a company. Its modeled on bitcoin. 
 
-If you go by %:
+I think world will prefer decentralized coins like litecoin/bitcoin as stores of value. 
 
-25% BTC
-25% ETH
-10% XMR
 
-Long term these 3 will get you the better results. (if crypto keeps growing ofc)
 
-Now the alt coins... that's up to you. If I had to advise something maybe. 10% VTC, 10% LTC, 10% NEO, 5% ARK, 5% LSK
 
-8 : 23:50:20 11/14/2017 : Son Litecoin is massively undervalued proportionately to its Daddy Bitcoin and little Sister Bitcoin Cash
+1 : 05:35:54 12/02/2017 : Litecoin will wither when Bitcoin implements 2nd-layer scaling solutions...and if Bitcoin fails to do that, it'll go down hard, and Litecoin will wither under that circumstance, too.  All Litecoin is good for is riding Bitcoin's coattails and sweeping up those who are okay with BTC being a "store of value" that isn't functional as a transactional currency.  For now, speculation will keep driving it up, I'm holding some for that reason alone...but it's not a sound long-term play.
 
-7 : 16:22:10 11/14/2017 : This actually looks pretty awesome. Although I still think LTC will be a bigger contender long run.
+ARK is, IMO, somewhere between Ethereum and Ripple in terms of structure, ideology, and application.  SmartBridges, "push-button" blockchains for businesses, DPoS...its value will come from its utility in the services it provides to connect and deploy disparate blockchains.  DPoS incentivizes hodling, while SmartBridges could make the ARK coin a sort of universal blockchain token.  It's not really anyone's anarcho-capitalist revolution, but it strikes me as a better investment than a coin whose only claim to fame is being Bitcoin's cheeky little brother.
 
-7 : 23:20:41 11/14/2017 : Just hiding transaction amounts is not anonymous. You still can see who sent to whom and how much someone owns. 
-If John owns 10 LTC and a few hours later after selling his drugs on a DNM he owns 11 LTC, and Jim did a Confidential transaction to John, it’s easy to know that Jim sent 1 LTC to John. 
-This is just a small confidentiality bonus and it isn’t even default.
+1 : 05:35:54 12/02/2017 : Litecoin will wither when Bitcoin implements 2nd-layer scaling solutions...and if Bitcoin fails to do that, it'll go down hard, and Litecoin will wither under that circumstance, too.  All Litecoin is good for is riding Bitcoin's coattails and sweeping up those who are okay with BTC being a "store of value" that isn't functional as a transactional currency.  For now, speculation will keep driving it up, I'm holding some for that reason alone...but it's not a sound long-term play.
 
-IMHO Litecoin is endangered by Vertcoin. But I appreciate both currencies. 
+ARK is, IMO, somewhere between Ethereum and Ripple in terms of structure, ideology, and application.  SmartBridges, "push-button" blockchains for businesses, DPoS...its value will come from its utility in the services it provides to connect and deploy disparate blockchains.  DPoS incentivizes hodling, while SmartBridges could make the ARK coin a sort of universal blockchain token.  It's not really anyone's anarcho-capitalist revolution, but it strikes me as a better investment than a coin whose only claim to fame is being Bitcoin's cheeky little brother.
 
-6 : 23:54:50 11/14/2017 : Charlie Lee drops NO2X, adopts LTC instead encouraging others to do the same
+1 : 05:35:54 12/02/2017 : Litecoin will wither when Bitcoin implements 2nd-layer scaling solutions...and if Bitcoin fails to do that, it'll go down hard, and Litecoin will wither under that circumstance, too.  All Litecoin is good for is riding Bitcoin's coattails and sweeping up those who are okay with BTC being a "store of value" that isn't functional as a transactional currency.  For now, speculation will keep driving it up, I'm holding some for that reason alone...but it's not a sound long-term play.
 
-3 : 21:03:43 11/14/2017 : a simple answer - Litecoin.
+ARK is, IMO, somewhere between Ethereum and Ripple in terms of structure, ideology, and application.  SmartBridges, "push-button" blockchains for businesses, DPoS...its value will come from its utility in the services it provides to connect and deploy disparate blockchains.  DPoS incentivizes hodling, while SmartBridges could make the ARK coin a sort of universal blockchain token.  It's not really anyone's anarcho-capitalist revolution, but it strikes me as a better investment than a coin whose only claim to fame is being Bitcoin's cheeky little brother.
 
-- pay nearly everywhere with it 
-- world wide accepted
- 
 
-2 : 00:31:01 11/15/2017 : If people think bitcoin is undervalued, what is litecoin? (no sly remarks pls)
 
-1 : 23:41:31 11/14/2017 : ###&#009;
-######&#009;
-####&#009;
+*********************** VTC ***********************
+90 : 21:25:28 12/01/2017 : How To Mine Vertcoin With One-Click Miner
 
-Acronyms, initialisms, abbreviations, contractions, and other phrases which expand to something larger, that I've seen in this thread:
+19 : 21:05:33 12/01/2017 : Vertcoin Is Giving Away Free VTC all of December
 
-|Fewer Letters|More Letters|
-|-------|---------|---|
-|[BTC](/r/CryptoCurrency/comments/7cwtvg//dpuj19z "Last usage")|[Coin] Bitcoin|
-|[ETH](/r/CryptoCurrency/comments/7cwtvg//dpuf62a "Last usage")|[Coin] Ethereum|
-|[ICO](/r/CryptoCurrency/comments/7cwtvg//dpuf62a "Last usage")|Initial Coin Offering|
-|[LTC](/r/CryptoCurrency/comments/7cwtvg//dpuj19z "Last usage")|[Coin] Litecoin|
-|[XRP](/r/CryptoCurrency/comments/7cwtvg//dpu8p15 "Last usage")|[Coin] Ripple|
+17 : 13:12:43 12/01/2017 : This is what it looks like when we mine Vertcoin
 
-----------------
-^(*If you come across an acronym that isn't defined, please* )[*^let ^the ^mods ^know.*](https://www.reddit.com/message/compose?to=%2Fr%2FCryptoCurrency))  
-^([Thread #137 for this sub, first seen 14th Nov 2017, 23:41]) 
-[^\[FAQ\]](http://decronym.xyz/) [^\[Full ^list\]](http://decronym.xyz/acronyms/CryptoCurrency) [^\[Contact\]](https://reddit.com/message/compose?to=OrangeredStilton&subject=Hey,+your+acronym+bot+sucks) [^\[Source ^code\]](https://gist.github.com/Two9A/1d976f9b7441694162c8)
+14 : 23:42:52 12/01/2017 : I've always wanted to get into mining but overall it just seems like too much work for the return. Instead of buying say 4 GTX 1080s which are fantastic for mining Vertcoin you might as well put that about $1600 into Vertcoin instead. You'll probably see greater returns with the latter.  Unless you have a powerful enough setup that can melt windows. You really aren't doing that well. 
 
-1 : 23:58:25 11/14/2017 : I'm a bot, *bleep*, *bloop*. Someone has linked to this thread from another place on reddit:
+14 : 23:42:52 12/01/2017 : I've always wanted to get into mining but overall it just seems like too much work for the return. Instead of buying say 4 GTX 1080s which are fantastic for mining Vertcoin you might as well put that about $1600 into Vertcoin instead. You'll probably see greater returns with the latter.  Unless you have a powerful enough setup that can melt windows. You really aren't doing that well. 
 
-- [/r/litecoin] [Saw this 150 ft advertisement at London's busiest train station. Adoption incoming! • r\/CryptoCurrency](https://www.reddit.com/r/litecoin/comments/7czz79/saw_this_150_ft_advertisement_at_londons_busiest/)
+6 : 23:51:55 12/01/2017 : What's like the minimum setup you could have to mine vertcoin with?  I don't mind spending a bit of money cause I'm trying to buy some stuff anyways for WTC masternode mining.
 
-&nbsp;*^(If you follow any of the above links, please respect the rules of reddit and don't vote in the other threads.) ^\([Info](/r/TotesMessenger) ^/ ^[Contact](/message/compose?to=/r/TotesMessenger))*
+5 : 14:59:29 12/01/2017 : I dont understand I tried to mine on my gtx 10 and my calculations tell me I'd get 1/4th of a vertcoin in 24 hours. Thats under $2 and my costs are more than that. Am I doing something wrong? I've been following the official guide how to mine on the vertcoin website.
 
-1 : 18:27:26 11/14/2017 : LTC, ETH and NEM missing for me. 
+5 : 14:59:29 12/01/2017 : I dont understand I tried to mine on my gtx 10 and my calculations tell me I'd get 1/4th of a vertcoin in 24 hours. Thats under $2 and my costs are more than that. Am I doing something wrong? I've been following the official guide how to mine on the vertcoin website.
 
-1 : 00:58:41 11/15/2017 : I got 99% NAV .1% LTC .9% BTC. I believe I will go to the MoOoOoOoOoN, from my LTC.
+1 : 05:07:47 12/02/2017 : Ark, vertcoin and sparklecoin
 
-1 : 23:14:28 11/14/2017 : litecoin triple digits before year end.
+0 : 02:27:58 12/02/2017 : If this is the December surprise I'm a little disappointed honestly. I have a fair bit of vertcoin but 2 people a day getting 5 coins is about $60 worth of giveaways, multiply by 31 that's about $1800 worth, relatively generous I suppose but not in any way major news. 
 
-0 : 23:50:01 11/14/2017 : This is my long term portfolio:
 
-http://www.coinparator.com/yKwJQH/
 
-I know, that a lot of my coins are in the red. That's because I put this portfolio together right before BTC crash (when it touched $5000 and then crashed). But since then most of the coins are recovering and rising again. I would recommend you any coin from my portfolio EXCEPT following: XAS, STRAT, TENX, MCO, EBET (these were mistakes).
+*********************** NEO ***********************
+14 : 21:29:54 12/01/2017 : Mine? 
 
-If I have to be specific, you are mainly missing LTC, ETH and maybe some WAVES/OMG.
+Iota Ark and NEO 
 
--1 : 14:58:44 11/14/2017 : ###&#009;
-######&#009;
-####&#009;
+But they all need A LOT of work before they ascend.
 
-Acronyms, initialisms, abbreviations, contractions, and other phrases which expand to something larger, that I've seen in this thread:
+Ark needs its Smart contract environment to be up and running, it needs to be connected to more coins than just eth (and btc now!), it needs to become what it claims to be (an entry point to consumers who want to create their own natively bridged chains) using push button blockchains, and they seriously need, once they get that set, to pivot on their marketing philosophy into well... actually marketing.
 
-|Fewer Letters|More Letters|
-|-------|---------|---|
-|[BTC](/r/CryptoCurrency/comments/7cumy3//dpu7fcp "Last usage")|[Coin] Bitcoin|
-|[ETH](/r/CryptoCurrency/comments/7cumy3//dpu4w1h "Last usage")|[Coin] Ethereum|
-|[ICO](/r/CryptoCurrency/comments/7cumy3//dpt25vs "Last usage")|Initial Coin Offering|
-|[LTC](/r/CryptoCurrency/comments/7cumy3//dptzhuy "Last usage")|[Coin] Litecoin|
+Iota needs a better wallet, it needs to be easier to add to exchanges and it needs to eliminate its last shreds of centralization by getting to a point where coordinator nodes are no longer needed.
 
-----------------
-^(*If you come across an acronym that isn't defined, please* )[*^let ^the ^mods ^know.*](https://www.reddit.com/message/compose?to=%2Fr%2FCryptoCurrency))  
-^(4 acronyms in this thread; )[^the ^most ^compressed ^thread ^commented ^on ^today](/r/CryptoCurrency/comments/7cwtvg)^( has 5 acronyms.)  
-^([Thread #134 for this sub, first seen 14th Nov 2017, 14:58]) 
-[^\[FAQ\]](http://decronym.xyz/) [^\[Full ^list\]](http://decronym.xyz/acronyms/CryptoCurrency) [^\[Contact\]](https://reddit.com/message/compose?to=OrangeredStilton&subject=Hey,+your+acronym+bot+sucks) [^\[Source ^code\]](https://gist.github.com/Two9A/1d976f9b7441694162c8)
+Neo’s needs to decentralize as well, to allow what antshares originally promised (that “shares” or NEO coins as they’re known now don’t just generate gas but allow voting too). The rest is out of Neo’s hands to some degree as they need China’s government to get its ducks in a row and tell us just what the fuck their policy is going to be going forward.
 
--1 : 01:22:32 11/15/2017 : Come over to Litecoin, there's literally 0 toxicity there
+If these three coins can actually achieve these things I see no reason why they won’t have positions in the top 10 for a very long time.
 
+Honorable mention is Monero, I didn’t include it because I already think it’s a top coin along with Btc, eth, and ltc.
 
+14 : 21:29:54 12/01/2017 : Mine? 
 
-*********************** ZEC ***********************
-197 : 17:00:33 11/14/2017 : Just found out there is ethereum Gold and ethereum Cash as well lol..
+Iota Ark and NEO 
 
-edit: I'm in deep boys. Just realized there is Litecoin Gold too.
+But they all need A LOT of work before they ascend.
 
-edit 2: I believe I have reached the dark markets. I have unearthed Neo Gold.
+Ark needs its Smart contract environment to be up and running, it needs to be connected to more coins than just eth (and btc now!), it needs to become what it claims to be (an entry point to consumers who want to create their own natively bridged chains) using push button blockchains, and they seriously need, once they get that set, to pivot on their marketing philosophy into well... actually marketing.
 
-edit 3: We have reached singularity. Just discovered ZCash Gold.
+Iota needs a better wallet, it needs to be easier to add to exchanges and it needs to eliminate its last shreds of centralization by getting to a point where coordinator nodes are no longer needed.
 
+Neo’s needs to decentralize as well, to allow what antshares originally promised (that “shares” or NEO coins as they’re known now don’t just generate gas but allow voting too). The rest is out of Neo’s hands to some degree as they need China’s government to get its ducks in a row and tell us just what the fuck their policy is going to be going forward.
 
+If these three coins can actually achieve these things I see no reason why they won’t have positions in the top 10 for a very long time.
 
-*********************** NAV ***********************
-25 : 08:08:28 11/14/2017 : Does anyone have anything bad to say about NAV?
+Honorable mention is Monero, I didn’t include it because I already think it’s a top coin along with Btc, eth, and ltc.
 
-14 : 09:19:39 11/14/2017 : I hope NAV will implement Atomic Swaps soon. Then there would be no reason for Vertcoin imo.
+9 : 19:46:38 12/01/2017 : NEO monthly report: Decentralization coming and international marketing stepping up
 
-12 : 08:41:03 11/14/2017 : Yeah, the other day, I was specifically trying to find cons, and couldn't find any compelling ones. I could for other somewhat similar coins, like Vertcoin and Monero, which I'm invested in, but NAV just seems very undervalued for what it is.
+8 : 23:03:57 12/01/2017 : ARK is nice because you can vote for any of the top 51 delegates and earn more ARK (passive income). Something similar to how holding NEO rewards you with GAS. 
 
-11 : 12:50:53 11/14/2017 : I can't say anything definitely **bad**. However I have several points that I am sceptical about. One is the anonymity, and how it is achieved. I read the whitepaper and was confused about it. It looks to me like it is less than solid. More like obscuring transactions via a side-chain and not really untraceable when it comes to inputs and outputs. I'm not certain, just sceptical so don't take my word for it.
+6 : 14:39:08 12/01/2017 : Mostly HODL.  I'll make some trades occasionally and try to strike gold like I did with NEO at $4 and $7 and VTC at $.52.  I mostly move profits to take on different risks such as MOD and REQ now.
 
-I'm also sceptical that such a small project is going to be able to deliver everything they plan. It aims to have dapps that are anonymous. That is no small task. I think that a coin such as NAV, with PoS, attempted privacy/anonymity, dapps etc. Will try too much to be a jack of all trades and fail to be really good at anything. Again, this is speculation on my part, just how I see it.
+2 : 12:35:42 12/01/2017 : So between NEO and GAS, what is the better investment?
 
-Last time I heard, they only had part time devs. Perhaps that has changed now.
+2 : 21:13:10 12/01/2017 : Yeah, you are spot on.  Not to mention the environmental impact of PoW.  Look into Proof of Stake coins like NEO or distributed PoS like ARK.  ETH is going to PoS eventually too.  It is far easier to be a block validator (miner), is way more environmentally friendly, and I believe it is the future of crypto.
 
-usually the really smart investors are early to catch potential. IMO the reason NAV is valued low is...because it is not worth more. The expert investors usually have these things pinned down pretty well and as soon as NAV delivers something big, the price will most likely rise, if not before due to hype from regular users. When enough holders of NAV shill it, here for example, it will catch up.
+1 : 02:27:59 12/02/2017 : Yeah I think I’m done with Bittrex. All they have is shitcoins and they don’t pay GAS on NEO in wallets. Binance is my new exchange for alts
 
-Now I know it sounds as if I dislike NAV, I don't. I just try to stay realistic about projects. I don't think that it is so much NAV that is undervalued, as other coins being overvalued. Just look at Verge for example, waaay overvalued. NAV is a better project, however that does not mean it should be priced higher. It all depends on what you compare with. Compared to shitcoins with higher marketcap, I believe that NAV is undervalued. Compared to the big/groundbreaking projects, I think NAV is pretty good where it is, for now. 
+1 : 20:40:15 12/01/2017 : Why won't NEO climb out of this damn hole??  
 
-TLDR: Nothing wrong with NAV, it just has to prove to actually do something unique. So far it is just grand plans. 
+1 : 18:48:29 12/01/2017 : I would sell a good chunk of the NEO and pick up at least a little bit of Bitcoin Cash.
 
+I'm also way heavier in Ethereum.
 
+It wouldn't hurt you to pick up some smaller stakes in a few more small-to-mid cap coins. You really only need one of them to work out to make up for the duds.
 
-10 : 09:08:34 11/14/2017 : Here is an excellent description of what NAV is all about. I found this informative and jumped in about %15 of my portfolio. https://www.youtube.com/watch?v=uzSF7lpk2IE
+1 : 04:47:37 12/02/2017 : Buy NEO, we are going to triple digits soon. A ton of ICOs starting on NEO in the near future. Many dapps now developing. This is the last chance in 2017 for making great investment. 
 
-7 : 01:30:05 11/15/2017 : NAV Coin (NAV)
+0 : 18:22:05 12/01/2017 : People are starting to use Eth I think it's a great investment at the moment but I am a Neo fan so I know Neo preforms better than Eth but all it comes down too is who is planning to use it and Eth has a lot of people beginning to use it.
 
-5 : 01:59:33 11/15/2017 : Take 2:
+0 : 18:22:05 12/01/2017 : People are starting to use Eth I think it's a great investment at the moment but I am a Neo fan so I know Neo preforms better than Eth but all it comes down too is who is planning to use it and Eth has a lot of people beginning to use it.
 
-* BTC 30.00%
-* ETH 15.00%
-* XMR 15.00%
-* NEO 10.00%
-* VTC 10.00%
-* LSK 5.00%
-* ARK 5.00%
-* NAV 5.00%
-* OMG 5.00%
+0 : 17:09:09 12/01/2017 : you need a lot more NEO in your diet
 
-4 : 12:15:52 11/14/2017 : They could market themselves better.
+0 : 18:13:34 12/01/2017 : Move 5% from bitcoin to DRP and another 5% to NEO and you're golden.
 
+-1 : 19:53:15 12/01/2017 : Please help NEO get out of this hole.... :)
 
-Edit: just found out that they are 75% through planning there marketing roadmap. According to here: https://navcoin.org/project-roadmap/ - I guess they are working on it.
 
-4 : 06:13:58 11/15/2017 : I have VTC, XMR, and NAV right now. I'm really strong on NAV. I'm looking into ARK and LISK. 
 
-1 : 00:58:41 11/15/2017 : I got 99% NAV .1% LTC .9% BTC. I believe I will go to the MoOoOoOoOoN, from my LTC.
+*********************** DCR ***********************
+29 : 22:03:25 12/01/2017 : Decred Rap - Original Governance - ft. Crypto Rap Up
 
-1 : 01:04:15 11/15/2017 : Switch your VTC to ETH.  
+1 : 05:27:51 12/02/2017 : IOTA, MONERO and tbd  possibly QTUM, KOMODO, LUNYR, DECRED or STATUS
 
-I don't dislike VTC, but I still question whether it's earned a spot for long-term holding unless you really love speculating.  Even then, 20% is awfully high.  
 
-I know ASIC-resistance is a very shiny concept right now, particularly because of the drama with Bitcoin, but I'm not convinced it's a long-term problem facing crypto.  Plenty of other coins can still actively fight centralized mining.  Monero has already pledged to hard fork if they deem it necessary.  And PoS coins, such as ARK, LSK, and NAV, don't have the problem at all.
 
-1 : 06:15:32 11/15/2017 : For sure ark and xlm. I’d like to see bat and nav but, think I’ve gotta wait awhile for those two 
+*********************** FCT ***********************
+27 : 10:18:40 12/01/2017 : Factom (FCT) Getting attention in China.
 
-0 : 22:56:41 11/14/2017 : I would add NAV and ETH. I'm not really too sure about ARK. And LSK seems like more of a short-term buy with their new tech and partnerships.. not sure about long term prospects. 
 
 
+*********************** ADA ***********************
+5 : 23:27:37 12/01/2017 : > Beyond this, ADA cannot hide the fact that there is no tangible developments in place. At this point in time, the coin is simply vaporware. The mainnet is more of a litenet than anything, as none of the planned features are currently in place. In comparison to it’s competitors, such as ETH, IOTA, NEO, and WAVES, ADA is seriously lacking in terms of framework. The team, which parades its “global background”, seems to be void of industry veterans and respected individuals within the crypto sphere.
 
-*********************** LSK ***********************
-67 : 12:08:12 11/14/2017 : Lisk Explorer 1.4.0 — Enhanced UX/UI, Improved Performance, Bug Fixes, and Website Analytics
+Hard to disagree with that assessment. I think Cardano and it’s team are very prominent and could have a future, but this 450% with no news with features not implemented means this coin is gonna fall hard. In a year that won’t be the case since ADA will have a lot more stuff, I just think it’s way overvalued with fewer features than IOTA, NEO, etc.
 
-9 : 20:15:52 11/14/2017 : Long Term you should have ETH.
+5 : 23:27:37 12/01/2017 : > Beyond this, ADA cannot hide the fact that there is no tangible developments in place. At this point in time, the coin is simply vaporware. The mainnet is more of a litenet than anything, as none of the planned features are currently in place. In comparison to it’s competitors, such as ETH, IOTA, NEO, and WAVES, ADA is seriously lacking in terms of framework. The team, which parades its “global background”, seems to be void of industry veterans and respected individuals within the crypto sphere.
 
-If you go by %:
+Hard to disagree with that assessment. I think Cardano and it’s team are very prominent and could have a future, but this 450% with no news with features not implemented means this coin is gonna fall hard. In a year that won’t be the case since ADA will have a lot more stuff, I just think it’s way overvalued with fewer features than IOTA, NEO, etc.
 
-25% BTC
-25% ETH
-10% XMR
+5 : 23:27:37 12/01/2017 : > Beyond this, ADA cannot hide the fact that there is no tangible developments in place. At this point in time, the coin is simply vaporware. The mainnet is more of a litenet than anything, as none of the planned features are currently in place. In comparison to it’s competitors, such as ETH, IOTA, NEO, and WAVES, ADA is seriously lacking in terms of framework. The team, which parades its “global background”, seems to be void of industry veterans and respected individuals within the crypto sphere.
 
-Long term these 3 will get you the better results. (if crypto keeps growing ofc)
+Hard to disagree with that assessment. I think Cardano and it’s team are very prominent and could have a future, but this 450% with no news with features not implemented means this coin is gonna fall hard. In a year that won’t be the case since ADA will have a lot more stuff, I just think it’s way overvalued with fewer features than IOTA, NEO, etc.
 
-Now the alt coins... that's up to you. If I had to advise something maybe. 10% VTC, 10% LTC, 10% NEO, 5% ARK, 5% LSK
+3 : 03:17:02 12/02/2017 : Why is ADA only going up? I thought it was oke but not so special. After a couple of days I am no longer thinking it is a pump. What is so special about it?
 
-9 : 06:30:49 11/15/2017 : LISK - Don't let this opportunity go by you!
+2 : 06:36:11 12/01/2017 : Been looking at ADA and I’m not convinced it’s any better than ethereum. What makes you think it is?
 
-5 : 01:59:33 11/15/2017 : Take 2:
 
-* BTC 30.00%
-* ETH 15.00%
-* XMR 15.00%
-* NEO 10.00%
-* VTC 10.00%
-* LSK 5.00%
-* ARK 5.00%
-* NAV 5.00%
-* OMG 5.00%
 
-4 : 06:13:58 11/15/2017 : I have VTC, XMR, and NAV right now. I'm really strong on NAV. I'm looking into ARK and LISK. 
+*********************** XMR ***********************
+3 : 22:48:55 12/01/2017 : I think privacy is a bit under-represented in your portfolio. 2018 is going to be the first year where quite a large group of people have to pay taxes on their financial gains through cryptocurrency. The community as a whole will gain a much larger awareness of the idea that your funds and transactions on standard blockchains are not at all hidden.
 
-2 : 06:06:35 11/15/2017 : I got NEO, OMG, ARK, LISK locked and loaded. I got too much money invested in Crypto for this to fail ;)
+I like a few privacy-oriented projects a lot now and for 2018:
 
-Edit: Spelling
+**XMR** - Big daddy in anonymous tech. The infrastructure is finally catching up to the network interest - hardware/mobile wallets, fiat exchanges, etc. Monero will be $1,000+ in 2018.
 
-1 : 19:46:33 11/14/2017 : No eth? Why so much lisk?
+**SUMO** - Monero's helpful little brother. SUMO is a Monero fork started in May 2017 that has shown a ton of progress and active development in a short timeframe. SUMO has already launched features like anonymous sub-addresses and anti-botnet code that have or will likely be added to Monero in the future. $2 million market cap right now. I expect that to grow quite a bit in 2018. [r/SumoCurrency](https://www.reddit.com/r/SumoCurrency/) [r/sumokoin](https://www.reddit.com/r/sumokoin/)
 
-1 : 01:04:15 11/15/2017 : Switch your VTC to ETH.  
+**AEON** - Mobile Monero. I believe AEON is waiting on mobile technology to catch up before it really starts to see development and takes off, and 2018 might be the year that happens. I think AEON will grow slowly through 2018 and catch fire sometime later in the year. [r/AEON](https://www.reddit.com/r/aeon/)
 
-I don't dislike VTC, but I still question whether it's earned a spot for long-term holding unless you really love speculating.  Even then, 20% is awfully high.  
+**HUSH** - HUSH is the only Zcash based coin I like long term. HUSH removed the founders reward present in most other Z-coins. They have an ambitious roadmap including secure messaging and counterparty + ethereum virtual machine integration into the platform. The developers build open source and remind me of other qualified open source teams like Monero's and Ark's. I expect HUSH to grow steadily in 2018 as pieces of the roadmap are completed. [r/myhush](https://www.reddit.com/r/Myhush)
 
-I know ASIC-resistance is a very shiny concept right now, particularly because of the drama with Bitcoin, but I'm not convinced it's a long-term problem facing crypto.  Plenty of other coins can still actively fight centralized mining.  Monero has already pledged to hard fork if they deem it necessary.  And PoS coins, such as ARK, LSK, and NAV, don't have the problem at all.
 
-1 : 07:29:53 11/15/2017 : seriously which lisk. hydralisk, mutalisk, ultralisk? what kind of amateur grade post is this?
 
-1 : 06:51:54 11/15/2017 : Definitely will be. Buying into LISK and then upping my XMR and then hodl’n hard :)
+3 : 22:48:55 12/01/2017 : I think privacy is a bit under-represented in your portfolio. 2018 is going to be the first year where quite a large group of people have to pay taxes on their financial gains through cryptocurrency. The community as a whole will gain a much larger awareness of the idea that your funds and transactions on standard blockchains are not at all hidden.
 
-0 : 22:56:41 11/14/2017 : I would add NAV and ETH. I'm not really too sure about ARK. And LSK seems like more of a short-term buy with their new tech and partnerships.. not sure about long term prospects. 
+I like a few privacy-oriented projects a lot now and for 2018:
 
--7 : 14:57:26 11/14/2017 : Do people actually think lisk will compete with ethereum or is this very wishful thinking?
+**XMR** - Big daddy in anonymous tech. The infrastructure is finally catching up to the network interest - hardware/mobile wallets, fiat exchanges, etc. Monero will be $1,000+ in 2018.
 
--10 : 18:38:57 11/14/2017 : lisk failed long time ago
+**SUMO** - Monero's helpful little brother. SUMO is a Monero fork started in May 2017 that has shown a ton of progress and active development in a short timeframe. SUMO has already launched features like anonymous sub-addresses and anti-botnet code that have or will likely be added to Monero in the future. $2 million market cap right now. I expect that to grow quite a bit in 2018. [r/SumoCurrency](https://www.reddit.com/r/SumoCurrency/) [r/sumokoin](https://www.reddit.com/r/sumokoin/)
 
+**AEON** - Mobile Monero. I believe AEON is waiting on mobile technology to catch up before it really starts to see development and takes off, and 2018 might be the year that happens. I think AEON will grow slowly through 2018 and catch fire sometime later in the year. [r/AEON](https://www.reddit.com/r/aeon/)
 
+**HUSH** - HUSH is the only Zcash based coin I like long term. HUSH removed the founders reward present in most other Z-coins. They have an ambitious roadmap including secure messaging and counterparty + ethereum virtual machine integration into the platform. The developers build open source and remind me of other qualified open source teams like Monero's and Ark's. I expect HUSH to grow steadily in 2018 as pieces of the roadmap are completed. [r/myhush](https://www.reddit.com/r/Myhush)
 
-*********************** BCC ***********************
-20 : 18:10:21 11/14/2017 : Bread Wallet Announces Support for ERC20 Tokens and Bitcoin Cash
 
-10 : 18:11:21 11/14/2017 : Lets also consider that BTC is under threat right now, lost around 25% of it's market share to Bitcoin Cash over the last week, and many BTC holders - which there are *a lot* more of - will be shilling and spreading FUD to defend their bags.  
 
-Also be aware that Bitcoin Core organizes harassment, FUD, and trolling campaigns: http://telegra.ph/Inside-the-Dragons-Den-Bitcoin-Cores-Troll-Army-04-07
+3 : 22:48:55 12/01/2017 : I think privacy is a bit under-represented in your portfolio. 2018 is going to be the first year where quite a large group of people have to pay taxes on their financial gains through cryptocurrency. The community as a whole will gain a much larger awareness of the idea that your funds and transactions on standard blockchains are not at all hidden.
 
-Yesterday they were vote botting in /r/btc to make it look like they were just pumpers: https://www.reddit.com/r/btc/comments/7cp4v0/buy_bitcoin_cash_right_now_youre_gonna_regret_it/
+I like a few privacy-oriented projects a lot now and for 2018:
 
-And if you've been watching /r/bitcoin you've probably seen the character assassinations, that are completely unrelated to the scaling debate, on those who support Bitcoin Cash including Vitalik now.
+**XMR** - Big daddy in anonymous tech. The infrastructure is finally catching up to the network interest - hardware/mobile wallets, fiat exchanges, etc. Monero will be $1,000+ in 2018.
 
-9 : 00:56:14 11/15/2017 : Bitcoin Cash? Where is Monero?
+**SUMO** - Monero's helpful little brother. SUMO is a Monero fork started in May 2017 that has shown a ton of progress and active development in a short timeframe. SUMO has already launched features like anonymous sub-addresses and anti-botnet code that have or will likely be added to Monero in the future. $2 million market cap right now. I expect that to grow quite a bit in 2018. [r/SumoCurrency](https://www.reddit.com/r/SumoCurrency/) [r/sumokoin](https://www.reddit.com/r/sumokoin/)
 
-8 : 23:50:20 11/14/2017 : Son Litecoin is massively undervalued proportionately to its Daddy Bitcoin and little Sister Bitcoin Cash
+**AEON** - Mobile Monero. I believe AEON is waiting on mobile technology to catch up before it really starts to see development and takes off, and 2018 might be the year that happens. I think AEON will grow slowly through 2018 and catch fire sometime later in the year. [r/AEON](https://www.reddit.com/r/aeon/)
 
-8 : 17:23:25 11/14/2017 : Bittylicious now allow trade with Bitcoin Cash
+**HUSH** - HUSH is the only Zcash based coin I like long term. HUSH removed the founders reward present in most other Z-coins. They have an ambitious roadmap including secure messaging and counterparty + ethereum virtual machine integration into the platform. The developers build open source and remind me of other qualified open source teams like Monero's and Ark's. I expect HUSH to grow steadily in 2018 as pieces of the roadmap are completed. [r/myhush](https://www.reddit.com/r/Myhush)
 
-3 : 20:54:30 11/14/2017 : I am one of those bag holders who bought at $2500. I will be buying more Bitcoin Cash to average the cost down. 
 
-2 : 01:24:23 11/15/2017 : "I want everyone to think that we're fighting so the prices drop and Wall Street can make small buys on Bitcoin and Bitcoin cash while normies give up their bags....." 
 
-1 : 22:18:59 11/14/2017 : How funny, the ones I've been spotting in London the last few weeks all have Ethereum Classic instead of bitcoin cash. They must just have changed that
+2 : 17:03:38 12/01/2017 : If I were you I would keep the top 2, then convert the rest into Monero. None of those coins you list in the #2-#7 spot are more undervalued than Monero right now. 
 
-1 : 07:08:14 11/15/2017 : That there's Bitcoin and Bitcoin Cash would seem pretty cryptic to many probably.
+1 : 05:27:51 12/02/2017 : IOTA, MONERO and tbd  possibly QTUM, KOMODO, LUNYR, DECRED or STATUS
 
-1 : 01:03:53 11/15/2017 : I remember the days leading up to the not yet canceled fork and everyone was punished for not having bitcoin. Literally every alt coin was in the red, and bitcoin fans were jumping for joy. Then, when they had a taste of their own medicine, and Bitcoin Cash was pumped, they whined and cried like four year olds after having a legendary 2017. I have both, so I don't care, I am more into other crypto assets besides those two. It just shows you how manipulative those hodlers can be, it becomes toxic really fast.
 
-1 : 04:37:26 11/15/2017 : “ By introducing Bitcoin Cash as a hard fork and airdrop, the team played their trump card pretty quickly. This focus on politics rather than on making Bitcoin a better currency overall has proven quite problematic.”
 
-Wut. Are they talking about Core or Cash?
+*********************** DASH ***********************
+6 : 03:00:40 12/02/2017 : Wow, I thought I had it bad because I sold 100 DASH in January this year.
+This loss of $30K just from a reused address is absolutely unreal. I think it this happened to me, after all the emotional struggles I've been dealing with already, I think I'd really snap.
 
+2 : 16:06:50 12/01/2017 : Would actually donate if they took dash or bch.
 
+2 : 17:47:38 12/01/2017 : I hodl. I held onto DASH and it paid off nicely.
 
-*********************** DNT ***********************
-58 : 17:24:23 11/14/2017 : district0x Dev Update - November 14, 2017 – district0x
+1 : 16:12:16 12/01/2017 : What's everyone's general sentiment on DASH and DCR? Is DCR a good long term HODL? Is Dash going to end up losing steam soon?
+
+1 : 16:12:16 12/01/2017 : What's everyone's general sentiment on DASH and DCR? Is DCR a good long term HODL? Is Dash going to end up losing steam soon?
+
+0 : 18:07:45 12/01/2017 : If you plan to hold through 2018 make sure you have some Dash and DRP.   
+You won't be disappointed.
+
+0 : 18:06:07 12/01/2017 : Looks pretty good. I personally hold everything you have except BTC, Dash, and Augur. Btc I just feel the train has left for a good time to invest. Dash is a very questionable crypto, I remember researching it and realizing it's basically like a Ponzi scheme that needs new people buying in constantly. Augur I am just unfamiliar with. 
+
+My opinion on a few things:
+
+- ETH 2018, it's going to explode. I'm seeing astronomical gains next year because it has so many use cases from the smart contract perspective and the ETH alliance will be getting a lot of media coverage as these giant corporations start rolling out their own block chain apps built on ETH. 
+
+- MOD, Vechain, Enjin, Ark. The sleepers that I believe will take off in 2018. Check them out. 
+
+-1 : 13:27:16 12/01/2017 : HUR DUR crypto won't be used for  real payment solution, the future is the utility of ledger technology hur der my dash hur der i can buy a house with bitcoin
 
 
 

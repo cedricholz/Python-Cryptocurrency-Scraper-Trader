@@ -85,9 +85,10 @@ class RedditStrat:
                 reddit_coins = self.find_mentions(submission.title, reddit_coins, str(submission), submission.created,
                                                   submission.score)
                 for comment in submission.comments:
-                    reddit_coins = self.find_mentions(comment.body, reddit_coins, str(comment), comment.created,
-                                                      comment.score)
+
                     try:
+                        reddit_coins = self.find_mentions(comment.body, reddit_coins, str(comment), comment.created,
+                                                          comment.score)
                         self.add_to_words_coins(comment.body, comment.score, comment.created)
                     except:
                         pass
@@ -105,28 +106,25 @@ class RedditStrat:
         reddit_coins[symbol]['sentiments'].append(utils.get_sentiment(string))
         return reddit_coins
 
+
     def find_mentions(self, string, reddit_coins, mentioned_id, mentioned_time, upvotes):
         submissions = reddit_coins['submissions']
         del reddit_coins['submissions']
         coins_with_common_names = utils.file_to_json('coins_to_dismiss.json')['coins_with_common_names']
-        for symbol in reddit_coins:
-            full_name = reddit_coins[symbol]['full_name']
-            full_name_reg = r"\b" + full_name + r"\b"
-            symbol_reg = r"\b" + symbol + r"\b"
-            if symbol not in coins_with_common_names:
-                if re.search(symbol_reg, string, re.IGNORECASE) or re.search(full_name_reg, string, re.IGNORECASE):
-                    reddit_coins = self.add_to_reddit_coin(reddit_coins, symbol, mentioned_id, mentioned_time, string,
-                                                           upvotes)
-            else:
-                if symbol.lower() != full_name.lower():
-                    if re.search(symbol_reg, string) or re.search(full_name_reg, string, re.IGNORECASE):
-                        reddit_coins = self.add_to_reddit_coin(reddit_coins, symbol, mentioned_id, mentioned_time,
-                                                               string, upvotes)
-                    else:
-                        if re.search(symbol_reg, string):
-                            reddit_coins = self.add_to_reddit_coin(reddit_coins, symbol, mentioned_id, mentioned_time,
-                                                                   string, upvotes)
 
+        symbols_and_names_map = {}
+        for symbol in reddit_coins:
+            if symbol not in coins_with_common_names:
+                symbols_and_names_map[symbol] = symbol
+                full_name = reddit_coins[symbol]['full_name'].lower()
+                symbols_and_names_map[full_name] = symbol
+
+        for word in string.split(" "):
+            lower_case_word = word.lower()
+            if lower_case_word in symbols_and_names_map:
+                reddit_coins = self.add_to_reddit_coin(reddit_coins, symbols_and_names_map[lower_case_word], mentioned_id,
+                                                       mentioned_time, string,
+                                                       upvotes)
         reddit_coins['submissions'] = submissions
         return reddit_coins
 
